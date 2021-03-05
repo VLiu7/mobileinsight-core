@@ -5,6 +5,7 @@ import os
 import optparse
 import serial
 import timeit
+import time
 
 class Monitor():
     """
@@ -30,6 +31,7 @@ class Monitor():
         self._type_names = []
         # Initialize Wireshark dissector
         # DMLogPacket.init(self._prefs)
+        self.log_path = None
 
     def available_log_types(self):
         """
@@ -94,7 +96,8 @@ class Monitor():
         :param log_types: a filter of message types to be saved
         :type log_types: list of string
         """
-        dm_collector_c.set_filtered_export(path, self._type_names)
+        # dm_collector_c.set_filtered_export(path, self._type_names)
+        self.log_path = path
 
     def run(self):
         """
@@ -107,15 +110,13 @@ class Monitor():
         print(("PHY COM: %s" % self.phy_ser_name))
         print(("PHY BAUD RATE: %d" % self.phy_baudrate))
 
+        log_file = None
         try:
             # Open COM ports
+            log_file = open(os.path.join('./logs', self.log_path), "w")
             phy_ser = serial.Serial(self.phy_ser_name,
                                     baudrate=self.phy_baudrate,
-                                    timeout=30, rtscts=True, dsrdtr=True)
-            presult=phy_ser.write('at^TTLOG=1'.encode("utf-8"))
-            print(presult)
-            data = phy_ser.readlines()
-            print(data)
+                                    timeout=0, rtscts=True, dsrdtr=True)
             '''
             # Disable logs
             self.log_debug("Disable logs") 
@@ -124,9 +125,20 @@ class Monitor():
             # Enable logs
             self.log_debug("Enable logs")
             dm_collector_c.enable_logs(phy_ser, self._type_names)
+            '''
+            presult=phy_ser.write('at^TTLOG=1'.encode("utf-8"))
+            print(presult)
 
-            # Read log packets from serial port and decode their contents
+            # Read log packets from serial port and write to log file
+            # Query whether any data available every 1s
             while True:
+                data = phy_ser.readlines()
+                print("New logs", data)
+                if len(data) > 0:
+                    log_file.writelines([b.decode('utf-8') for b in data])
+                    log_file.flush()
+                time.sleep(1)
+            '''
                 s = phy_ser.read(64)
                 # s = phy_ser.read(1)
                 dm_collector_c.feed_binary(s)
@@ -151,7 +163,7 @@ class Monitor():
                     except FormatError as e:
                         # skip this packet
                         print(("FormatError: ", e))
-'''
+            '''
         except (KeyboardInterrupt, RuntimeError) as e:
             print(("\n\n%s Detected: Disabling all logs" % type(e).__name__))
             # Disable logs
@@ -160,6 +172,9 @@ class Monitor():
             sys.exit(e)
         except Exception as e:
             sys.exit(e)
+        finally:
+            if log_file is not None:
+                log_file.close()
 
 if __name__ == "__main__":
 
@@ -187,4 +202,5 @@ if __name__ == "__main__":
     dumper.set_decoding(MsgLogger.XML)  # decode the message as xml
     '''
     # Start the monitoring
+    src.save_log_as('./sat-monitor.log')
     src.run()
