@@ -21,13 +21,13 @@ if __name__ == "__main__":
 
     # Save the monitoring results as an offline log
     src.save_log_as("./monitor-example.mi2log")
-
+    # print("finish config")
     # Enable 3G/4G messages to be monitored. Here we enable RRC (radio
     # resource control) monitoring
-    src.enable_log("LTE_RRC_OTA_Packet")
-    src.enable_log("WCDMA_RRC_OTA_Packet")
-    src.enable_log("WCDMA_RRC_Serv_Cell_Info")
-
+    # src.enable_log("LTE_RRC_OTA_Packet")
+    # src.enable_log("WCDMA_RRC_OTA_Packet")
+    # src.enable_log("WCDMA_RRC_Serv_Cell_Info")
+    # print("finish enable")
     # Dump the messages to std I/O. Comment it if it is not needed.
     dumper = MsgLogger()
     dumper.set_source(src)
