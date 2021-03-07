@@ -154,14 +154,13 @@ try:
 
 
 except Exception as e:
-    # import traceback
-    # print str(traceback.format_exc())
+    import traceback
+    #print(str(traceback.format_exc()))
 
     # not used, but bugs may exist on laptop
     from .dm_collector.dm_collector import DMCollector
 
     is_android = False
-
 
     class OnlineMonitor(DMCollector):
         def __init__(self):
