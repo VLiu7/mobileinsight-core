@@ -149,7 +149,7 @@ class DMCollector(Monitor):
                 s = phy_ser.read(64)
                 # print(type(s))
                 if self.is_satellite == True:       # satellite phone
-                    print(str(s,encoding = "utf-8" ))
+                    print(str(s,encoding = "utf-8" ),end='')
                 # s = phy_ser.read(1)
                 else:
                     dm_collector_c.feed_binary(s)
