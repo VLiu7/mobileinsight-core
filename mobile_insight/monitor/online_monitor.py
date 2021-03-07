@@ -162,6 +162,11 @@ except Exception as e:
 
     is_android = False
 
+    # TODO: check whether phone in satellite mode or not
+    is_satellite = True
     class OnlineMonitor(DMCollector):
         def __init__(self):
-            DMCollector.__init__(self)
+            if is_satellite == False:       # non-satellite phone
+                DMCollector.__init__(self, False)
+            else:
+                DMCollector.__init__(self, True)
