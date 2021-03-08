@@ -1,130 +1,172 @@
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,716,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,742,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,923,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,381,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,1103,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,201,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,20,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,562,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,743,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,744,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,830,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,831,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,832,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,894,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,895,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
-
-^SATSIGNAL:-135,0
-
-^CPSTATE: -135,896,20,82
-
-^DGSQU: 0,99
-
-+CSQ: 0,99
+  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200195  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=8   X=19379   RA= 39  S=148   E=4436  C=0  
+--L1: TX 16K CH=11  FN= 200196  SFN=200195  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8486  D0= 32261   D1= 40026   D2= 6296  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200196  Q= -786432  D=262144  DF= 0   DR= 262144  L=0   T= -14  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4379  C=0  
+--L1: TX 16K CH=11  FN= 200197  SFN=200196  ST= 0   SR= 32  AF= 563   FQ=  -155868  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48645   D1= 40025   D2= 39324   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200197  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -49  TP=  -25  R=563   O=8   X=19379   RA= 39  S=143   E=4420  C=0  
+--L1: TX 16K CH=11  FN= 200198  SFN=200197  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8486  D0= 65029   D1= 7775  D2= 6705  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200198  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4368  C=0  
+--L1: TX 16K CH=11  FN= 200199  SFN=200198  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8486  D0= 15878   D1= 5464  D2= 43951   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200199  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -16  TP=  -25  R=563   O=8   X=19379   RA= 39  S=146   E=4558  C=0  
+--L1: TX 16K CH=11  FN= 200200  SFN=200199  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8486  D0= 32262   D1= 45399   D2= 7962  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200200  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -12  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4283  C=0  
+--L1: TX 16K CH=11  FN= 200201  SFN=200200  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8485  D0= 65026   D1= 96  D2= 1152  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200201  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=8   X=19379   RA= 39  S=146   E=4415  C=0  
+--L1: TX 16K CH=11  FN= 200202  SFN=200201  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 15875   D1= 96  D2= 30849   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200202  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -39  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4466  C=0  
+--L1: TX 16K CH=11  FN= 200203  SFN=200202  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8486  D0= 32259   D1= 32864   D2= 9387  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200203  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4620  C=0  
+--L1: TX 16K CH=11  FN= 200204  SFN=200203  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48643   D1= 353   D2= 32942   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200204  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -25  R=563   O=8   X=19379   RA= 39  S=143   E=4488  C=0  
+--L1: DA TX FN= 200204  C_FN= 200204  CH= 11  ST= 0   AF= 563   FQ=  -155906  TC= 1113305   TF= 31431   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+--L1: TX 16K CH=11  FN= 200205  SFN=200204  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 65027   D1= 12670   D2= 40728   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200205  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4583  C=0  
+--L1: TX 16K CH=11  FN= 200206  SFN=200205  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 15876   D1= 7274  D2= 6296  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200206  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4661  C=0  
+--L1: TX 16K CH=11  FN= 200207  SFN=200206  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 32260   D1= 7807  D2= 6449  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+
+bsn:10 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):140
+bsn:11 rlc_blk_ptr->rlps:31 *blk_ptr_temp:0 *(blk_ptr_temp+1):4
+bsn:12 rlc_blk_ptr->rlps:31 *blk_ptr_temp:0 *(blk_ptr_temp+1):4
+bsn:13 rlc_blk_ptr->rlps:31 *blk_ptr_temp:4 *(blk_ptr_temp+1):5
+bsn:14 rlc_blk_ptr->rlps:31 *blk_ptr_temp:8 *(blk_ptr_temp+1):13
+bsn:15 rlc_blk_ptr->rlps:31 *blk_ptr_temp:241 *(blk_ptr_temp+1):136
+bsn:16 rlc_blk_ptr->rlps:31 *blk_ptr_temp:80 *(blk_ptr_temp+1):228
+bsn:17 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):241
+bsn:18 rlc_blk_ptr->rlps:31 *blk_ptr_temp:208 *(blk_ptr_temp+1):224--L1:  -114   DA8=0   F=200207  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -40  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4566  C=0  
+--L1: TX 16K CH=11  FN= 200208  SFN=200207  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48644   D1= 7290  D2= 38937   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200208  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -10  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4541  C=0  
+--L1: TX 16K CH=11  FN= 200209  SFN=200208  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8484  D0= 65028   D1= 39547   D2= 6300  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200209  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=8   X=19379   RA= 39  S=148   E=4749  C=0  
+--L1: TX 16K CH=11  FN= 200210  SFN=200209  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200210  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=8   X=19379   RA= 39  S=154   E=4681  C=0  
+--L1: TX 16K CH=11  FN= 200211  SFN=200210  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 52230   D1= 61296   D2= 11137   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200211  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=8   X=19379   RA= 39  S=148   E=4634  C=0  
+--L1: TX 16K CH=11  FN= 200212  SFN=200211  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200212  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=8   X=19379   RA= 39  S=154   E=4805  C=0  
+--L1: TX 16K CH=11  FN= 200213  SFN=200212  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8481  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200213  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -10  TP=  -25  R=563   O=8   X=19379   RA= 39  S=154   E=4735  C=0  
+--L1: TX 16K CH=11  FN= 200214  SFN=200213  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8485  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200214  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -40  TP=  -25  R=563   O=8   X=19379   RA= 39  S=154   E=4778  C=0  
+--L1: TX 16K CH=11  FN= 200215  SFN=200214  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8484  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200215  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -25  R=563   O=8   X=19379   RA= 39  S=148   E=4608  C=0  
+bsn:19 rlc_blk_ptr->rlps:31 *blk_ptr_temp:220 *(blk_ptr_temp+1):212
+bsn:20 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):241
+bsn:21 rlc_blk_ptr->rlps:31 *blk_ptr_temp:212 *(blk_ptr_temp+1):228
+bsn:22 rlc_blk_ptr->rlps:31 *blk_ptr_temp:204 *(blk_ptr_temp+1):228
+bsn:23 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):241
+bsn:24 rlc_blk_ptr->rlps:31 *blk_ptr_temp:192 *(blk_ptr_temp+1):173
+bsn:25 rlc_blk_ptr->rlps:31 *blk_ptr_temp:189 *(blk_ptr_temp+1):136
+--L1: TX 16K CH=11  FN= 200216  SFN=200215  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8484  D0= 15877   D1= 7807  D2= 6449  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200216  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -25  R=563   O=8   X=19379   RA= 39  S=165   E=4693  C=0  
+--L1: TX 16K CH=11  FN= 200217  SFN=200216  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8481  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200217  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4748  C=0  
+--L1: TX 16K CH=11  FN= 200218  SFN=200217  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200218  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=8   X=19379   RA= 39  S=154   E=4530  C=0  
+--L1: TX 16K CH=11  FN= 200219  SFN=200218  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8488  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200219  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -10  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4761  C=0  
+--L1: TX 16K CH=11  FN= 200220  SFN=200219  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200220  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4541  C=0  
+--L1: DA TX FN= 200220  C_FN= 200220  CH= 11  ST= 0   AF= 563   FQ=  -155906  TC= 1113305   TF= 31431   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+--L1: TX 16K CH=11  FN= 200221  SFN=200220  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200221  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=8   X=19379   RA= 39  S=161   E=4732  C=0  
+--L1: TX 16K CH=11  FN= 200222  SFN=200221  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200222  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=8   X=19379   RA= 39  S=161   E=4668  C=0  
+--L1: TX 16K CH=11  FN= 200223  SFN=200222  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200223  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -25  R=563   O=8   X=19379   RA= 39  S=161   E=4774  C=0  
+--L1: TX 16K CH=11  FN= 200224  SFN=200223  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8484  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200224  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=8   X=19379   RA= 39  S=161   E=4796  C=0  
+--L1: TX 16K CH=11  FN= 200225  SFN=200224  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+
+bsn:26 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):229
+bsn:27 rlc_blk_ptr->rlps:6 *blk_ptr_temp:135 *(blk_ptr_temp+1):124
+lx061825  rlps=6 pdulen=124--L1:  -114   DA8=0   F=200225  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -25  R=563   O=8   X=19379   RA= 39  S=154   E=4904  C=0  
+--L1: TX 16K CH=11  FN= 200226  SFN=200225  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 52230   D1= 61296   D2= 11137   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200226  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4824  C=0  
+--L1: TX 16K CH=11  FN= 200227  SFN=200226  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8484  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200227  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -25  R=563   O=8   X=19379   RA= 39  S=158   E=4789  C=0  
+--L1: TX 16K CH=11  FN= 200228  SFN=200227  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200228  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=8   X=19379   RA= 39  S=154   E=5008  C=0  
+--L1: TX 16K CH=11  FN= 200229  SFN=200228  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 12 ,num_blks_to_reassemble 1
+begin_indx 10,num_blks_to_reasm 1
+blk_second_byte 43--L1:  -114   DA8=0   F=200229  Q= -786432  D=0   DF=  -262144  DR= 0   L=0   T= -36  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4653  C=0  
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,0
+luxy: MM receive prim is P_SRRC_MM_DATA_IND
+luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+
+
+--L1: TX 16K CH=11  FN= 200230  SFN=200229  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8484  D0= 3908  D1= 18566   D2= 21  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200230  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -9   TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4732  C=0  
+--L1: TX 16K CH=11  FN= 200231  SFN=200230  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200231  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -25  R=563   O=8   X=19379   RA= 39  S=165   E=4758  C=0  
+--L1: TX 16K CH=11  FN= 200232  SFN=200231  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8486  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200232  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4803  C=0  
+--L1: TX 16K CH=11  FN= 200233  SFN=200232  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8485  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200233  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -25  R=563   O=8   X=19379   RA= 39  S=151   E=4672  C=0  
+--L1: TX 16K CH=11  FN= 200234  SFN=200233  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8487  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200234  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -25  R=563   O=8   X=19379   RA= 39  S=146   E=4669  C=0  
+--L1: TX 16K CH=11  FN= 200235  SFN=200234  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200235  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -24  R=563   O=8   X=19379   RA= 39  S=151   E=4718  C=0  
+--L1: TX 16K CH=11  FN= 200236  SFN=200235  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8483  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200236  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -16  TP=  -24  R=563   O=8   X=19379   RA= 39  S=154   E=4529  C=0  
+--L1: DA TX FN= 200236  C_FN= 200236  CH= 11  ST= 0   AF= 563   FQ=  -155906  TC= 1113305   TF= 31431   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+--L1: TX 16K CH=11  FN= 200237  SFN=200236  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8485  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200237  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -24  R=563   O=8   X=19379   RA= 39  S=146   E=4748  C=0  
+--L1: TX 16K CH=11  FN= 200238  SFN=200237  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8488  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200238  Q= -786432  D= -262144  DF= 0   DR=  -262144  L=0   T= -24  TP=  -24  R=563   O=8   X=19379   RA= 39  S=154   E=4697  C=0  
+--L1: TX 16K CH=11  FN= 200239  SFN=200238  ST= 0   SR= 32  AF= 563   FQ=  -155944  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200239  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -24  R=563   O=8   X=19379   RA= 39  S=148   E=4814  C=0  
+--L1: TX 16K CH=11  FN= 200240  SFN=200239  ST= 0   SR= 32  AF= 563   FQ=  -155944  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200240  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -24  R=563   O=8   X=19379   RA= 39  S=154   E=4472  C=0  
+--L1: TX 16K CH=11  FN= 200241  SFN=200240  ST= 0   SR= 32  AF= 563   FQ=  -155944  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200241  Q= -1048576   D=262144  DF= 0   DR= 262144  L=0   T= -27  TP=  -24  R=563   O=8   X=19379   RA= 39  S=154   E=4630  C=0  
+--L1: TX 16K CH=11  FN= 200242  SFN=200241  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8484  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200242  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -24  R=563   O=8   X=19379   RA= 39  S=151   E=4550  C=0  
+--L1: TX 16K CH=11  FN= 200243  SFN=200242  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 3908  D1= 18566   D2= 25  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+--L1:  -114   DA8=0   F=200243  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -14  TP=  -24  R=563   O=8   X=19379   RA= 39  S=161   E=5002  C=0  
+--L1: TX 16K CH=11  FN= 200244  SFN=200243  ST= 0   SR= 32  AF= 563   FQ=  -155906  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1481945   TK= 8482  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 16 ,num_blks_to_reassemble 3
+begin_indx 12,num_blks_to_reasm 3
+blk_second_byte 43--L1:  -114   DA8=0   F=200244  Q= -786432  D= -262144  DF= 0   DR=  -262144  L=0   T= -26  TP=  -24  R=563   O=8   X=19379   RA= 39  S=165   E=4809  C=0  
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,0
+luxy: MM receive prim is P_SRRC_MM_DATA_IND
+luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+
+
+luxy: MM receive prim is P_SMS_MM_DATA_REQ
+luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+luxy: g_mm_t3212_expiry_count is 0
+lixiangulik 5 hfn 0,msn 3
+Uplink Ik_ptr:
+d6 88 e5 b9 84 5a ef f9 55 7d de fd db 6b 7a fc 
+lixiangulik counti 3
+lixiangulik fresh 725280148
+lixiangulik length 75
+luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+
+
+luxy: MM receive prim is P_SMS_MM_REL_REQ
+luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+luxy: g_mm_t3212_expiry_count is
+OK
+
+--L1: B= -113   BW= 0   Q= -786432  D=0   T= -206   L=0   R=562   S=146   E=5632  Ck= 484086  A=39  X1= 19379   Y=1   O=27  ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=200323 
+--L1: PC= 15  F=200325  S=0   Q= -786432  D= -22806528  E=190   Le= 145   X1= 19379   I= -19155   J= -367   A=562  
+--L1: CBCH UW=17  S=0   L=20  R=562   Le= 145   X1= 19379   F=200333 
+--L1: CBCH UW=14  S=0   L=20  R=562   Le= 145   X1= 19379   F=200334 
+--L1: PC= 20  F=200341  S=0   Q= -786432  D=64225280  E=166   Le= 145   X1= 19379   I= -19155   J= -45  A=562  
+--L1: CBCH UW=18  S=0   L=20  R=562   Le= 145   X1= 19379   F=200355 
+--L1: CBCH UW=17  S=0   L=20  R=562   Le= 145   X1= 19379   F=200356 
+--L1: PC= 13  F=200357  S=0   Q= -786432  D= -57147392  E=173   Le= 145   X1= 19379   I= -19155   J= -367   A=562  
+^DGSQU: 21,4
+
++CSQ: 21,4

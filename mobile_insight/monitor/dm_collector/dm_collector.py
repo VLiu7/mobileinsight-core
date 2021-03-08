@@ -17,6 +17,7 @@ import optparse
 import serial
 import sys
 import timeit
+import time
 
 from .dm_endec import *
 # import dm_collector_c
@@ -133,7 +134,7 @@ class DMCollector(Monitor):
                                     timeout=None, rtscts=True, dsrdtr=True)
             
             if self.is_satellite == True:
-                presult=phy_ser.write('at^TTLOG=1'.encode("utf-8"))
+                presult=phy_ser.write('at^TTLOG=1\r\n'.encode("utf-8"))
                 print('total bits sended:'+str(presult))
 
             # Disable logs
@@ -146,10 +147,13 @@ class DMCollector(Monitor):
 
             # Read log packets from serial port and decode their contents
             while True:
-                s = phy_ser.read(64)
+                # s = phy_ser.read(64)
+                s = phy_ser.readline()
                 # print(type(s))
-                if self.is_satellite == True:       # satellite phone
-                    print(str(s,encoding = "utf-8" ))
+                if self.is_satellite == True and len(s) > 0:       # satellite phone
+                    print(s.decode('utf-8'),end='')
+                    # time.sleep(1)
+                    # print(str(s,encoding = "utf-8" ))
                 # s = phy_ser.read(1)
                 else:
                     dm_collector_c.feed_binary(s)
