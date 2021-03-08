@@ -150,7 +150,28 @@ class DMCollector(Monitor):
                 # print(type(s))
                 if self.is_satellite == True:       # satellite phone
                     print(str(s,encoding = "utf-8" ),end='')
-                # s = phy_ser.read(1)
+
+                    # dm_collector_c.feed_binary(s)
+
+                    # decoded = dm_collector_c.receive_log_packet(True,
+                    #                                             True,   # include_timestamp
+                    #                                             )
+
+                    # print(decoded)
+                    try:
+                        # packet = DMLogPacket(decoded)
+                        # packet = DMLogPacket(decoded[0])
+                        # type_id = packet.get_type_id()
+                        # print d["type_id"], d["timestamp"]
+                        # Send event to analyzers
+                        event = Event(timeit.default_timer(),
+                                    None,
+                                    s)
+                        self.send(event)
+                    except FormatError as e:
+                        # skip this packet
+                        print(("FormatError: ", e))
+                    
                 else:
                     dm_collector_c.feed_binary(s)
 
