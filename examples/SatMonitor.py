@@ -126,7 +126,7 @@ class Monitor():
             self.log_debug("Enable logs")
             dm_collector_c.enable_logs(phy_ser, self._type_names)
             '''
-            presult=phy_ser.write('at^TTLOG=1'.encode("utf-8"))
+            presult=phy_ser.write('at^TTLOG=1\r\n'.encode("utf-8"))
             print(presult)
 
             # Read log packets from serial port and write to log file
