@@ -154,15 +154,19 @@ try:
 
 
 except Exception as e:
-    # import traceback
-    # print str(traceback.format_exc())
+    import traceback
+    #print(str(traceback.format_exc()))
 
     # not used, but bugs may exist on laptop
     from .dm_collector.dm_collector import DMCollector
 
     is_android = False
 
-
+    # TODO: check whether phone in satellite mode or not
+    is_satellite = True
     class OnlineMonitor(DMCollector):
         def __init__(self):
-            DMCollector.__init__(self)
+            if is_satellite == False:       # non-satellite phone
+                DMCollector.__init__(self, False)
+            else:
+                DMCollector.__init__(self, True)
