@@ -1,0 +1,281 @@
+
+OK
+
+^DGSQU: 23,3
+
++CSQ: 23,3
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
++CIEV: 2,3
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+^SATSIGNAL:-114,123
+
+^CPSTATE: -114,562,36,84
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+^DGSQU: 25,4
+
++CSQ: 25,4
+
++CIEV: 2,4
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 26,4
+
++CSQ: 26,4
+
+^SATSIGNAL:-113,127
+
+^CPSTATE: -113,562,36,84
+
+^DGSQU: 28,5
+
++CSQ: 28,5
+
++CIEV: 2,5
+
+reg_unsol_report_position_timeout, try to unsol report position and continue report position
+reg_unsol_report_position_timeout, tunsol report position switch is off
+Position service info: time = 0-0-0 0:0:0, cor_id = 0, re_times = 0, duration=0, remain=0,tech=0,qos_inc=0,qos_rank=0,req_id_len=0,req_id=
+net reg again, the remain_times is 0, not try to process previous req
+^DGSQU: 27,4
+
++CSQ: 27,4
+
++CIEV: 2,4
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 28,4
+
++CSQ: 28,4
+
+^SATSIGNAL:-111,137
+
+^CPSTATE: -111,562,36,84
+
+^DGSQU: 27,4
+
++CSQ: 27,4
+
++CIEV: 2,4
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+^SATSIGNAL:-113,146
+
+^CPSTATE: -113,562,36,84
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 28,4
+
++CSQ: 28,4
+
+^SATSIGNAL:-111,149
+
+^CPSTATE: -111,562,36,84
+
+^DGSQU: 26,4
+
++CSQ: 26,4
+
+^DGSQU: 22,5
+
++CSQ: 22,5
+
++CIEV: 2,5
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 25,5
+
++CSQ: 25,5
+
+^SATSIGNAL:-114,152
+
+^CPSTATE: -114,562,36,84
+
+^DGSQU: 24,4
+
++CSQ: 24,4
+
++CIEV: 2,4
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 26,4
+
++CSQ: 26,4
+
+^SATSIGNAL:-113,138
+
+^CPSTATE: -113,562,36,84
+
+^DGSQU: 26,5
+
++CSQ: 26,5
+
++CIEV: 2,5
+
+^DGSQU: 24,4
+
++CSQ: 24,4
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 21,4
+
++CSQ: 21,4
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 22,4
+
++CSQ: 22,4
+
+^DGSQU: 23,4
+
++CSQ: 23,4
+
+^DGSQU: 22,4
+
++CSQ: 22,4
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 25,4
+
++CSQ: 25,4
+
++CIEV: 2,5
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+^SATSIGNAL:-115,128
+
+^CPSTATE: -115,562,36,84
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+

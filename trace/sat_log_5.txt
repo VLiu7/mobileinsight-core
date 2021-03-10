@@ -1,0 +1,1412 @@
+reasm peer len = 54
+blk_second_byte 53033--L1: PNB1_10 UW= 0   FN= 13200   TIM= -53  FQ+= -40828928  VFC=0   RFC= -524288  L=30  R=664   A=37  V=4783  C=41  P=0   SR= 161   SU= 0   ER= 4480  EU= 4852
+--L1: PNB1_10_USF=2   MCS=2   PNB1_10 MCS=2   USF=2   RBN=0   EXT=4   RFN=13200 
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13200
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 82, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13200   TIM= -65  FQ+= -40828928  VFC= -131072  RFC= -524288  L=0   R=664   A=37  V=4733  C=41  P=0   SR= 174   SU= 0   ER= 4891  EU= 4683
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -19  DFU= -153029  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13200
+--L1: PDCH_BS_PAR=14  ADJ FAST  FN= 13200
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 83, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13200   TIM= -68  FQ+= -40960000  VFC=0   RFC= -262144  L=10  R=664   A=37  V=4558  C=41  P=0   SR= 161   SU= 0   ER= 4814  EU= 4384
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13200
+--L1: PDCH_BS_PAR=14  ADJ FAST  FN= 13200
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 84, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13200   TIM= -62  FQ+= -40960000  VFC=0   RFC= -524288  L=20  R=664   A=37  V=4583  C=41  P=0   SR= 170   SU= 0   ER= 5150  EU= 4608
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13200
+--L1: PDCH_BS_PAR=14  ADJ FAST  FN= 13200
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 85, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13201   TIM= -77  FQ+= -40960000  VFC=0   RFC= -524288  L=30  R=664   A=37  V=4627  C=41  P=0   SR= 165   SU= 0   ER= 4701  EU= 4671
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13201
+--L1: PDCH_BS_PAR=14  ADJ FAST  FN= 13201
+--L1: PNB1_10 UW= 0   FN= 13201   TIM= -95  FQ+= -40960000  VFC=0   RFC= -2883584   L=0   R=664   A=37  V=4627  C=41  P=0   SR= 0   SU= 0   ER= 102   EU= 4193
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13201
+--L1: PNB1_10 UW= 0   FN= 13201   TIM= -82  FQ+= -40960000  VFC=0   RFC= -262144  L=10  R=664   A=37  V=4627  C=41  P=0   SR= 0   SU= 0   ER= 100   EU= 4865
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13201
+--L1: PNB1_10 UW= 0   FN= 13201   TIM= -78  FQ+= -40960000  VFC=0   RFC= -524288  L=20  R=664   A=37  V=4627  C=41  P=0   SR= 0   SU= 0   ER= 114   EU= 4558
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13201
+--L1: PNB1_10 UW= 15  FN= 13202   TIM=51  FQ+= -40960000  VFC=0   RFC=0   L=30  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 582
+--L1: PNB1_10 UW= 16  FN= 13202   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=0   R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13202   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -103546880   L=10  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13202   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=20  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13203   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -103546880   L=30  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13203   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=0   R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13203   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -103546880   L=10  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13203   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=20  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13204   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -103546880   L=30  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13204   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=0   R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13204   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -103546880   L=10  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13204   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=20  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13205   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -103546880   L=30  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13205   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=0   R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13205   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -103546880   L=10  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: AllSlot ReCFG FN= 13205   PNB1_10 UW= 16  FN= 13205   TIM= -1276  FQ+= -40960000  VFC=0   RFC= -105381888   L=20  R=664   A=41  V=2605  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=664   PNB1_10 UW= 18  FN= 13206   TIM=839   FQ+= -40960000  VFC=0   RFC=134217728   L=30  R=664   A=41  V=2605  C=41  P=0   SR= 0   SU= 0   ER= 273   EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 74, PDU length = 29
+
+BSN = 74 is out of receiving window
+                                    bow_bsn = 86--L1: PNB1_10 UW= 0   FN= 13206   TIM=208   FQ+= -40960000  VFC= -65536   RFC= -262144  L=0   R=664   A=33  V=7497  C=41  P=0   SR= 161   SU= 42  ER= 11852   EU= 12389
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -9   DFU= -153038  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13206
+--L1: PDCH_BS_PAR=13  LAS_SQM=113   CUR_SQM=119   AVG_PAN=13  LOCAL_PAN=13  FN= 13206
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 85, PDU length = 29
+
+BSN = 85 is out of receiving window
+                                    bow_bsn = 86--L1: PNB1_10 UW= 0   FN= 13206   TIM=228   FQ+= -41025536  VFC=0   RFC= -262144  L=10  R=664   A=33  V=7497  C=41  P=0   SR= 0   SU= 0   ER= 1831  EU= 9451
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13206
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13206
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 86, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13206   TIM= -38  FQ+= -41025536  VFC=0   RFC= -524288  L=20  R=664   A=33  V=4664  C=41  P=0   SR= 165   SU= 0   ER= 1825  EU= 1831
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13206
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13206
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 87, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13207   TIM= -33  FQ+= -41025536  VFC=0   RFC= -524288  L=30  R=664   A=33  V=3172  C=41  P=0   SR= 170   SU= 0   ER= 1728  EU= 1680
+--L1: PNB1_10_USF=2   MCS=2   PNB1_10 MCS=2   USF=2   RBN=0   EXT=4   RFN=13207 
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13207
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 88, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13207   TIM= -43  FQ+= -41025536  VFC= -131072  RFC= -524288  L=0   R=664   A=35  V=2528  C=41  P=0   SR= 180   SU= 0   ER= 1638  EU= 1884
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -19  DFU= -153057  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13207
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13207
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 89, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13207   TIM= -55  FQ+= -41156608  VFC=0   RFC= -262144  L=10  R=664   A=35  V=2301  C=41  P=0   SR= 143   SU= 0   ER= 2958  EU= 2074
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13207
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13207
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 90, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13207   TIM= -50  FQ+= -41156608  VFC=0   RFC= -262144  L=20  R=664   A=35  V=2597  C=41  P=0   SR= 170   SU= 0   ER= 2929  EU= 2893
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13207
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13207
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 91, PDU length = 26
+
+Reasm begin
+reasm peer len = 229
+blk_second_byte 53077--L1: PNB1_10 UW= 0   FN= 13208   TIM= -62  FQ+= -41156608  VFC=0   RFC= -262144  L=30  R=664   A=35  V=2811  C=41  P=0   SR= 174   SU= 0   ER= 2913  EU= 3025
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13208
+--L1: PDCH_BS_PAR=13  ADJ FAST  FN= 13208
+--L1: PNB1_10 UW= 0   FN= 13208   TIM= -12  FQ+= -41156608  VFC=0   RFC= -262144  L=0   R=664   A=35  V=2811  C=41  P=0   SR= 0   SU= 0   ER= 56  EU= 3006
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13208
+--L1: PNB1_10 UW= 0   FN= 13208   TIM= -90  FQ+= -41156608  VFC=0   RFC= -262144  L=10  R=664   A=35  V=2811  C=41  P=0   SR= 0   SU= 0   ER= 60  EU= 2707
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13208
+--L1: PNB1_10 UW= 0   FN= 13208   TIM= -69  FQ+= -41156608  VFC=0   RFC= -262144  L=20  R=664   A=35  V=2811  C=41  P=0   SR= 0   SU= 0   ER= 67  EU= 2843
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13208
+--L1: PNB1_10 UW= 14  FN= 13209   TIM= -922   FQ+= -41156608  VFC= -1048576   RFC= -6815744   L=30  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 233
+--L1: PNB1_10 UW= 16  FN= 13209   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=0   R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13209   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -103546880   L=10  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13209   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=20  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13210   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -103546880   L=30  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13210   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=0   R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13210   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -103546880   L=10  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13210   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=20  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13211   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -103546880   L=30  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13211   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=0   R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13211   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -103546880   L=10  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13211   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=20  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13212   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -103546880   L=30  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13212   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=0   R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13212   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -103546880   L=10  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: AllSlot ReCFG FN= 13212   PNB1_10 UW= 16  FN= 13212   TIM= -1276  FQ+= -42205184  VFC=0   RFC= -105381888   L=20  R=664   A=35  V=1522  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=664   PNB1_10 UW= 16  FN= 13213   TIM=808   FQ+= -42205184  VFC=0   RFC= -262144  L=30  R=664   A=35  V=1522  C=41  P=0   SR= 0   SU= 0   ER= 60  EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 79, PDU length = 24
+
+BSN = 79 is out of receiving window
+                                    bow_bsn = 92--L1: PNB1_10 UW= 0   FN= 13213   TIM= -231   FQ+= -42205184  VFC= -65536   RFC= -262144  L=0   R=664   A=38  V=2177  C=41  P=0   SR= 165   SU= 0   ER= 2901  EU= 2832
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -9   DFU= -153066  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13213
+--L1: PDCH_BS_PAR=11  LAS_SQM=113   CUR_SQM=119   AVG_PAN=12  LOCAL_PAN=11  FN= 13213
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 91, PDU length = 26
+
+BSN = 91 is out of receiving window
+                                    bow_bsn = 92--L1: PNB1_10 UW= 0   FN= 13213   TIM= -234   FQ+= -42270720  VFC=0   RFC=1048576   L=10  R=664   A=38  V=2850  C=41  P=0   SR= 134   SU= 0   ER= 6298  EU= 3522
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13213
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13213
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 92, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13213   TIM=18  FQ+= -42270720  VFC=0   RFC=786432  L=20  R=664   A=38  V=4755  C=41  P=0   SR= 174   SU= 0   ER= 6215  EU= 6660
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13213
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13213
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 93, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53032--L1: PNB1_10 UW= 0   FN= 13214   TIM=15  FQ+= -42270720  VFC=0   RFC=786432  L=30  R=664   A=38  V=5321  C=41  P=0   SR= 158   SU= 0   ER= 5889  EU= 5888
+--L1: PNB1_10_USF=1   MCS=2   PNB1_10 MCS=2   USF=1   RBN=1   EXT=4   RFN=13214 
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13214
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 94, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13214   TIM=6   FQ+= -42270720  VFC=196608  RFC=786432  L=0   R=664   A=38  V=5617  C=41  P=0   SR= 174   SU= 0   ER= 6191  EU= 5912
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 28  DFU= -153038  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13214
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13214
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 95, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53033--L1: PNB1_10 UW= 0   FN= 13214   TIM=9   FQ+= -42074112  VFC=0   RFC=524288  L=10  R=664   A=38  V=5781  C=41  P=0   SR= 174   SU= 0   ER= 5942  EU= 5944
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13214
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13214
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 96, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13214   TIM= -5   FQ+= -42074112  VFC=0   RFC=524288  L=20  R=664   A=38  V=5972  C=41  P=0   SR= 180   SU= 0   ER= 6091  EU= 6163
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13214
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13214
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 97, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53040--L1: PNB1_10 UW= 0   FN= 13215   TIM= -6   FQ+= -42074112  VFC=0   RFC=524288  L=30  R=664   A=38  V=6009  C=41  P=0   SR= 174   SU= 0   ER= 5932  EU= 6047
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13215
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13215
+--L1: PNB1_10 UW= 0   FN= 13215   TIM=1   FQ+= -42074112  VFC=0   RFC=524288  L=0   R=664   A=38  V=6009  C=41  P=0   SR= 0   SU= 0   ER= 116   EU= 6210
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13215
+--L1: PNB1_10 UW= 0   FN= 13215   TIM=14  FQ+= -42074112  VFC=0   RFC=524288  L=10  R=664   A=38  V=6009  C=41  P=0   SR= 0   SU= 0   ER= 160   EU= 5797
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13215
+--L1: PNB1_10 UW= 0   FN= 13215   TIM= -7   FQ+= -42074112  VFC=0   RFC=524288  L=20  R=664   A=38  V=6009  C=41  P=0   SR= 0   SU= 0   ER= 122   EU= 5904
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13215
+--L1: PNB1_10 UW= 15  FN= 13216   TIM=75  FQ+= -42074112  VFC=0   RFC=0   L=30  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 820
+--L1: PNB1_10 UW= 16  FN= 13216   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13216   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13216   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13217   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=30  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13217   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13217   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13217   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13218   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=30  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13218   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13218   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13218   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13219   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=30  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13219   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13219   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: AllSlot ReCFG FN= 13219   PNB1_10 UW= 16  FN= 13219   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3415  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=664   PNB1_10 UW= 15  FN= 13220   TIM=993   FQ+= -42074112  VFC=0   RFC=134217728   L=30  R=664   A=42  V=3415  C=41  P=0   SR= 0   SU= 0   ER= 402   EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 85, PDU length = 29
+
+BSN = 85 is out of receiving window
+                                    bow_bsn = 98--L1: PNB1_10 UW= 0   FN= 13220   TIM= -5   FQ+= -42074112  VFC=131072  RFC=524288  L=0   R=664   A=34  V=9526  C=41  P=0   SR= 170   SU= 49  ER= 15757   EU= 15638
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 19  DFU= -153019  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13220
+--L1: PDCH_BS_PAR=11  LAS_SQM=113   CUR_SQM=119   AVG_PAN=11  LOCAL_PAN=11  FN= 13220
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 97, PDU length = 25
+
+BSN = 97 is out of receiving window
+                                    bow_bsn = 98--L1: PNB1_10 UW= 0   FN= 13220   TIM= -9   FQ+= -41943040  VFC=0   RFC=524288  L=10  R=664   A=34  V=9526  C=41  P=0   SR= 0   SU= 13  ER= 2322  EU= 11617
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13220
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13220
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 98, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13220   TIM= -14  FQ+= -41943040  VFC=0   RFC=524288  L=20  R=664   A=34  V=5945  C=41  P=0   SR= 170   SU= 0   ER= 2435  EU= 2364
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13220
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13220
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 99, PDU length = 29
+                                                                          --L1: PNB1_10 UW= 0   FN= 13221   TIM= -19  FQ+= -41943040  VFC=0   RFC=262144  L=30  R=664   A=34  V=4120  C=41  P=0   SR= 170   SU= 0   ER= 2393  EU= 2296
+--L1: PNB1_10_USF=1   MCS=2   PNB1_10 MCS=2   USF=1   RBN=1   EXT=4   RFN=13221 
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13221
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 100, PDU length = 4
+
+Reasm begin
+reasm peer len = 62
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13221   TIM= -23  FQ+= -41943040  VFC=65536   RFC=262144  L=0   R=664   A=36  V=3165  C=41  P=0   SR= 174   SU= 0   ER= 2272  EU= 2210
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 9   DFU= -153010  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13221
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13221
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 101, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13221   TIM= -22  FQ+= -41877504  VFC=0   RFC=262144  L=10  R=664   A=36  V=3056  C=41  P=0   SR= 141   SU= 0   ER= 4042  EU= 2948
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13221
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13221
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 102, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13221   TIM= -39  FQ+= -41877504  VFC=0   RFC=262144  L=20  R=664   A=36  V=3421  C=41  P=0   SR= 174   SU= 0   ER= 4160  EU= 3785
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13221
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13221
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 103, PDU length = 4
+
+Reasm begin
+reasm peer len = 62
+blk_second_byte 52993--L1: PNB1_10 UW= 0   FN= 13222   TIM= -38  FQ+= -41877504  VFC=524288  RFC=262144  L=30  R=664   A=36  V=3802  C=41  P=0   SR= 170   SU= 0   ER= 3755  EU= 4183
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 75  DFU= -152935  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13222
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13222
+--L1: PNB1_10 UW= 0   FN= 13222   TIM= -35  FQ+= -41353216  VFC=0   RFC= -262144  L=0   R=664   A=36  V=3802  C=41  P=0   SR= 0   SU= 0   ER= 77  EU= 3620
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13222
+--L1: PNB1_10 UW= 0   FN= 13222   TIM= -57  FQ+= -41353216  VFC=0   RFC= -262144  L=10  R=664   A=36  V=3802  C=41  P=0   SR= 0   SU= 0   ER= 84  EU= 3627
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13222
+--L1: PNB1_10 UW= 0   FN= 13222   TIM= -31  FQ+= -41353216  VFC=0   RFC= -262144  L=20  R=664   A=36  V=3802  C=41  P=0   SR= 0   SU= 0   ER= 84  EU= 4046
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13222
+--L1: PNB1_10 UW= 15  FN= 13223   TIM=40  FQ+= -41353216  VFC=0   RFC= -7602176   L=30  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 487
+--L1: PNB1_10 UW= 16  FN= 13223   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=0   R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13223   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -103546880   L=10  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13223   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=20  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13224   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -103546880   L=30  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13224   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=0   R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13224   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -103546880   L=10  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13224   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=20  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13225   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -103546880   L=30  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13225   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=0   R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13225   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -103546880   L=10  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13225   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=20  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13226   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -103546880   L=30  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13226   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=0   R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13226   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -103546880   L=10  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: AllSlot ReCFG FN= 13226   PNB1_10 UW= 16  FN= 13226   TIM= -1276  FQ+= -41353216  VFC=0   RFC= -105381888   L=20  R=664   A=36  V=2144  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=664   PNB1_10 UW= 17  FN= 13227   TIM=193   FQ+= -41353216  VFC=0   RFC=134217728   L=30  R=664   A=36  V=2144  C=41  P=0   SR= 0   SU= 0   ER= 94  EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 91, PDU length = 26
+
+BSN = 91 is out of receiving window
+                                    bow_bsn = 104--L1: PNB1_10 UW= 0   FN= 13227   TIM=265   FQ+= -41353216  VFC= -65536   RFC= -262144  L=0   R=664   A=36  V=2923  C=41  P=0   SR= 151   SU= 0   ER= 3787  EU= 3701
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -9   DFU= -152944  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13227
+--L1: PDCH_BS_PAR=12  LAS_SQM=113   CUR_SQM=119   AVG_PAN=11  LOCAL_PAN=12  FN= 13227
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 103, PDU length = 4
+
+BSN = 103 is out of receiving window
+                                     bow_bsn = 104--L1: PNB1_10 UW= 0   FN= 13227   TIM=267   FQ+= -41418752  VFC=0   RFC= -262144  L=10  R=664   A=36  V=3385  C=41  P=0   SR= 170   SU= 0   ER= 3661  EU= 3848
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13227
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13227
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 104, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13227   TIM=9   FQ+= -41418752  VFC=0   RFC= -262144  L=20  R=664   A=36  V=3735  C=41  P=0   SR= 174   SU= 0   ER= 3907  EU= 4084
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13227
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13227
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 105, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13228   TIM= -1   FQ+= -41418752  VFC=0   RFC= -262144  L=30  R=664   A=36  V=3723  C=41  P=0   SR= 170   SU= 0   ER= 3714  EU= 3712
+--L1: PNB1_10_USF=1   MCS=2   PNB1_10 MCS=2   USF=1   RBN=1   EXT=4   RFN=13228 
+--L1: PDCH_BS_PAR=12  ADJ FAST  FN= 13228
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 106, PDU length = 4
+
+Reasm begin
+reasm peer len = 62
+blk_second_byte 53016--L1: PNB1_10 UW= 0   FN= 13228   TIM=6   FQ+= -41418752  VFC= -65536   RFC= -262144  L=0   R=664   A=36  V=3743  C=41  P=0   SR= 174   SU= 0   ER= 3676  EU= 3762
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -9   DFU= -152953  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13228
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13228
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 107, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13228   TIM= -2   FQ+= -41484288  VFC=0   RFC= -262144  L=10  R=664   A=36  V=3667  C=41  P=0   SR= 165   SU= 0   ER= 3870  EU= 3591
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13228
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13228
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 108, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13228   TIM= -7   FQ+= -41484288  VFC=0   RFC=0   L=20  R=664   A=36  V=3868  C=41  P=0   SR= 170   SU= 0   ER= 3681  EU= 4069
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13228
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13228
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 109, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13229   TIM= -15  FQ+= -41484288  VFC=0   RFC=0   L=30  R=664   A=36  V=3771  C=41  P=0   SR= 165   SU= 0   ER= 3644  EU= 3673
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13229
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13229
+--L1: PNB1_10 UW= 0   FN= 13229   TIM= -27  FQ+= -41484288  VFC=0   RFC=0   L=0   R=664   A=36  V=3771  C=41  P=0   SR= 0   SU= 0   ER= 87  EU= 3659
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13229
+--L1: PNB1_10 UW= 0   FN= 13229   TIM= -71  FQ+= -41484288  VFC=0   RFC=0   L=10  R=664   A=36  V=3771  C=41  P=0   SR= 0   SU= 0   ER= 81  EU= 3750
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13229
+--L1: PNB1_10 UW= 0   FN= 13229   TIM= -16  FQ+= -41484288  VFC=0   RFC= -262144  L=20  R=664   A=36  V=3771  C=41  P=0   SR= 0   SU= 0   ER= 98  EU= 3802
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13229
+--L1: PNB1_10 UW= 13  FN= 13230   TIM= -931   FQ+= -41484288  VFC=0   RFC= -35651584  L=30  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 423 
+--L1: PNB1_10 UW= 16  FN= 13230   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=0   R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13230   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -103546880   L=10  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13230   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=20  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13231   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -103546880   L=30  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13231   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=0   R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13231   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -103546880   L=10  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13231   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=20  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13232   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -103546880   L=30  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13232   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=0   R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13232   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -103546880   L=10  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13232   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=20  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13233   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -103546880   L=30  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13233   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=0   R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13233   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -103546880   L=10  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: AllSlot ReCFG FN= 13233   PNB1_10 UW= 16  FN= 13233   TIM= -1276  FQ+= -41484288  VFC=0   RFC= -105381888   L=20  R=664   A=40  V=2097  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=664   PNB1_10 UW= 18  FN= 13234   TIM= -132   FQ+= -41484288  VFC=0   RFC=134217728   L=30  R=664   A=40  V=2097  C=41  P=0   SR= 0   SU= 0   ER= 220   EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 97, PDU length = 25
+
+BSN = 97 is out of receiving window
+                                    bow_bsn = 110--L1: PNB1_10 UW= 0   FN= 13234   TIM= -180   FQ+= -41484288  VFC= -65536   RFC= -262144  L=0   R=664   A=39  V=5286  C=41  P=0   SR= 174   SU= 23  ER= 8666  EU= 8476
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -9   DFU= -152962  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13234
+--L1: PDCH_BS_PAR=9   LAS_SQM=113   CUR_SQM=119   AVG_PAN=11  LOCAL_PAN=9   FN= 13234
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 109, PDU length = 29
+
+BSN = 109 is out of receiving window
+                                     bow_bsn = 110--L1: PNB1_10 UW= 0   FN= 13234   TIM= -185   FQ+= -41549824  VFC=0   RFC=0   L=10  R=664   A=39  V=6755  C=41  P=0   SR= 148   SU= 15  ER= 7209  EU= 8224
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13234
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13234
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 110, PDU length = 7
+
+Reasm begin
+reasm peer len = 94
+blk_second_byte 53199--L1: PNB1_10 UW= 0   FN= 13234   TIM=73  FQ+= -41549824  VFC=0   RFC= -262144  L=20  R=664   A=39  V=7036  C=41  P=0   SR= 170   SU= 1   ER= 6921  EU= 7317
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13234
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13234
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 111, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13235   TIM=71  FQ+= -41549824  VFC=0   RFC=0   L=30  R=664   A=39  V=6982  C=41  P=0   SR= 161   SU= 0   ER= 7035  EU= 6928
+--L1: PNB1_10_USF=1   MCS=2   PNB1_10 MCS=2   USF=1   RBN=1   EXT=4   RFN=13235 
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13235
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 112, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13235   TIM=67  FQ+= -41549824  VFC=0   RFC=0   L=0   R=664   A=39  V=6677  C=41  P=0   SR= 165   SU= 0   ER= 6946  EU= 6373
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13235
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13235
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 113, PDU length = 4
+
+Reasm begin
+reasm peer len = 62
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13235   TIM=63  FQ+= -41549824  VFC= -524288  RFC=0   L=10  R=664   A=39  V=6779  C=41  P=0   SR= 165   SU= 1   ER= 7562  EU= 6881
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -75  DFU= -153037  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13235
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13235
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 114, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13235   TIM=54  FQ+= -42074112  VFC=0   RFC=262144  L=20  R=664   A=39  V=6828  C=41  P=0   SR= 165   SU= 0   ER= 7389  EU= 6876
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13235
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13235
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 115, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13236   TIM=52  FQ+= -42074112  VFC=0   RFC=524288  L=30  R=664   A=39  V=7014  C=41  P=0   SR= 165   SU= 0   ER= 6822  EU= 7201
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13236
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13236
+--L1: PNB1_10 UW= 0   FN= 13236   TIM=104   FQ+= -42074112  VFC=0   RFC=524288  L=0   R=664   A=39  V=7014  C=41  P=0   SR= 0   SU= 0   ER= 146   EU= 6372
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13236
+--L1: PNB1_10 UW= 0   FN= 13236   TIM=34  FQ+= -42074112  VFC=0   RFC=262144  L=10  R=664   A=39  V=7014  C=41  P=0   SR= 0   SU= 0   ER= 177   EU= 7017
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13236
+--L1: PNB1_10 UW= 0   FN= 13236   TIM=59  FQ+= -42074112  VFC=0   RFC=262144  L=20  R=664   A=39  V=7014  C=41  P=0   SR= 0   SU= 0   ER= 164   EU= 6914
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13236
+--L1: PNB1_10 UW= 15  FN= 13237   TIM=90  FQ+= -42074112  VFC=0   RFC= -7340032   L=30  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 808
+--L1: PNB1_10 UW= 16  FN= 13237   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13237   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13237   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13238   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=30  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13238   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13238   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13238   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13239   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=30  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13239   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13239   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13239   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13240   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=30  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13240   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=0   R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13240   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -103546880   L=10  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: AllSlot ReCFG FN= 13240   PNB1_10 UW= 16  FN= 13240   TIM= -1276  FQ+= -42074112  VFC=0   RFC= -105381888   L=20  R=664   A=39  V=3911  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=664   PNB1_10 UW= 13  FN= 13241   TIM=976   FQ+= -42074112  VFC=0   RFC= -133955584   L=30  R=664   A=39  V=3911  C=41  P=0   SR= 0   SU= 0   ER= 160   EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 103, PDU length = 4
+
+Reasm begin
+BSN = 103 is out of receiving window
+                                     bow_bsn = 116
+reasm peer len = 10--L1: PNB1_10 UW= 0   FN= 13241   TIM=41  FQ+= -42074112  VFC=131072  RFC=524288  L=0   R=664   A=39  V=5539  C=41  P=0   SR= 170   SU= 0   ER= 6838  EU= 7167
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 19  DFU= -153018  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13241
+--L1: PDCH_BS_PAR=10  LAS_SQM=113   CUR_SQM=119   AVG_PAN=9   LOCAL_PAN=10  FN= 13241
+SRRC LOG:temp version, no check intergrity.
+lx061825  in srrc_rcm_MsIdleSsIdle_HdlUuRrcConnRel
+
+lixiangti 1 0
+lixiangti 2 0
+lx061825  in send complete
+
+lixiangulik 5 hfn 0,msn 5
+Uplink Ik_ptr:
+d4 fe 2b 0f 02 f1 66 37 c0 9e 23 9f 3e 3d fb ec
+lixiangulik counti 5
+lixiangulik fresh 694204420
+lixiangulik length 48
+lx061825  in send complete end
+
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 115, PDU length = 29
+
+BSN = 115 is out of receiving window
+                                     bow_bsn = 116--L1: PNB1_10 UW= 0   FN= 13241   TIM=44  FQ+= -41943040  VFC=0   RFC=262144  L=10  R=664   A=39  V=6137  C=41  P=0   SR= 170   SU= 0   ER= 6831  EU= 6736
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13241
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13241
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 116, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13241   TIM=39  FQ+= -41943040  VFC=0   RFC=262144  L=20  R=664   A=39  V=6514  C=41  P=0   SR= 161   SU= 0   ER= 7030  EU= 6891
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13241
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13241
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 117, PDU length = 24
+
+Reasm begin
+reasm peer len = 111
+blk_second_byte 52995--L1: PNB1_10 UW= 0   FN= 13242   TIM=33  FQ+= -41943040  VFC=0   RFC=262144  L=30  R=664   A=39  V=6654  C=41  P=0   SR= 170   SU= 0   ER= 6517  EU= 6794
+--L1: PNB1_10_USF=2   MCS=2   PNB1_10 MCS=2   USF=2   RBN=0   EXT=4   RFN=13242 
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13242
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 118, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13242   TIM=22  FQ+= -41943040  VFC=65536   RFC=262144  L=0   R=664   A=39  V=6870  C=41  P=0   SR= 161   SU= 0   ER= 6594  EU= 7087
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 9   DFU= -153009  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13242
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13242
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 119, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13242   TIM=24  FQ+= -41877504  VFC=0   RFC=262144  L=10  R=664   A=39  V=6938  C=41  P=0   SR= 174   SU= 0   ER= 6648  EU= 7006
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13242
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13242
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 120, PDU length = 4
+
+Reasm begin
+reasm peer len = 62
+blk_second_byte 52997--L1: PNB1_10 UW= 0   FN= 13242   TIM=22  FQ+= -41877504  VFC=0   RFC=262144  L=20  R=664   A=39  V=6974  C=41  P=0   SR= 170   SU= 5   ER= 6902  EU= 7010
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13242
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13242
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+lixiangpdcp rcv data d curr 8,total 0
+SRLC: UD bsn: 2, total: 0 , nack 0 , 0
+RLCSEND: new bsn 2
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 37
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 37
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 121, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13243   TIM=27  FQ+= -41877504  VFC=0   RFC=262144  L=30  R=664   A=39  V=6977  C=41  P=0   SR= 161   SU= 0   ER= 6802  EU= 6979
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13243
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13243
+--L1: PNB1_10 UW= 0   FN= 13243   TIM=29  FQ+= -41877504  VFC=0   RFC=262144  L=0   R=664   A=39  V=6977  C=41  P=0   SR= 0   SU= 0   ER= 163   EU= 6663
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13243
+--L1: PNB1_10 UW= 0   FN= 13243   TIM= -2   FQ+= -41877504  VFC=0   RFC=0   L=10  R=664   A=39  V=6977  C=41  P=0   SR= 0   SU= 0   ER= 164   EU= 7068
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13243
+--L1: PNB1_10 UW= 0   FN= 13243   TIM=18  FQ+= -41877504  VFC=0   RFC=262144  L=20  R=664   A=39  V=6977  C=41  P=0   SR= 0   SU= 0   ER= 142   EU= 6781
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=13243
+--L1: PNB1_10 UW= 16  FN= 13244   TIM=66  FQ+= -41877504  VFC=0   RFC=3670016   L=30  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 903
+--L1: PNB1_10 UW= 16  FN= 13244   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13244   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13244   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13245   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -103546880   L=30  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13245   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13245   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13245   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13246   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -103546880   L=30  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13246   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13246   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13246   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13247   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -103546880   L=30  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13247   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=0   R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 13247   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -103546880   L=10  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: AllSlot ReCFG FN= 13247   PNB1_10 UW= 16  FN= 13247   TIM= -1276  FQ+= -41877504  VFC=0   RFC= -105381888   L=20  R=664   A=42  V=3940  C=41  P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=664   PNB1_10 UW= 11  FN= 13248   TIM=180   FQ+= -41877504  VFC=0   RFC=134217728   L=30  R=664   A=42  V=3940  C=41  P=0   SR= 0   SU= 0   ER= 364   EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 122, PDU length = 11
+
+BSN = 4 is out of receiving window
+                                   bow_bsn = 5--L1: PNB1_10 UW= 0   FN= 13248   TIM=314   FQ+= -41877504  VFC=65536   RFC=262144  L=0   R=664   A=34  V=9095  C=41  P=0   SR= 154   SU= 44  ER= 14709   EU= 14251
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 9   DFU= -153000  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13248
+--L1: PDCH_BS_PAR=10  LAS_SQM=113   CUR_SQM=119   AVG_PAN=8   LOCAL_PAN=10  FN= 13248
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 123, PDU length = 14
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53056--L1: PNB1_10 UW= 0   FN= 13248   TIM=311   FQ+= -41811968  VFC=0   RFC=0   L=10  R=664   A=34  V=9095  C=41  P=0   SR= 0   SU= 13  ER= 2166  EU= 11756
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13248
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13248
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 124, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13248   TIM=53  FQ+= -41811968  VFC=0   RFC=0   L=20  R=664   A=34  V=5662  C=41  P=0   SR= 161   SU= 0   ER= 2169  EU= 2229
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13248
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13248
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 125, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13249   TIM=55  FQ+= -41811968  VFC=0   RFC=0   L=30  R=664   A=34  V=4016  C=41  P=0   SR= 161   SU= 0   ER= 2216  EU= 2370
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13249
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13249
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 125, PDU length = 25
+
+BSN = 125 is out of receiving window
+                                     bow_bsn = 126--L1: PNB1_10 UW= 0   FN= 13249   TIM=46  FQ+= -41811968  VFC=524288  RFC=0   L=0   R=664   A=36  V=3091  C=41  P=0   SR= 170   SU= 0   ER= 2238  EU= 2167
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 75  DFU= -152925  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13249
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13249
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 126, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13249   TIM=43  FQ+= -41287680  VFC=0   RFC= -524288  L=10  R=664   A=36  V=2780  C=41  P=0   SR= 136   SU= 0   ER= 3634  EU= 2468
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13249
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13249
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 127, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53040--L1: PNB1_10 UW= 0   FN= 13249   TIM=41  FQ+= -41287680  VFC=0   RFC= -524288  L=20  R=664   A=36  V=3269  C=41  P=0   SR= 174   SU= 0   ER= 3709  EU= 3757
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13249
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13249
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 128, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13250   TIM=34  FQ+= -41287680  VFC=0   RFC= -524288  L=30  R=664   A=36  V=3616  C=41  P=0   SR= 165   SU= 0   ER= 3566  EU= 3963
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13250
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13250
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 129, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53033--L1: PNB1_10 UW= 0   FN= 13250   TIM=33  FQ+= -41287680  VFC= -131072  RFC= -524288  L=0   R=664   A=36  V=3590  C=41  P=0   SR= 165   SU= 0   ER= 3752  EU= 3565
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -19  DFU= -152944  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13250
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13250
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 130, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13250   TIM=26  FQ+= -41418752  VFC=0   RFC= -524288  L=10  R=664   A=36  V=3719  C=41  P=0   SR= 165   SU= 0   ER= 3585  EU= 3848
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13250
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13250
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 131, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53110--L1: PNB1_10 UW= 0   FN= 13250   TIM=23  FQ+= -41418752  VFC=0   RFC= -524288  L=20  R=664   A=36  V=3627  C=41  P=0   SR= 165   SU= 0   ER= 3610  EU= 3534
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13250
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13250
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 132, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13251   TIM=14  FQ+= -41418752  VFC=0   RFC= -262144  L=30  R=664   A=36  V=3595  C=41  P=0   SR= 154   SU= 0   ER= 3488  EU= 3563
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13251
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13251
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 133, PDU length = 11
+
+BSN = 4 is out of receiving window
+                                   bow_bsn = 5--L1: PNB1_10 UW= 0   FN= 13251   TIM=5   FQ+= -41418752  VFC= -65536   RFC= -262144  L=0   R=664   A=36  V=3478  C=41  P=0   SR= 161   SU= 0   ER= 3560  EU= 3362
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -9   DFU= -152953  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13251
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13251
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 134, PDU length = 14
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13251   TIM=0   FQ+= -41484288  VFC=0   RFC= -262144  L=10  R=664   A=36  V=3512  C=41  P=0   SR= 161   SU= 0   ER= 3493  EU= 3546
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13251
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13251
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 135, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13251   TIM=5   FQ+= -41484288  VFC=0   RFC= -262144  L=20  R=664   A=36  V=3556  C=41  P=0   SR= 170   SU= 0   ER= 3545  EU= 3600
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13251
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13251
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 136, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13252   TIM= -2   FQ+= -41484288  VFC=0   RFC= -262144  L=30  R=664   A=36  V=3588  C=41  P=0   SR= 170   SU= 0   ER= 3471  EU= 3619
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13252
+--L1: PDCH_BS_PAR=11  LAS_SQM=119   CUR_SQM=115   AVG_PAN=9   LOCAL_PAN=10  FN= 13252
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 137, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13252   TIM=2   FQ+= -41484288  VFC= -65536   RFC= -262144  L=0   R=664   A=36  V=3345  C=41  P=0   SR= 158   SU= 0   ER= 3488  EU= 3102
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -9   DFU= -152962  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13252
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13252
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 138, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53033--L1: PNB1_10 UW= 0   FN= 13252   TIM= -10  FQ+= -41549824  VFC=0   RFC= -262144  L=10  R=664   A=36  V=3447  C=41  P=0   SR= 165   SU= 0   ER= 3654  EU= 3550
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13252
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13252
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 139, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13252   TIM= -11  FQ+= -41549824  VFC=0   RFC= -262144  L=20  R=664   A=36  V=3466  C=41  P=0   SR= 161   SU= 0   ER= 3528  EU= 3485
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13252
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13252
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 140, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13253   TIM= -14  FQ+= -41549824  VFC=0   RFC= -262144  L=30  R=664   A=36  V=3667  C=41  P=0   SR= 170   SU= 0   ER= 3488  EU= 3867
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13253
+--L1: PDCH_BS_PAR=11  ADJ FAST  FN= 13253
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 115, PDU length = 29
+
+BSN = 115 is out of receiving window
+                                     bow_bsn = 141--L1: PNB1_10 UW= 0   FN= 13253   TIM= -24  FQ+= -41549824  VFC= -524288  RFC= -262144  L=0   R=664   A=36  V=3515  C=41  P=0   SR= 165   SU= 0   ER= 3510  EU= 3364
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -75  DFU= -153037  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13253
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13253
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 140, PDU length = 29
+
+BSN = 140 is out of receiving window
+                                     bow_bsn = 141--L1: PNB1_10 UW= 0   FN= 13253   TIM= -31  FQ+= -42074112  VFC=0   RFC=262144  L=10  R=664   A=36  V=3607  C=41  P=0   SR= 165   SU= 0   ER= 3700  EU= 3699
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13253
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13253
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 141, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13253   TIM= -46  FQ+= -42074112  VFC=0   RFC=262144  L=20  R=664   A=36  V=3684  C=41  P=0   SR= 158   SU= 0   ER= 3556  EU= 3760
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13253
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13253
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 142, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13254   TIM= -40  FQ+= -42074112  VFC=0   RFC=262144  L=30  R=664   A=36  V=3697  C=41  P=0   SR= 161   SU= 0   ER= 3543  EU= 3710
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13254
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13254
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 143, PDU length = 2
+
+BSN = 4 is out of receiving window
+                                   bow_bsn = 5
+Reasm begin
+reasm peer len = 118
+blk_second_byte 53059--L1: PNB1_10 UW= 0   FN= 13254   TIM= -45  FQ+= -42074112  VFC=65536   RFC=262144  L=0   R=664   A=36  V=3700  C=41  P=0   SR= 165   SU= 0   ER= 3640  EU= 3702
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 9   DFU= -153028  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13254
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13254
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 144, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13254   TIM= -48  FQ+= -42008576  VFC=0   RFC=262144  L=10  R=664   A=36  V=3630  C=41  P=0   SR= 165   SU= 0   ER= 3552  EU= 3560
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13254
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13254
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 145, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53199--L1: PNB1_10 UW= 0   FN= 13254   TIM= -60  FQ+= -42008576  VFC=0   RFC=262144  L=20  R=664   A=36  V=3705  C=41  P=0   SR= 165   SU= 0   ER= 3961  EU= 3781
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13254
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13254
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 146, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13255   TIM= -55  FQ+= -42008576  VFC=0   RFC=262144  L=30  R=664   A=36  V=3896  C=41  P=0   SR= 174   SU= 0   ER= 3415  EU= 4086
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13255
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13255
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 147, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13255   TIM= -63  FQ+= -42008576  VFC=65536   RFC=262144  L=0   R=664   A=36  V=3773  C=41  P=0   SR= 161   SU= 0   ER= 3818  EU= 3650
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 9   DFU= -153019  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13255
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13255
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 148, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13255   TIM= -65  FQ+= -41943040  VFC=0   RFC=262144  L=10  R=664   A=36  V=3675  C=41  P=0   SR= 161   SU= 0   ER= 3542  EU= 3577
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13255
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13255
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 149, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13255   TIM= -71  FQ+= -41943040  VFC=0   RFC=262144  L=20  R=664   A=36  V=3597  C=41  P=0   SR= 170   SU= 0   ER= 3858  EU= 3519
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13255
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13255
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 150, PDU length = 2
+
+Reasm begin
+reasm peer len = 118
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13256   TIM= -76  FQ+= -41943040  VFC=0   RFC=0   L=30  R=664   A=36  V=3724  C=41  P=0   SR= 170   SU= 0   ER= 3596  EU= 3850
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13256
+--L1: PDCH_BS_PAR=10  LAS_SQM=119   CUR_SQM=115   AVG_PAN=8   LOCAL_PAN=9   FN= 13256
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 150, PDU length = 2
+
+BSN = 150 is out of receiving window
+                                     bow_bsn = 151--L1: PNB1_10 UW= 0   FN= 13256   TIM= -83  FQ+= -41943040  VFC=0   RFC=0   L=0   R=664   A=36  V=3969  C=41  P=0   SR= 165   SU= 0   ER= 3917  EU= 4214
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13256
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13256
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 151, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13256   TIM= -89  FQ+= -41943040  VFC=0   RFC=0   L=10  R=664   A=36  V=3927  C=41  P=0   SR= 174   SU= 0   ER= 3679  EU= 3885
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13256
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13256
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 152, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13256   TIM= -100   FQ+= -41943040  VFC=0   RFC=0   L=20  R=664   A=36  V=3853  C=41  P=0   SR= 165   SU= 0   ER= 3799  EU= 3780
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13256
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13256
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 153, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13257   TIM= -85  FQ+= -41943040  VFC=0   RFC=262144  L=30  R=664   A=36  V=3941  C=41  P=0   SR= 158   SU= 0   ER= 3602  EU= 4028
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13257
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13257
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 154, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13257   TIM= -101   FQ+= -41943040  VFC= -262144  RFC=0   L=0   R=664   A=36  V=3864  C=41  P=0   SR= 165   SU= 0   ER= 3765  EU= 3787
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -38  DFU= -153057  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13257
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13257
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 155, PDU length = 2
+
+Reasm begin
+reasm peer len = 118
+blk_second_byte 52992--L1: PNB1_10 UW= 0   FN= 13257   TIM= -106   FQ+= -42205184  VFC=0   RFC=262144  L=10  R=664   A=36  V=3845  C=41  P=0   SR= 174   SU= 0   ER= 3940  EU= 3826
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13257
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13257
+
+PDCH bad frame rate is 0
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 156, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13257   TIM= -103   FQ+= -42205184  VFC=0   RFC=262144  L=20  R=664   A=36  V=3839  C=41  P=0   SR= 170   SU= 0   ER= 3913  EU= 3834
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13257
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13257
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 157, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13258   TIM= -110   FQ+= -42205184  VFC=0   RFC=262144  L=30  R=664   A=36  V=3863  C=41  P=0   SR= 161   SU= 0   ER= 3702  EU= 3887
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13258
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13258
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 158, PDU length = 11
+
+BSN = 4 is out of receiving window
+                                   bow_bsn = 5--L1: PNB1_10 UW= 0   FN= 13258   TIM= -125   FQ+= -42205184  VFC=131072  RFC=524288  L=0   R=664   A=36  V=3764  C=41  P=0   SR= 161   SU= 0   ER= 3915  EU= 3665
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 19  DFU= -153038  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13258
+--L1: PDCH_BS_PAR=10  ADJ FAST  FN= 13258
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 159, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13258   TIM= -111   FQ+= -42074112  VFC=0   RFC=262144  L=10  R=664   A=36  V=3921  C=41  P=0   SR= 170   SU= 0   ER= 3856  EU= 4079
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13258
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13258
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 160, PDU length = 20
+
+Reasm begin
+reasm peer len = 118
+blk_second_byte 53083--L1: PNB1_10 UW= 0   FN= 13258   TIM= -121   FQ+= -42074112  VFC=0   RFC=262144  L=20  R=664   A=36  V=3851  C=41  P=0   SR= 165   SU= 0   ER= 4059  EU= 3780
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13258
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13258
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 161, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13259   TIM= -134   FQ+= -42074112  VFC=0   RFC=262144  L=30  R=664   A=36  V=3803  C=41  P=0   SR= 170   SU= 0   ER= 3787  EU= 3754
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13259
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13259
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 161, PDU length = 29
+
+BSN = 161 is out of receiving window
+                                     bow_bsn = 162--L1: PNB1_10 UW= 0   FN= 13259   TIM= -137   FQ+= -42074112  VFC=65536   RFC=262144  L=0   R=664   A=36  V=3965  C=41  P=0   SR= 174   SU= 0   ER= 3988  EU= 4128
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 9   DFU= -153029  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13259
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13259
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 162, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53033--L1: PNB1_10 UW= 0   FN= 13259   TIM= -138   FQ+= -42008576  VFC=0   RFC=262144  L=10  R=664   A=36  V=4017  C=41  P=0   SR= 165   SU= 0   ER= 3934  EU= 4069
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13259
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13259
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 163, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13259   TIM=100   FQ+= -42008576  VFC=0   RFC=262144  L=20  R=664   A=36  V=3982  C=41  P=0   SR= 161   SU= 0   ER= 3945  EU= 3946
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13259
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13259
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 164, PDU length = 25
+
+Reasm begin
+reasm peer len = 54
+blk_second_byte 53040--L1: PNB1_10 UW= 0   FN= 13260   TIM=112   FQ+= -42008576  VFC=0   RFC=262144  L=30  R=664   A=36  V=3985  C=41  P=0   SR= 170   SU= 0   ER= 3782  EU= 3989
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13260
+--L1: PDCH_BS_PAR=8   LAS_SQM=119   CUR_SQM=115   AVG_PAN=7   LOCAL_PAN=7   FN= 13260
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 165, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13260   TIM=113   FQ+= -42008576  VFC=65536   RFC=262144  L=0   R=664   A=36  V=4134  C=41  P=0   SR= 174   SU= 0   ER= 3948  EU= 4284
+--L1: PNB1_10_USF=0   MCS=2   Def10X= 9   DFU= -153020  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13260
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13260
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 166, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13260   TIM=94  FQ+= -41943040  VFC=0   RFC=0   L=10  R=664   A=36  V=4083  C=41  P=0   SR= 174   SU= 0   ER= 4131  EU= 4032
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13260
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13260
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 167, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13260   TIM=87  FQ+= -41943040  VFC=0   RFC=0   L=20  R=664   A=36  V=4028  C=41  P=0   SR= 165   SU= 0   ER= 4056  EU= 3973
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13260
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13260
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 168, PDU length = 29
+                                                                           --L1: PNB1_10 UW= 0   FN= 13261   TIM=81  FQ+= -41943040  VFC=0   RFC=0   L=30  R=664   A=36  V=4035  C=41  P=0   SR= 174   SU= 0   ER= 3820  EU= 4042
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13261
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 13261
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 1
+lixiangackind ssn=3,va=2,vs=3,q_idx2=0,q_idx1=1
+wangchong bitmap length is: 0  no_of_blks: 1
+wangchong if bitmap is compressed: 1
+lixiangtxarq bsn = 2
+bsn:2 rlc_blk_ptr->lps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):6, rlc_blk_ptr->blk_size:37
+lixiangtxarq 3
+lixiangpdcp rcv data e relpdulen 8--L1: PNB1_10 UW= 0   FN= 13261   TIM=81  FQ+= -41943040  VFC= -262144  RFC=0   L=0   R=664   A=36  V=4012  C=41  P=0   SR= 165   SU= 0   ER= 4022  EU= 3989
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -38  DFU= -153058  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=13261
+--L1: PDCH_BS_PAR=9   ADJ FAST  FN= 13261
+lx061825  local rel !!
+
+lixiang1010 2,2,0
+srrc_rcm_SendShareRelCfgReq
+--L1: PDCH Release OAL SFN= 13261
+--L1: PDCH Release E STATUS=0   Tx Head=0   Rx Head=0   C_SFN=13263
+--L1: L1CC RELEASE E_PCH= 1   TCU0= 0   RPS=32  INT1= 0   INT4= 0
+SRRC LOG:Send pdcp rel:rb num:1 one rb id:5
+Rcm_ptr->RelSource_en 0
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+--L1: BCCH_CFN= 13263   SFN=3   AGC=37  ARF=562   SLV=0   SFG_FN= 13267
+luxy: GMM receive prim is P_SRRC_GMM_RELEASE_IND
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 120a
+luxy: xian gmm rr release rel_ind_ptr->release_cause is 0
+luxy: GMM gmm rrc service (g_gmm_info_st.current_gmm_state&0xf0) is 40
+luxy: rrc release ind g_gmm_info_st.last_lr_type is 0
+luxy: rrc release ind g_gmm_info_st.combined_successful is 1
+luxy: rrc release ind g_gmm_info_st.network_mode is 1
+luxy: rau test g_gmm_info_st.current_gmm_state 222 is 41
+luxy: rau test g_gmm_info_st.periodic_rau_needed 222 is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.normal_rau_needed is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.periodic_rau_needed is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: MM receive prim is P_SRRC_MM_IDLE_MODE_CHANGE_IND
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: mm receive P_RRC_MM_IDLE_MODE_CHANGE_IND in normal
+luxy: g_mm_is_spv_nreg_pend is 0
+luxy: g_mm_is_cm_req_pend is 0
+luxy: T3212 mm rcv rrc enter idle and g_mm_is_rcv_ps_end is 1
+luxy: T3211 mm rcv rrc enter idle and g_mm_is_t3212_expiry is 0
+luxy: T3212 mm rcv rrc enter idle and g_mm_is_t3212_expiry is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1f2c
+luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+luxy: gmm mm service mm action g_gmm_info_st.mm_action is 7
+luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 41
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: SM receive event is 1e1c
+luxy: SM the current state is 0
+luxy: sm receive P_GMM_SM_ERROR_IND 1
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 0
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 1
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 2
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 3
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 4
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 5
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 6
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 7
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 8
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 9
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 10
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle rel_mma_cnf_st.nsapi_num is 0
+luxy: sm P_GMM_SM_ERROR_IND handle rel_rabm_nsapi_st.nsapi_num is 0
+luxy: sm P_GMM_SM_ERROR_IND handle rel_mma_ind_st.nsapi_num is 0
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 0
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+****ERROR MSG PRIM_ID IS 4647
+mma report error,file[id=9103],task_id=8,proc_id=3,occurs err=21804,line=696
+
+--L1: B= -110   BW= 0   Q= -41558016  D=1835008   T= -188   L=0   R=562   S=174   E=6409  Ck= 484076  A=37  X1= 18349   Y=1   O=4   ST0=93  ST1=82  RTO=1149  C=0   R=1   M=0   F=13267
+--L1: BC DFU= 591   DL XINQ HZ= 18940
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+^DGSQU: 29,5
+
++CSQ: 29,5
+
+--L1: PC= 12  F=13269   S=0   Q=0   D= -89128960  E=140   Le= 168   X1= 18940   I= -16385   J= -102   A=562
+--L1: CBCH UW=14  S=0   L=20  R=562   Le= 168   X1= 18940   F=13269
+--L1: CBCH UW=15  S=0   L=20  R=562   Le= 168   X1= 18940   F=13270
+--L1: PC= 19  F=13285   S=0   Q=0   D= -109576192   E=135   Le= 168   X1= 18940   I= -16385   J= -39  A=562
+--L1: CBCH UW=16  S=0   L=20  R=562   Le= 168   X1= 18940   F=13291
+--L1: CBCH UW=17  S=0   L=20  R=562   Le= 168   X1= 18940   F=13292
++CIEV: 2,4
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+--L1: PC= 18  F=13301   S=0   Q=0   D=120324096   E=138   Le= 168   X1= 18940   I= -16385   J= -314   A=562
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+^SATSIGNAL:-110,168
+
+^CPSTATE: -110,562,36,85
+
+luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+--L1: CBCH UW=18  S=0   L=20  R=562   Le= 168   X1= 18940   F=13311
+--L1: CBCH UW=18  S=0   L=20  R=562   Le= 168   X1= 18940   F=13314
+--L1: B= -110   BW= 0   Q=0   D=524288  T= -248   L=0   R=562   S=174   E=7466  Ck= 484088  A=37  X1= 18940   Y=1   O=27  ST0=93  ST1=82  RTO=1149  C=0   R=1   M=0   F=13315
+--L1: PC= 17  F=13317   S=22  Q=524288  D= -98566144  E=117   Le= 168   X1= 18940   I= -16385   J= -314   A=562
