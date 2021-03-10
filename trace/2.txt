@@ -1,0 +1,1092 @@
+19  R=563   O=16  X=19197   RA= 37  S=180   E=5152  C=0
+--L1: DA TX FN= 286342  C_FN= 286342  CH= 11  ST= 8   AF= 563   FQ=  -154542  TC= 1491065   TF= 31621   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0
+--L1: TX 16K CH=11  FN= 286343  SFN=286342  ST= 8   SR= 0   AF= 563   FQ=  -154542  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286343  Q=0   D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -19  R=563   O=16  X=19197   RA= 37  S=180   E=5254  C=0
+--L1: TX 16K CH=11  FN= 286344  SFN=286343  ST= 8   SR= 0   AF= 563   FQ=  -154542  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286344  Q=0   D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -20  R=563   O=16  X=19197   RA= 37  S=180   E=5324  C=0
+--L1: TX 16K CH=11  FN= 286345  SFN=286344  ST= 8   SR= 0   AF= 563   FQ=  -154542  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386244  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286345  Q=0   D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -20  R=563   O=16  X=19197   RA= 37  S=180   E=5242  C=0
+--L1: TX 16K CH=11  FN= 286346  SFN=286345  ST= 8   SR= 0   AF= 563   FQ=  -154542  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286346  Q=0   D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -20  R=563   O=16  X=19197   RA= 37  S=174   E=5049  C=0
+--L1: TX 16K CH=11  FN= 286347  SFN=286346  ST= 8   SR= 0   AF= 563   FQ=  -154542  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286347  Q=0   D= -262144  DF= 0   DR=  -262144  L=0   T= -22  TP=  -21  R=563   O=16  X=19197   RA= 37  S=174   E=5171  C=0
+--L1: TX 16K CH=11  FN= 286348  SFN=286347  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 3908  D1= 51334   D2= 7   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286348  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -21  R=563   O=16  X=19197   RA= 37  S=165   E=4787  C=0
+--L1: TX 16K CH=11  FN= 286349  SFN=286348  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 3908  D1= 18566   D2= 9   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286349  Q= -262144  D=262144  DF= 0   DR= 262144  L=0   T= -23  TP=  -21  R=563   O=16  X=19197   RA= 37  S=174   E=4982  C=0
+PPP: get ipcp data, stored it.
+--L1: TX 16K CH=11  FN= 286350  SFN=286349  ST= 8   SR= 0   AF= 563   FQ=  -154542  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286350  Q=0   D= -262144  DF= 0   DR=  -262144  L=0   T= -32  TP=  -22  R=563   O=16  X=19197   RA= 37  S=174   E=5190  C=0
+--L1: TX 16K CH=11  FN= 286351  SFN=286350  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286351  Q= -262144  D=0   DF=  -262144  DR= 0   L=0   T= -29  TP=  -22  R=563   O=16  X=19197   RA= 37  S=170   E=5180  C=0
+--L1: TX 16K CH=11  FN= 286352  SFN=286351  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286352  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -23  R=563   O=16  X=19197   RA= 37  S=174   E=5208  C=0
+--L1: TX 16K CH=11  FN= 286353  SFN=286352  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 9 ,num_blks_to_reassemble 5
+begin_indx 3,num_blks_to_reasm 5
+blk_second_byte 43--L1:  -112   DA8=0   F=286353  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -23  R=563   O=16  X=19197   RA= 37  S=174   E=5003  C=0 
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,1
+lixiangdt 3 0
+luxy: GMM receive prim is P_SRRC_GMM_DATA_IND
+luxy: GMM current state is S_GMM_SR_INIT
+luxy: gmm main g_gmm_info_st.current_gmm_state is 60
+luxy: gmm main prim_id is 120b
+
+luxy: fuai authen req g_uai_switch_on_off_flag_st.card_type is 2
+luxy: fuai authen req field_ind is 1luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_SR_INIT
+
+
+^SATSIGNAL:-112,175
+
+^CPSTATE: -112,562,24,85
+
+--L1: TX 16K CH=11  FN= 286354  SFN=286353  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 3908  D1= 18566   D2= 15  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286354  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -38  TP=  -24  R=563   O=16  X=19197   RA= 37  S=170   E=5133  C=0
+--L1: TX 16K CH=11  FN= 286355  SFN=286354  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286355  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -38  TP=  -24  R=563   O=16  X=19197   RA= 37  S=180   E=5149  C=0
+lixiangkeytype 2
+luxy: GMM receive prim is P_UAI_GMM_AUTHEN_CNF
+luxy: GMM current state is S_GMM_SR_INIT
+luxy: gmm main g_gmm_info_st.current_gmm_state is 60
+luxy: gmm main prim_id is 3398
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_SR_INIT
+
+
+^SATSIGNAL:-111,174
+
+^CPSTATE: -111,562,26,85
+
+--L1: TX 16K CH=11  FN= 286356  SFN=286355  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286356  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -14  TP=  -24  R=563   O=16  X=19197   RA= 37  S=174   E=5191  C=0
+--L1: TX 16K CH=11  FN= 286357  SFN=286356  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386251  D0= 2   D1= 576   D2= 10275   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+                                              --L1:  -111   DA8=0   F=286357  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=5048  C=0
+--L1: TX 16K CH=11  FN= 286358  SFN=286357  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 32258   D1= 2385  D2= 23081   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286358  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=16  X=19197   RA= 37  S=165   E=4941  C=0
+--L1: DA TX FN= 286358  C_FN= 286358  CH= 11  ST= 8   AF= 563   FQ=  -154580  TC= 1491065   TF= 31621   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0
+--L1: TX 16K CH=11  FN= 286359  SFN=286358  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 3908  D1= 51334   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286359  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -25  R=563   O=16  X=19197   RA= 37  S=165   E=5083  C=0
+--L1: TX 16K CH=11  FN= 286360  SFN=286359  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 34306   D1= 15207   D2= 7971  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+                                              --L1:  -111   DA8=0   F=286360  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5110  C=0
+--L1: TX 16K CH=11  FN= 286361  SFN=286360  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286361  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5015  C=0
+--L1: TX 16K CH=11  FN= 286362  SFN=286361  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286362  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4985  C=0
+--L1: TX 16K CH=11  FN= 286363  SFN=286362  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+                                              --L1:  -111   DA8=0   F=286363  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=5067  C=0
+--L1: TX 16K CH=11  FN= 286364  SFN=286363  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286364  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5012  C=0
+--L1: TX 16K CH=11  FN= 286365  SFN=286364  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286365  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -38  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=5095  C=0
+--L1: TX 16K CH=11  FN= 286366  SFN=286365  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 2   D1= 576   D2= 10275   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286366  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=16  X=19197   RA= 37  S=165   E=4992  C=0
+--L1: TX 16K CH=11  FN= 286367  SFN=286366  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386252  D0= 32258   D1= 2385  D2= 23081   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+                                              --L1:  -111   DA8=0   F=286367  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5039  C=0
+--L1: TX 16K CH=11  FN= 286368  SFN=286367  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386249  D0= 34306   D1= 15207   D2= 7971  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286368  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4997  C=0
+--L1: TX 16K CH=11  FN= 286369  SFN=286368  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386247  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286369  Q= -262144  D= -262144  DF= 0   DR=  -262144  L=0   T= -32  TP=  -25  R=563   O=16  X=19197   RA= 37  S=165   E=5076  C=0
+--L1: TX 16K CH=11  FN= 286370  SFN=286369  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286370  Q= -524288  D=262144  DF= 0   DR= 262144  L=0   T= -14  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4986  C=0
+--L1: TX 16K CH=11  FN= 286371  SFN=286370  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386244  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286371  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5222  C=0
+--L1: TX 16K CH=11  FN= 286372  SFN=286371  ST= 8   SR= 0   AF= 563   FQ=  -154580  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386248  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286372  Q= -262144  D= -262144  DF= 0   DR=  -262144  L=0   T= -11  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5015  C=0
+--L1: TX 16K CH=11  FN= 286373  SFN=286372  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 2   D1= 576   D2= 10275   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+bsn:8 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):17
+bsn:9 rlc_blk_ptr->rlps:31 *blk_ptr_temp:136 *(blk_ptr_temp+1):73
+bsn:10 rlc_blk_ptr->rlps:3 *blk_ptr_temp:57 *(blk_ptr_temp+1):217
+lx061825  rlps=3 pdulen=217--L1:  -111   DA8=0   F=286373  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=5013  C=0
+--L1: TX 16K CH=11  FN= 286374  SFN=286373  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 32258   D1= 2385  D2= 23081   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286374  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -40  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5031  C=0
+--L1: DA TX FN= 286374  C_FN= 286374  CH= 11  ST= 8   AF= 563   FQ=  -154618  TC= 1491065   TF= 31621   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0
+--L1: TX 16K CH=11  FN= 286375  SFN=286374  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286375  Q= -524288  D=0   DF=  -262144  DR= 0   L=0   T= -18  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5171  C=0
+--L1: TX 16K CH=11  FN= 286376  SFN=286375  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 3908  D1= 18566   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 12 ,num_blks_to_reassemble 2
+begin_indx 9,num_blks_to_reasm 2
+blk_second_byte 43--L1:  -111   DA8=0   F=286376  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -40  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5190  C=0 
+SRRC LOG:temp version, no check intergrity.
+lixiang local msn=3,msn=3
+lixianghfn 0
+Ik_ptr-->
+9c ec fc 80 4c 27 32 96 86 67 d7 83 ab 6b bb bb
+counti 3, fresh 3d849397
+lixiang mac dbfc8e11, maci dbfc8e11
+cipher11 1 0
+cipher11 2 type 0
+lixiangulik 5 hfn 0,msn 1
+Uplink Ik_ptr:
+9c ec fc 80 4c 27 32 96 86 67 d7 83 ab 6b bb bb
+lixiangulik counti 1
+lixiangulik fresh 1032098711
+lixiangulik length 64
+luxy: GMM receive prim is P_SRRC_GMM_SECURITY_IND
+luxy: GMM current state is S_GMM_SR_INIT
+luxy: gmm main g_gmm_info_st.current_gmm_state is 60
+luxy: gmm main prim_id is 120e
+luxy: rau test g_gmm_info_st.current_gmm_state 222 is 41
+luxy: rau test g_gmm_info_st.periodic_rau_needed 222 is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.normal_rau_needed is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.periodic_rau_needed is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: SM receive event is 1e15
+luxy: SM the current state is 1
+luxy: GMM receive prim is P_SM_GMM_UNITDATA_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e18
+lixiangulik 5 hfn 0,msn 2
+Uplink Ik_ptr:
+9c ec fc 80 4c 27 32 96 86 67 d7 83 ab 6b bb bb
+lixiangulik counti 2
+lixiangulik fresh 1032098711
+lixiangulik length 459
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 0
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 20
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 20
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+****ERROR MSG PRIM_ID IS 8217
+mma report error,file[id=9103],task_id=8,proc_id=3,occurs err=21804,line=696
+
+--L1: TX 16K CH=11  FN= 286377  SFN=286376  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+                                                --L1:  -111   DA8=0   F=286377  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -25  R=563   O=16  X=19197   RA= 37  S=186   E=5106  C=0
+--L1: TX 16K CH=11  FN= 286378  SFN=286377  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286378  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4833  C=0
+--L1: TX 16K CH=11  FN= 286379  SFN=286378  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286379  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5284  C=0
+--L1: TX 16K CH=11  FN= 286380  SFN=286379  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 49154   D1= 320   D2= 50690   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286380  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4926  C=0
+--L1: TX 16K CH=11  FN= 286381  SFN=286380  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386251  D0= 1027  D1= 15456   D2= 58655   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286381  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5098  C=0
+--L1: TX 16K CH=11  FN= 286382  SFN=286381  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386244  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+                                                --L1:  -112   DA8=0   F=286382  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4974  C=0
+--L1: TX 16K CH=11  FN= 286383  SFN=286382  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 16387   D1= 1856  D2= 10307   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+                                                --L1:  -111   DA8=0   F=286383  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -25  R=563   O=16  X=19197   RA= 37  S=165   E=5199  C=0
+--L1: TX 16K CH=11  FN= 286384  SFN=286383  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286384  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5110  C=0
+--L1: TX 16K CH=11  FN= 286385  SFN=286384  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386244  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286385  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5132  C=0
+--L1: TX 16K CH=11  FN= 286386  SFN=286385  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 49154   D1= 320   D2= 50690   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286386  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4973  C=0
+--L1: TX 16K CH=11  FN= 286387  SFN=286386  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 48643   D1= 1600  D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286387  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5040  C=0
+--L1: TX 16K CH=11  FN= 286388  SFN=286387  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 49154   D1= 320   D2= 50690   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+                                                --L1:  -111   DA8=0   F=286388  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -43  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5023  C=0
+--L1: TX 16K CH=11  FN= 286389  SFN=286388  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 49154   D1= 320   D2= 50690   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286389  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -12  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5095  C=0
+--L1: TX 16K CH=11  FN= 286390  SFN=286389  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+                                                --L1:  -112   DA8=0   F=286390  Q= -786432  D=262144  DF= 0   DR= 262144  L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4878  C=0
+--L1: DA TX FN= 286390  C_FN= 286390  CH= 11  ST= 8   AF= 563   FQ=  -154618  TC= 1491065   TF= 31621   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0
+--L1: TX 16K CH=11  FN= 286391  SFN=286390  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 65027   D1= 69  D2= 34172   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286391  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5086  C=0
+--L1: TX 16K CH=11  FN= 286392  SFN=286391  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386244  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286392  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -25  R=563   O=16  X=19197   RA= 37  S=186   E=5157  C=0
+--L1: TX 16K CH=11  FN= 286393  SFN=286392  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 15876   D1= 37968   D2= 515   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286393  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -11  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5019  C=0
+--L1: TX 16K CH=11  FN= 286394  SFN=286393  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 32260   D1= 4954  D2= 16522   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+bsn:11 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):8
+bsn:12 rlc_blk_ptr->rlps:2 *blk_ptr_temp:1 *(blk_ptr_temp+1):224
+lx061825  rlps=2 pdulen=224--L1:  -112   DA8=0   F=286394  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4993  C=0
+--L1: TX 16K CH=11  FN= 286395  SFN=286394  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 48644   D1= 32832   D2= 16392   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286395  Q= -786432  D=262144  DF= 0   DR= 262144  L=0   T= -24  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5114  C=0
+--L1: TX 16K CH=11  FN= 286396  SFN=286395  ST= 8   SR= 0   AF= 563   FQ=  -154618  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 16387   D1= 1856  D2= 10307   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 14 ,num_blks_to_reassemble 1
+begin_indx 12,num_blks_to_reasm 1
+blk_second_byte 126--L1:  -112   DA8=0   F=286396  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -22  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4870  C=0
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,1
+lixiangdt 3 1
+luxy: GMM receive prim is P_SRRC_GMM_DATA_IND
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 120b
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+--L1: TX 16K CH=11  FN= 286397  SFN=286396  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 3908  D1= 51334   D2= 25  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+                                                --L1:  -112   DA8=0   F=286397  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -14  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4855  C=0
+--L1: TX 16K CH=11  FN= 286398  SFN=286397  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 3908  D1= 51334   D2= 27  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286398  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5294  C=0
+--L1: TX 16K CH=11  FN= 286399  SFN=286398  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386244  D0= 3908  D1= 51334   D2= 27  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+bsn:13 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):58--L1:  -111   DA8=0   F=286399  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5213  C=0
+PPP: get ipcp data, stored it.
+--L1: TX 16K CH=11  FN= 286400  SFN=286399  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 65028   D1= 16704   D2= 131   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+                                                --L1:  -112   DA8=0   F=286400  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4981  C=0
+--L1: TX 16K CH=11  FN= 286401  SFN=286400  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 48643   D1= 1600  D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+bsn:14 rlc_blk_ptr->rlps:31 *blk_ptr_temp:0 *(blk_ptr_temp+1):48--L1:  -111   DA8=0   F=286401  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5026  C=0
+--L1: TX 16K CH=11  FN= 286402  SFN=286401  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 51334   D2= 27  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286402  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=16  X=19197   RA= 37  S=165   E=4989  C=0
+--L1: TX 16K CH=11  FN= 286403  SFN=286402  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 65027   D1= 69  D2= 34172   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+                                                --L1:  -112   DA8=0   F=286403  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4904  C=0
+--L1: TX 16K CH=11  FN= 286404  SFN=286403  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 65027   D1= 69  D2= 34172   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286404  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5269  C=0
+--L1: TX 16K CH=11  FN= 286405  SFN=286404  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 3908  D1= 18566   D2= 27  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286405  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5044  C=0
+--L1: TX 16K CH=11  FN= 286406  SFN=286405  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 2053  D1= 35438   D2= 18498   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286406  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -38  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5123  C=0
+--L1: DA TX FN= 286406  C_FN= 286406  CH= 11  ST= 8   AF= 563   FQ=  -154656  TC= 1491065   TF= 31621   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0
+--L1: TX 16K CH=11  FN= 286407  SFN=286406  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+                                                --L1:  -112   DA8=0   F=286407  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4852  C=0
+--L1: TX 16K CH=11  FN= 286408  SFN=286407  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286408  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -38  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5063  C=0
+--L1: TX 16K CH=11  FN= 286409  SFN=286408  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 18566   D2= 27  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+bsn:15 rlc_blk_ptr->rlps:31 *blk_ptr_temp:40 *(blk_ptr_temp+1):3
+bsn:16 rlc_blk_ptr->rlps:31 *blk_ptr_temp:132 *(blk_ptr_temp+1):160
+bsn:17 rlc_blk_ptr->rlps:31 *blk_ptr_temp:208 *(blk_ptr_temp+1):156
+bsn:18 rlc_blk_ptr->rlps:31 *blk_ptr_temp:4 *(blk_ptr_temp+1):0--L1:  -111   DA8=0   F=286409  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -12  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=5049  C=0
+--L1: TX 16K CH=11  FN= 286410  SFN=286409  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+                                                --L1:  -112   DA8=0   F=286410  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -41  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4867  C=0
+--L1: TX 16K CH=11  FN= 286411  SFN=286410  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 65028   D1= 16704   D2= 131   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286411  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4975  C=0
+--L1: TX 16K CH=11  FN= 286412  SFN=286411  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 3908  D1= 18566   D2= 27  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286412  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -47  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5236  C=0
+--L1: TX 16K CH=11  FN= 286413  SFN=286412  ST= 8   SR= 0   AF= 563   FQ=  -154656  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 2053  D1= 35438   D2= 18498   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286413  Q= -786432  D= -262144  DF= 0   DR=  -262144  L=0   T= -15  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5039  C=0
+--L1: TX 16K CH=11  FN= 286414  SFN=286413  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386247  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+bsn:19 rlc_blk_ptr->rlps:31 *blk_ptr_temp:2 *(blk_ptr_temp+1):12--L1:  -111   DA8=0   F=286414  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5042  C=0
+--L1: TX 16K CH=11  FN= 286415  SFN=286414  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286415  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -43  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5043  C=0
+--L1: TX 16K CH=11  FN= 286416  SFN=286415  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 2053  D1= 35438   D2= 18498   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286416  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4992  C=0
+--L1: TX 16K CH=11  FN= 286417  SFN=286416  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386248  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286417  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4889  C=0
+--L1: TX 16K CH=11  FN= 286418  SFN=286417  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 2053  D1= 35438   D2= 18498   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286418  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5025  C=0
+--L1: TX 16K CH=11  FN= 286419  SFN=286418  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+bsn:20 rlc_blk_ptr->rlps:4 *blk_ptr_temp:116 *(blk_ptr_temp+1):82
+lx061825  rlps=4 pdulen=82--L1:  -111   DA8=0   F=286419  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5070  C=0
+--L1: TX 16K CH=11  FN= 286420  SFN=286419  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386246  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286420  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4990  C=0
+--L1: TX 16K CH=11  FN= 286421  SFN=286420  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 2053  D1= 35438   D2= 18498   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286421  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5071  C=0
+--L1: TX 16K CH=11  FN= 286422  SFN=286421  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386248  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286422  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4946  C=0
+--L1: DA TX FN= 286422  C_FN= 286422  CH= 11  ST= 8   AF= 563   FQ=  -154694  TC= 1491065   TF= 31621   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0
+--L1: TX 16K CH=11  FN= 286423  SFN=286422  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286423  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=5026  C=0
+--L1: TX 16K CH=11  FN= 286424  SFN=286423  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386247  D0= 3908  D1= 18566   D2= 29  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286424  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=5054  C=0
+--L1: TX 16K CH=11  FN= 286425  SFN=286424  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386241  D0= 3908  D1= 18566   D2= 31  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286425  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4975  C=0
+--L1: TX 16K CH=11  FN= 286426  SFN=286425  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -111   DA8=0   F=286426  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=5050  C=0
+--L1: TX 16K CH=11  FN= 286427  SFN=286426  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286427  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4916  C=0
+--L1: TX 16K CH=11  FN= 286428  SFN=286427  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386253  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286428  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4876  C=0
+--L1: TX 16K CH=11  FN= 286429  SFN=286428  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 3908  D1= 18566   D2= 35  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286429  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=16  X=19197   RA= 37  S=180   E=4977  C=0
+--L1: TX 16K CH=11  FN= 286430  SFN=286429  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386242  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286430  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4975  C=0
+--L1: TX 16K CH=11  FN= 286431  SFN=286430  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286431  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -25  R=563   O=16  X=19197   RA= 37  S=158   E=4943  C=0
+--L1: TX 16K CH=11  FN= 286432  SFN=286431  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386245  D0= 3908  D1= 18566   D2= 39  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+--L1:  -112   DA8=0   F=286432  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=16  X=19197   RA= 37  S=170   E=4965  C=0
+--L1: TX 16K CH=11  FN= 286433  SFN=286432  ST= 8   SR= 0   AF= 563   FQ=  -154694  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 16505   TK= 386243  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 22 ,num_blks_to_reassemble 7
+begin_indx 14,num_blks_to_reasm 7
+blk_second_byte 43--L1:  -112   DA8=0   F=286433  Q= -1048576   D= -262144  DF= 0   DR=  -262144  L=0   T= -26  TP=  -25  R=563   O=16  X=19197   RA= 37  S=174   E=4768  C=0
+lixiangRadioBearerSetup 1 1,1,4
+SRRC LOG:temp version, no check intergrity.
+ps guding 1 255
+actTime_b 1
+--L1: DCH Release E STATUS= 0   Tx Head=0   Rx Head=0   C_SFN=286433
+****ERROR MSG PRIM_ID IS 4647
+mma report error,file[id=9103],task_id=8,proc_id=3,occurs err=21804,line=696
+
+--L1: L1CC RELEASE E_PCH= 1   TCU0= 0   RPS=32  INT1= 0   INT4= 0
+SMAC LOG:Channel change, not reset cipher info
+rlc channel change, cipher no change!!
+lx061825  no sending srrc_rbc_SendInternalLayerCfgMsg
+lx061825  rbid 2 3 1
+lx061825  1  1
+lx061825  111
+lx061825  111 402a2050 0
+lx061825  0 phy_dacch_cfg_b
+pdcp cfg 1 0 2 1 1
+lx061825  rbid 5 3 0
+pdcp cfg 1 1 5 1 0
+srrc_rel 0 0
+--L1: PDCH Num Of uplinks=0
+--L1: PDCH UL OUT Freq Set Mode!
+--L1: PDCH Num Of uplinks=0
+--L1: PDCH UL OUT Freq Set Mode!
+lixiangpdchcfg recv phy cnf 1
+lixiangpdchcfg 3
+mac_recv ul pdch cfd
+MAC UL CFG 11111111, rbid = 2, cfgcnf = 1.
+
+--L1: ST= 0   NU= 40  RBL=1   SFN=286437
+rrc ps cfg in GPRS_RLC_DCH_IDLE
+lixiangrcv 39053 1
+lixiangrcv 39053 2
+SRRC_TRUE == ReCfg_ptr->ReEstRbExist_b
+rbstrart 1 1 0
+lixiangulik 5 hfn 0,msn 3
+Uplink Ik_ptr:
+9c ec fc 80 4c 27 32 96 86 67 d7 83 ab 6b bb bb
+lixiangulik counti 3
+lixiangulik fresh 1032098711
+lixiangulik length 76
+--L1: AllSlot CFG!  TDD AllSlot ARFCN=679   PNB1_10 UW= 0   FN= 286438  TIM= -98  FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 124   EU= 4517
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286438
+--L1: PNB1_10 UW= 0   FN= 286438  TIM= -111   FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4931
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286438
+--L1: PNB1_10 UW= 0   FN= 286438  TIM= -85  FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 5139
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286438
+--L1: PNB1_10 UW= 0   FN= 286439  TIM= -105   FQ+= -1310720   VFC=0   RFC= -1310720   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 103   EU= 4760
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286439
+--L1: PNB1_10 UW= 0   FN= 286439  TIM= -112   FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 126   EU= 4443
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286439
+--L1: PNB1_10 UW= 0   FN= 286439  TIM= -72  FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 87  EU= 5082
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286439
+--L1: PNB1_10 UW= 0   FN= 286439  TIM= -82  FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 4847
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286439
+--L1: PNB1_10 UW= 0   FN= 286440  TIM= -120   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 5210
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286440
+--L1: PNB1_10 UW= 0   FN= 286440  TIM= -85  FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 4537
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286440
+--L1: PNB1_10 UW= 0   FN= 286440  TIM= -93  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 4883
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286440
+--L1: PNB1_10 UW= 0   FN= 286440  TIM= -114   FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 119   EU= 5100
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286440
+--L1: PNB1_10 UW= 0   FN= 286441  TIM= -122   FQ+= -1310720   VFC=0   RFC= -1310720   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 4714
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286441
+--L1: PNB1_10 UW= 0   FN= 286441  TIM= -143   FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 4452
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286441
+--L1: PNB1_10 UW= 0   FN= 286441  TIM= -105   FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 114   EU= 5135
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286441
+--L1: PNB1_10 UW= 0   FN= 286441  TIM= -157   FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 116   EU= 5241
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286441
+--L1: PNB1_10 UW= 0   FN= 286442  TIM= -137   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 105   EU= 5087
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286442
+--L1: PNB1_10 UW= 0   FN= 286442  TIM= -185   FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4637
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286442
+--L1: PNB1_10 UW= 0   FN= 286442  TIM= -174   FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 4933
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286442
+--L1: PNB1_10 UW= 0   FN= 286442  TIM=80  FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 114   EU= 5174
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286442
+--L1: PNB1_10 UW= 0   FN= 286443  TIM=76  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 120   EU= 5265
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286443
+--L1: PNB1_10 UW= 0   FN= 286443  TIM=88  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 4930
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286443
+--L1: PNB1_10 UW= 0   FN= 286443  TIM=101   FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 4944
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286443
+--L1: PNB1_10 UW= 0   FN= 286443  TIM=87  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 109   EU= 5467
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286443
+--L1: PNB1_10 UW= 0   FN= 286444  TIM=94  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 5151
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286444
+--L1: PNB1_10 UW= 0   FN= 286444  TIM=74  FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 110   EU= 4657
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286444
+--L1: PNB1_10 UW= 0   FN= 286444  TIM=72  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 4991
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286444
+--L1: PNB1_10 UW= 0   FN= 286444  TIM=33  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 107   EU= 5141
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286444
+--L1: PNB1_10 UW= 0   FN= 286445  TIM=51  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 5146
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286445
+--L1: PNB1_10 UW= 0   FN= 286445  TIM=51  FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 4652
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286445
+--L1: PNB1_10 UW= 0   FN= 286445  TIM=7   FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 5029
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286445
+--L1: PNB1_10 UW= 0   FN= 286445  TIM=39  FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 92  EU= 5292
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286445
+--L1: PNB1_10 UW= 0   FN= 286446  TIM=27  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 86  EU= 5367
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286446
+--L1: PNB1_10 UW= 0   FN= 286446  TIM=22  FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 113   EU= 4825
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286446
+--L1: PNB1_10 UW= 0   FN= 286446  TIM= -6   FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4863
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286446
+--L1: PNB1_10 UW= 0   FN= 286446  TIM=17  FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 83  EU= 5276
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286446
+--L1: PNB1_10 UW= 0   FN= 286447  TIM= -21  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 103   EU= 4986
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286447
+--L1: PNB1_10 UW= 0   FN= 286447  TIM=8   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 116   EU= 4631
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286447
+--L1: PNB1_10 UW= 0   FN= 286447  TIM=32  FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 120   EU= 5114
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286447
+--L1: PNB1_10 UW= 0   FN= 286447  TIM=2   FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4875
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286447
+--L1: PNB1_10 UW= 0   FN= 286448  TIM=6   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 5319
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286448
+--L1: PNB1_10 UW= 0   FN= 286448  TIM= -18  FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 108   EU= 4978
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286448
+--L1: PNB1_10 UW= 0   FN= 286448  TIM= -61  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 83  EU= 5220
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286448
+--L1: PNB1_10 UW= 0   FN= 286448  TIM= -31  FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 118   EU= 5015
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286448
+--L1: PNB1_10 UW= 0   FN= 286449  TIM= -35  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 5131
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286449
+--L1: PNB1_10 UW= 0   FN= 286449  TIM= -16  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 91  EU= 5037
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286449
+--L1: PNB1_10 UW= 0   FN= 286449  TIM= -28  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 5190
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286449
+--L1: PNB1_10 UW= 0   FN= 286449  TIM= -34  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 82  EU= 5199
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286449
+--L1: PNB1_10 UW= 0   FN= 286450  TIM= -47  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 98  EU= 5249
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286450
+PPP: get ipcp data, stored it.
+--L1: PNB1_10 UW= 0   FN= 286450  TIM= -61  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 106   EU= 4655
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286450
+--L1: PNB1_10 UW= 0   FN= 286450  TIM= -73  FQ+= -1310720   VFC=0   RFC= -1310720   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 5149
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286450
+--L1: PNB1_10 UW= 0   FN= 286450  TIM= -35  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 5169
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286450
+--L1: PNB1_10 UW= 0   FN= 286451  TIM= -93  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 81  EU= 5432
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286451
+--L1: PNB1_10 UW= 0   FN= 286451  TIM= -93  FQ+= -1310720   VFC=0   RFC= -1310720   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 111   EU= 4785
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286451
+--L1: PNB1_10 UW= 0   FN= 286451  TIM= -89  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4684
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286451
+--L1: PNB1_10 UW= 0   FN= 286451  TIM= -64  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 92  EU= 4990
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286451
+--L1: PNB1_10 UW= 0   FN= 286452  TIM= -43  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 91  EU= 5274
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286452
+--L1: PNB1_10 UW= 0   FN= 286452  TIM= -100   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 4459
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286452
+--L1: PNB1_10 UW= 0   FN= 286452  TIM= -98  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 5076
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286452
+--L1: PNB1_10 UW= 0   FN= 286452  TIM= -84  FQ+= -1310720   VFC=0   RFC= -1310720   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 5345
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286452
+--L1: PNB1_10 UW= 0   FN= 286453  TIM= -119   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 91  EU= 4959
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286453
+--L1: PNB1_10 UW= 0   FN= 286453  TIM= -95  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 117   EU= 4374
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286453
+--L1: PNB1_10 UW= 0   FN= 286453  TIM= -92  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 115   EU= 5170
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286453
+--L1: PNB1_10 UW= 0   FN= 286453  TIM= -125   FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 92  EU= 5220
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286453
+--L1: PNB1_10 UW= 0   FN= 286454  TIM= -154   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 4969
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286454
+--L1: PNB1_10 UW= 0   FN= 286454  TIM= -110   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4493
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286454
+--L1: PNB1_10 UW= 0   FN= 286454  TIM= -135   FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 90  EU= 5154
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286454
+--L1: PNB1_10 UW= 0   FN= 286454  TIM= -146   FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 92  EU= 5229
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286454
+--L1: PNB1_10 UW= 0   FN= 286455  TIM= -127   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 90  EU= 4975
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286455
+--L1: PNB1_10 UW= 0   FN= 286455  TIM= -139   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4864
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286455
+--L1: PNB1_10 UW= 0   FN= 286455  TIM= -163   FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 92  EU= 5212
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286455
+--L1: PNB1_10 UW= 0   FN= 286455  TIM= -127   FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 5213
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286455
+--L1: PNB1_10 UW= 0   FN= 286456  TIM= -153   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 91  EU= 5002
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286456
+--L1: PNB1_10 UW= 0   FN= 286456  TIM= -151   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4844
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286456
+--L1: PNB1_10 UW= 0   FN= 286456  TIM= -156   FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 84  EU= 5176
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286456
+--L1: PNB1_10 UW= 0   FN= 286456  TIM=90  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 87  EU= 5120
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286456
+--L1: PNB1_10 UW= 0   FN= 286457  TIM=70  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 5107
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286457
+--L1: PNB1_10 UW= 0   FN= 286457  TIM=102   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4748
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286457
+--L1: PNB1_10 UW= 0   FN= 286457  TIM=80  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 119   EU= 5404
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286457
+--L1: PNB1_10 UW= 0   FN= 286457  TIM=75  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 107   EU= 4933
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286457
+--L1: PNB1_10 UW= 0   FN= 286458  TIM=69  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 5060
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286458
+--L1: PNB1_10 UW= 0   FN= 286458  TIM=40  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 111   EU= 4828
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286458
+--L1: PNB1_10 UW= 0   FN= 286458  TIM=64  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 4974
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286458
+--L1: PNB1_10 UW= 0   FN= 286458  TIM=41  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 5012
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286458
+--L1: PNB1_10 UW= 0   FN= 286459  TIM=32  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 89  EU= 4820
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286459
+--L1: PNB1_10 UW= 0   FN= 286459  TIM=43  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 4653
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286459
+--L1: PNB1_10 UW= 0   FN= 286459  TIM=40  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 5103
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286459
+--L1: PNB1_10 UW= 0   FN= 286459  TIM=52  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 103   EU= 4977
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286459
+--L1: PNB1_10 UW= 0   FN= 286460  TIM=35  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 109   EU= 5103
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286460
+--L1: PNB1_10 UW= 0   FN= 286460  TIM=12  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 98  EU= 4703
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286460
+--L1: PNB1_10 UW= 0   FN= 286460  TIM=29  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 88  EU= 5121
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286460
+--L1: PNB1_10 UW= 0   FN= 286460  TIM= -18  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 5081
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286460
+--L1: PNB1_10 UW= 0   FN= 286461  TIM=7   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 5055
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286461
+--L1: PNB1_10 UW= 0   FN= 286461  TIM= -16  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 4662
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286461
+--L1: PNB1_10 UW= 0   FN= 286461  TIM=31  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 5114
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286461
+--L1: PNB1_10 UW= 0   FN= 286461  TIM= -40  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4935
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286461
+--L1: PNB1_10 UW= 0   FN= 286462  TIM=4   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 109   EU= 5184
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286462
+--L1: PNB1_10 UW= 0   FN= 286462  TIM= -6   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 90  EU= 4651
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286462
+--L1: PNB1_10 UW= 0   FN= 286462  TIM= -27  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 5332
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286462
+--L1: PNB1_10 UW= 0   FN= 286462  TIM= -48  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4958
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286462
+--L1: PNB1_10 UW= 0   FN= 286463  TIM= -71  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 98  EU= 5243
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286463
+--L1: PNB1_10 UW= 0   FN= 286463  TIM= -15  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4793
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286463
+--L1: PNB1_10 UW= 0   FN= 286463  TIM= -12  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 4923
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286463
+--L1: PNB1_10 UW= 0   FN= 286463  TIM= -41  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 4858
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286463
+--L1: PNB1_10 UW= 0   FN= 286464  TIM= -39  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 112   EU= 5192
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286464
+--L1: PNB1_10 UW= 0   FN= 286464  TIM= -36  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 103   EU= 4986
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286464
+--L1: PNB1_10 UW= 0   FN= 286464  TIM= -77  FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 114   EU= 4904
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286464
+--L1: PNB1_10 UW= 0   FN= 286464  TIM= -49  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4753
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286464
+--L1: PNB1_10 UW= 0   FN= 286465  TIM= -69  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 5163
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286465
+--L1: PNB1_10 UW= 0   FN= 286465  TIM= -115   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 4812
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286465
+--L1: PNB1_10 UW= 0   FN= 286465  TIM= -119   FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 4682
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286465
+--L1: PNB1_10 UW= 0   FN= 286465  TIM= -74  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 107   EU= 5291
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286465
+--L1: PNB1_10 UW= 0   FN= 286466  TIM= -65  FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 91  EU= 5448
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286466
+--L1: PNB1_10 UW= 0   FN= 286466  TIM= -79  FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4783
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286466
+--L1: PNB1_10 UW= 0   FN= 286466  TIM= -100   FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 111   EU= 4944
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286466
+--L1: PNB1_10 UW= 0   FN= 286466  TIM= -88  FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 5141
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286466
+--L1: PNB1_10 UW= 0   FN= 286467  TIM= -119   FQ+= -1310720   VFC=0   RFC= -1572864   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 5060
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286467
+--L1: PNB1_10 UW= 0   FN= 286467  TIM= -104   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 111   EU= 4495
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286467
+--L1: PNB1_10 UW= 0   FN= 286467  TIM= -102   FQ+= -1310720   VFC=0   RFC= -1572864   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 5380
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286467
+--L1: PNB1_10 UW= 0   FN= 286467  TIM= -123   FQ+= -1310720   VFC=0   RFC= -1572864   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 5208
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286467
+--L1: PNB1_10 UW= 0   FN= 286468  TIM= -98  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 5113
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286468
+--L1: PNB1_10 UW= 0   FN= 286468  TIM= -108   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 119   EU= 4765
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286468
+--L1: PNB1_10 UW= 0   FN= 286468  TIM= -131   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 5373
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286468
+--L1: PNB1_10 UW= 0   FN= 286468  TIM= -118   FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 5056
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286468
+--L1: PNB1_10 UW= 0   FN= 286469  TIM= -139   FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 109   EU= 4871
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286469
+--L1: PNB1_10 UW= 0   FN= 286469  TIM= -147   FQ+= -1310720   VFC=0   RFC= -1572864   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 4755
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286469
+--L1: PNB1_10 UW= 0   FN= 286469  TIM= -120   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 77  EU= 5103
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286469
+--L1: PNB1_10 UW= 0   FN= 286469  TIM= -165   FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 124   EU= 5249
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286469
+--L1: PNB1_10 UW= 0   FN= 286470  TIM= -163   FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 103   EU= 5433
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286470
+--L1: PNB1_10 UW= 0   FN= 286470  TIM= -163   FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4586
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286470
+--L1: PNB1_10 UW= 0   FN= 286470  TIM= -192   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 98  EU= 5299
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286470
+--L1: PNB1_10 UW= 0   FN= 286470  TIM=68  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 85  EU= 4810
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286470
+--L1: PNB1_10 UW= 0   FN= 286471  TIM=98  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 77  EU= 4818
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286471
+--L1: PNB1_10 UW= 0   FN= 286471  TIM=62  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 4810
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286471
+--L1: PNB1_10 UW= 0   FN= 286471  TIM=44  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 4751
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286471
+--L1: PNB1_10 UW= 0   FN= 286471  TIM=79  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 5018
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286471
+--L1: PNB1_10 UW= 0   FN= 286472  TIM=20  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 5437
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286472
+--L1: PNB1_10 UW= 0   FN= 286472  TIM=55  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4700
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286472
+--L1: PNB1_10 UW= 0   FN= 286472  TIM=60  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 87  EU= 4966
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286472
+--L1: PNB1_10 UW= 0   FN= 286472  TIM=41  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4883
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286472
+--L1: PNB1_10 UW= 0   FN= 286473  TIM=57  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 85  EU= 5241
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286473
+--L1: PNB1_10 UW= 0   FN= 286473  TIM=16  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 4573
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286473
+--L1: PNB1_10 UW= 0   FN= 286473  TIM=19  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 5003
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286473
+--L1: PNB1_10 UW= 0   FN= 286473  TIM=17  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 108   EU= 5087
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286473
+--L1: PNB1_10 UW= 0   FN= 286474  TIM=21  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 4907
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286474
+--L1: PNB1_10 UW= 0   FN= 286474  TIM=6   FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 120   EU= 4802
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286474
+--L1: PNB1_10 UW= 0   FN= 286474  TIM=23  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4848
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286474
+--L1: PNB1_10 UW= 0   FN= 286474  TIM= -20  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 89  EU= 4927
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286474
+--L1: PNB1_10 UW= 0   FN= 286475  TIM=20  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 4572
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286475
+--L1: PNB1_10 UW= 0   FN= 286475  TIM=22  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 94  EU= 4299
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286475
+--L1: PNB1_10 UW= 0   FN= 286475  TIM= -31  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 107   EU= 4945
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286475
+--L1: PNB1_10 UW= 0   FN= 286475  TIM= -2   FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 109   EU= 5029
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286475
+--L1: PNB1_10 UW= 0   FN= 286476  TIM=29  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4816
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286476
+--L1: PNB1_10 UW= 0   FN= 286476  TIM= -27  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4469
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286476
+--L1: PNB1_10 UW= 0   FN= 286476  TIM= -44  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 86  EU= 5234
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286476
+--L1: PNB1_10 UW= 0   FN= 286476  TIM= -44  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 5106
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286476
+--L1: PNB1_10 UW= 0   FN= 286477  TIM= -47  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 110   EU= 4728
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286477
+--L1: PNB1_10 UW= 0   FN= 286477  TIM= -21  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 4533
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286477
+--L1: PNB1_10 UW= 0   FN= 286477  TIM= -46  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 5057
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286477
+--L1: PNB1_10 UW= 0   FN= 286477  TIM= -11  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 5029
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286477
+--L1: PNB1_10 UW= 0   FN= 286478  TIM= -87  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 72  EU= 5263
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286478
+--L1: PNB1_10 UW= 0   FN= 286478  TIM= -54  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4496
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286478
+--L1: PNB1_10 UW= 0   FN= 286478  TIM= -48  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 105   EU= 5362
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286478
+--L1: PNB1_10 UW= 0   FN= 286478  TIM= -38  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 4864
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286478
+--L1: PNB1_10 UW= 0   FN= 286479  TIM= -48  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 109   EU= 4624
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286479
+--L1: PNB1_10 UW= 0   FN= 286479  TIM= -59  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4594
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286479
+--L1: PNB1_10 UW= 0   FN= 286479  TIM= -122   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 4845
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286479
+--L1: PNB1_10 UW= 0   FN= 286479  TIM= -69  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4972
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286479
+--L1: PNB1_10 UW= 0   FN= 286480  TIM= -84  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 5063
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286480
+--L1: PNB1_10 UW= 0   FN= 286480  TIM= -110   FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 83  EU= 4504
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286480
+--L1: PNB1_10 UW= 0   FN= 286480  TIM= -107   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 4863
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286480
+--L1: PNB1_10 UW= 0   FN= 286480  TIM= -80  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 103   EU= 4575
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286480
+--L1: PNB1_10 UW= 0   FN= 286481  TIM= -91  FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 96  EU= 4769
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286481
+--L1: PNB1_10 UW= 0   FN= 286481  TIM= -138   FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 107   EU= 5085
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286481
+--L1: PNB1_10 UW= 0   FN= 286481  TIM= -122   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 4920
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286481
+--L1: PNB1_10 UW= 0   FN= 286481  TIM= -138   FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 112   EU= 4842
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286481
+--L1: PNB1_10 UW= 0   FN= 286482  TIM= -150   FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 105   EU= 4893
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286482
+--L1: PNB1_10 UW= 0   FN= 286482  TIM= -142   FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 113   EU= 4517
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286482
+--L1: PNB1_10 UW= 0   FN= 286482  TIM= -141   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 114   EU= 4922
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286482
+--L1: PNB1_10 UW= 0   FN= 286482  TIM=129   FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 5057
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286482
+--L1: PNB1_10 UW= 0   FN= 286483  TIM=118   FQ+= -1310720   VFC=0   RFC= -1835008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 5212
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286483
+--L1: PNB1_10 UW= 0   FN= 286483  TIM=69  FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 116   EU= 4633
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286483
+--L1: PNB1_10 UW= 0   FN= 286483  TIM=104   FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 87  EU= 5020
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286483
+--L1: PNB1_10 UW= 0   FN= 286483  TIM=73  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 107   EU= 5177
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286483
+--L1: PNB1_10 UW= 0   FN= 286484  TIM=117   FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 114   EU= 4715
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286484
+--L1: PNB1_10 UW= 0   FN= 286484  TIM=97  FQ+= -1310720   VFC=0   RFC= -1835008   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 95  EU= 4828
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286484
+--L1: PNB1_10 UW= 0   FN= 286484  TIM=80  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 4990
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286484
+--L1: PNB1_10 UW= 0   FN= 286484  TIM=84  FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 111   EU= 5023
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286484
+--L1: PNB1_10 UW= 0   FN= 286485  TIM=94  FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 103   EU= 4947
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286485
+--L1: PNB1_10 UW= 0   FN= 286485  TIM=63  FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4639
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286485
+--L1: PNB1_10 UW= 0   FN= 286485  TIM=31  FQ+= -1310720   VFC=0   RFC= -1835008   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 5561
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286485
+--L1: PNB1_10 UW= 0   FN= 286485  TIM=82  FQ+= -1310720   VFC=0   RFC= -1835008   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 105   EU= 5104
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286485
+--L1: PNB1_10 UW= 0   FN= 286486  TIM=40  FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 5148
+--L1: PNB1_10_USF=2   MCS=7   PNB1_10 MCS=7   USF=2   RBN=0   EXT=4   RFN=286486
+--L1: PNB1_10 UW= 0   FN= 286486  TIM=65  FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 114   EU= 4939
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286486
+--L1: PNB1_10 UW= 0   FN= 286486  TIM=67  FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 5129
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286486
+--L1: PNB1_10 UW= 0   FN= 286486  TIM=57  FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 5152
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286486
+lixiangpdcp rcv data d curr 12,total 0
+SRLC: UD bsn: 0, total: 0 , nack 0 , 0
+RLCSEND: new bsn 0
+--L1: PNB1_10 UW= 0   FN= 286487  TIM=16  FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 5267
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286487
+--L1: PNB1_10 UW= 0   FN= 286487  TIM=57  FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 117   EU= 4734
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286487
+--L1: PNB1_10 UW= 0   FN= 286487  TIM=45  FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 105   EU= 5314
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286487
+--L1: PNB1_10 UW= 0   FN= 286487  TIM= -11  FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 108   EU= 5387
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286487
+--L1: PNB1_10 UW= 16  FN= 286488  TIM= -1508  FQ+= -1310720   VFC=0   RFC= -40894464  L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286488  TIM= -1276  FQ+= -1310720   VFC=0   RFC= -2883584   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286488  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286488  TIM= -1276  FQ+= -1310720   VFC=0   RFC= -47710208  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286489  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286489  TIM= -1276  FQ+= -1310720   VFC=0   RFC=29884416  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286489  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286489  TIM= -1276  FQ+= -1310720   VFC=0   RFC=51642368  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286490  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286490  TIM= -1276  FQ+= -1310720   VFC=0   RFC=26476544  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286490  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286490  TIM= -1276  FQ+= -1310720   VFC=0   RFC=31457280  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286491  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286491  TIM= -1276  FQ+= -1310720   VFC=0   RFC=49807360  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286491  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: AllSlot ReCFG FN= 286491  PNB1_10 UW= 16  FN= 286491  TIM= -1276  FQ+= -1310720   VFC=0   RFC=30670848  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=679   PNB1_10 UW= 17  FN= 286492  TIM=934   FQ+= -1310720   VFC=0   RFC=134217728   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 0
+--L1: PNB1_10 UW= 0   FN= 286492  TIM=148   FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 121   EU= 4463
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286492
+--L1: PNB1_10 UW= 0   FN= 286492  TIM=266   FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 116   EU= 5183
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286492
+--L1: PNB1_10 UW= 0   FN= 286492  TIM= -37  FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 4945
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286492
+--L1: PNB1_10 UW= 0   FN= 286493  TIM= -68  FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 106   EU= 4762
+--L1: PNB1_10_USF=1   MCS=7   PNB1_10 MCS=7   USF=1   RBN=1   EXT=4   RFN=286493
+--L1: PNB1_10 UW= 0   FN= 286493  TIM=22  FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 104   EU= 4309
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286493
+--L1: PNB1_10 UW= 0   FN= 286493  TIM= -46  FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 120   EU= 5021
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286493
+--L1: PNB1_10 UW= 0   FN= 286493  TIM= -67  FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 110   EU= 4988
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286493
+--L1: PNB1_10 UW= 0   FN= 286494  TIM= -57  FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 4887
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286494
+--L1: PNB1_10 UW= 0   FN= 286494  TIM= -45  FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 107   EU= 4476
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286494
+--L1: PNB1_10 UW= 0   FN= 286494  TIM= -56  FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 5015
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286494
+--L1: PNB1_10 UW= 0   FN= 286494  TIM= -40  FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 85  EU= 4932
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286494
+--L1: PNB1_10 UW= 16  FN= 286495  TIM= -1053  FQ+= -1310720   VFC=0   RFC= -103546880   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286495  TIM= -1276  FQ+= -1310720   VFC=0   RFC= -2883584   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286495  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286495  TIM= -1276  FQ+= -1310720   VFC=0   RFC= -47710208  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286496  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286496  TIM= -1276  FQ+= -1310720   VFC=0   RFC=29884416  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286496  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286496  TIM= -1276  FQ+= -1310720   VFC=0   RFC=51642368  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286497  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286497  TIM= -1276  FQ+= -1310720   VFC=0   RFC=26476544  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286497  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286497  TIM= -1276  FQ+= -1310720   VFC=0   RFC=31457280  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286498  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286498  TIM= -1276  FQ+= -1310720   VFC=0   RFC=49807360  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286498  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: AllSlot ReCFG FN= 286498  PNB1_10 UW= 16  FN= 286498  TIM= -1276  FQ+= -1310720   VFC=0   RFC=30670848  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=679   PNB1_10 UW= 17  FN= 286499  TIM= -1424  FQ+= -1310720   VFC=0   RFC=132120576   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 88  EU= 0
+--L1: PNB1_10 UW= 0   FN= 286499  TIM= -330   FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 112   EU= 4775
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286499
+--L1: DsynTdiff=481   PNB1_10 UW= 0   FN= 286499  TIM= -336   FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 92  EU= 4660
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286499
+--L1: PNB1_10 UW= 0   FN= 286499  TIM= -38  FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 114   EU= 4810
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286499
+--L1: PNB1_10 UW= 0   FN= 286500  TIM= -72  FQ+= -1310720   VFC=0   RFC= -2359296   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 108   EU= 5045
+--L1: PNB1_10_USF=2   MCS=7   PNB1_10 MCS=7   USF=2   RBN=0   EXT=4   RFN=286500
+PPP: get ipcp data, stored it.
+--L1: PNB1_10 UW= 0   FN= 286500  TIM= -74  FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 4458
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286500
+--L1: PNB1_10 UW= 0   FN= 286500  TIM= -99  FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 97  EU= 5088
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286500
+--L1: PNB1_10 UW= 0   FN= 286500  TIM= -66  FQ+= -1310720   VFC=0   RFC= -2359296   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 112   EU= 4866
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286500
+--L1: PNB1_10 UW= 0   FN= 286501  TIM= -103   FQ+= -1310720   VFC=0   RFC= -2097152   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 92  EU= 4700
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286501
+--L1: PNB1_10 UW= 0   FN= 286501  TIM= -118   FQ+= -1310720   VFC=0   RFC= -2097152   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 98  EU= 4878
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286501
+--L1: PNB1_10 UW= 0   FN= 286501  TIM= -126   FQ+= -1310720   VFC=0   RFC= -2097152   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 122   EU= 5059
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286501
+--L1: PNB1_10 UW= 0   FN= 286501  TIM= -101   FQ+= -1310720   VFC=0   RFC= -2097152   L=20  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 116   EU= 5072
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286501
+--L1: PNB1_10 UW= 16  FN= 286502  TIM= -771   FQ+= -1310720   VFC=0   RFC= -132907008   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286502  TIM= -1276  FQ+= -1310720   VFC=0   RFC= -2883584   L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286502  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286502  TIM= -1276  FQ+= -1310720   VFC=0   RFC= -47710208  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286503  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286503  TIM= -1276  FQ+= -1310720   VFC=0   RFC=29884416  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286503  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286503  TIM= -1276  FQ+= -1310720   VFC=0   RFC=51642368  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286504  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286504  TIM= -1276  FQ+= -1310720   VFC=0   RFC=26476544  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286504  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286504  TIM= -1276  FQ+= -1310720   VFC=0   RFC=31457280  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286505  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=30  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286505  TIM= -1276  FQ+= -1310720   VFC=0   RFC=49807360  L=0   R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286505  TIM= -1276  FQ+= -1310720   VFC=0   RFC=0   L=10  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: AllSlot ReCFG FN= 286505  PNB1_10 UW= 16  FN= 286505  TIM= -1276  FQ+= -1310720   VFC=0   RFC=30670848  L=20  R=679   A=37  V=1263  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=679   PNB1_10 UW= 18  FN= 286506  TIM=743   FQ+= -1310720   VFC=0   RFC= -22806528  L=30  R=679   A=37  V=1263  C=0   P=0   SR= 0   SU= 0   ER= 81  EU= 0
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 1
+lixiangackind ssn=1,va=0,vs=1,q_idx2=0,q_idx1=1
+wangchong bitmap length is: 0  no_of_blks: 1
+wangchong if bitmap is compressed: 1
+lixiangtxarq bsn = 0
+bsn:0 rlc_blk_ptr->lps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):10, rlc_blk_ptr->blk_size:37
+lixiangtxarq 3
+lixiangpdcp rcv data e relpdulen 12--L1: PNB1_10 UW= 0   FN= 286506  TIM= -174   FQ+= -1310720   VFC= -2359296   RFC= -2359296   L=0   R=679   A=37  V=2923  C=0   P=0   SR= 170   SU= 0   ER= 4805  EU= 4584
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -334   DFU= -155086  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=286506
+--L1: PDCH_BS_PAR=8   LAS_SQM=0   CUR_SQM=0   AVG_PAN=0   LOCAL_PAN=8   FN= 286506
+luxy: srrc send P_SRRC_MM_SYNC_IND msg success
+lixiangrb 6 37815
+lixiangrb 7 1
+luxy: MM receive prim is P_SRRC_MM_SYNC_IND
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: SM receive event is 206d
+luxy: SM the current state is 3
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 20
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 0, PDU length = 29
+                                                                         --L1: PNB1_10 UW= 0   FN= 286506  TIM= -180   FQ+= -2883584   VFC= -786432  RFC= -786432  L=10  R=679   A=37  V=4004  C=0   P=0   SR= 174   SU= 0   ER= 5136  EU= 5085
+--L1: PNB1_10_USF=0   MCS=2   Def10X=  -112   DFU= -155198  PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=286506
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 286506 luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 20
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 20
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 1, PDU length = 29
+                                                                         --L1: PNB1_10 UW= 0   FN= 286506  TIM=87  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4606  C=0   P=0   SR= 170   SU= 0   ER= 5179  EU= 5208
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=286506
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 286506
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 2, PDU length = 4
+
+Reasm begin
+reasm peer len = 62
+blk_second_byte 52997--L1: PNB1_10 UW= 0   FN= 286507  TIM=60  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4702  C=0   P=0   SR= 165   SU= 0   ER= 4565  EU= 4799
+--L1: PNB1_10_USF=2   MCS=2   PNB1_10 MCS=2   USF=2   RBN=0   EXT=4   RFN=286507
+--L1: PDCH_BS_PAR=8   ADJ FAST  FN= 286507
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,1
+lixiangdt 3 1
+luxy: GMM receive prim is P_SRRC_GMM_DATA_IND
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 120b
+luxy: peer msg type is 42
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: SM receive event is 1e19
+luxy: SM the current state is 3
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 20
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+
+
+SMAC WARNING: DL PNB contains unknown block types!--L1: PNB1_10 UW= 0   FN= 286507  TIM=59  FQ+= -3670016   VFC=0   RFC=0   L=0   R=679   A=37  V=4711  C=0   P=0   SR= 174   SU= 0   ER= 4743  EU= 4719
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=286507
+--L1: PDCH_BS_PAR=7   ADJ FAST  FN= 286507 luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 20
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 20
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+fatp_gprs_activate_cnf:from_flag:4
+---->PPP send out pending ipcp message
+
+--L1: PNB1_10 UW= 0   FN= 286507  TIM=73  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4711  C=0   P=0   SR= 0   SU= 0   ER= 98  EU= 4874
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286507
+--L1: PNB1_10 UW= 0   FN= 286507  TIM=68  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4711  C=0   P=0   SR= 0   SU= 0   ER= 89  EU= 4731
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286507
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+PPP: get ipcp data, stored it.
+--L1: PNB1_10 UW= 0   FN= 286508  TIM=81  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4711  C=0   P=0   SR= 0   SU= 0   ER= 101   EU= 5059
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286508
+^SATSIGNAL:-112,21
+
+^CPSTATE: -112,562,36,85
+
++CGEV: ME ACT "IP","10.50.0.110",1
+
+--L1: PNB1_10 UW= 0   FN= 286508  TIM=48  FQ+= -3670016   VFC=0   RFC=0   L=0   R=679   A=37  V=4711  C=0   P=0   SR= 0   SU= 0   ER= 87  EU= 4653
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286508
+--L1: PNB1_10 UW= 0   FN= 286508  TIM=68  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4711  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4980
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286508
+--L1: PNB1_10 UW= 0   FN= 286508  TIM=66  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4711  C=0   P=0   SR= 0   SU= 0   ER= 99  EU= 4805
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286508
+--L1: PNB1_10 UW= 16  FN= 286509  TIM= -771   FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286509  TIM= -1276  FQ+= -3670016   VFC=0   RFC= -105381888   L=0   R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286509  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286509  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286510  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286510  TIM= -1276  FQ+= -3670016   VFC=0   RFC= -105381888   L=0   R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286510  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286510  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286511  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286511  TIM= -1276  FQ+= -3670016   VFC=0   RFC= -105381888   L=0   R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286511  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286511  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286512  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286512  TIM= -1276  FQ+= -3670016   VFC=0   RFC= -105381888   L=0   R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286512  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: AllSlot ReCFG FN= 286512  PNB1_10 UW= 16  FN= 286512  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4711  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: TDD AllSlot ARFCN=679   PNB1_10 UW= 14  FN= 286513  TIM=801   FQ+= -3670016   VFC=0   RFC= -26738688  L=30  R=679   A=37  V=4711  C=0   P=0   SR= 0   SU= 0   ER= 93  EU= 0
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 2, PDU length = 4
+
+BSN = 2 is out of receiving window
+                                   bow_bsn = 3--L1: PNB1_10 UW= 0   FN= 286513  TIM= -8   FQ+= -3670016   VFC=0   RFC=0   L=0   R=679   A=37  V=4633  C=0   P=0   SR= 170   SU= 0   ER= 4725  EU= 4555
+--L1: PNB1_10_USF=0   MCS=2   PNB1_10 MCS=2   USF=0   RBN=255   EXT=7   RFN=286513
+--L1: PDCH_BS_PAR=7   LAS_SQM=0   CUR_SQM=0   AVG_PAN=0   LOCAL_PAN=7   FN= 286513
+--L1: PNB1_10 UW= 0   FN= 286513  TIM= -14  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 110   EU= 4657
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286513
+--L1: PNB1_10 UW= 0   FN= 286513  TIM=1   FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 98  EU= 4793
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286513
+--L1: PNB1_10 UW= 0   FN= 286514  TIM= -7   FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 117   EU= 4503
+--L1: PNB1_10_USF=1   MCS=7   PNB1_10 MCS=7   USF=1   RBN=1   EXT=4   RFN=286514
+--L1: PNB1_10 UW= 0   FN= 286514  TIM= -46  FQ+= -3670016   VFC=0   RFC=0   L=0   R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 84  EU= 4568
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286514
+--L1: PNB1_10 UW= 0   FN= 286514  TIM= -14  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 91  EU= 4881
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286514
+--L1: PNB1_10 UW= 0   FN= 286514  TIM= -48  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 100   EU= 4849
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286514
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+--L1: PNB1_10 UW= 0   FN= 286515  TIM= -38  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 106   EU= 5150
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286515
+--L1: PNB1_10 UW= 0   FN= 286515  TIM= -58  FQ+= -3670016   VFC=0   RFC=0   L=0   R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 117   EU= 4637
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286515
+--L1: PNB1_10 UW= 0   FN= 286515  TIM= -39  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 108   EU= 4769
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286515
+--L1: PNB1_10 UW= 0   FN= 286515  TIM= -25  FQ+= -3670016   VFC=0   RFC= -262144  L=20  R=679   A=37  V=4633  C=0   P=0   SR= 0   SU= 0   ER= 102   EU= 4792
+--L1: PNB1_10_USF=0   MCS=7   PNB1_10 MCS=7   USF=0   RBN=255   EXT=7   RFN=286515
+--L1: PNB1_10 UW= 16  FN= 286516  TIM= -771   FQ+= -3670016   VFC=0   RFC= -24379392  L=30  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286516  TIM= -1276  FQ+= -3670016   VFC=0   RFC= -105381888   L=0   R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286516  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286516  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286517  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286517  TIM= -1276  FQ+= -3670016   VFC=0   RFC= -105381888   L=0   R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286517  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286517  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286518  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=30  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286518  TIM= -1276  FQ+= -3670016   VFC=0   RFC= -105381888   L=0   R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0 
+--L1: PNB1_10 UW= 16  FN= 286518  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=10  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  FN= 286518  TIM= -1276  FQ+= -3670016   VFC=0   RFC=0   L=20  R=679   A=37  V=4633  C=0   P=0   SR= 250   SU= 0   ER= 0   EU= 0
+--L1: PNB1_10 UW= 16  F

@@ -1,0 +1,656 @@
+(base) PS C:\Users\11915\Downloads\ADB> strings ril-muxd-cetc54
+/system/bin/linker
+__libc_init
+__cxa_atexit
+free
+__aeabi_unwind_cpp_pr0
+memcpy
+__vsprintf_chk
+__android_log_buf_print
+__aeabi_unwind_cpp_pr1
+__system_property_get
+memcmp
+tcgetattr
+tcsetattr
+close
+__system_property_set
+exit
+sleep
+__stack_chk_guard
+strncmp
+strstr
+malloc
+memset
+pthread_mutex_lock
+write
+pthread_mutex_unlock
+strlen
+__aeabi_idiv
+__errno
+strerror
+__sprintf_chk
+__strcat_chk
+read
+unlink
+usleep
+open
+grantpt
+unlockpt
+ptsname
+symlink
+perror
+sscanf
+strchr
+cfsetispeed
+cfsetospeed
+tcflush
+strcmp
+getpid
+kill
+__stack_chk_fail
+system
+pthread_create
+pthread_mutex_init
+signal
+_edata
+__bss_start
+_end
+libc.so
+liblog.so
+libm.so
+libstdc++.so
+ yD"F
+N~D0F
+!xD%p
+N8h~D
+0hiF
+0hIF
+ 2FyD
+I0FyD
+(hiF
+(hjF&
+ *FyD
+I(FyD
+0hiF
+jFIF%
+ 2FyD
+I0FyD
+%~DO
+0FwIO
+H0!xD
+(F3F)FO
+X_JzD
+\I\J`X
+F`YzD
+F XzD
+!|DxD?N
+!~DxD
+!zD{D
+%K&J{D&I
+XyD$O%N
+D$L~D
+8F)F
+(F1F
+KzD{D
+H1FxD
+(F!F2F
+  OyD
+!F0F
+"F8h
+&yDO
+M~D}D0
+I"FyD
+#CTCI
+ "FyD
+D"FyD
+ FIF
+#"FyD$L|D(D
+2F h
+*F8h
+UKzD
+QJQIRKzDyD
+<"FyD
+(F!F
+F6N}D*x
+hx4I
+yD@z
+8F1F
+8F1F
+!{DO
+)F FO
+zD{D
+#(F+UyD
+ *FyD
+"F8h
+rKsJ{DsI-
+XyDqL
+iI3FiJ
+U8FdIyD
+_JzD
+^I(FyD
+]H1FxD
+ UI}DyD
+!9qxD1F
+ yD"`
+<L|D<
+iF h
+ hjF'
+*IyD
+(I*F
+(FIF
+!L|D F
+(F"F
+F0FyD"F
+I F<`yD
+I0F>`yD
+@FQFZF
+=`0F
+ "FyD
+I FyD
+ {DZx
+ F)F
+ F)F
+!F*F
+ F)F
+ F9FZF
+I8FyD
+ yDg
+_IyD
+\IyD
+XI F
+UI"F
+KIyD
+        pXF
+BIyD
+XFQFJF
+9p2F0I
+r,O F
+D|D~D8h!FO
+ yDzD
+D|D~D8h!FO
+ yDzD
+I|DyDbx
+IyDL
+IyDD
+#Fp#!
+q!rbr
+rnjN
+!F@F
+! F9
+I~DyD
+p`pa
+p"qeq
+I}DyD
+ q@F
+!F@F
+IyDZ
+IyDY
+q`q
+`r@F
+!F@F
+ bI|DyD
+ yD*F
+XIyD
+ r@F
+!F@F
+ EI|DyD%
+ AI~DyD3x
+"fU FyD
+ *FyD
+*F8h
+IzDyD
+X*{D
+h|D}D
+!FxD
+/hAF8F
+1FBF
+0FyD
+AFPF
+(FyD
+(FyD
+(FyD
+ yDC
+iQFBF~D5
+{DyD
+GFXF
+ZF9F
+AFZF
+DBFQF
+g}D~Dx`
+`DJF
+ RFyD
+&0FzDQ
+'~Dshw
+0FYF
+ RFyD
+lf~Dd
+H6{DO
+0FYF
+ RFyD
+e~Dvh&
+0FQF
+ yDz
+0FQD
+0FYF
+0FIFz
+~DyD
+qiJx
+ 2vyD
+HFyD
+ yD
+ pp9y
+IHFyD
+I8FyD
+ 2qpqbp
+I8FyD
+ yD{
+hIyD
+#0FyDzp
+x~DK
+&xp0FyD
+        +3p
+ yD^
+        lyD
+I0FZFyD
+IyD2
+ 8q_
+rxr8F
+        +;p?
+w;qW
+hIyD
+aIyD
+#{pO
+ J~y
+8r8F
+KIyD
+EIyD
+pCKO
+"{Dzq
+X~8N
+!8r8F
+1x8F
+AIyD
+ yDl
+ 8I~DyD
+4IyDY
+2K6~{Dp
+_p)O
+,I8FRFyD
+ 2FyD
+7r      !
+'~Dpi
+X|D F+h
+ zD{D
+I FyD
+XxDiF#h
+Android
+ReadPppLoop
+ReadUartLoop
+MUX_RIL
+Thread CloseDeviceStateLoop is running
+satellite.update.processing
+true
+read satellite.update.processing result= %d
+satellite.update.uart_close
+Function SenderCreateFcs
+String Strncmp Error
+String search Error
+Memory malloc Error
+Function UartMuxDataReq
+>>>>>>>>>lock uart port
+Uart send data:%s
+Send data to UART error, length = 0
+Send lenth is %d
+<<<<<<<<<unlock uart port
+Function AtMuxStartReq
+AT+CMUX=0,0,5,1600
+Mux start: %s
+AT-< <CR><LF>%s
+ AT-< %s
+BMDATA pAtcStrBuff=%s
++BMDATA:
+BMDATA pNewAtcStrBuff=%s
+Send data to RIL error, length = 0
+Function UihFrameCreate
+data of pBuffer is empty Or usBufferLen is 0
+send a Frame whose length is %d to USB
+Function MuxDlcDataBuffer: ucDlciIndex=%d, ucFlowId=%d, Dlc0.ucStatus=%d, Dlc0.ucFlowId=%d
+the buffer of AT full, discard this data!
+the buffer of PPP full, discard this data!
+Function MuxRilMain
+Function UihFrameStateHandle: ucStatus=%d, ucFc=%d, ucRtrFc=%d, ucFlowId=%d, ucMode=%d
+, errno = %d, %s
+Signal SIGINT received
+Signal SIGTERM received
+Function CpLogMuxDataInd
+CP-TTLOG: <CR><LF>%s
+ CP-TTLOG: %s
+Thread ReadPppLoop is running
+%s nRead = %d
+Function PppMuxDataReq, del data log
+ATD*
+ATD* COMMAND, sleep 5s!
+MUX is not start
+Dlci %d receive data from Ppp
+In ReadPppLoop read error
+/dev/ppppts
+Close PppFd_Master = %d!
+/dev/ptmx
+open /dev/ptmx error
+open /dev/ptmx return ID = %d
+Get pts name failed
+Slave name for PPP is %s
+symlink error
+PPP restart complete!
+Function AtMuxEnableUnsolicitedResult Dlci=%d enable=%d
+AT^DLKS=0
+Memory Set Error
+MuxChar2Hex pString is %s
+MuxChar2Hex pString is NULL!
+MuxChar2Hex pString string len is invalid!
+%02x
+Function AtMuxDataReq
+AT-> %s
+AT+CNMI=
+MUX is not start finished
+Function AtClassify
+Function AtClassify: discard <cr>
+g_ADD_CR = %d
+AT command is general AT
+AT command is voice call AT
+AT command is SMS or STK AT
+AT command is PDP AT
+AT command is SEC AT
+AT command is LOG AT
+SMS PDU
+UNKONWN AT COMMAND!
+AT+BMDATA=
+BMDATA= pAtcStrBuff=%s
+BMDATA= pAtcStrBuff[%d] = 0x%02x
+strlen(pAtcStrBuff+iPrefLen)=%d
+temp=%d
+Dlci %d receive data from AT
+AT command type is erro, discard this command!
+Thread ReadRilLoop is running
+In ReadRilLoop read error
+Thread ReadRcLoop is running
+In RcReadBuf read error
+Function FlowProcessfuncs: Dlc0.ucFlowId=%d Dlc0.ucDlciFlowOver=%d
+Function SendUihTestCommond
+Mux is not opened!
+SendUihTestCommond: No memory
+SendUihTestCommond: No memory 2
+Function SendUihFcONCommond
+Function SendSABMFrame
+SendSABMFrame: No memory
+Function SendUihServiceNegCommond
+DLC%d is not established
+SendUihServiceNegCommond: No memory
+Dlci out of range!
+Function SendUihRTRONCommond
+DLC%d is not estabilished!
+SendUihRTRONCommond: No memory!
+Function SendDatatoRil
+AT ECHO DISPLAY!
+Function SendDatatoRil ucService=%d
+Function SendDatatoRil -1- DLC=%d
+Function SendDatatoRil -2- DLC=%d
+PPP AT-< <CR><LF>%s
+PPP AT-< usPppStrLen = %d
+Send data to PPP error, length = 0
+Send '
+' to PPP error, length = 0
+SendDatatoRil: Service type error!
+Thread ReadUartLoop is running
+/dev/ttyHSL0
+open %s error, UartFd=%d
+Open device %s success
+tty tcsetattr fail!
+tty tcflush fail!
+Function UartMuxDataInd
+Uart recieve data:%s
+1C001C00
+FC00FC00
+Uart recieved invalid data! discard it
+Buffer is full
+Uart need recieve another!
+Mux start complete: OK
+AT commod from PS is error!
+UartMuxDataInd DLC=
+Function MuxUartmain
+Function GetFrameFromDataStream
+Not frame!. discard data len:%d
+Function GetFrameFromDataStream finish
+discard data before F9!. len:%d
+USB data overflow!. discard data len:%d
+no F9 match!. discard all data, len:%d
+no F9 match!. discard data before next F9, len:%d
+Address Check Fail
+Address->DLCI = %d
+Control->FRAME TYPE = MUX_DM_FRAME
+F bit in MUX_DM_FRAME is 0
+Establish Dlci %d Again
+Release Dlci %d Again
+Control->FRAME TYPE = MUX_UA_FRAME
+F bit in MUX_UA_FRAME is 0
+Dlci out of range,Ignore this frame
+Length check fail
+Dlci %d establish successfully, i=%d
+Unsuitable Flow,Ignore this frame
+Dlci %d release successfully
+Control->FRAME TYPE = MUX_UIH_FRAME
+Dlci out of range
+UIH_FRAME Type check fail
+Function MuxUihParse
+UIH frame Type = MUX_UIH_TEST
+C/R check fail,Ignore this frame
+Test Command successfully
+Test Command fail, restart mux 000
+Test Command fail, restart mux 111
+UIH frame Type = MUX_UIH_SNC
+C/R checked CommandSnc
+Function SendUihServiceNegResponse
+SendUihServiceNegResponse: No memory
+Dlci %d Service Negotiation Command successfully, ucDlciIndex=%d
+UIH frame Type = MUX_UIH_MSC
+Dlci %d Modem Status Command successfully, ucDlciIndex=%d
+Dlci %d receive Modem Status Command
+Function SendUihRTROFFResponse
+SendUihRTROFFResponse: No memory!
+Function SendUihRTRONResponse
+SendUihRTRONResponse: No memory!
+Receive an unexpected UIH_FRAME Type,Ignore this frame
+Receive a Command message with invalid UIH frame Type
+Receive an invalid UIH_FRAME Type,Ignore this frame
+Receive data from uart
+Control->FRAME TYPE = %X, Ignore this frame
+FrameValidityCheckAndParse = %d
+MuxSendUihNscResponse
+In ReadUartLoop read error
+There is no DLC establish or release, ignore this frame
+Function FrameValidityCheckAndParse
+leadcore-rild.reset
+read leadcore-rild.reset do
+false
+Thread ReadResetStateLoop is running
+rm /data/local/log/*HlMux.log
+MUX version 2015.12.01 17:50
+rm /dev/rcpts
+rm /dev/rilpts
+rm /dev/ppppts
+Slave name for RC is %s
+/dev/rcpts
+Slave name for RIL is %s
+/dev/rilpts
+Function MuxInit
+pthread_create Rc receive thread failed
+pthread_create RIL receive thread failed
+pthread_create PPP receive thread failed
+pthread_create UART receive thread failed
+MUX main exit
++CUSD
++CCFC
++CSSN
++CIMI
+^SPN   ^SPN: 1,1,"8075354FE1536B661F"
++CMEE
++CSQ
++CGMI
++CGMR
++CGSN
+^HVER
++CPWD
++CPIN
++CLCK
++CRSM
++CFUN
+^SIMST
++CMUX
++CGMM
+^RFSW
+^CMDVER
++CSCS
++XL1SET
+^AUDPARM
+^SIMTYPE ERROR
+
+^CSQ EEROR
++CTZU
++CTZR
++COPS
+^MODE ERROR
+^SYSINFO  COMMAND NOT SUPPORT
+^SYSINFO:2,1,0,15,255,,8
+
++CREG
++CGREG
+^SYSCONFIG   ^SYSCONFIG: 2,2,1,0
+
++OFF
++RESET
+^CREG   ERROR
+^CARDMODE   ^CARDMODE:2,0
+^VOICEFORMA   ERROR
++CGCLASS
+^HPAS    ERROR
+^ALERT   ERROR
+^POSITION  ERROR
++CLIP
++CLIR
++CHLD
++COLP
++CCWA
++CSTA
++CHUP
++CRC
++VTS
++CLCC
++CMOD
++CPBS
+^SCPBR  ^SCPBR: (1-0),20,0,0  
+^SCPBW  ^SCPBW: (1-0),20,(129,145),0,0
++CPBF
+CBST
+^DSCI  ^DSCI: (0,1)
+^CVOICE  
+^ORIG
+^CONF
+^CONN
+^CEND
++CPBR
++CPBW
++CMUT
++CNUM
+^VPIN
+^VPOUT
++CEER
++CSMS
++CMGF
++CMTI
++CMT
++CDSI
++CDS
++CNMI
++CMGD
++CMGC
++CNMA
++CPMS
++CSCA
++CMGS
++CMGW
++CMGL
++CMGR
++CGSMS
+^CMGS
++CSAS
+^SWCB
++CSCB
++CMMS
+^CMFL
++CGDCONT
++CGQREQ
++CGEQREQ
++CGATT
++CGDATA
++CGACT
++CGQMIN
++CGEQMIN
++CGEREP
+$QCDGEN
+^DEPCD
+^DAUTH  ok
+^DQDATA  
+^DTEST
+^DMPCHN
++BMREQ
++BMDATA
+^SATSIGNAL
+^DMSN   ^DMSN: 200900200741
+^DGSN   ^DGSN: 869483040297580
+^DCGSNW
+^DLKS  ^DLKS: (0,1)
+
+^CPSTATE
+^TTLOG
+^SRCHMODE  ok
+^NAVI
+^POSREQ
+^REJPOS
+
+
+^CCPOS
+^POSINFO   退出
+^POSCNUM   
+^PRDURATION   ok
+^UETYPE 
+^REGSMS ok
+ReadRcLoop
+ReadRilLoop
+GCC: (GNU) 4.8
+gold 1.11
+aeabi
+ARM v7
+ril-muxd-cetc54
+.shstrtab
+.interp
+.dynsym
+.dynstr
+.hash
+.rel.dyn
+.rel.plt
+.text
+.note.android.ident
+.ARM.exidx
+.ARM.extab
+.rodata
+.data.rel.ro.local
+.preinit_array
+.init_array
+.fini_array
+.dynamic
+.got
+.bss
+.comment
+.note.gnu.gold-version
+.ARM.attributes
+.gnu_debuglink

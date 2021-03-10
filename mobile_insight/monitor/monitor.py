@@ -19,8 +19,8 @@ class Monitor(Element):
         # No source for Monitor
         Element.__init__(self)
 
-        self._skip_decoding = False
-
+        # self._skip_decoding = False
+        self._skip_decoding = True
         self._save_log_path = None
         self._save_file = None
 
