@@ -9,6 +9,7 @@ __all__ = ["PCSatelliteMonitor"]
 from .monitor import Monitor, Event
 import serial
 import sys
+import os
 import timeit
 import time
 
@@ -126,13 +127,13 @@ class PCSatelliteMonitor(Monitor):
                     print(s.decode('utf-8'),end='')
                     # send event to analyzers
                     # TODO: type_id is currently None, and packet is a copy of line read from serial-port
-                    event = Event(timeit.default_timer(), 
-                            None, 
-                            s)
-                    self.send(event)
+                    # event = Event(timeit.default_timer(), 
+                    #        None, 
+                    #        s)
+                    # self.send(event)
                     # write one line to log file
-                    log_file.writeline(s.decode('utf-8'))
-                    log_file.flush()
+                    #log_file.writeline(s.decode('utf-8'))
+                    #log_file.flush()
         except (KeyboardInterrupt, RuntimeError) as e:
             print(("\n\n%s Detected: Disabling all logs" % type(e).__name__))
             phy_ser.close()
