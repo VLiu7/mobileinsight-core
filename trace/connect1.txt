@@ -1,0 +1,1714 @@
+PHY COM: /dev/ttyUSB1
+PHY BAUD RATE: 9600
+total bits sended:12
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],OK
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],--L1: B= -119   BW= 0   Q= -786432  D= -262144  T= -140   L=0   R=742   S=77  E=1044  Ck= 484070  A=38  X1= 19213   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=18 
+[2021-03-11 15:39:12],--L1: DL_XINQ_Def=19228  
+[2021-03-11 15:39:12],--L1: FCCH_ST_FN= 18  ED_FN=26 
+[2021-03-11 15:39:12],^DGSQU: 0,99
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],+CSQ: 0,99
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],^SATSIGNAL:-135,0
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],^CPSTATE: -135,923,20,82
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],--L1: B= -122   FCCH Freq Hz= 62  FCENR=1076  XINQ= 19228   ARFCN=923  
+[2021-03-11 15:39:12],--L1: FCCH_CU_FN= 21  CU_ST=5   MaxEnr_FN=21  MaxEnr_ST=5   E_MAX_ENR=107   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:12],--L1: B= -119   FCCH Freq Hz= 62  FCENR=2066  XINQ= 19228   ARFCN=923  
+[2021-03-11 15:39:13],--L1: FCCH_CU_FN= 25  CU_ST=5   MaxEnr_FN=25  MaxEnr_ST=5   E_MAX_ENR=206   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:13],--L1: B= -123   FCCH Freq Hz= 62  FCENR=911   XINQ= 19228   ARFCN=923  
+[2021-03-11 15:39:13],--L1: FCCH_CU_FN= 26  CU_ST=5   MaxEnr_FN=25  MaxEnr_ST=5   E_MAX_ENR=206   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:13],--L1: B= -123   FCCH Freq Hz= 62  FCENR=869   XINQ= 19228   ARFCN=923  
+[2021-03-11 15:39:13],--L1: FCCH_CU_FN= 29  CU_ST=5   MaxEnr_FN=25  MaxEnr_ST=5   E_MAX_ENR=206   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:13],--L1: B= -119   FCCH Freq Hz= 62  FCENR=2422  XINQ= 19228   ARFCN=923  
+[2021-03-11 15:39:13],--L1: FCCH_CU_FN= 33  CU_ST=5   MaxEnr_FN=33  MaxEnr_ST=5   E_MAX_ENR=242   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:13],--L1: R_MAX_ENR_POSITION0=33 
+[2021-03-11 15:39:14],--L1: B= -124   BW= 15  Q=0   D=123469824   T=588   L=0   R=923   S=30  E=55  Ck= 484079  A=30  X1= 19290   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=2  
+[2021-03-11 15:39:14],--L1: B= -124   BW= 7   Q=0   D= -1048576   T= -674   L=0   R=923   S=19  E=358   Ck= 484067  A=38  X1= 19290   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=1   R=1   M=0   F=10 
+[2021-03-11 15:39:15],--L1: B= -124   BW= 1   Q= -1048576   D= -524288  T= -128   L=0   R=923   S=23  E=964   Ck= 484078  A=42  X1= 19290   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=18 
+[2021-03-11 15:39:15],--L1: B= -123   BW= 1   Q= -1572864   D=262144  T= -168   L=0   R=923   S=24  E=1009  Ck= 484066  A=42  X1= 19290   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=26 
+[2021-03-11 15:39:15],--L1: DL_XINQ_Def=19309  
+[2021-03-11 15:39:15],--L1: FCCH_ST_FN= 26  ED_FN=34 
+[2021-03-11 15:39:15],^DGSQU: 0,99
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:15],+CSQ: 0,99
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:15],^SATSIGNAL:-135,0
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:15],^CPSTATE: -135,381,20,82
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:15],--L1: B= -132   FCCH Freq Hz=  -250   FCENR=309   XINQ= 19309   ARFCN=381  
+[2021-03-11 15:39:15],--L1: FCCH_CU_FN= 28  CU_ST=5   MaxEnr_FN=28  MaxEnr_ST=5   E_MAX_ENR=30  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:15],--L1: B= -132   FCCH Freq Hz=  -250   FCENR=300   XINQ= 19309   ARFCN=381  
+[2021-03-11 15:39:15],--L1: FCCH_CU_FN= 29  CU_ST=5   MaxEnr_FN=29  MaxEnr_ST=5   E_MAX_ENR=30  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:15],--L1: B= -110   FCCH Freq Hz=  -187   FCENR=44063   XINQ= 19309   ARFCN=381  
+[2021-03-11 15:39:15],--L1: FCCH_CU_FN= 33  CU_ST=5   MaxEnr_FN=33  MaxEnr_ST=5   E_MAX_ENR=4406  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:15],--L1: B= -130   FCCH Freq Hz=  -187   FCENR=412   XINQ= 19309   ARFCN=381  
+[2021-03-11 15:39:15],--L1: FCCH_CU_FN= 36  CU_ST=5   MaxEnr_FN=33  MaxEnr_ST=5   E_MAX_ENR=4406  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:15],--L1: B= -131   FCCH Freq Hz=  -187   FCENR=365   XINQ= 19309   ARFCN=381  
+[2021-03-11 15:39:15],--L1: FCCH_CU_FN= 37  CU_ST=5   MaxEnr_FN=33  MaxEnr_ST=5   E_MAX_ENR=4406  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:15],--L1: B= -110   FCCH Freq Hz=  -187   FCENR=45156   XINQ= 19309   ARFCN=381  
+[2021-03-11 15:39:15],--L1: FCCH_CU_FN= 41  CU_ST=5   MaxEnr_FN=41  MaxEnr_ST=5   E_MAX_ENR=4515  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:16],--L1: R_MAX_ENR_POSITION0=41 
+[2021-03-11 15:39:16],--L1: B= -112   BW= 0   Q=0   D=1835008   T= -442   L=0   R=381   S=151   E=827   Ck= 484083  A=30  X1= 19122   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=2  
+[2021-03-11 15:39:16],--L1: B= -113   BW= 0   Q=1835008   D=0   T= -146   L=0   R=381   S=151   E=1995  Ck= 484072  A=34  X1= 19122   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=10 
+[2021-03-11 15:39:17],--L1: B= -112   BW= 0   Q=1835008   D= -262144  T= -155   L=0   R=381   S=148   E=3642  Ck= 484080  A=36  X1= 19122   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=18 
+[2021-03-11 15:39:17],--L1: DL_XINQ_Def=19099  
+[2021-03-11 15:39:17],--L1: FCCH_ST_FN= 18  ED_FN=26 
+[2021-03-11 15:39:17],^DGSQU: 0,99
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:17],+CSQ: 0,99
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:17],^SATSIGNAL:-135,0
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:17],^CPSTATE: -135,1103,20,82
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:17],--L1: B= -116   FCCH Freq Hz= 312   FCENR=3098  XINQ= 19099   ARFCN=1103 
+[2021-03-11 15:39:17],--L1: FCCH_CU_FN= 23  CU_ST=5   MaxEnr_FN=23  MaxEnr_ST=5   E_MAX_ENR=309   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:17],--L1: B= -119   FCCH Freq Hz= 312   FCENR=1284  XINQ= 19099   ARFCN=1103 
+[2021-03-11 15:39:17],--L1: FCCH_CU_FN= 25  CU_ST=5   MaxEnr_FN=23  MaxEnr_ST=5   E_MAX_ENR=309   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:17],--L1: B= -116   FCCH Freq Hz= 312   FCENR=2925  XINQ= 19099   ARFCN=1103 
+[2021-03-11 15:39:17],--L1: FCCH_CU_FN= 31  CU_ST=5   MaxEnr_FN=23  MaxEnr_ST=5   E_MAX_ENR=309   T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:17],--L1: R_MAX_ENR_POSITION0=23 
+[2021-03-11 15:39:18],--L1: B= -122   BW= 14  Q=0   D=86507520  T= -405   L=0   R=1103  S=15  E=93  Ck= 484073  A=30  X1= 19411   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=2  
+[2021-03-11 15:39:18],--L1: B= -122   BW= 18  Q=0   D= -114032640   T=1496  L=0   R=1103  S=0   E=590   Ck= 484078  A=38  X1= 19411   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=1   R=1   M=0   F=10 
+[2021-03-11 15:39:19],--L1: B= -121   BW= 13  Q=0   D= -81264640  T= -738   L=0   R=1103  S=17  E=1593  Ck= 484067  A=42  X1= 19411   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=1   R=1   M=0   F=18 
+[2021-03-11 15:39:19],--L1: B= -121   BW= 12  Q=0   D=117440512   T=1131  L=0   R=1103  S=15  E=1815  Ck= 484081  A=42  X1= 19411   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=1   R=1   M=0   F=26 
+[2021-03-11 15:39:19],--L1: B= -122   BW= 14  Q=0   D=71827456  T= -1046  L=0   R=1103  S=0   E=1466  Ck= 484073  A=42  X1= 19411   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=1   R=1   M=0   F=34 
+[2021-03-11 15:39:19],--L1: FCCH_ST_FN= 34  ED_FN=42 
+[2021-03-11 15:39:19],^DGSQU: 0,99
+[2021-03-11 15:39:19],
+[2021-03-11 15:39:19],+CSQ: 0,99
+[2021-03-11 15:39:19],
+[2021-03-11 15:39:19],^SATSIGNAL:-135,0
+[2021-03-11 15:39:19],
+[2021-03-11 15:39:19],^CPSTATE: -135,201,20,82
+[2021-03-11 15:39:20],
+[2021-03-11 15:39:20],--L1: B= -131   FCCH Freq Hz=  -375   FCENR=355   XINQ= 19411   ARFCN=201  
+[2021-03-11 15:39:20],--L1: FCCH_CU_FN= 41  CU_ST=5   MaxEnr_FN=41  MaxEnr_ST=5   E_MAX_ENR=35  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:20],--L1: B= -112   FCCH Freq Hz=  -375   FCENR=30925   XINQ= 19411   ARFCN=201  
+[2021-03-11 15:39:20],--L1: FCCH_CU_FN= 42  CU_ST=5   MaxEnr_FN=42  MaxEnr_ST=5   E_MAX_ENR=3092  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:20],--L1: B= -131   FCCH Freq Hz=  -375   FCENR=347   XINQ= 19411   ARFCN=201  
+[2021-03-11 15:39:20],--L1: FCCH_CU_FN= 45  CU_ST=5   MaxEnr_FN=42  MaxEnr_ST=5   E_MAX_ENR=3092  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:20],--L1: B= -113   FCCH Freq Hz=  -375   FCENR=21933   XINQ= 19411   ARFCN=201  
+[2021-03-11 15:39:20],--L1: FCCH_CU_FN= 50  CU_ST=5   MaxEnr_FN=42  MaxEnr_ST=5   E_MAX_ENR=3092  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:20],--L1: R_MAX_ENR_POSITION0=42 
+[2021-03-11 15:39:21],--L1: B= -114   BW= 0   Q=0   D=524288  T= -836   L=0   R=201   S=126   E=603   Ck= 484078  A=30  X1= 19036   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=2  
+[2021-03-11 15:39:21],--L1: B= -114   BW= 0   Q=524288  D= -262144  T= -165   L=0   R=201   S=130   E=1329  Ck= 484067  A=34  X1= 19036   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=10 
+[2021-03-11 15:39:21],--L1: B= -114   BW= 0   Q=262144  D=0   T= -135   L=0   R=201   S=138   E=2137  Ck= 484078  A=36  X1= 19036   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=18 
+[2021-03-11 15:39:21],--L1: DL_XINQ_Def=19033  
+[2021-03-11 15:39:21],--L1: FCCH_ST_FN= 18  ED_FN=26 
+[2021-03-11 15:39:21],^DGSQU: 0,99
+[2021-03-11 15:39:21],
+[2021-03-11 15:39:21],+CSQ: 0,99
+[2021-03-11 15:39:21],
+[2021-03-11 15:39:21],^SATSIGNAL:-135,0
+[2021-03-11 15:39:21],
+[2021-03-11 15:39:21],^CPSTATE: -135,20,20,82
+[2021-03-11 15:39:22],
+[2021-03-11 15:39:22],--L1: B= -124   FCCH Freq Hz=  -62  FCENR=402   XINQ= 19033   ARFCN=20 
+[2021-03-11 15:39:22],--L1: FCCH_CU_FN= 21  CU_ST=5   MaxEnr_FN=21  MaxEnr_ST=5   E_MAX_ENR=40  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:22],--L1: B= -110   FCCH Freq Hz=  -62  FCENR=12206   XINQ= 19033   ARFCN=20 
+[2021-03-11 15:39:22],--L1: FCCH_CU_FN= 24  CU_ST=5   MaxEnr_FN=24  MaxEnr_ST=5   E_MAX_ENR=1220  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:22],--L1: B= -115   FCCH Freq Hz=  -62  FCENR=3432  XINQ= 19033   ARFCN=20 
+[2021-03-11 15:39:22],--L1: FCCH_CU_FN= 26  CU_ST=5   MaxEnr_FN=24  MaxEnr_ST=5   E_MAX_ENR=1220  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:22],--L1: B= -124   FCCH Freq Hz=  -62  FCENR=498   XINQ= 19033   ARFCN=20 
+[2021-03-11 15:39:22],--L1: FCCH_CU_FN= 29  CU_ST=5   MaxEnr_FN=24  MaxEnr_ST=5   E_MAX_ENR=1220  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:22],--L1: B= -110   FCCH Freq Hz=  -125   FCENR=10597   XINQ= 19033   ARFCN=20 
+[2021-03-11 15:39:22],--L1: FCCH_CU_FN= 32  CU_ST=5   MaxEnr_FN=24  MaxEnr_ST=5   E_MAX_ENR=1220  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:22],--L1: R_MAX_ENR_POSITION0=24 
+[2021-03-11 15:39:23],--L1: B= -116   BW= 0   Q=0   D= -3670016   T= -453   L=0   R=20  S=44  E=348   Ck= 484068  A=30  X1= 18908   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=2  
+[2021-03-11 15:39:23],--L1: B= -116   BW= 1   Q= -1310720   D= -2621440   T= -152   L=0   R=20  S=67  E=854   Ck= 484078  A=34  X1= 18908   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=10 
+[2021-03-11 15:39:23],--L1: B= -116   BW= 0   Q= -2621440   D= -1310720   T= -177   L=0   R=20  S=77  E=2180  Ck= 484068  A=38  X1= 18908   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=18 
+[2021-03-11 15:39:23],--L1: DL_XINQ_Def=18966  
+[2021-03-11 15:39:23],--L1: FCCH_ST_FN= 18  ED_FN=26 
+[2021-03-11 15:39:23],^DGSQU: 0,99
+[2021-03-11 15:39:23],
+[2021-03-11 15:39:23],+CSQ: 0,99
+[2021-03-11 15:39:23],
+[2021-03-11 15:39:23],^SATSIGNAL:-135,0
+[2021-03-11 15:39:23],
+[2021-03-11 15:39:23],^CPSTATE: -135,562,20,82
+[2021-03-11 15:39:24],
+[2021-03-11 15:39:24],--L1: B= -105   FCCH Freq Hz= 250   FCENR=60214   XINQ= 18966   ARFCN=562  
+[2021-03-11 15:39:24],--L1: FCCH_CU_FN= 22  CU_ST=5   MaxEnr_FN=22  MaxEnr_ST=5   E_MAX_ENR=6021  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:24],--L1: B= -130   FCCH Freq Hz= 187   FCENR=193   XINQ= 18966   ARFCN=562  
+[2021-03-11 15:39:24],--L1: FCCH_CU_FN= 23  CU_ST=5   MaxEnr_FN=22  MaxEnr_ST=5   E_MAX_ENR=6021  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:24],--L1: B= -125   FCCH Freq Hz= 187   FCENR=548   XINQ= 18966   ARFCN=562  
+[2021-03-11 15:39:24],--L1: FCCH_CU_FN= 25  CU_ST=5   MaxEnr_FN=22  MaxEnr_ST=5   E_MAX_ENR=6021  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:24],--L1: B= -128   FCCH Freq Hz= 250   FCENR=293   XINQ= 18966   ARFCN=562  
+[2021-03-11 15:39:24],--L1: FCCH_CU_FN= 27  CU_ST=5   MaxEnr_FN=22  MaxEnr_ST=5   E_MAX_ENR=6021  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:24],--L1: B= -105   FCCH Freq Hz= 250   FCENR=54969   XINQ= 18966   ARFCN=562  
+[2021-03-11 15:39:24],--L1: FCCH_CU_FN= 30  CU_ST=5   MaxEnr_FN=22  MaxEnr_ST=5   E_MAX_ENR=6021  T_MAX_ENR=6301  T_ROUND=1843199  
+[2021-03-11 15:39:24],--L1: R_MAX_ENR_POSITION0=22 
+[2021-03-11 15:39:25],--L1: B= -111   BW= 0   Q=0   D=2883584   T= -419   L=0   R=562   S=174   E=1204  Ck= 484076  A=30  X1= 19216   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=2  
+[2021-03-11 15:39:25],--L1: B= -111   BW= 0   Q=1310720   D=1310720   T= -143   L=0   R=562   S=170   E=1990  Ck= 484070  A=32  X1= 19216   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=10 
+[2021-03-11 15:39:25],--L1: B= -111   BW= 0   Q=2621440   D=0   T= -172   L=0   R=562   S=170   E=2764  Ck= 484078  A=34  X1= 19216   Y=42750   O=1   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=18 
+[2021-03-11 15:39:25],--L1: DL_XINQ_Def=19177  
+[2021-03-11 15:39:25],--L1: Available_arfcn_generate= 6   MAX_ENR=6021 
+[2021-03-11 15:39:25],CurrentCell is 562
+[2021-03-11 15:39:25],**********zhangkh SearchNum_u8=6*******
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:923
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[923]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:742
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[742]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:20
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[20]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:201
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[201]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:381
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[381]:has already existed
+[2021-03-11 15:39:25],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=0
+[2021-03-11 15:39:25],New read,clear tmp. arfcn=0
+[2021-03-11 15:39:25],^DGSQU: 99,5
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],+CSQ: 99,5
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],+CIEV: 2,5
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],^SATSIGNAL:-135,174
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],^CPSTATE: -135,562,20,82
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],^DGSQU: 99,5
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],+CSQ: 99,5
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],^SATSIGNAL:-135,174
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],^CPSTATE: -135,562,20,84
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],--L1: B= -123   FCCH Freq Hz= 0   FCENR=317   XINQ= 19177   ARFCN=562  
+[2021-03-11 15:39:25],--L1: E_CUR_ENR=31  R_MAX_ENR=6021 
+[2021-03-11 15:39:25],--L1: B= -124   FCCH Freq Hz= 0   FCENR=275   XINQ= 19177   ARFCN=562  
+[2021-03-11 15:39:25],--L1: E_CUR_ENR=27  R_MAX_ENR=6021 
+[2021-03-11 15:39:25],--L1: B= -100   FCCH Freq Hz= 0   FCENR=65533   XINQ= 19177   ARFCN=562  
+[2021-03-11 15:39:26],--L1: E_CUR_ENR=6553  R_MAX_ENR=6021 
+[2021-03-11 15:39:26],--L1: B= -123   FCCH Freq Hz= 0   FCENR=356   XINQ= 19177   ARFCN=562  
+[2021-03-11 15:39:26],--L1: E_CUR_ENR=35  R_MAX_ENR=6021 
+[2021-03-11 15:39:26],--L1: B= -100   FCCH Freq Hz= 0   FCENR=65534   XINQ= 19177   ARFCN=562  
+[2021-03-11 15:39:26],--L1: E_CUR_ENR=6553  R_MAX_ENR=6021 
+[2021-03-11 15:39:26],--L1: R_MAX_ENR_POSITION= 13 
+[2021-03-11 15:39:26],--L1: B= -111   BW= 0   Q=0   D=262144  T= -465   L=0   R=562   S=165   E=1248  Ck= 484067  A=30  X1= 19177   Y=0   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=2  
+[2021-03-11 15:39:26],^DGSQU: 28,5
+[2021-03-11 15:39:26],
+[2021-03-11 15:39:26],+CSQ: 28,5
+[2021-03-11 15:39:26],
+[2021-03-11 15:39:26],^SATSIGNAL:-111,165
+[2021-03-11 15:39:26],
+[2021-03-11 15:39:26],^CPSTATE: -111,562,20,84
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],--L1: B= -110   BW= 0   Q=262144  D= -262144  T= -155   L=0   R=562   S=174   E=2022  Ck= 484081  A=32  X1= 19177   Y=0   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=10 
+[2021-03-11 15:39:27],^DGSQU: 29,5
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],+CSQ: 29,5
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],^SATSIGNAL:-110,169
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],^CPSTATE: -110,562,20,84
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],--L1: B= -111   BW= 0   Q=0   D=0   T= -153   L=0   R=562   S=180   E=3009  Ck= 484077  A=34  X1= 19177   Y=0   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=18 
+[2021-03-11 15:39:27],[BCH_LOG][check_bcch]:compare bcch_list,bit_map=7ff,7ff,7ff, c2=1,255,2-255,c3=1,7,2-7,c4=1,7,2-7,LAI0=64,64,64-0,LAI1=f0,f0,f0-0,LAI2=95,95,95-0,beam_id=e,f,1a-0,beam_arfcn=17d,232,c9-232
+[2021-03-11 15:39:27],^DGSQU: 28,5
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],+CSQ: 28,5
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],^SATSIGNAL:-111,173
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],^CPSTATE: -111,562,20,84
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],--L1: SIRFN=1   STN=0   B= -110   BW= 0   Q=0   D=0   T= -163   L=0   R=562   S=170   E=6647  Ck= 484080  A=37  X1= 19177   Y=1   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=237755 
+[2021-03-11 15:39:28],[BCH_LOG][check_bcch]:Find bcch_list, i=1,j=1
+[2021-03-11 15:39:28],[BCH_LOG][check_bcch]:compare bcch_list,bit_map=7ff,7ff,7ff, c2=1,255,2-255,c3=1,7,2-7,c4=1,7,2-7,LAI0=64,64,64-64,LAI1=f0,f0,f0-f0,LAI2=95,95,95-95,beam_id=e,f,1a-f,beam_arfcn=17d,232,c9-232
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 0-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 1-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 2-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 3-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 4-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 5-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_IsClass3SegmentAllRead]:when 0x800,clear bitmap
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 6-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 7-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 8-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_IsClass4SegmentAllRead]:when 0x160,clear bitmap
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 9-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 10-success
+[2021-03-11 15:39:28],^DGSQU: 29,5
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:28],+CSQ: 29,5
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:28],^SATSIGNAL:-110,172
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:28],^CPSTATE: -110,562,20,84
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:29],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]: Send phy_value=0-0
+[2021-03-11 15:39:29],**************zhangkh SysBcch no.= 0*************
+[2021-03-11 15:39:29],*********zhangkh:BCCH-NAS  LAI[0]= 64,64
+[2021-03-11 15:39:29],*********zhangkh:BCCH-NAS  LAI[1]= f0,f0
+[2021-03-11 15:39:29],*********zhangkh:BCCH-NAS  LAI[2]= 95,95
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[0]= 14,0,2
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[1]= c9,0,2
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[2]= 44f,0,0
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[3]= 17d,0,1
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[4]= 39b,0,0
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[5]= 2e6,0,7
+[2021-03-11 15:39:29], lx061825 *CELL_BAR_ACCESS=0,ACCESS_EXTENSION=1!!
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=0
+[2021-03-11 15:39:29],******zhangkh******copy from above!
+[2021-03-11 15:39:29],^DGSQU: 29,5
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],+CSQ: 29,5
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],--L1: L1_OFFSET_MODE_DATA=0  
+[2021-03-11 15:39:29],--L1: BCCH_CFN= 237778  SFN=3   AGC=37  ARF=562   SLV=0   SFG_FN= 237787 
+[2021-03-11 15:39:29],--L1: B= -111   BW= 0   Q=0   D=0   T= -587   L=0   R=562   S=170   E=6121  Ck= 484002  A=37  X1= 19177   Y=1   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=0   M=0   F=237787 
+[2021-03-11 15:39:29],^DGSQU: 28,5
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],+CSQ: 28,5
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],^SATSIGNAL:-111,171
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],^CPSTATE: -111,562,20,84
+[2021-03-11 15:39:30],
+[2021-03-11 15:39:30],--L1: B= -111   BW= 0   Q=0   D=0   T= -160   L=0   R=562   S=165   E=5292  Ck= 484009  A=37  X1= 19177   Y=1   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=0   M=0   F=237795 
+[2021-03-11 15:39:30],^DGSQU: 28,5
+[2021-03-11 15:39:30],
+[2021-03-11 15:39:30],+CSQ: 28,5
+[2021-03-11 15:39:30],
+[2021-03-11 15:39:31],--L1: B= -111   BW= 0   Q=0   D=0   T= -149   L=0   R=562   S=174   E=5491  Ck= 483996  A=37  X1= 19177   Y=1   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=0   M=0   F=237803 
+[2021-03-11 15:39:31],--L1: B= -111   BW= 0   Q=0   D=0   T= -153   L=0   R=562   S=180   E=5571  Ck= 484004  A=37  X1= 19177   Y=1   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=0   M=0   F=237811 
+[2021-03-11 15:39:31],******zhangkh  enter camp flow**********
+[2021-03-11 15:39:31],*******zhangkh: Save for spotbeam zhuliu:562
+[2021-03-11 15:39:31],[BCH_LOG][srrc_sib_StoreBch]: tmp bcch_bit_map=0
+[2021-03-11 15:39:31],[BCH_LOG][srrc_sib_ProcCselSibCampOnSuccInd]: StoreBch Fail!
+[2021-03-11 15:39:31],SA_CBCH_RF_CH:562, SA_CBCH_TS: 20, SA_CBCH_CONFIG: 15 
+[2021-03-11 15:39:31],--L1: CBCH SLOT=20  ARF=562   CFG=15 
+[2021-03-11 15:39:31],*****zhangkh*****PLMN Search State paraments for NAS!
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.act	=4
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.plmn_value[0]  =64
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.plmn_value[1]  =f0
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.plmn_value[2]  =95
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cell_id				=f
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[0]	=f
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[1]	=a0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[2]	=2b
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[3]	=43
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[4]	=52
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[5]	=53
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[6]	=4d
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[7]	=3d
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.field_ind  =3
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_identity	=0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[0]  =5
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[1]  =1
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[2]  =34
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[3]  =38
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[4]  =30
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[5]  =2c
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[6]  =31
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[7]  =2c
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_identity	=1
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[0]  =13
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[1]  =1
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[2]  =0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[3]  =0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[4]  =cf
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[5]  =ff
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[6]  =ff
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[7]  =ff
+[2021-03-11 15:39:31],camp arfcn:562
+[2021-03-11 15:39:31],neighbour:20,201,1103,381,923,742
+[2021-03-11 15:39:31],--L1: BCCH Camp on arfcn= 562   XIND= 0   XINQ= 19177   PCIE= 1   SQT=80  PANinit=0   GainUp= 10  GainDn= 7   Olthresh= 15  OlupGain= 10  PANmax= 25  PANmin= 0   SQIfactor=10  VarUp=4   VarDn=14  SIRF= 1   STN=0   AF_POT= 8  
+[2021-03-11 15:39:31],--L1: CELL_RESELECTION_START_FN=238447 
+[2021-03-11 15:39:31],luxy: MM receive prim is P_SRRC_MM_PLMN_SEL_CNF
+[2021-03-11 15:39:31],luxy: MM current state is S197:MM_STATE_PLMN_SRCH
+[2021-03-11 15:39:31],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:31],luxy: mm4 g_mm_nmo 222 is 1
+[2021-03-11 15:39:31],luxy: mm5srch t3212 value is 5
+[2021-03-11 15:39:31],luxy: T3212 mm5serch plmn srch cnf g_mm_t3212_timeout_value is 1800000
+[2021-03-11 15:39:31],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=1
+[2021-03-11 15:39:31],******zhangkh******copy from above!
+[2021-03-11 15:39:31],--L1: BCCH_CFN= 237811  SFN=3   AGC=37  ARF=562   SLV=0   SFG_FN= 237819 
+[2021-03-11 15:39:31],luxy: MM current state is S13:MM_STATE_WAIT_RRC_CONN_LU
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_action is ff
+[2021-03-11 15:39:31],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_SRRC_GMM_SYS_INFO_IND
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1206
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.mm_status is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.mm_action is 2
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.pmm_mode is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.gmm_state_before_plmnsearch is 22
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind ps_info_present is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.camped_cell_ac_barred is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:39:31],luxy: fgmm_rrc_plmnsearch_ind temp_rai_st.lai_st.lac is a00f
+[2021-03-11 15:39:31],luxy: fgmm_rrc_plmnsearch_ind temp_rai_st.lai_st.lac is a00f
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.network_mode is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service prev_nmo is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service rau_is_not_need is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service same_ci is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.usim_state is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service g_mm_sys_info_valid_flag is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service same_rai is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.normal_rau_needed is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.attach_needed is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind plmn_act_change_flag is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service is_valid_cell is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service ac_granted_from_barred is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:39:31],luxy: gmm rrc service gmm_main_state 111 is 16
+[2021-03-11 15:39:31],luxy: gmm rrc service gmm_main_state 111 is 16
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],L1 XINQ:19177
+[2021-03-11 15:39:31],--L1: CBCH UW=19  S=0   L=20  R=562   Le= 172   X1= 19177   F=237812 
+[2021-03-11 15:39:31],^SATSIGNAL:-111,172
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^CPSTATE: -111,562,20,80
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],--L1: PC= 18  F=237813  S=0   Q=0   D=44564480  E=145   Le= 172   X1= 19177   I= -527   J=0   A=562  
+[2021-03-11 15:39:31],^SATSIGNAL:-111,172
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^CPSTATE: -111,562,23,80
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^SATSIGNAL:-111,172
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^CPSTATE: -111,562,30,80
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^SATSIGNAL:-111,172
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^CPSTATE: -111,562,27,80
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^SATSIGNAL:-111,172
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^CPSTATE: -111,562,30,80
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],--L1: B= -111   BW= 0   Q=0   D=0   T= -152   L=0   R=562   S=170   E=5262  Ck= 484000  A=37  X1= 19177   Y=1   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=0   M=0   F=237819 
+[2021-03-11 15:39:31],check ac 4
+[2021-03-11 15:39:31],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:39:31],rand_imsi:29939140
+[2021-03-11 15:39:31],NEW
+[2021-03-11 15:39:31],--L1: Fra=32  Sym=11  Stn=0   tsf=0   RaS=779   Tof=0   R3_sf=237826  C_f=237819  PCIE= 1   A=562   S=32  L=5   PS= 32  RT= 0   PF= 32  PC= 0   DK4=60080   DK8=10  CK= 0   UF=  -155744  A_ARFCN=562   Pair_k= 0   TD_P1   ZTE   dp=  -15577   F_af= 237828 
+[2021-03-11 15:39:31],^DGSQU: 28,5
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],+CSQ: 28,5
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^SATSIGNAL:-111,172
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^CPSTATE: -111,562,30,84
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^DGSQU: 28,5
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],+CSQ: 28,5
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^SATSIGNAL:-111,172
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],^CPSTATE: -111,562,30,85
+[2021-03-11 15:39:32],
+[2021-03-11 15:39:32],--L1: TX 16K CH=2   FN= 237827  TH= 0   ST= 32  D0= 59904   D1= 42672   AF= 562   Dm= 0   RP= 32  PW= 0   PT= 0   PC= 79566848  SK= 1468937   EK= 317897  CK= 318039  Te= 0   Fe= 0   SS 
+[2021-03-11 15:39:32],--L1: AG= 13  FN= 237828  Q=0   D=33030144  T=1172  R=562   X1= 19177   ST= 0   S=0   E=152  
+[2021-03-11 15:39:32],--L1: AG= 14  FN= 237829  Q=0   D=117178368   T= -1020  R=562   X1= 19177   ST= 0   S=0   E=124  
+[2021-03-11 15:39:32],--L1: AG= 0   FN= 237830  Q=0   D=0   T= -211   R=562   X1= 19177   ST= 0   S=141   E=4685 
+[2021-03-11 15:39:32],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:39:32],--L1: AG= 18  FN= 237831  Q=0   D=83361792  T= -349   R=562   X1= 19177   ST= 0   S=0   E=139  
+[2021-03-11 15:39:32],--L1: AG= 18  FN= 237832  Q=0   D= -115605504   T=915   R=562   X1= 19177   ST= 0   S=0   E=168  
+[2021-03-11 15:39:32],--L1: AG= 15  FN= 237834  Q=0   D=71827456  T=1094  R=562   X1= 19177   ST= 0   S=0   E=117  
+[2021-03-11 15:39:32],--L1: B= -112   BW= 0   Q=0   D=262144  T= -78  L=0   R=562   S=151   E=4663  Ck= 484017  A=37  X1= 19177   Y=1   O=16  ST0=0   ST1=0   RTO=1150  C=0   R=0   M=0   F=237835 
+[2021-03-11 15:39:32],--L1: AG= 15  FN= 237836  Q=262144  D=50593792  T= -320   R=562   X1= 19177   ST= 0   S=0   E=155  
+[2021-03-11 15:39:32],--L1: AG= 16  FN= 237837  Q=262144  D=65536000  T=296   R=562   X1= 19177   ST= 0   S=0   E=134  
+[2021-03-11 15:39:33],--L1: AG= 14  FN= 237838  Q=262144  D=131596288   T= -983   R=562   X1= 19177   ST= 0   S=0   E=158  
+[2021-03-11 15:39:33],--L1: AG= 14  FN= 237839  Q=262144  D=60817408  T=368   R=562   X1= 19177   ST= 0   S=0   E=117  
+[2021-03-11 15:39:33],--L1: AG= 14  FN= 237840  Q=262144  D=118489088   T= -85  R=562   X1= 19177   ST= 0   S=0   E=187  
+[2021-03-11 15:39:33],--L1: AG= 14  FN= 237842  Q=262144  D=33816576  T=920   R=562   X1= 19177   ST= 0   S=5   E=126  
+[2021-03-11 15:39:33],--L1: B= -112   BW= 0   Q=262144  D= -262144  T= -187   L=0   R=562   S=161   E=4576  Ck= 484005  A=37  X1= 19177   Y=1   O=16  ST0=0   ST1=0   RTO=1150  C=0   R=0   M=0   F=237843 
+[2021-03-11 15:39:33],--L1: AG= 0   FN= 237844  Q=0   D=0   T= -15  R=562   X1= 19177   ST= 0   S=151   E=4537 
+[2021-03-11 15:39:33],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:39:33],--L1: D_SLOT-DA 24  U_SLOT-DA 16  DACCH BB2MES Freq=102   M=0   TIME=  -655  
+[2021-03-11 15:39:33],--L1: DACCH BB2MES Freq=102   TIME=  -655   PAR=0   CM= 19  FU=  -154752  FD= 19177  
+[2021-03-11 15:39:33],lixiang1013 wait setup
+[2021-03-11 15:39:33],--L1:  -112   DA8=0   F=237846  Q=0   D= -262144  DF= 0   DR=  -262144  L=0   T= -67  TP= 0   R=563   O=24  X=19177   RA= 37  S=158   E=4773  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237847  SFN=237846  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -112   DA8=0   F=237847  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -37  TP= 0   R=563   O=24  X=19177   RA= 37  S=161   E=4818  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237848  SFN=237847  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 51590   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -112   DA8=0   F=237848  Q= -262144  D=262144  DF= 0   DR= 262144  L=0   T= -13  TP= 0   R=563   O=24  X=19177   RA= 37  S=161   E=4840  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237849  SFN=237848  ST= 16  SR= 8   AF= 563   FQ=  -154714  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -111   DA8=0   F=237849  Q=0   D= -262144  DF= 0   DR=  -262144  L=0   T= -15  TP=  -1   R=563   O=24  X=19177   RA= 37  S=158   E=5253  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237850  SFN=237849  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764199  D0= 3908  D1= 51590   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -111   DA8=0   F=237850  Q= -262144  D=262144  DF= 0   DR= 262144  L=0   T= -42  TP=  -1   R=563   O=24  X=19177   RA= 37  S=180   E=5461  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237851  SFN=237850  ST= 16  SR= 8   AF= 563   FQ=  -154714  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -111   DA8=0   F=237851  Q=0   D= -262144  DF= 0   DR=  -262144  L=0   T= -22  TP=  -2   R=563   O=24  X=19177   RA= 37  S=170   E=5721  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237852  SFN=237851  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764199  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -111   DA8=0   F=237852  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -2   R=563   O=24  X=19177   RA= 37  S=158   E=5447  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237853  SFN=237852  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18822   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -111   DA8=0   F=237853  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -2   R=563   O=24  X=19177   RA= 37  S=161   E=5170  C=0  
+[2021-03-11 15:39:33],--L1: TX 16K CH=11  FN= 237854  SFN=237853  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:33],--L1:  -111   DA8=0   F=237854  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -3   R=563   O=24  X=19177   RA= 37  S=174   E=5272  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237855  SFN=237854  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237855  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -3   R=563   O=24  X=19177   RA= 37  S=170   E=5508  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237856  SFN=237855  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237856  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -4   R=563   O=24  X=19177   RA= 37  S=165   E=5635  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237857  SFN=237856  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18822   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237857  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -4   R=563   O=24  X=19177   RA= 37  S=170   E=5344  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237858  SFN=237857  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237858  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -9   TP=  -4   R=563   O=24  X=19177   RA= 37  S=161   E=5356  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237859  SFN=237858  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237859  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -5   R=563   O=24  X=19177   RA= 37  S=158   E=5533  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237860  SFN=237859  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 3908  D1= 51590   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237860  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -5   R=563   O=24  X=19177   RA= 37  S=170   E=5386  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237861  SFN=237860  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:34],begin_indx 1,num_blks_to_reasm 1
+[2021-03-11 15:39:34],blk_second_byte 43--L1:  -111   DA8=0   F=237861  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -6   R=563   O=24  X=19177   RA= 37  S=161   E=5261  C=0  
+[2021-03-11 15:39:34],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:34],luxy: NMO is 1
+[2021-03-11 15:39:34],srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+[2021-03-11 15:39:34],--L1: HLS UNKNOWN MSG!!!!  
+[2021-03-11 15:39:34],--L1: DACCH ACTIVE CURRENT FN=237861  DACCH ACTIVE FN=0  
+[2021-03-11 15:39:34],--L1: DA TX FN= 237861  C_FN= 237862  CH= 11  ST= 16  AF= 563   FQ=  -154752  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237862  SFN=237861  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237862  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -6   R=563   O=24  X=19177   RA= 37  S=174   E=5122  C=0  
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237863  SFN=237862  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764192  D0= 3908  D1= 51334   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237863  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -6   R=563   O=24  X=19177   RA= 37  S=165   E=5100  C=0  
+[2021-03-11 15:39:34],BSN = 0 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237864  SFN=237863  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 0   D1= 832   D2= 32994   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237864  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -7   R=563   O=24  X=19177   RA= 37  S=158   E=5203  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237865  SFN=237864  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 32256   D1= 82  D2= 59210   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237865  Q= -262144  D=262144  DF= 0   DR= 262144  L=0   T= -16  TP=  -7   R=563   O=24  X=19177   RA= 37  S=161   E=5364  C=0  
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237866  SFN=237865  ST= 16  SR= 8   AF= 563   FQ=  -154714  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 48640   D1= 64  D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -112   DA8=0   F=237866  Q=0   D= -262144  DF= 0   DR=  -262144  L=0   T= -16  TP=  -7   R=563   O=24  X=19177   RA= 37  S=170   E=4712  C=0  
+[2021-03-11 15:39:34],BSN = 0 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237867  SFN=237866  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 3908  D1= 18566   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -112   DA8=0   F=237867  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -8   R=563   O=24  X=19177   RA= 37  S=174   E=4917  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237868  SFN=237867  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 65024   D1= 66  D2= 2048  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237868  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -8   R=563   O=24  X=19177   RA= 37  S=158   E=5389  C=0  
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237869  SFN=237868  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 513   D1= 8032  D2= 26085   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237869  Q= -262144  D=0   DF= 262144  DR= 0   L=0   T= -32  TP=  -9   R=563   O=24  X=19177   RA= 37  S=161   E=5182  C=0  
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237870  SFN=237869  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 3908  D1= 18566   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -112   DA8=0   F=237870  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -14  TP=  -9   R=563   O=24  X=19177   RA= 37  S=165   E=4891  C=0  
+[2021-03-11 15:39:34],BSN = 0 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],--L1: TX 16K CH=11  FN= 237871  SFN=237870  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:34],--L1:  -111   DA8=0   F=237871  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -10  R=563   O=24  X=19177   RA= 37  S=161   E=5043  C=0  
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237872  SFN=237871  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -111   DA8=0   F=237872  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -10  R=563   O=24  X=19177   RA= 37  S=165   E=5015  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237873  SFN=237872  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764200  D0= 3908  D1= 18566   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237873  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -10  R=563   O=24  X=19177   RA= 37  S=165   E=4722  C=0  
+[2021-03-11 15:39:35],BSN = 0 is out of receiving window
+[2021-03-11 15:39:35], bow_bsn = 2
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237874  SFN=237873  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 0   D1= 832   D2= 32994   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237874  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -11  R=563   O=24  X=19177   RA= 37  S=170   E=4909  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237875  SFN=237874  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 32256   D1= 82  D2= 59210   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],BSN = 1 is out of receiving window
+[2021-03-11 15:39:35], bow_bsn = 2
+[2021-03-11 15:39:35],--L1:  -111   DA8=0   F=237875  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -11  R=563   O=24  X=19177   RA= 37  S=154   E=5179  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237876  SFN=237875  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 48640   D1= 64  D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -111   DA8=0   F=237876  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -43  TP=  -12  R=563   O=24  X=19177   RA= 37  S=170   E=5462  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237877  SFN=237876  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 3908  D1= 18566   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -111   DA8=0   F=237877  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -16  TP=  -12  R=563   O=24  X=19177   RA= 37  S=170   E=5111  C=0  
+[2021-03-11 15:39:35],--L1: DA TX FN= 237877  C_FN= 237878  CH= 11  ST= 16  AF= 563   FQ=  -154752  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237878  SFN=237877  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 65024   D1= 66  D2= 2048  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237878  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -12  R=563   O=24  X=19177   RA= 37  S=165   E=4797  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237879  SFN=237878  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764200  D0= 513   D1= 8032  D2= 26085   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -111   DA8=0   F=237879  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -13  R=563   O=24  X=19177   RA= 37  S=165   E=5249  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237880  SFN=237879  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -111   DA8=0   F=237880  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -13  R=563   O=24  X=19177   RA= 37  S=174   E=5141  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237881  SFN=237880  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237881  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -14  R=563   O=24  X=19177   RA= 37  S=165   E=4666  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237882  SFN=237881  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],bsn:0 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):31
+[2021-03-11 15:39:35],bsn:1 rlc_blk_ptr->rlps:31 *blk_ptr_temp:144 *(blk_ptr_temp+1):2
+[2021-03-11 15:39:35],bsn:2 rlc_blk_ptr->rlps:31 *blk_ptr_temp:0 *(blk_ptr_temp+1):0
+[2021-03-11 15:39:35],bsn:3 rlc_blk_ptr->rlps:31 *blk_ptr_temp:16 *(blk_ptr_temp+1):0
+[2021-03-11 15:39:35],bsn:4 rlc_blk_ptr->rlps:1 *blk_ptr_temp:0 *(blk_ptr_temp+1):255
+[2021-03-11 15:39:35],lx061825  rlps=1 pdulen=255--L1:  -112   DA8=0   F=237882  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -14  R=563   O=24  X=19177   RA= 37  S=170   E=4604  C=0  
+[2021-03-11 15:39:35],lixiangstartsrc 3
+[2021-03-11 15:39:35],LP LOG:srrc_dt_ProcMmSendInitDT before:SigPresent:0x0, signum:0x0
+[2021-03-11 15:39:35],LP LOG:srrc_dt_ProcMmSendInitDT after:SigPresent:0x1, signum:0x1
+[2021-03-11 15:39:35],luxy: MM receive prim is P_SRRC_MM_EST_CNF
+[2021-03-11 15:39:35],luxy: MM current state is S13:MM_STATE_WAIT_RRC_CONN_LU
+[2021-03-11 15:39:35],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:35],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237883  SFN=237882  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237883  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -15  R=563   O=24  X=19177   RA= 37  S=158   E=4777  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237884  SFN=237883  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237884  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -15  R=563   O=24  X=19177   RA= 37  S=158   E=4682  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237885  SFN=237884  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 16385   D1= 832   D2= 129   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237885  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -16  R=563   O=24  X=19177   RA= 37  S=170   E=4998  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237886  SFN=237885  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 48641   D1= 4680  D2= 61540   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237886  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -16  R=563   O=24  X=19177   RA= 37  S=165   E=4955  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237887  SFN=237886  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764201  D0= 65025   D1= 62533   D2= 47389   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:35],--L1:  -112   DA8=0   F=237887  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -16  R=563   O=24  X=19177   RA= 37  S=165   E=4747  C=0  
+[2021-03-11 15:39:35],--L1: TX 16K CH=11  FN= 237888  SFN=237887  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 3074  D1= 6263  D2= 144   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -111   DA8=0   F=237888  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -17  R=563   O=24  X=19177   RA= 37  S=170   E=5052  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237889  SFN=237888  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237889  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -17  R=563   O=24  X=19177   RA= 37  S=170   E=4899  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237890  SFN=237889  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 16385   D1= 832   D2= 129   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237890  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -18  R=563   O=24  X=19177   RA= 37  S=170   E=4976  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237891  SFN=237890  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 16385   D1= 832   D2= 129   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -111   DA8=0   F=237891  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -18  R=563   O=24  X=19177   RA= 37  S=170   E=5446  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237892  SFN=237891  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 16385   D1= 832   D2= 129   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237892  Q= -262144  D= -262144  DF= 0   DR=  -262144  L=0   T= -31  TP=  -19  R=563   O=24  X=19177   RA= 37  S=158   E=4649  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237893  SFN=237892  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 16385   D1= 832   D2= 129   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -111   DA8=0   F=237893  Q= -524288  D=0   DF=  -262144  DR= 0   L=0   T= -22  TP=  -19  R=563   O=24  X=19177   RA= 37  S=180   E=5361  C=0  
+[2021-03-11 15:39:36],--L1: DA TX FN= 237893  C_FN= 237894  CH= 11  ST= 16  AF= 563   FQ=  -154790  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237894  SFN=237893  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 16385   D1= 832   D2= 129   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -111   DA8=0   F=237894  Q= -524288  D=262144  DF= 0   DR= 262144  L=0   T= -32  TP=  -19  R=563   O=24  X=19177   RA= 37  S=151   E=5028  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237895  SFN=237894  ST= 16  SR= 8   AF= 563   FQ=  -154752  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764202  D0= 48641   D1= 4680  D2= 61540   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -111   DA8=0   F=237895  Q= -262144  D= -262144  DF= 0   DR=  -262144  L=0   T= -20  TP=  -20  R=563   O=24  X=19177   RA= 37  S=161   E=5188  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237896  SFN=237895  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764200  D0= 48641   D1= 4680  D2= 61540   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -111   DA8=0   F=237896  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -20  R=563   O=24  X=19177   RA= 37  S=165   E=5163  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237897  SFN=237896  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 48641   D1= 4680  D2= 61540   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237897  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -20  R=563   O=24  X=19177   RA= 37  S=161   E=4748  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237898  SFN=237897  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 65025   D1= 62533   D2= 47389   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237898  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -39  TP=  -21  R=563   O=24  X=19177   RA= 37  S=158   E=4828  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237899  SFN=237898  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3074  D1= 6263  D2= 144   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237899  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -21  R=563   O=24  X=19177   RA= 37  S=174   E=4791  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237900  SFN=237899  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237900  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -22  R=563   O=24  X=19177   RA= 37  S=158   E=4715  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237901  SFN=237900  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],
+[2021-03-11 15:39:36],bsn:5 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):28
+[2021-03-11 15:39:36],bsn:6 rlc_blk_ptr->rlps:31 *blk_ptr_temp:64 *(blk_ptr_temp+1):147
+[2021-03-11 15:39:36],bsn:7 rlc_blk_ptr->rlps:31 *blk_ptr_temp:47 *(blk_ptr_temp+1):160
+[2021-03-11 15:39:36],bsn:8 rlc_blk_ptr->rlps:6 *blk_ptr_temp:184 *(blk_ptr_temp+1):196
+[2021-03-11 15:39:36],lx061825  rlps=6 pdulen=196--L1:  -112   DA8=0   F=237901  Q= -524288  D=0   DF=  -262144  DR= 0   L=0   T= -35  TP=  -22  R=563   O=24  X=19177   RA= 37  S=154   E=4519  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237902  SFN=237901  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237902  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -16  TP=  -23  R=563   O=24  X=19177   RA= 37  S=161   E=4822  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237903  SFN=237902  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -111   DA8=0   F=237903  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -23  R=563   O=24  X=19177   RA= 37  S=165   E=5206  C=0  
+[2021-03-11 15:39:36],--L1: TX 16K CH=11  FN= 237904  SFN=237903  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:36],--L1:  -112   DA8=0   F=237904  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -23  R=563   O=24  X=19177   RA= 37  S=170   E=4860  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237905  SFN=237904  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -111   DA8=0   F=237905  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -24  R=563   O=24  X=19177   RA= 37  S=161   E=5175  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237906  SFN=237905  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237906  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -24  R=563   O=24  X=19177   RA= 37  S=161   E=4692  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237907  SFN=237906  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237907  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4921  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237908  SFN=237907  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764204  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237908  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4919  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237909  SFN=237908  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237909  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -26  R=563   O=24  X=19177   RA= 37  S=161   E=4749  C=0  
+[2021-03-11 15:39:37],--L1: DA TX FN= 237909  C_FN= 237910  CH= 11  ST= 16  AF= 563   FQ=  -154790  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237910  SFN=237909  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764199  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237910  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -12  TP=  -26  R=563   O=24  X=19177   RA= 37  S=170   E=4806  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237911  SFN=237910  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237911  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -42  TP=  -26  R=563   O=24  X=19177   RA= 37  S=161   E=4557  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237912  SFN=237911  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237912  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -26  R=563   O=24  X=19177   RA= 37  S=170   E=4915  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237913  SFN=237912  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237913  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -26  R=563   O=24  X=19177   RA= 37  S=170   E=4882  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237914  SFN=237913  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237914  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -28  TP=  -26  R=563   O=24  X=19177   RA= 37  S=174   E=4946  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237915  SFN=237914  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 7   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -111   DA8=0   F=237915  Q= -786432  D=262144  DF= 0   DR= 262144  L=0   T= -18  TP=  -26  R=563   O=24  X=19177   RA= 37  S=165   E=5071  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237916  SFN=237915  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237916  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -31  TP=  -26  R=563   O=24  X=19177   RA= 37  S=158   E=4872  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237917  SFN=237916  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18566   D2= 11  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237917  Q= -786432  D=262144  DF= 0   DR= 262144  L=0   T= -26  TP=  -26  R=563   O=24  X=19177   RA= 37  S=161   E=4795  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237918  SFN=237917  ST= 16  SR= 8   AF= 563   FQ=  -154790  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764200  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -111   DA8=0   F=237918  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -19  TP=  -25  R=563   O=24  X=19177   RA= 37  S=174   E=5253  C=0  
+[2021-03-11 15:39:37],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 9 ,num_blks_to_reassemble 5
+[2021-03-11 15:39:37],begin_indx 3,num_blks_to_reasm 5
+[2021-03-11 15:39:37],blk_second_byte 43
+[2021-03-11 15:39:37],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:37],lixianggmm 1,1,0
+[2021-03-11 15:39:37],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:37],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:37],luxy: mm11peer common peer msg type is 12
+[2021-03-11 15:39:37],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_len is 37
+[2021-03-11 15:39:37],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_ptr->autn_iei is 20
+[2021-03-11 15:39:37],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_ptr->autn_len is 16
+[2021-03-11 15:39:37],the current uai authen number is: 1
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],luxy: fuai authen req g_uai_switch_on_off_flag_st.card_type is 2
+[2021-03-11 15:39:37],luxy: fuai authen req field_ind is 1luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],^SATSIGNAL:-111,165
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],^CPSTATE: -111,562,24,85
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237919  SFN=237918  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -112   DA8=0   F=237919  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4876  C=0  
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237920  SFN=237919  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 51334   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],--L1:  -111   DA8=0   F=237920  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=5147  C=0  
+[2021-03-11 15:39:37],lixiangkeytype 1
+[2021-03-11 15:39:37],luxy: MM receive prim is P_UAI_MM_AUTHEN_CNF
+[2021-03-11 15:39:37],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:37],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],--L1: TX 16K CH=11  FN= 237921  SFN=237920  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:37],^SATSIGNAL:-111,165
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],^CPSTATE: -111,562,26,85
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],^DGSQU: 28,5
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],+CSQ: 28,5
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],^SATSIGNAL:-111,165
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],^CPSTATE: -111,562,26,92
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],BSN = 7 is out of receiving window
+[2021-03-11 15:39:37], bow_bsn = 8
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237921  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=5053  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237922  SFN=237921  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 16386   D1= 320   D2= 8419  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237922  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -25  R=563   O=24  X=19177   RA= 37  S=151   E=4769  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237923  SFN=237922  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237923  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=5452  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237924  SFN=237923  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 48642   D1= 45144   D2= 37053   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237924  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4925  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237925  SFN=237924  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 49666   D1= 8035  D2= 26085   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:38],BSN = 7 is out of receiving window
+[2021-03-11 15:39:38], bow_bsn = 8
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237925  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4704  C=0  
+[2021-03-11 15:39:38],--L1: DA TX FN= 237925  C_FN= 237926  CH= 11  ST= 16  AF= 563   FQ=  -154828  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237926  SFN=237925  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764199  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237926  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=24  X=19177   RA= 37  S=174   E=5368  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237927  SFN=237926  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237927  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=5025  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237928  SFN=237927  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:38],BSN = 7 is out of receiving window
+[2021-03-11 15:39:38], bow_bsn = 8
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237928  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4596  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237929  SFN=237928  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237929  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -25  R=563   O=24  X=19177   RA= 37  S=180   E=5283  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237930  SFN=237929  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237930  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=5269  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237931  SFN=237930  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 16386   D1= 320   D2= 8419  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237931  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -12  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4844  C=0  
+[2021-03-11 15:39:38],BSN = 7 is out of receiving window
+[2021-03-11 15:39:38], bow_bsn = 8
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237932  SFN=237931  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 48642   D1= 45144   D2= 37053   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237932  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=5288  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237933  SFN=237932  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764199  D0= 3908  D1= 18566   D2= 17  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237933  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=5353  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237934  SFN=237933  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 49666   D1= 8035  D2= 26085   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237934  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4806  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237935  SFN=237934  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237935  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4905  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237936  SFN=237935  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -111   DA8=0   F=237936  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=5129  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237937  SFN=237936  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],--L1:  -112   DA8=0   F=237937  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4824  C=0  
+[2021-03-11 15:39:38],--L1: TX 16K CH=11  FN= 237938  SFN=237937  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764202  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:38],bsn:9 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):15
+[2021-03-11 15:39:38],bsn:10 rlc_blk_ptr->rlps:31 *blk_ptr_temp:197 *(blk_ptr_temp+1):133
+[2021-03-11 15:39:38],bsn:11 rlc_blk_ptr->rlps:1 *blk_ptr_temp:24 *(blk_ptr_temp+1):255
+[2021-03-11 15:39:39],lx061825  rlps=1 pdulen=255--L1:  -112   DA8=0   F=237938  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4770  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237939  SFN=237938  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 16386   D1= 320   D2= 8419  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -111   DA8=0   F=237939  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=5035  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237940  SFN=237939  ST= 16  SR= 8   AF= 563   FQ=  -154828  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237940  Q= -786432  D= -262144  DF= 0   DR=  -262144  L=0   T= -27  TP=  -25  R=563   O=24  X=19177   RA= 37  S=151   E=4958  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237941  SFN=237940  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -111   DA8=0   F=237941  Q= -1048576   D=0   DF=  -262144  DR= 0   L=0   T= -32  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=5156  C=0  
+[2021-03-11 15:39:39],--L1: DA TX FN= 237941  C_FN= 237942  CH= 11  ST= 16  AF= 563   FQ=  -154866  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237942  SFN=237941  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237942  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -25  R=563   O=24  X=19177   RA= 37  S=154   E=4965  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237943  SFN=237942  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -111   DA8=0   F=237943  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=5114  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237944  SFN=237943  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18566   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -111   DA8=0   F=237944  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=5046  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237945  SFN=237944  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237945  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4797  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237946  SFN=237945  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237946  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4714  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237947  SFN=237946  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -111   DA8=0   F=237947  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -14  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=5134  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237948  SFN=237947  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 3908  D1= 18566   D2= 23  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 13 ,num_blks_to_reassemble 3
+[2021-03-11 15:39:39],begin_indx 9,num_blks_to_reasm 3
+[2021-03-11 15:39:39],blk_second_byte 43--L1:  -112   DA8=0   F=237948  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -25  R=563   O=24  X=19177   RA= 37  S=174   E=4836  C=0  
+[2021-03-11 15:39:39],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:39],lixianggmm 1,1,0
+[2021-03-11 15:39:39],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:39],luxy: mm11peer common peer msg type is 32
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],NETWORK INFO: year:2021,month:3,day:11,hour:15,min:39,sec:39
+[2021-03-11 15:39:39],+CTZE: "+32",0,"2021/03/11,07:39:39"
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237949  SFN=237948  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237949  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4957  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237950  SFN=237949  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18566   D2= 25  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237950  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4866  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237951  SFN=237950  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764200  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 16 ,num_blks_to_reassemble 2
+[2021-03-11 15:39:39],begin_indx 13,num_blks_to_reasm 2
+[2021-03-11 15:39:39],blk_second_byte 43--L1:  -112   DA8=0   F=237951  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4876  C=0  
+[2021-03-11 15:39:39],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:39],lixiang local msn=0,msn=3
+[2021-03-11 15:39:39],lixianghfn 0
+[2021-03-11 15:39:39],Ik_ptr-->
+[2021-03-11 15:39:39],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:39],counti 3, fresh 757845a
+[2021-03-11 15:39:39],lixiang mac 4513ec68, maci 4513ec68
+[2021-03-11 15:39:39],cipher11 1 0
+[2021-03-11 15:39:39],cipher11 2 type 0
+[2021-03-11 15:39:39],lixiangulik 5 hfn 0,msn 1
+[2021-03-11 15:39:39],Uplink Ik_ptr:
+[2021-03-11 15:39:39],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:39],lixiangulik counti 1
+[2021-03-11 15:39:39],lixiangulik fresh 123176026
+[2021-03-11 15:39:39],lixiangulik length 64
+[2021-03-11 15:39:39],luxy: MM receive prim is P_SRRC_MM_SECURITY_IND
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],^SATSIGNAL:-112,163
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],^CPSTATE: -112,562,32,92
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237952  SFN=237951  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237952  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4943  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237953  SFN=237952  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 31  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237953  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4888  C=0  
+[2021-03-11 15:39:39],--L1: TX 16K CH=11  FN= 237954  SFN=237953  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3   D1= 320   D2= 49410   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:39],--L1:  -112   DA8=0   F=237954  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4859  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237955  SFN=237954  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764213  D0= 17411   D1= 15456   D2= 58655   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237955  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4684  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237956  SFN=237955  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237956  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4805  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237957  SFN=237956  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18566   D2= 31  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237957  Q= -1048576   D=0   DF=  -262144  DR= 0   L=0   T= -15  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4751  C=0  
+[2021-03-11 15:39:40],--L1: DA TX FN= 237957  C_FN= 237958  CH= 11  ST= 16  AF= 563   FQ=  -154866  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237958  SFN=237957  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237958  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=24  X=19177   RA= 37  S=174   E=4637  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237959  SFN=237958  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237959  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4588  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237960  SFN=237959  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18566   D2= 31  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237960  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4711  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237961  SFN=237960  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3   D1= 320   D2= 49410   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237961  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -45  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4648  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237962  SFN=237961  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 3   D1= 320   D2= 49410   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237962  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4524  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237963  SFN=237962  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764202  D0= 3908  D1= 18566   D2= 31  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237963  Q= -1048576   D= -262144  DF= 0   DR=  -262144  L=0   T= -28  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4649  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237964  SFN=237963  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 17411   D1= 15456   D2= 58655   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237964  Q= -1310720   D=262144  DF= 0   DR= 262144  L=0   T= -18  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4594  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237965  SFN=237964  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764199  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237965  Q= -1048576   D= -262144  DF= 0   DR=  -262144  L=0   T= -33  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4580  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237966  SFN=237965  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237966  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=24  X=19177   RA= 37  S=151   E=4339  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237967  SFN=237966  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 31  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237967  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=24  X=19177   RA= 37  S=151   E=4635  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237968  SFN=237967  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],bsn:12 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):8
+[2021-03-11 15:39:40],bsn:13 rlc_blk_ptr->rlps:2 *blk_ptr_temp:1 *(blk_ptr_temp+1):224
+[2021-03-11 15:39:40],lx061825  rlps=2 pdulen=224--L1:  -112   DA8=0   F=237968  Q= -1310720   D=262144  DF= 0   DR= 262144  L=0   T= -42  TP=  -25  R=563   O=24  X=19177   RA= 37  S=148   E=4248  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237969  SFN=237968  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3   D1= 320   D2= 49410   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237969  Q= -1048576   D= -262144  DF= 0   DR=  -262144  L=0   T= -22  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4720  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237970  SFN=237969  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:40],--L1:  -112   DA8=0   F=237970  Q= -1310720   D=262144  DF= 0   DR= 262144  L=0   T= -30  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4668  C=0  
+[2021-03-11 15:39:40],--L1: TX 16K CH=11  FN= 237971  SFN=237970  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237971  Q= -1048576   D= -262144  DF= 0   DR=  -262144  L=0   T= -35  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4738  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237972  SFN=237971  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237972  Q= -1310720   D=262144  DF= 0   DR= 262144  L=0   T= -18  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4692  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237973  SFN=237972  ST= 16  SR= 8   AF= 563   FQ=  -154866  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237973  Q= -1048576   D= -262144  DF=  -262144  DR=  -262144  L=0   T= -8   TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4747  C=0  
+[2021-03-11 15:39:41],--L1: DA TX FN= 237973  C_FN= 237974  CH= 11  ST= 16  AF= 563   FQ=  -154904  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237974  SFN=237973  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764202  D0= 3908  D1= 18566   D2= 33  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237974  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4821  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237975  SFN=237974  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -111   DA8=0   F=237975  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=5015  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237976  SFN=237975  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 19 ,num_blks_to_reassemble 2
+[2021-03-11 15:39:41],begin_indx 16,num_blks_to_reasm 2
+[2021-03-11 15:39:41],blk_second_byte 126--L1:  -112   DA8=0   F=237976  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4696  C=0  
+[2021-03-11 15:39:41],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:41],lixianggmm 1,1,0
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:41],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],lixiangulik 5 hfn 0,msn 2
+[2021-03-11 15:39:41],Uplink Ik_ptr:
+[2021-03-11 15:39:41],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:41],lixiangulik counti 2
+[2021-03-11 15:39:41],lixiangulik fresh 123176026
+[2021-03-11 15:39:41],lixiangulik length 75
+[2021-03-11 15:39:41],--L1: g_IMSI_ID_u32=992   TMSI=  -1699258365  PTMSI= -939523739   GRNTI=0   Rand= 7916 
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: GMM receive prim is P_MM_GMM_UEID_CHANGED_REQ
+[2021-03-11 15:39:41],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:41],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:41],luxy: gmm main prim_id is 1f17
+[2021-03-11 15:39:41],luxy: GMM after handled the message
+[2021-03-11 15:39:41],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:39:41],--L1: %%%%REGISTER_SUCCESS%%%%= 1  
+[2021-03-11 15:39:41],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:39:41],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:39:41],[fatp_net_creg_ciev_rc] network is ready, try to send position!
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237977  SFN=237976  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237977  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=24  X=19177   RA= 37  S=180   E=4814  C=0  
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],^SATSIGNAL:-112,161
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],^CPSTATE: -112,562,29,92
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],^DGSQU: 27,5
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],+CSQ: 27,5
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],^MESINFO:0,0
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],+CREG: 1,"a00f","000f"
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237978  SFN=237977  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 37  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237978  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4745  C=0  
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237979  SFN=237978  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764211  D0= 32771   D1= 320   D2= 8259  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],+CIEV: 8,0
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],--L1:  -111   DA8=0   F=237979  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=24  X=19177   RA= 37  S=174   E=5196  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237980  SFN=237979  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 37  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -111   DA8=0   F=237980  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=5283  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237981  SFN=237980  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 51203   D1= 43892   D2= 51310   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237981  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4804  C=0  
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237982  SFN=237981  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237982  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4977  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237983  SFN=237982  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 3908  D1= 18566   D2= 37  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237983  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4975  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237984  SFN=237983  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 32771   D1= 320   D2= 8259  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -111   DA8=0   F=237984  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -39  TP=  -25  R=563   O=24  X=19177   RA= 37  S=151   E=5041  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237985  SFN=237984  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764205  D0= 51203   D1= 43892   D2= 51310   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],[fat_xorUETYPE_set3]:manu is ZTE-T900,version is T900+_V2.0
+[2021-03-11 15:39:41],[fat_xorUETYPE_set5]:uetype is ZTE-T900,version is T900+_V2.0
+[2021-03-11 15:39:41],[self_register_entry2]:need_reg_flag is 1
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237985  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4968  C=0  
+[2021-03-11 15:39:41],[fatp_uai_get_reg_imsi_cnf0]:uetype is ZTE-T900,version is T900+_V2.0
+[2021-03-11 15:39:41],[fatp_uai_get_reg_imsi_cnf2]
+[2021-03-11 15:39:41],fatp_uai_get_reg_imsi_cnf5:need_reg_flag is 1
+[2021-03-11 15:39:41],[fatp_uai_get_reg_imsi_cnf7]:nvram_imsi is 460590104193992
+[2021-03-11 15:39:41],[fatp_uai_get_reg_imsi_cnf8]:imsi is 460590104193992,uetype is ZTE-T900,version is T900+_V2.0
+[2021-03-11 15:39:41],fatp_reg_readimei_cnf
+[2021-03-11 15:39:41],38 36 39 34 38 33 30 34 30 32 39 37 35 38 30 
+[2021-03-11 15:39:41],fatp_reg_readimei_cnf:need_reg_flag is 1
+[2021-03-11 15:39:41],fatp_reg_readimei_cnf0:nvram_imei is 869483040297580
+[2021-03-11 15:39:41],fatp_reg_readimei_cnf1:imei is 869483040297580,uetype is ZTE-T900,version is T900+_V2.0:
+[2021-03-11 15:39:41],assem_register_sms:len is 82
+[2021-03-11 15:39:41],assem_register_sms:manu_len is 8,imei_len is 15,imsi_len is 15,version_len is 10
+[2021-03-11 15:39:41],[assem_register_sms]:uetype is ZTE-T900,imei is 869483040297580,imsi is 460590104193992,version is T900+_V2.0
+[2021-03-11 15:39:41],[assem_register_sms3]:register_report_info is <a1><b1>ZTE-T900</b1><b2>869483040297580</b2><b3>460590104193992</b3><b4>T900+_V2.0</b4></a1>
+[2021-03-11 15:39:41],[assem_register_sms4]:data length is 128
+[2021-03-11 15:39:41],assem_register_sms:protocol_version=2,protocol_version=3,msg_length=5d,filter=0
+[2021-03-11 15:39:41],crc32:9b855c4a
+[2021-03-11 15:39:41],crc32_ASCII:0x39,0x62,0x38,0x35,0x35,0x63,0x34,0x61
+[2021-03-11 15:39:41],sms_body is 0x3c,0x61,0x31,0x3e,0x3c,0x62,0x31,0x3e,0x5a,0x54,0x45
+[2021-03-11 15:39:41],[fat_register_sms_ext]
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SMS_MM_EST_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],stack_index is : 4
+[2021-03-11 15:39:41], mm current state is :9 
+[2021-03-11 15:39:41], gsm peer msg allow is 1
+[2021-03-11 15:39:41], mm state stack is : 
+[2021-03-11 15:39:41],197,13,3,9,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+[2021-03-11 15:39:41],stack_index is : 4
+[2021-03-11 15:39:41], mm current state is :9 
+[2021-03-11 15:39:41], gsm peer msg allow is 1
+[2021-03-11 15:39:41], mm state stack is : 
+[2021-03-11 15:39:41],197,13,3,9,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,The plmn in usim is:46059
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],The avail plmn is:
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],zx: register sms
+[2021-03-11 15:39:41],send_self_register_sms3:fat_register_sms_ext len is 125
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237986  SFN=237985  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764210  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237986  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -14  TP=  -25  R=563   O=24  X=19177   RA= 37  S=174   E=4908  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237987  SFN=237986  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764203  D0= 3908  D1= 18566   D2= 37  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],--L1:  -112   DA8=0   F=237987  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -39  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4810  C=0  
+[2021-03-11 15:39:41],--L1: TX 16K CH=11  FN= 237988  SFN=237987  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:42],--L1:  -111   DA8=0   F=237988  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -12  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=5072  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237989  SFN=237988  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -111   DA8=0   F=237989  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=5024  C=0  
+[2021-03-11 15:39:42],--L1: DA TX FN= 237989  C_FN= 237990  CH= 11  ST= 16  AF= 563   FQ=  -154904  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237990  SFN=237989  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 3908  D1= 18566   D2= 37  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237990  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4927  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237991  SFN=237990  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 51203   D1= 43892   D2= 51310   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237991  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4636  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237992  SFN=237991  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237992  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4884  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237993  SFN=237992  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237993  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4799  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237994  SFN=237993  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764198  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],bsn:14 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):10
+[2021-03-11 15:39:42],bsn:15 rlc_blk_ptr->rlps:4 *blk_ptr_temp:165 *(blk_ptr_temp+1):91
+[2021-03-11 15:39:42],lx061825  rlps=4 pdulen=91--L1:  -112   DA8=0   F=237994  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4903  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237995  SFN=237994  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237995  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -10  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4827  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237996  SFN=237995  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237996  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4959  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237997  SFN=237996  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237997  Q= -1310720   D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=4775  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237998  SFN=237997  ST= 16  SR= 8   AF= 563   FQ=  -154904  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237998  Q= -1310720   D= -262144  DF= 0   DR=  -262144  L=0   T= -23  TP=  -25  R=563   O=24  X=19177   RA= 37  S=154   E=4696  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 237999  SFN=237998  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=237999  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -45  TP=  -25  R=563   O=24  X=19177   RA= 37  S=174   E=4771  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 238000  SFN=237999  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 21 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:42],begin_indx 19,num_blks_to_reasm 1
+[2021-03-11 15:39:42],blk_second_byte 43--L1:  -112   DA8=0   F=238000  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4650  C=0  
+[2021-03-11 15:39:42],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:42],lx061825  in srrc_rcm_MsIdleSsIdle_HdlUuRrcConnRel
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],lixiangti 1 0
+[2021-03-11 15:39:42],lixiangti 2 0
+[2021-03-11 15:39:42],lx061825  in send complete
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],lixiangulik 5 hfn 0,msn 3
+[2021-03-11 15:39:42],Uplink Ik_ptr:
+[2021-03-11 15:39:42],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:42],lixiangulik counti 3
+[2021-03-11 15:39:42],lixiangulik fresh 123176026
+[2021-03-11 15:39:42],lixiangulik length 48
+[2021-03-11 15:39:42],lx061825  in send complete end
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 238001  SFN=238000  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 39  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],BSN = 19 is out of receiving window
+[2021-03-11 15:39:42], bow_bsn = 20
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=238001  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -42  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4716  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 238002  SFN=238001  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 41  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=238002  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -10  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4484  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 238003  SFN=238002  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 3908  D1= 18566   D2= 41  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=238003  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -39  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4446  C=0  
+[2021-03-11 15:39:42],--L1: TX 16K CH=11  FN= 238004  SFN=238003  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764196  D0= 4   D1= 96  D2= 18114   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:42],--L1:  -112   DA8=0   F=238004  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4791  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238005  SFN=238004  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764200  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],BSN = 19 is out of receiving window
+[2021-03-11 15:39:43], bow_bsn = 20
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238005  Q= -1572864   D=0   DF= 1048576   DR= 0   L=0   T= -28  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4876  C=0  
+[2021-03-11 15:39:43],--L1: DA TX FN= 238005  C_FN= 238006  CH= 11  ST= 16  AF= 563   FQ=  -154942  TC= 25817   TF= 31815   FS= 0   FC= 0   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238006  SFN=238005  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 4   D1= 96  D2= 18114   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238006  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4464  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238007  SFN=238006  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 41  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238007  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4414  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238008  SFN=238007  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],BSN = 19 is out of receiving window
+[2021-03-11 15:39:43], bow_bsn = 20
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238008  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4904  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238009  SFN=238008  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238009  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4648  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238010  SFN=238009  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764195  D0= 3908  D1= 18566   D2= 41  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238010  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=4538  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238011  SFN=238010  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764197  D0= 4   D1= 96  D2= 18114   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],BSN = 19 is out of receiving window
+[2021-03-11 15:39:43], bow_bsn = 20
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238011  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -25  R=563   O=24  X=19177   RA= 37  S=165   E=4763  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238012  SFN=238011  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -112   DA8=0   F=238012  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -25  R=563   O=24  X=19177   RA= 37  S=170   E=4736  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238013  SFN=238012  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 3908  D1= 18566   D2= 41  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -111   DA8=0   F=238013  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=5151  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238014  SFN=238013  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764193  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -111   DA8=0   F=238014  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -25  R=563   O=24  X=19177   RA= 37  S=158   E=5353  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238015  SFN=238014  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764199  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -111   DA8=0   F=238015  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -41  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=5263  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238016  SFN=238015  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764194  D0= 4   D1= 96  D2= 18114   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],--L1:  -111   DA8=0   F=238016  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -25  R=563   O=24  X=19177   RA= 37  S=161   E=5237  C=0  
+[2021-03-11 15:39:43],--L1: TX 16K CH=11  FN= 238017  SFN=238016  ST= 16  SR= 8   AF= 563   FQ=  -154942  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 394457  TK= 764203  D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],bsn:16 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):6
+[2021-03-11 15:39:43],lx061825  rlps=0 pdulen=6--L1:  -112   DA8=0   F=238017  Q= -1572864   D=0   DF= 0   DR= 0   L=0   T= -12  TP=  -25  R=563   O=24  X=19177   RA= 37  S=154   E=4714  C=0  
+[2021-03-11 15:39:43],lx061825  local rel !!
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],lixiang1010 1,1,0
+[2021-03-11 15:39:43],--L1: DCH Release E STATUS= 0   Tx Head=0   Rx Head=0   C_SFN=238017 
+[2021-03-11 15:39:43],--L1: L1CC RELEASE E_PCH= 1   TCU0= 0   RPS=32  INT1= 0   INT4= 0  
+[2021-03-11 15:39:43],SMAC LOG:normal release, reset cipher info
+[2021-03-11 15:39:43],SRRC LOG:No pdcp to release.
+[2021-03-11 15:39:43],Rcm_ptr->RelSource_en 0
+[2021-03-11 15:39:43],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:39:43],******zhangkh******copy from above!
+[2021-03-11 15:39:43],--L1: BCCH_CFN= 238018  SFN=3   AGC=37  ARF=562   SLV=0   SFG_FN= 238027 
+[2021-03-11 15:39:43],luxy: MM receive prim is P_SRRC_MM_REL_IND
+[2021-03-11 15:39:43],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:43],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:43],lixiang1 IsBchReading=1,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:39:43],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 3
+[2021-03-11 15:39:43],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: MM receive prim is P_SRRC_MM_IDLE_MODE_CHANGE_IND
+[2021-03-11 15:39:43],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:43],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:43],luxy: mm receive P_RRC_MM_IDLE_MODE_CHANGE_IND in normal
+[2021-03-11 15:39:43],luxy: g_mm_is_spv_nreg_pend is 0
+[2021-03-11 15:39:43],luxy: g_mm_is_cm_req_pend is 0
+[2021-03-11 15:39:43],luxy: T3212 mm rcv rrc enter idle and g_mm_is_rcv_ps_end is 0
+[2021-03-11 15:39:43],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 7
+[2021-03-11 15:39:43],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:39:43],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],^SATSIGNAL:-112,161
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],^CPSTATE: -112,562,30,92
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:44],--L1: PC= 16  F=238021  S=0   Q= -1310720   D= -22282240  E=131   Le= 161   X1= 19177   I= -543   J= -1   A=562  
+[2021-03-11 15:39:44],--L1: B= -111   BW= 0   Q= -1310720   D=0   T= -209   L=0   R=562   S=170   E=5343  Ck= 484084  A=37  X1= 19177   Y=1   O=4   ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=238027 
+[2021-03-11 15:39:44],--L1: BC DFU= 19  DL XINQ HZ= 19196  
+[2021-03-11 15:39:44],check ac 4
+[2021-03-11 15:39:44],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:39:44],NEW
+[2021-03-11 15:39:44],--L1: Fra=32  Sym=11  Stn=0   tsf=0   RaS=779   Tof= -655   R3_sf=238034  C_f=238027  PCIE= 1   A=562   S=33  L=5   PS= 32  RT= 0   PF= 32  PC= 0   DK4=57976   DK8=11  CK=  -655   UF=  -154752  A_ARFCN=562   Pair_k= 0   TD_P1   ZTE   dp=  -15475   F_af= 
+[2021-03-11 15:39:44],^DGSQU: 28,5
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],+CSQ: 28,5
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],^SATSIGNAL:-111,162
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],^CPSTATE: -111,562,30,84
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],^DGSQU: 28,5
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],+CSQ: 28,5
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],^SATSIGNAL:-111,162
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],^CPSTATE: -111,562,30,85
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],--L1: TX 16K CH=2   FN= 238035  TH= 0   ST= 33  D0= 57856   D1= 46968   AF= 562   Dm= 26  RP= 32  PW= 0   PT= 0   PC= 79566848  SK= 1500377   EK= 349337  CK= 349479  Te= 0   Fe= 0   SS 
+[2021-03-11 15:39:44],--L1: AG= 15  FN= 238036  Q=0   D= -42729472  T= -1220  R=562   X1= 19196   ST= 0   S=0   E=154  
+[2021-03-11 15:39:44],--L1: AG= 14  FN= 238037  Q=0   D= -98566144  T= -82  R=562   X1= 19196   ST= 0   S=0   E=109  
+[2021-03-11 15:39:45],--L1: AG= 21  FN= 238038  Q=0   D=18087936  T= -260   R=562   X1= 19196   ST= 0   S=0   E=142  
+[2021-03-11 15:39:45],--L1: AG= 10  FN= 238039  Q=0   D= -8388608   T=1525  R=562   X1= 19196   ST= 0   S=0   E=118  
+[2021-03-11 15:39:45],--L1: AG= 13  FN= 238040  Q=0   D= -33554432  T= -437   R=562   X1= 19196   ST= 0   S=0   E=163  
+[2021-03-11 15:39:45],--L1: AG= 16  FN= 238042  Q=0   D= -20709376  T= -1268  R=562   X1= 19196   ST= 0   S=0   E=136  
+[2021-03-11 15:39:45],--L1: B= -112   BW= 0   Q=0   D=0   T= -288   L=0   R=562   S=161   E=4993  Ck= 484078  A=37  X1= 19196   Y=1   O=16  ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=238043 
+[2021-03-11 15:39:45],--L1: AG= 13  FN= 238044  Q=0   D= -105644032   T=935   R=562   X1= 19196   ST= 0   S=0   E=139  
+[2021-03-11 15:39:45],--L1: AG= 14  FN= 238045  Q=0   D=41943040  T= -1487  R=562   X1= 19196   ST= 0   S=0   E=137  
+[2021-03-11 15:39:45],--L1: AG= 15  FN= 238046  Q=0   D=30670848  T=909   R=562   X1= 19196   ST= 0   S=0   E=146  
+[2021-03-11 15:39:45],--L1: AG= 17  FN= 238047  Q=0   D=90701824  T=1440  R=562   X1= 19196   ST= 0   S=0   E=138  
+[2021-03-11 15:39:45],--L1: AG= 15  FN= 238048  Q=0   D= -55836672  T=984   R=562   X1= 19196   ST= 0   S=0   E=160  
+[2021-03-11 15:39:45],--L1: AG= 16  FN= 238050  Q=0   D=43778048  T=408   R=562   X1= 19196   ST= 0   S=0   E=113  
+[2021-03-11 15:39:45],--L1: B= -111   BW= 0   Q=0   D=0   T= -162   L=0   R=562   S=158   E=5063  Ck= 484088  A=37  X1= 19196   Y=1   O=16  ST0=0   ST1=0   RTO=1150  C=0   R=1   M=0   F=238051 
+[2021-03-11 15:39:45],--L1: AG= 0   FN= 238052  Q=0   D=0   T= -31  R=562   X1= 19196   ST= 0   S=158   E=4946 
+[2021-03-11 15:39:45],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:39:45],--L1: D_SLOT-DA 8   U_SLOT-DA 0   DACCH BB2MES Freq= -18  M=0   TIME= 0  
+[2021-03-11 15:39:45],--L1: DACCH BB2MES Freq= -18  TIME= 0   PAR=0   CM= 19  FU=  -154876  FD= 19196  
+[2021-03-11 15:39:45],lixiang1013 wait setup
+[2021-03-11 15:39:45],--L1: TX 16K CH=11  FN= 238054  SFN=238053  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:45],--L1:  -111   DA8=0   F=238054  Q=0   D= -262144  DF= 0   DR=  -262144  L=0   T= -49  TP= 0   R=563   O=8   X=19196   RA= 37  S=180   E=5141  C=0  
+[2021-03-11 15:39:45],--L1: TX 16K CH=11  FN= 238055  SFN=238054  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -112   DA8=0   F=238055  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -19  TP= 0   R=563   O=8   X=19196   RA= 37  S=165   E=4666  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238056  SFN=238055  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 3908  D1= 18822   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238056  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -35  TP= 0   R=563   O=8   X=19196   RA= 37  S=174   E=5064  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238057  SFN=238056  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -112   DA8=0   F=238057  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -20  TP= 0   R=563   O=8   X=19196   RA= 37  S=174   E=4833  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238058  SFN=238057  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 3908  D1= 18822   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -112   DA8=0   F=238058  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -41  TP=  -1   R=563   O=8   X=19196   RA= 37  S=165   E=4999  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238059  SFN=238058  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238059  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -14  TP=  -1   R=563   O=8   X=19196   RA= 37  S=165   E=5249  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238060  SFN=238059  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238060  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -2   R=563   O=8   X=19196   RA= 37  S=170   E=5078  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238061  SFN=238060  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 3908  D1= 18822   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238061  Q= -262144  D=0   DF= 262144  DR= 0   L=0   T= -40  TP=  -2   R=563   O=8   X=19196   RA= 37  S=174   E=5229  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238062  SFN=238061  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238062  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -3   R=563   O=8   X=19196   RA= 37  S=174   E=5106  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238063  SFN=238062  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238063  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -40  TP=  -3   R=563   O=8   X=19196   RA= 37  S=165   E=5309  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238064  SFN=238063  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238064  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -4   R=563   O=8   X=19196   RA= 37  S=170   E=5191  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238065  SFN=238064  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 3908  D1= 18822   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -112   DA8=0   F=238065  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -4   R=563   O=8   X=19196   RA= 37  S=165   E=4950  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238066  SFN=238065  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238066  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -5   R=563   O=8   X=19196   RA= 37  S=161   E=5244  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238067  SFN=238066  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238067  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -5   R=563   O=8   X=19196   RA= 37  S=170   E=5039  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238068  SFN=238067  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 3908  D1= 18822   D2= 32769   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238068  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -5   R=563   O=8   X=19196   RA= 37  S=174   E=5053  C=0  
+[2021-03-11 15:39:46],--L1: DA TX FN= 238068  C_FN= 238068  CH= 11  ST= 0   AF= 563   FQ=  -154876  TC= 1131737   TF= 31815   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238069  SFN=238068  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26919   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],
+[2021-03-11 15:39:46],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:46],begin_indx 1,num_blks_to_reasm 1
+[2021-03-11 15:39:46],blk_second_byte 43--L1:  -111   DA8=0   F=238069  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -6   R=563   O=8   X=19196   RA= 37  S=165   E=5079  C=0  
+[2021-03-11 15:39:46],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:46],luxy: NMO is 1
+[2021-03-11 15:39:46],srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+[2021-03-11 15:39:46],--L1: HLS UNKNOWN MSG!!!!  
+[2021-03-11 15:39:46],--L1: DACCH ACTIVE CURRENT FN=238069  DACCH ACTIVE FN=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238070  SFN=238069  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],--L1:  -112   DA8=0   F=238070  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -6   R=563   O=8   X=19196   RA= 37  S=158   E=4819  C=0  
+[2021-03-11 15:39:46],--L1: TX 16K CH=11  FN= 238071  SFN=238070  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 3908  D1= 18566   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:46],
+[2021-03-11 15:39:46],BSN = 0 is out of receiving window
+[2021-03-11 15:39:46], bow_bsn = 2
+[2021-03-11 15:39:46],--L1:  -111   DA8=0   F=238071  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -7   R=563   O=8   X=19196   RA= 37  S=170   E=5057  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238072  SFN=238071  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 0   D1= 832   D2= 32994   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238072  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -7   R=563   O=8   X=19196   RA= 37  S=165   E=4745  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238073  SFN=238072  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 32256   D1= 82  D2= 32842   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238073  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -8   R=563   O=8   X=19196   RA= 37  S=165   E=4891  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238074  SFN=238073  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 48640   D1= 64  D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 0 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238074  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -39  TP=  -8   R=563   O=8   X=19196   RA= 37  S=165   E=4819  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238075  SFN=238074  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26919   D0= 3908  D1= 51334   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238075  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -9   R=563   O=8   X=19196   RA= 37  S=165   E=4841  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238076  SFN=238075  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 65024   D1= 66  D2= 2048  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238076  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -9   R=563   O=8   X=19196   RA= 37  S=161   E=4838  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238077  SFN=238076  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 513   D1= 8032  D2= 26085   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238077  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -9   R=563   O=8   X=19196   RA= 37  S=158   E=4876  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238078  SFN=238077  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 3908  D1= 18566   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 0 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238078  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -10  R=563   O=8   X=19196   RA= 37  S=165   E=4708  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238079  SFN=238078  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238079  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -10  R=563   O=8   X=19196   RA= 37  S=170   E=4816  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238080  SFN=238079  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238080  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -11  R=563   O=8   X=19196   RA= 37  S=170   E=4853  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238081  SFN=238080  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 3908  D1= 51334   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 0 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238081  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -45  TP=  -11  R=563   O=8   X=19196   RA= 37  S=161   E=4714  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238082  SFN=238081  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 0   D1= 832   D2= 32994   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -111   DA8=0   F=238082  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -12  R=563   O=8   X=19196   RA= 37  S=161   E=5099  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238083  SFN=238082  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 32256   D1= 82  D2= 32842   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],--L1:  -111   DA8=0   F=238083  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -12  R=563   O=8   X=19196   RA= 37  S=165   E=5083  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238084  SFN=238083  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 48640   D1= 64  D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238084  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -12  R=563   O=8   X=19196   RA= 37  S=180   E=4968  C=0  
+[2021-03-11 15:39:47],--L1: DA TX FN= 238084  C_FN= 238084  CH= 11  ST= 0   AF= 563   FQ=  -154876  TC= 1131737   TF= 31815   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238085  SFN=238084  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 3908  D1= 18566   D2= 5   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -111   DA8=0   F=238085  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -38  TP=  -13  R=563   O=8   X=19196   RA= 37  S=170   E=5145  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238086  SFN=238085  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 65024   D1= 66  D2= 2048  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -112   DA8=0   F=238086  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -13  R=563   O=8   X=19196   RA= 37  S=170   E=4991  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238087  SFN=238086  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 513   D1= 8032  D2= 26085   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:47],--L1:  -111   DA8=0   F=238087  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -42  TP=  -14  R=563   O=8   X=19196   RA= 37  S=165   E=5121  C=0  
+[2021-03-11 15:39:47],--L1: TX 16K CH=11  FN= 238088  SFN=238087  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238088  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -19  TP=  -14  R=563   O=8   X=19196   RA= 37  S=165   E=5024  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238089  SFN=238088  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238089  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -15  R=563   O=8   X=19196   RA= 37  S=170   E=5103  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238090  SFN=238089  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],
+[2021-03-11 15:39:48],bsn:0 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):31
+[2021-03-11 15:39:48],bsn:1 rlc_blk_ptr->rlps:31 *blk_ptr_temp:144 *(blk_ptr_temp+1):2
+[2021-03-11 15:39:48],bsn:2 rlc_blk_ptr->rlps:31 *blk_ptr_temp:0 *(blk_ptr_temp+1):0
+[2021-03-11 15:39:48],bsn:3 rlc_blk_ptr->rlps:31 *blk_ptr_temp:16 *(blk_ptr_temp+1):0
+[2021-03-11 15:39:48],bsn:4 rlc_blk_ptr->rlps:1 *blk_ptr_temp:0 *(blk_ptr_temp+1):255
+[2021-03-11 15:39:48],lx061825  rlps=1 pdulen=255--L1:  -111   DA8=0   F=238090  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -15  R=563   O=8   X=19196   RA= 37  S=165   E=5189  C=0  
+[2021-03-11 15:39:48],lixiangstartsrc 3
+[2021-03-11 15:39:48],LP LOG:srrc_dt_ProcMmSendInitDT before:SigPresent:0x0, signum:0x0
+[2021-03-11 15:39:48],LP LOG:srrc_dt_ProcMmSendInitDT after:SigPresent:0x1, signum:0x1
+[2021-03-11 15:39:48],luxy: MM receive prim is P_SRRC_MM_EST_CNF
+[2021-03-11 15:39:48],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:48],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:48],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:48],
+[2021-03-11 15:39:48],
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238091  SFN=238090  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -112   DA8=0   F=238091  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -34  TP=  -16  R=563   O=8   X=19196   RA= 37  S=165   E=4960  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238092  SFN=238091  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238092  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -16  R=563   O=8   X=19196   RA= 37  S=165   E=5363  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238093  SFN=238092  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 16385   D1= 576   D2= 161   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238093  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -17  R=563   O=8   X=19196   RA= 37  S=174   E=5173  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238094  SFN=238093  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 48641   D1= 5188  D2= 22275   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238094  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -17  R=563   O=8   X=19196   RA= 37  S=161   E=5241  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238095  SFN=238094  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 52737   D1= 46970   D2= 864   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238095  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -18  R=563   O=8   X=19196   RA= 37  S=174   E=5191  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238096  SFN=238095  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238096  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -18  R=563   O=8   X=19196   RA= 37  S=174   E=5238  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238097  SFN=238096  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 16385   D1= 576   D2= 161   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238097  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -18  R=563   O=8   X=19196   RA= 37  S=174   E=5434  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238098  SFN=238097  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 16385   D1= 576   D2= 161   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238098  Q= -262144  D= -262144  DF= 0   DR=  -262144  L=0   T= -36  TP=  -19  R=563   O=8   X=19196   RA= 37  S=174   E=5043  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238099  SFN=238098  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 16385   D1= 576   D2= 161   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238099  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -19  R=563   O=8   X=19196   RA= 37  S=161   E=5083  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238100  SFN=238099  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 48641   D1= 5188  D2= 22275   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238100  Q= -524288  D=262144  DF= 0   DR= 262144  L=0   T= -39  TP=  -20  R=563   O=8   X=19196   RA= 37  S=161   E=5235  C=0  
+[2021-03-11 15:39:48],--L1: DA TX FN= 238100  C_FN= 238100  CH= 11  ST= 0   AF= 563   FQ=  -154876  TC= 1131737   TF= 31815   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238101  SFN=238100  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 16385   D1= 576   D2= 161   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238101  Q= -262144  D=0   DF=  -262144  DR= 0   L=0   T= -30  TP=  -20  R=563   O=8   X=19196   RA= 37  S=180   E=5101  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238102  SFN=238101  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 16385   D1= 576   D2= 161   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238102  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -20  R=563   O=8   X=19196   RA= 37  S=174   E=5120  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238103  SFN=238102  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 52737   D1= 46970   D2= 864   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238103  Q= -262144  D= -262144  DF= 0   DR=  -262144  L=0   T= -30  TP=  -21  R=563   O=8   X=19196   RA= 37  S=180   E=5044  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238104  SFN=238103  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:48],--L1:  -111   DA8=0   F=238104  Q= -524288  D=262144  DF= 0   DR= 262144  L=0   T= -27  TP=  -21  R=563   O=8   X=19196   RA= 37  S=161   E=5220  C=0  
+[2021-03-11 15:39:48],--L1: TX 16K CH=11  FN= 238105  SFN=238104  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238105  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -17  TP=  -22  R=563   O=8   X=19196   RA= 37  S=174   E=4991  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238106  SFN=238105  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -111   DA8=0   F=238106  Q= -262144  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -22  R=563   O=8   X=19196   RA= 37  S=174   E=5080  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238107  SFN=238106  ST= 0   SR= 32  AF= 563   FQ=  -154876  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -111   DA8=0   F=238107  Q= -262144  D= -262144  DF= 0   DR=  -262144  L=0   T= -21  TP=  -22  R=563   O=8   X=19196   RA= 37  S=165   E=5046  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238108  SFN=238107  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 48641   D1= 5188  D2= 22275   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],bsn:5 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):21
+[2021-03-11 15:39:49],bsn:6 rlc_blk_ptr->rlps:31 *blk_ptr_temp:32 *(blk_ptr_temp+1):160
+[2021-03-11 15:39:49],bsn:7 rlc_blk_ptr->rlps:7 *blk_ptr_temp:213 *(blk_ptr_temp+1):187
+[2021-03-11 15:39:49],lx061825  rlps=7 pdulen=187--L1:  -112   DA8=0   F=238108  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -23  R=563   O=8   X=19196   RA= 37  S=170   E=4956  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238109  SFN=238108  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 48641   D1= 5188  D2= 22275   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -111   DA8=0   F=238109  Q= -524288  D=0   DF=  -262144  DR= 0   L=0   T= -30  TP=  -23  R=563   O=8   X=19196   RA= 37  S=174   E=5072  C=0  
+[2021-03-11 15:39:49],^DGSQU: 27,5
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],+CSQ: 27,5
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238110  SFN=238109  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -111   DA8=0   F=238110  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -24  R=563   O=8   X=19196   RA= 37  S=165   E=5200  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238111  SFN=238110  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26922   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -111   DA8=0   F=238111  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -24  R=563   O=8   X=19196   RA= 37  S=170   E=5072  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238112  SFN=238111  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238112  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -25  R=563   O=8   X=19196   RA= 37  S=165   E=4961  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238113  SFN=238112  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238113  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -25  R=563   O=8   X=19196   RA= 37  S=165   E=4846  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238114  SFN=238113  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238114  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -25  R=563   O=8   X=19196   RA= 37  S=158   E=4825  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238115  SFN=238114  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238115  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -46  TP=  -26  R=563   O=8   X=19196   RA= 37  S=170   E=4950  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238116  SFN=238115  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238116  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -27  R=563   O=8   X=19196   RA= 37  S=174   E=4946  C=0  
+[2021-03-11 15:39:49],--L1: DA TX FN= 238116  C_FN= 238116  CH= 11  ST= 0   AF= 563   FQ=  -154914  TC= 1131737   TF= 31815   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238117  SFN=238116  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238117  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -28  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4702  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238118  SFN=238117  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238118  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -27  R=563   O=8   X=19196   RA= 37  S=174   E=4835  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238119  SFN=238118  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 3908  D1= 18566   D2= 7   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238119  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4572  C=0  
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238120  SFN=238119  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 7 ,num_blks_to_reassemble 3
+[2021-03-11 15:39:49],begin_indx 3,num_blks_to_reasm 3
+[2021-03-11 15:39:49],blk_second_byte 43--L1:  -112   DA8=0   F=238120  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -35  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4845  C=0  
+[2021-03-11 15:39:49],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:49],lixianggmm 1,1,0
+[2021-03-11 15:39:49],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:49],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:49],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:49],luxy: mm11peer s5 pd msg_info_st.pd is 5
+[2021-03-11 15:39:49],luxy: mm11peer s5 g_mm_test_optionis 0
+[2021-03-11 15:39:49],luxy: mm11peer s5 msg_info_st.msg_type 32
+[2021-03-11 15:39:49],luxy: mm11peer s5 default msg type
+[2021-03-11 15:39:49],luxy: mm11peer common peer msg type is 32
+[2021-03-11 15:39:49],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],NETWORK INFO: year:2021,month:3,day:11,hour:15,min:39,sec:49
+[2021-03-11 15:39:49],^SATSIGNAL:-112,168
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],^CPSTATE: -112,562,30,85
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],+CTZE: "+32",0,"2021/03/11,07:39:49"
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],--L1: TX 16K CH=11  FN= 238121  SFN=238120  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 3908  D1= 18566   D2= 11  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:49],--L1:  -112   DA8=0   F=238121  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4761  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238122  SFN=238121  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 3908  D1= 51334   D2= 13  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238122  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -46  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4908  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238123  SFN=238122  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238123  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4811  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238124  SFN=238123  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238124  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4998  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238125  SFN=238124  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 3908  D1= 18566   D2= 15  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 10 ,num_blks_to_reassemble 2
+[2021-03-11 15:39:50],begin_indx 7,num_blks_to_reasm 2
+[2021-03-11 15:39:50],blk_second_byte 43--L1:  -112   DA8=0   F=238125  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -36  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=4585  C=0  
+[2021-03-11 15:39:50],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:50],lixiangulhfn startValue = 0,hfn 0
+[2021-03-11 15:39:50],lixiang local msn=3,msn=3
+[2021-03-11 15:39:50],lixianghfn 0
+[2021-03-11 15:39:50],Ik_ptr-->
+[2021-03-11 15:39:50],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:50],counti 3, fresh 2d74fa75
+[2021-03-11 15:39:50],lixiang mac 7b789c09, maci 7b789c09
+[2021-03-11 15:39:50],cipher11 1 0
+[2021-03-11 15:39:50],cipher11 2 type 0
+[2021-03-11 15:39:50],lixiangulik 5 hfn 0,msn 1
+[2021-03-11 15:39:50],Uplink Ik_ptr:
+[2021-03-11 15:39:50],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:50],lixiangulik counti 1
+[2021-03-11 15:39:50],lixiangulik fresh 762641013
+[2021-03-11 15:39:50],lixiangulik length 64
+[2021-03-11 15:39:50],luxy: MM receive prim is P_SRRC_MM_SECURITY_IND
+[2021-03-11 15:39:50],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:50],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],luxy: MM receive prim is P_SMS_MM_DATA_REQ
+[2021-03-11 15:39:50],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:50],lixiangulik 5 hfn 0,msn 2
+[2021-03-11 15:39:50],Uplink Ik_ptr:
+[2021-03-11 15:39:50],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:50],lixiangulik counti 2
+[2021-03-11 15:39:50],lixiangulik fresh 762641013
+[2021-03-11 15:39:50],lixiangulik length 1115
+[2021-03-11 15:39:50],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238126  SFN=238125  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26924   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],^SATSIGNAL:-112,166
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],^CPSTATE: -112,562,32,85
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],^DGSQU: 27,5
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],+CSQ: 27,5
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],^SATSIGNAL:-112,166
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],^CPSTATE: -112,562,32,92
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238126  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4665  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238127  SFN=238126  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 3908  D1= 18566   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238127  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -19  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4491  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238128  SFN=238127  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26921   D0= 3908  D1= 18566   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238128  Q= -786432  D=262144  DF= 0   DR= 262144  L=0   T= -25  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4726  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238129  SFN=238128  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 2   D1= 320   D2= 49922   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238129  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -17  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4729  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238130  SFN=238129  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 17410   D1= 15456   D2= 58655   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238130  Q= -786432  D=262144  DF= 0   DR= 262144  L=0   T= -14  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4638  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238131  SFN=238130  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 3908  D1= 18566   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238131  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -29  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4763  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238132  SFN=238131  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238132  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -39  TP=  -27  R=563   O=8   X=19196   RA= 37  S=180   E=4870  C=0  
+[2021-03-11 15:39:50],--L1: DA TX FN= 238132  C_FN= 238132  CH= 11  ST= 0   AF= 563   FQ=  -154914  TC= 1131737   TF= 31815   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238133  SFN=238132  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238133  Q= -524288  D=0   DF= 0   DR= 0   L=0   T= -24  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4722  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238134  SFN=238133  ST= 0   SR= 32  AF= 563   FQ=  -154914  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238134  Q= -524288  D= -262144  DF= 0   DR=  -262144  L=0   T= -25  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=4736  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238135  SFN=238134  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 3908  D1= 18566   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238135  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4862  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238136  SFN=238135  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 32770   D1= 4416  D2= 8323  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238136  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4730  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238137  SFN=238136  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 65026   D1= 64  D2= 1152  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:50],--L1:  -112   DA8=0   F=238137  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4746  C=0  
+[2021-03-11 15:39:50],--L1: TX 16K CH=11  FN= 238138  SFN=238137  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 3908  D1= 51334   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238138  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -44  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4813  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238139  SFN=238138  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 15875   D1= 64  D2= 30849   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],
+[2021-03-11 15:39:51],BSN = 8 is out of receiving window
+[2021-03-11 15:39:51], bow_bsn = 9
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238139  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -21  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4640  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238140  SFN=238139  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26919   D0= 32259   D1= 32832   D2= 9387  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238140  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -37  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4835  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238141  SFN=238140  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 3908  D1= 18566   D2= 19  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -111   DA8=0   F=238141  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -27  R=563   O=8   X=19196   RA= 37  S=174   E=5050  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238142  SFN=238141  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26921   D0= 48643   D1= 321   D2= 32942   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -111   DA8=0   F=238142  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -15  TP=  -27  R=563   O=8   X=19196   RA= 37  S=174   E=5135  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238143  SFN=238142  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 65027   D1= 12638   D2= 40728   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],
+[2021-03-11 15:39:51],bsn:8 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):8
+[2021-03-11 15:39:51],bsn:9 rlc_blk_ptr->rlps:2 *blk_ptr_temp:1 *(blk_ptr_temp+1):224
+[2021-03-11 15:39:51],lx061825  rlps=2 pdulen=224--L1:  -112   DA8=0   F=238143  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -44  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4761  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238144  SFN=238143  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26919   D0= 15876   D1= 7242  D2= 6296  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238144  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4479  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238145  SFN=238144  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 32770   D1= 4416  D2= 8323  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238145  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -49  TP=  -27  R=563   O=8   X=19196   RA= 37  S=174   E=4258  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238146  SFN=238145  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 32260   D1= 7775  D2= 6449  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -113   DA8=0   F=238146  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -4   TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=3954  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238147  SFN=238146  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 48644   D1= 7258  D2= 38937   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -113   DA8=0   F=238147  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=3767  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238148  SFN=238147  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 65028   D1= 39515   D2= 6300  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -113   DA8=0   F=238148  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=3823  C=0  
+[2021-03-11 15:39:51],--L1: DA TX FN= 238148  C_FN= 238148  CH= 11  ST= 0   AF= 563   FQ=  -154952  TC= 1131737   TF= 31815   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238149  SFN=238148  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 15877   D1= 7775  D2= 6449  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -113   DA8=0   F=238149  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=3915  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238150  SFN=238149  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 32261   D1= 40026   D2= 6296  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -113   DA8=0   F=238150  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=3724  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238151  SFN=238150  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26912   D0= 48645   D1= 40025   D2= 39324   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238151  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -27  R=563   O=8   X=19196   RA= 37  S=154   E=4018  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238152  SFN=238151  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 65029   D1= 7775  D2= 6705  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -113   DA8=0   F=238152  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -38  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=3965  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238153  SFN=238152  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 15878   D1= 5464  D2= 43951   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238153  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -27  R=563   O=8   X=19196   RA= 37  S=154   E=4379  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238154  SFN=238153  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 32262   D1= 45399   D2= 7962  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:51],--L1:  -112   DA8=0   F=238154  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -25  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4187  C=0  
+[2021-03-11 15:39:51],--L1: TX 16K CH=11  FN= 238155  SFN=238154  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 65026   D1= 96  D2= 1152  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238155  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -27  R=563   O=8   X=19196   RA= 37  S=151   E=4048  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238156  SFN=238155  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 15875   D1= 96  D2= 30849   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238156  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -30  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4237  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238157  SFN=238156  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 32259   D1= 32864   D2= 9387  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -113   DA8=0   F=238157  Q= -786432  D=0   DF=  -262144  DR= 0   L=0   T= -24  TP=  -27  R=563   O=8   X=19196   RA= 37  S=148   E=3801  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238158  SFN=238157  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 48643   D1= 353   D2= 32942   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],
+[2021-03-11 15:39:52],bsn:10 rlc_blk_ptr->rlps:0 *blk_ptr_temp:0 *(blk_ptr_temp+1):140
+[2021-03-11 15:39:52],bsn:11 rlc_blk_ptr->rlps:31 *blk_ptr_temp:0 *(blk_ptr_temp+1):4
+[2021-03-11 15:39:52],bsn:12 rlc_blk_ptr->rlps:31 *blk_ptr_temp:0 *(blk_ptr_temp+1):4
+[2021-03-11 15:39:52],bsn:13 rlc_blk_ptr->rlps:31 *blk_ptr_temp:4 *(blk_ptr_temp+1):5
+[2021-03-11 15:39:52],bsn:14 rlc_blk_ptr->rlps:31 *blk_ptr_temp:8 *(blk_ptr_temp+1):13
+[2021-03-11 15:39:52],bsn:15 rlc_blk_ptr->rlps:31 *blk_ptr_temp:241 *(blk_ptr_temp+1):136
+[2021-03-11 15:39:52],bsn:16 rlc_blk_ptr->rlps:31 *blk_ptr_temp:80 *(blk_ptr_temp+1):228--L1:  -113   DA8=0   F=238158  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=3864  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238159  SFN=238158  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 65027   D1= 12670   D2= 40728   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -113   DA8=0   F=238159  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -26  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=3915  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238160  SFN=238159  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26921   D0= 32260   D1= 7807  D2= 6449  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -113   DA8=0   F=238160  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=3766  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238161  SFN=238160  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238161  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4013  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238162  SFN=238161  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 52230   D1= 62320   D2= 34043   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -113   DA8=0   F=238162  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=3923  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238163  SFN=238162  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238163  Q= -786432  D= -262144  DF= 0   DR=  -262144  L=0   T= -30  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=3982  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238164  SFN=238163  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238164  Q= -1048576   D=262144  DF= 0   DR= 262144  L=0   T= -32  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=4136  C=0  
+[2021-03-11 15:39:52],--L1: DA TX FN= 238164  C_FN= 238164  CH= 11  ST= 0   AF= 563   FQ=  -154952  TC= 1131737   TF= 31815   FS=  -1   FC=  -1   TH= 65535   PS= 0   dB= 26  Cu= 0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238165  SFN=238164  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26919   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238165  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=4095  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238166  SFN=238165  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238166  Q= -786432  D=0   DF= 0   DR= 0   L=0   T= -20  TP=  -27  R=563   O=8   X=19196   RA= 37  S=158   E=4103  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238167  SFN=238166  ST= 0   SR= 32  AF= 563   FQ=  -154952  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26914   D0= 48644   D1= 7258  D2= 38937   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238167  Q= -786432  D= -262144  DF= 0   DR=  -262144  L=0   T= -27  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4138  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238168  SFN=238167  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 65028   D1= 39515   D2= 6300  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],
+[2021-03-11 15:39:52],bsn:17 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):241
+[2021-03-11 15:39:52],bsn:18 rlc_blk_ptr->rlps:31 *blk_ptr_temp:208 *(blk_ptr_temp+1):224
+[2021-03-11 15:39:52],bsn:19 rlc_blk_ptr->rlps:31 *blk_ptr_temp:220 *(blk_ptr_temp+1):212
+[2021-03-11 15:39:52],bsn:20 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):241
+[2021-03-11 15:39:52],bsn:21 rlc_blk_ptr->rlps:31 *blk_ptr_temp:212 *(blk_ptr_temp+1):228
+[2021-03-11 15:39:52],bsn:22 rlc_blk_ptr->rlps:31 *blk_ptr_temp:204 *(blk_ptr_temp+1):228
+[2021-03-11 15:39:52],bsn:23 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):241
+[2021-03-11 15:39:52],bsn:24 rlc_blk_ptr->rlps:31 *blk_ptr_temp:192 *(blk_ptr_temp+1):173
+[2021-03-11 15:39:52],bsn:25 rlc_blk_ptr->rlps:31 *blk_ptr_temp:189 *(blk_ptr_temp+1):136--L1:  -112   DA8=0   F=238168  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4083  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238169  SFN=238168  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26921   D0= 15877   D1= 7775  D2= 6449  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238169  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -32  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4102  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238170  SFN=238169  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26918   D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238170  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -23  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4178  C=0  
+[2021-03-11 15:39:52],--L1: TX 16K CH=11  FN= 238171  SFN=238170  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:52],--L1:  -112   DA8=0   F=238171  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -42  TP=  -27  R=563   O=8   X=19196   RA= 37  S=170   E=4375  C=0  
+[2021-03-11 15:39:53],--L1: TX 16K CH=11  FN= 238172  SFN=238171  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26920   D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:53],--L1:  -112   DA8=0   F=238172  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -27  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4445  C=0  
+[2021-03-11 15:39:53],--L1: TX 16K CH=11  FN= 238173  SFN=238172  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26917   D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:53],--L1:  -112   DA8=0   F=238173  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -33  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4422  C=0  
+[2021-03-11 15:39:53],--L1: TX 16K CH=11  FN= 238174  SFN=238173  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26915   D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:53],--L1:  -112   DA8=0   F=238174  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -13  TP=  -27  R=563   O=8   X=19196   RA= 37  S=165   E=4304  C=0  
+[2021-03-11 15:39:53],--L1: TX 16K CH=11  FN= 238175  SFN=238174  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26919   D0= 48646   D1= 7263  D2= 7345  PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:53],
+[2021-03-11 15:39:53],bsn:26 rlc_blk_ptr->rlps:31 *blk_ptr_temp:248 *(blk_ptr_temp+1):229
+[2021-03-11 15:39:53],bsn:27 rlc_blk_ptr->rlps:6 *blk_ptr_temp:135 *(blk_ptr_temp+1):159
+[2021-03-11 15:39:53],lx061825  rlps=6 pdulen=159--L1:  -112   DA8=0   F=238175  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -22  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4284  C=0  
+[2021-03-11 15:39:53],--L1: TX 16K CH=11  FN= 238176  SFN=238175  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26913   D0= 52230   D1= 62320   D2= 34043   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:53],--L1:  -112   DA8=0   F=238176  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -18  TP=  -27  R=563   O=8   X=19196   RA= 37  S=161   E=4395  C=0  
+[2021-03-11 15:39:53],--L1: TX 16K CH=11  FN= 238177  SFN=238176  ST= 0   SR= 32  AF= 563   FQ=  -154990  RP= 32  PBF=0   PW= 0   PT= 0   PB= 0   SK= 1500377   TK= 26916   D0= 8521  D1= 224   D2= 0   PC= 79566848  Te= 0   VGA=31  CV= 76814336  SS 
+[2021-03-11 15:39:53],
+[2021-03-11 15:39:53],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 12 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:53],begin_indx 10,num_blks_to_reasm 1
+[2021-03-11 15:39:53],blk_second_byte 43--L1:  -112   DA8=0   F=238177  Q= -1048576   D=0   DF= 0   DR= 0   L=0   T= -31  TP=  -27  R=563   O=8   X=19196   RA= 37  S=174   E=4154  C=0  
+[2021-03-11 15:39:53],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:53],lixianggmm 1,1,0
+[2021-03-11 15:39:53],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:53],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:53],
