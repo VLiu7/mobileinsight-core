@@ -10,6 +10,7 @@ from .monitor import Monitor, Event
 import serial
 import sys
 import timeit
+import time
 
 class PCSatelliteMonitor(Monitor):
     """
@@ -121,6 +122,7 @@ class PCSatelliteMonitor(Monitor):
             while True:
                 s = phy_ser.readline()
                 if len(s) > 0:
+                    print('['+str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))+"],",end='')
                     print(s.decode('utf-8'),end='')
                     # send event to analyzers
                     # TODO: type_id is currently None, and packet is a copy of line read from serial-port

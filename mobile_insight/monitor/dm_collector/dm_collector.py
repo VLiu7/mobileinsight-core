@@ -33,7 +33,7 @@ class DMCollector(Monitor):
     SUPPORTED_TYPES = set(dm_collector_c.log_packet_types)
     #print(SUPPORTED_TYPES)
 
-    def __init__(self, is_satellite, prefs={}):
+    def __init__(self, prefs={}):
         """
         Configure this class with user preferences.
         This method should be called before any actual decoding.
@@ -47,7 +47,6 @@ class DMCollector(Monitor):
         self.phy_ser_name = None
         self._prefs = prefs
         self._type_names = []
-        self.is_satellite = is_satellite
         # Initialize Wireshark dissector
         DMLogPacket.init(self._prefs)
 
@@ -132,11 +131,6 @@ class DMCollector(Monitor):
             phy_ser = serial.Serial(self.phy_ser_name,
                                     baudrate=self.phy_baudrate,
                                     timeout=None, rtscts=True, dsrdtr=True)
-            
-            if self.is_satellite == True:
-                presult=phy_ser.write('at^TTLOG=1\r\n'.encode("utf-8"))
-                print('total bits sended:'+str(presult))
-
             # Disable logs
             self.log_debug("Disable logs") 
             dm_collector_c.disable_logs(phy_ser)
@@ -150,34 +144,29 @@ class DMCollector(Monitor):
                 # s = phy_ser.read(64)
                 s = phy_ser.readline()
                 # print(type(s))
-                if self.is_satellite == True and len(s) > 0:       # satellite phone
-                    print(s.decode('utf-8'),end='')
-                    # time.sleep(1)
-                    # print(str(s,encoding = "utf-8" ))
-                # s = phy_ser.read(1)
-                else:
-                    dm_collector_c.feed_binary(s)
 
-                    decoded = dm_collector_c.receive_log_packet(self._skip_decoding,
-                                                                True,   # include_timestamp
-                                                                )
-                    if decoded:
-                        try:
-                            # packet = DMLogPacket(decoded)
-                            packet = DMLogPacket(decoded[0])
-                            type_id = packet.get_type_id()
-                            # print d["type_id"], d["timestamp"]
-                            # xml = packet.decode_xml()
-                            # print xml
-                            # print ""
-                            # Send event to analyzers
-                            event = Event(timeit.default_timer(),
-                                        type_id,
-                                        packet)
-                            self.send(event)
-                        except FormatError as e:
-                            # skip this packet
-                            print(("FormatError: ", e))
+                dm_collector_c.feed_binary(s)
+
+                decoded = dm_collector_c.receive_log_packet(self._skip_decoding,
+                                                            True,   # include_timestamp
+                                                            )
+                if decoded:
+                    try:
+                        # packet = DMLogPacket(decoded)
+                        packet = DMLogPacket(decoded[0])
+                        type_id = packet.get_type_id()
+                        # print d["type_id"], d["timestamp"]
+                        # xml = packet.decode_xml()
+                        # print xml
+                        # print ""
+                        # Send event to analyzers
+                        event = Event(timeit.default_timer(),
+                                    type_id,
+                                    packet)
+                        self.send(event)
+                    except FormatError as e:
+                        # skip this packet
+                        print(("FormatError: ", e))
         except (KeyboardInterrupt, RuntimeError) as e:
             print(("\n\n%s Detected: Disabling all logs" % type(e).__name__))
             # Disable logs
