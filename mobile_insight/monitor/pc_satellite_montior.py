@@ -12,6 +12,7 @@ import sys
 import os
 import timeit
 import time
+from datetime import datetime
 
 class PCSatelliteMonitor(Monitor):
     """
@@ -116,14 +117,14 @@ class PCSatelliteMonitor(Monitor):
                                     baudrate=self.phy_baudrate,
                                     timeout=None, rtscts=True, dsrdtr=True)
 
-            presult=phy_ser.write('at^TTLOG=1\r\n'.encode("utf-8"))
+            presult=phy_ser.write('at^POSREQ=?\r\n'.encode("utf-8"))
             print('total bits sended:'+str(presult))
 
             # Read log packets from serial port and decode their contents
             while True:
                 s = phy_ser.readline()
                 if len(s) > 0:
-                    print('['+str(time.strftime('%Y-%m-%d %H:%M:%S.%f',time.localtime(time.time())))+"],",end='')
+                    print('['+str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'))+"],",end='')
                     print(s.decode('utf-8'),end='')
                     # send event to analyzers
                     # TODO: type_id is currently None, and packet is a copy of line read from serial-port
