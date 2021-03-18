@@ -14,13 +14,13 @@ def draw_sub_plots(values, interval = 100, mark = True):
         plt.show()
 
 if __name__ == '__main__':
-    with open('shache_lianjie.txt') as f:
+    with open('sat_log_ping.txt') as f:
         lines = f.readlines()
         values = []
         for line in lines:
             ret = re.findall('-1[0-9]{2} ', line)
             if len(ret) != 0 and line.find('TIM') == -1:
                 value = int(ret[0])
-                if value > -120 and value < -110:
+                if value > -130 and value < -110:
                     values.append(int(ret[0]))
         draw_sub_plots(values)
