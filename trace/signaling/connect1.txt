@@ -1,0 +1,767 @@
+PHY COM: /dev/ttyUSB1
+PHY BAUD RATE: 9600
+total bits sended:12
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],OK
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:12],
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:15],
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:17],
+[2021-03-11 15:39:19],
+[2021-03-11 15:39:19],
+[2021-03-11 15:39:19],
+[2021-03-11 15:39:20],
+[2021-03-11 15:39:21],
+[2021-03-11 15:39:21],
+[2021-03-11 15:39:21],
+[2021-03-11 15:39:22],
+[2021-03-11 15:39:23],
+[2021-03-11 15:39:23],
+[2021-03-11 15:39:23],
+[2021-03-11 15:39:24],
+[2021-03-11 15:39:25],CurrentCell is 562
+[2021-03-11 15:39:25],**********zhangkh SearchNum_u8=6*******
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:923
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[923]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:742
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[742]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:20
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[20]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:201
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[201]:has already existed
+[2021-03-11 15:39:25],SRRC[CSEL]:store arfcn:381
+[2021-03-11 15:39:25],SRRC LOG:srrc store  arfcn[381]:has already existed
+[2021-03-11 15:39:25],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=0
+[2021-03-11 15:39:25],New read,clear tmp. arfcn=0
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:25],
+[2021-03-11 15:39:26],
+[2021-03-11 15:39:26],
+[2021-03-11 15:39:26],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],[BCH_LOG][check_bcch]:compare bcch_list,bit_map=7ff,7ff,7ff, c2=1,255,2-255,c3=1,7,2-7,c4=1,7,2-7,LAI0=64,64,64-0,LAI1=f0,f0,f0-0,LAI2=95,95,95-0,beam_id=e,f,1a-0,beam_arfcn=17d,232,c9-232
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:27],
+[2021-03-11 15:39:28],[BCH_LOG][check_bcch]:Find bcch_list, i=1,j=1
+[2021-03-11 15:39:28],[BCH_LOG][check_bcch]:compare bcch_list,bit_map=7ff,7ff,7ff, c2=1,255,2-255,c3=1,7,2-7,c4=1,7,2-7,LAI0=64,64,64-64,LAI1=f0,f0,f0-f0,LAI2=95,95,95-95,beam_id=e,f,1a-f,beam_arfcn=17d,232,c9-232
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 0-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 1-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 2-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 3-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 4-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 5-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_IsClass3SegmentAllRead]:when 0x800,clear bitmap
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 6-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 7-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 8-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_IsClass4SegmentAllRead]:when 0x160,clear bitmap
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 9-success
+[2021-03-11 15:39:28],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 10-success
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:28],
+[2021-03-11 15:39:29],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]: Send phy_value=0-0
+[2021-03-11 15:39:29],**************zhangkh SysBcch no.= 0*************
+[2021-03-11 15:39:29],*********zhangkh:BCCH-NAS  LAI[0]= 64,64
+[2021-03-11 15:39:29],*********zhangkh:BCCH-NAS  LAI[1]= f0,f0
+[2021-03-11 15:39:29],*********zhangkh:BCCH-NAS  LAI[2]= 95,95
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[0]= 14,0,2
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[1]= c9,0,2
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[2]= 44f,0,0
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[3]= 17d,0,1
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[4]= 39b,0,0
+[2021-03-11 15:39:29],*********zhangkh:NeiberCellInfo NB[5]= 2e6,0,7
+[2021-03-11 15:39:29], lx061825 *CELL_BAR_ACCESS=0,ACCESS_EXTENSION=1!!
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=0
+[2021-03-11 15:39:29],******zhangkh******copy from above!
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:29],
+[2021-03-11 15:39:30],
+[2021-03-11 15:39:30],
+[2021-03-11 15:39:30],
+[2021-03-11 15:39:31],******zhangkh  enter camp flow**********
+[2021-03-11 15:39:31],*******zhangkh: Save for spotbeam zhuliu:562
+[2021-03-11 15:39:31],[BCH_LOG][srrc_sib_StoreBch]: tmp bcch_bit_map=0
+[2021-03-11 15:39:31],[BCH_LOG][srrc_sib_ProcCselSibCampOnSuccInd]: StoreBch Fail!
+[2021-03-11 15:39:31],SA_CBCH_RF_CH:562, SA_CBCH_TS: 20, SA_CBCH_CONFIG: 15 
+[2021-03-11 15:39:31],*****zhangkh*****PLMN Search State paraments for NAS!
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.act	=4
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.plmn_value[0]  =64
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.plmn_value[1]  =f0
+[2021-03-11 15:39:31],Para_MM_ptr->PlmnId_st.plmn_value[2]  =95
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cell_id				=f
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[0]	=f
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[1]	=a0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[2]	=2b
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[3]	=43
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[4]	=52
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[5]	=53
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[6]	=4d
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[7]	=3d
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.field_ind  =3
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_identity	=0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[0]  =5
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[1]  =1
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[2]  =34
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[3]  =38
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[4]  =30
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[5]  =2c
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[6]  =31
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[7]  =2c
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_identity	=1
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[0]  =13
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[1]  =1
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[2]  =0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[3]  =0
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[4]  =cf
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[5]  =ff
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[6]  =ff
+[2021-03-11 15:39:31],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[7]  =ff
+[2021-03-11 15:39:31],camp arfcn:562
+[2021-03-11 15:39:31],neighbour:20,201,1103,381,923,742
+[2021-03-11 15:39:31],luxy: MM receive prim is P_SRRC_MM_PLMN_SEL_CNF
+[2021-03-11 15:39:31],luxy: MM current state is S197:MM_STATE_PLMN_SRCH
+[2021-03-11 15:39:31],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:31],luxy: mm4 g_mm_nmo 222 is 1
+[2021-03-11 15:39:31],luxy: mm5srch t3212 value is 5
+[2021-03-11 15:39:31],luxy: T3212 mm5serch plmn srch cnf g_mm_t3212_timeout_value is 1800000
+[2021-03-11 15:39:31],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=1
+[2021-03-11 15:39:31],******zhangkh******copy from above!
+[2021-03-11 15:39:31],luxy: MM current state is S13:MM_STATE_WAIT_RRC_CONN_LU
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_action is ff
+[2021-03-11 15:39:31],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:31],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],luxy: GMM receive prim is P_SRRC_GMM_SYS_INFO_IND
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:39:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:39:31],luxy: gmm main prim_id is 1206
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.mm_status is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.mm_action is 2
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.pmm_mode is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.gmm_state_before_plmnsearch is 22
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind ps_info_present is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.camped_cell_ac_barred is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:39:31],luxy: fgmm_rrc_plmnsearch_ind temp_rai_st.lai_st.lac is a00f
+[2021-03-11 15:39:31],luxy: fgmm_rrc_plmnsearch_ind temp_rai_st.lai_st.lac is a00f
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.network_mode is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service prev_nmo is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service rau_is_not_need is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service same_ci is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.usim_state is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service g_mm_sys_info_valid_flag is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service same_rai is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.normal_rau_needed is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.attach_needed is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service plmnsearch ind plmn_act_change_flag is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service is_valid_cell is 1
+[2021-03-11 15:39:31],luxy: gmm rrc service ac_granted_from_barred is 0
+[2021-03-11 15:39:31],luxy: gmm rrc service g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:39:31],luxy: gmm rrc service gmm_main_state 111 is 16
+[2021-03-11 15:39:31],luxy: gmm rrc service gmm_main_state 111 is 16
+[2021-03-11 15:39:31],luxy: GMM after handled the message
+[2021-03-11 15:39:31],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],L1 XINQ:19177
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],check ac 4
+[2021-03-11 15:39:31],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:39:31],rand_imsi:29939140
+[2021-03-11 15:39:31],NEW
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:31],
+[2021-03-11 15:39:32],
+[2021-03-11 15:39:32],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:39:33],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:39:33],lixiang1013 wait setup
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:34],begin_indx 1,num_blks_to_reasm 1
+[2021-03-11 15:39:34],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:34],luxy: NMO is 1
+[2021-03-11 15:39:34],srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],BSN = 0 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],BSN = 0 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],BSN = 0 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:34],
+[2021-03-11 15:39:34],BSN = 1 is out of receiving window
+[2021-03-11 15:39:34], bow_bsn = 2
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],BSN = 0 is out of receiving window
+[2021-03-11 15:39:35], bow_bsn = 2
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],BSN = 1 is out of receiving window
+[2021-03-11 15:39:35], bow_bsn = 2
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],lixiangstartsrc 3
+[2021-03-11 15:39:35],LP LOG:srrc_dt_ProcMmSendInitDT before:SigPresent:0x0, signum:0x0
+[2021-03-11 15:39:35],LP LOG:srrc_dt_ProcMmSendInitDT after:SigPresent:0x1, signum:0x1
+[2021-03-11 15:39:35],luxy: MM receive prim is P_SRRC_MM_EST_CNF
+[2021-03-11 15:39:35],luxy: MM current state is S13:MM_STATE_WAIT_RRC_CONN_LU
+[2021-03-11 15:39:35],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:35],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:35],
+[2021-03-11 15:39:36],
+[2021-03-11 15:39:37],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 9 ,num_blks_to_reassemble 5
+[2021-03-11 15:39:37],begin_indx 3,num_blks_to_reasm 5
+[2021-03-11 15:39:37],blk_second_byte 43
+[2021-03-11 15:39:37],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:37],lixianggmm 1,1,0
+[2021-03-11 15:39:37],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:37],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:37],luxy: mm11peer common peer msg type is 12
+[2021-03-11 15:39:37],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_len is 37
+[2021-03-11 15:39:37],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_ptr->autn_iei is 20
+[2021-03-11 15:39:37],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_ptr->autn_len is 16
+[2021-03-11 15:39:37],the current uai authen number is: 1
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],luxy: fuai authen req g_uai_switch_on_off_flag_st.card_type is 2
+[2021-03-11 15:39:37],luxy: fuai authen req field_ind is 1luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],lixiangkeytype 1
+[2021-03-11 15:39:37],luxy: MM receive prim is P_UAI_MM_AUTHEN_CNF
+[2021-03-11 15:39:37],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:37],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],
+[2021-03-11 15:39:37],BSN = 7 is out of receiving window
+[2021-03-11 15:39:37], bow_bsn = 8
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:38],BSN = 7 is out of receiving window
+[2021-03-11 15:39:38], bow_bsn = 8
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:38],BSN = 7 is out of receiving window
+[2021-03-11 15:39:38], bow_bsn = 8
+[2021-03-11 15:39:38],BSN = 7 is out of receiving window
+[2021-03-11 15:39:38], bow_bsn = 8
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:38],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 13 ,num_blks_to_reassemble 3
+[2021-03-11 15:39:39],begin_indx 9,num_blks_to_reasm 3
+[2021-03-11 15:39:39],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:39],lixianggmm 1,1,0
+[2021-03-11 15:39:39],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:39],luxy: mm11peer common peer msg type is 32
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],NETWORK INFO: year:2021,month:3,day:11,hour:15,min:39,sec:39
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 16 ,num_blks_to_reassemble 2
+[2021-03-11 15:39:39],begin_indx 13,num_blks_to_reasm 2
+[2021-03-11 15:39:39],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:39],lixiang local msn=0,msn=3
+[2021-03-11 15:39:39],lixianghfn 0
+[2021-03-11 15:39:39],Ik_ptr-->
+[2021-03-11 15:39:39],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:39],counti 3, fresh 757845a
+[2021-03-11 15:39:39],lixiang mac 4513ec68, maci 4513ec68
+[2021-03-11 15:39:39],cipher11 1 0
+[2021-03-11 15:39:39],cipher11 2 type 0
+[2021-03-11 15:39:39],lixiangulik 5 hfn 0,msn 1
+[2021-03-11 15:39:39],Uplink Ik_ptr:
+[2021-03-11 15:39:39],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:39],lixiangulik counti 1
+[2021-03-11 15:39:39],lixiangulik fresh 123176026
+[2021-03-11 15:39:39],lixiangulik length 64
+[2021-03-11 15:39:39],luxy: MM receive prim is P_SRRC_MM_SECURITY_IND
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:39],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:39],
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:40],BSN = 14 is out of receiving window
+[2021-03-11 15:39:40], bow_bsn = 15
+[2021-03-11 15:39:40],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 19 ,num_blks_to_reassemble 2
+[2021-03-11 15:39:41],begin_indx 16,num_blks_to_reasm 2
+[2021-03-11 15:39:41],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:41],lixianggmm 1,1,0
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:41],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],lixiangulik 5 hfn 0,msn 2
+[2021-03-11 15:39:41],Uplink Ik_ptr:
+[2021-03-11 15:39:41],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:41],lixiangulik counti 2
+[2021-03-11 15:39:41],lixiangulik fresh 123176026
+[2021-03-11 15:39:41],lixiangulik length 75
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: GMM receive prim is P_MM_GMM_UEID_CHANGED_REQ
+[2021-03-11 15:39:41],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:41],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:41],luxy: gmm main prim_id is 1f17
+[2021-03-11 15:39:41],luxy: GMM after handled the message
+[2021-03-11 15:39:41],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:39:41],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:39:41],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:39:41],[fatp_net_creg_ciev_rc] network is ready, try to send position!
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],[self_register_entry2]:need_reg_flag is 1
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:41],[fatp_uai_get_reg_imsi_cnf2]
+[2021-03-11 15:39:41],fatp_uai_get_reg_imsi_cnf5:need_reg_flag is 1
+[2021-03-11 15:39:41],[fatp_uai_get_reg_imsi_cnf7]:nvram_imsi is 460590104193992
+[2021-03-11 15:39:41],fatp_reg_readimei_cnf
+[2021-03-11 15:39:41],38 36 39 34 38 33 30 34 30 32 39 37 35 38 30 
+[2021-03-11 15:39:41],fatp_reg_readimei_cnf:need_reg_flag is 1
+[2021-03-11 15:39:41],fatp_reg_readimei_cnf0:nvram_imei is 869483040297580
+[2021-03-11 15:39:41],assem_register_sms:len is 82
+[2021-03-11 15:39:41],assem_register_sms:manu_len is 8,imei_len is 15,imsi_len is 15,version_len is 10
+[2021-03-11 15:39:41],[assem_register_sms4]:data length is 128
+[2021-03-11 15:39:41],assem_register_sms:protocol_version=2,protocol_version=3,msg_length=5d,filter=0
+[2021-03-11 15:39:41],crc32:9b855c4a
+[2021-03-11 15:39:41],crc32_ASCII:0x39,0x62,0x38,0x35,0x35,0x63,0x34,0x61
+[2021-03-11 15:39:41],sms_body is 0x3c,0x61,0x31,0x3e,0x3c,0x62,0x31,0x3e,0x5a,0x54,0x45
+[2021-03-11 15:39:41],[fat_register_sms_ext]
+[2021-03-11 15:39:41],luxy: MM receive prim is P_SMS_MM_EST_REQ
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:41],stack_index is : 4
+[2021-03-11 15:39:41], mm current state is :9 
+[2021-03-11 15:39:41], gsm peer msg allow is 1
+[2021-03-11 15:39:41], mm state stack is : 
+[2021-03-11 15:39:41],197,13,3,9,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+[2021-03-11 15:39:41],stack_index is : 4
+[2021-03-11 15:39:41], mm current state is :9 
+[2021-03-11 15:39:41], gsm peer msg allow is 1
+[2021-03-11 15:39:41], mm state stack is : 
+[2021-03-11 15:39:41],197,13,3,9,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,The plmn in usim is:46059
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],The avail plmn is:
+[2021-03-11 15:39:41],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],zx: register sms
+[2021-03-11 15:39:41],send_self_register_sms3:fat_register_sms_ext len is 125
+[2021-03-11 15:39:41],
+[2021-03-11 15:39:41],BSN = 17 is out of receiving window
+[2021-03-11 15:39:41], bow_bsn = 18
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 21 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:42],begin_indx 19,num_blks_to_reasm 1
+[2021-03-11 15:39:42],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:42],lx061825  in srrc_rcm_MsIdleSsIdle_HdlUuRrcConnRel
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],lixiangti 1 0
+[2021-03-11 15:39:42],lixiangti 2 0
+[2021-03-11 15:39:42],lx061825  in send complete
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],lixiangulik 5 hfn 0,msn 3
+[2021-03-11 15:39:42],Uplink Ik_ptr:
+[2021-03-11 15:39:42],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:42],lixiangulik counti 3
+[2021-03-11 15:39:42],lixiangulik fresh 123176026
+[2021-03-11 15:39:42],lixiangulik length 48
+[2021-03-11 15:39:42],lx061825  in send complete end
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],
+[2021-03-11 15:39:42],BSN = 19 is out of receiving window
+[2021-03-11 15:39:42], bow_bsn = 20
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],BSN = 19 is out of receiving window
+[2021-03-11 15:39:43], bow_bsn = 20
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],BSN = 19 is out of receiving window
+[2021-03-11 15:39:43], bow_bsn = 20
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],BSN = 19 is out of receiving window
+[2021-03-11 15:39:43], bow_bsn = 20
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],lx061825  local rel !!
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],lixiang1010 1,1,0
+[2021-03-11 15:39:43],SMAC LOG:normal release, reset cipher info
+[2021-03-11 15:39:43],SRRC LOG:No pdcp to release.
+[2021-03-11 15:39:43],Rcm_ptr->RelSource_en 0
+[2021-03-11 15:39:43],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:39:43],******zhangkh******copy from above!
+[2021-03-11 15:39:43],luxy: MM receive prim is P_SRRC_MM_REL_IND
+[2021-03-11 15:39:43],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:39:43],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:43],lixiang1 IsBchReading=1,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:39:43],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 3
+[2021-03-11 15:39:43],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: MM receive prim is P_SRRC_MM_IDLE_MODE_CHANGE_IND
+[2021-03-11 15:39:43],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:43],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:43],luxy: mm receive P_RRC_MM_IDLE_MODE_CHANGE_IND in normal
+[2021-03-11 15:39:43],luxy: g_mm_is_spv_nreg_pend is 0
+[2021-03-11 15:39:43],luxy: g_mm_is_cm_req_pend is 0
+[2021-03-11 15:39:43],luxy: T3212 mm rcv rrc enter idle and g_mm_is_rcv_ps_end is 0
+[2021-03-11 15:39:43],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 7
+[2021-03-11 15:39:43],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:39:43],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:39:43],luxy: GMM after handled the message
+[2021-03-11 15:39:43],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:39:43],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:43],
+[2021-03-11 15:39:44],check ac 4
+[2021-03-11 15:39:44],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:39:44],NEW
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:44],
+[2021-03-11 15:39:45],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:39:45],lixiang1013 wait setup
+[2021-03-11 15:39:46],
+[2021-03-11 15:39:46],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:46],begin_indx 1,num_blks_to_reasm 1
+[2021-03-11 15:39:46],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:46],luxy: NMO is 1
+[2021-03-11 15:39:46],srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+[2021-03-11 15:39:46],
+[2021-03-11 15:39:46],BSN = 0 is out of receiving window
+[2021-03-11 15:39:46], bow_bsn = 2
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 0 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 0 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 0 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:47],
+[2021-03-11 15:39:47],BSN = 1 is out of receiving window
+[2021-03-11 15:39:47], bow_bsn = 2
+[2021-03-11 15:39:48],
+[2021-03-11 15:39:48],lixiangstartsrc 3
+[2021-03-11 15:39:48],LP LOG:srrc_dt_ProcMmSendInitDT before:SigPresent:0x0, signum:0x0
+[2021-03-11 15:39:48],LP LOG:srrc_dt_ProcMmSendInitDT after:SigPresent:0x1, signum:0x1
+[2021-03-11 15:39:48],luxy: MM receive prim is P_SRRC_MM_EST_CNF
+[2021-03-11 15:39:48],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:39:48],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:48],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:48],
+[2021-03-11 15:39:48],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 7 ,num_blks_to_reassemble 3
+[2021-03-11 15:39:49],begin_indx 3,num_blks_to_reasm 3
+[2021-03-11 15:39:49],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:49],lixianggmm 1,1,0
+[2021-03-11 15:39:49],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:49],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:49],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:49],luxy: mm11peer s5 pd msg_info_st.pd is 5
+[2021-03-11 15:39:49],luxy: mm11peer s5 g_mm_test_optionis 0
+[2021-03-11 15:39:49],luxy: mm11peer s5 msg_info_st.msg_type 32
+[2021-03-11 15:39:49],luxy: mm11peer s5 default msg type
+[2021-03-11 15:39:49],luxy: mm11peer common peer msg type is 32
+[2021-03-11 15:39:49],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],NETWORK INFO: year:2021,month:3,day:11,hour:15,min:39,sec:49
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:49],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 10 ,num_blks_to_reassemble 2
+[2021-03-11 15:39:50],begin_indx 7,num_blks_to_reasm 2
+[2021-03-11 15:39:50],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:50],lixiangulhfn startValue = 0,hfn 0
+[2021-03-11 15:39:50],lixiang local msn=3,msn=3
+[2021-03-11 15:39:50],lixianghfn 0
+[2021-03-11 15:39:50],Ik_ptr-->
+[2021-03-11 15:39:50],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:50],counti 3, fresh 2d74fa75
+[2021-03-11 15:39:50],lixiang mac 7b789c09, maci 7b789c09
+[2021-03-11 15:39:50],cipher11 1 0
+[2021-03-11 15:39:50],cipher11 2 type 0
+[2021-03-11 15:39:50],lixiangulik 5 hfn 0,msn 1
+[2021-03-11 15:39:50],Uplink Ik_ptr:
+[2021-03-11 15:39:50],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:50],lixiangulik counti 1
+[2021-03-11 15:39:50],lixiangulik fresh 762641013
+[2021-03-11 15:39:50],lixiangulik length 64
+[2021-03-11 15:39:50],luxy: MM receive prim is P_SRRC_MM_SECURITY_IND
+[2021-03-11 15:39:50],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:39:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:50],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],luxy: MM receive prim is P_SMS_MM_DATA_REQ
+[2021-03-11 15:39:50],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:39:50],lixiangulik 5 hfn 0,msn 2
+[2021-03-11 15:39:50],Uplink Ik_ptr:
+[2021-03-11 15:39:50],c9 92 23 31 0a e3 0f 69 5f fc 66 99 60 07 6e fc 
+[2021-03-11 15:39:50],lixiangulik counti 2
+[2021-03-11 15:39:50],lixiangulik fresh 762641013
+[2021-03-11 15:39:50],lixiangulik length 1115
+[2021-03-11 15:39:50],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:50],
+[2021-03-11 15:39:50],BSN = 8 is out of receiving window
+[2021-03-11 15:39:50], bow_bsn = 9
+[2021-03-11 15:39:51],
+[2021-03-11 15:39:51],BSN = 8 is out of receiving window
+[2021-03-11 15:39:51], bow_bsn = 9
+[2021-03-11 15:39:51],
+[2021-03-11 15:39:52],
+[2021-03-11 15:39:52],
+[2021-03-11 15:39:53],
+[2021-03-11 15:39:53],
+[2021-03-11 15:39:53],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 12 ,num_blks_to_reassemble 1
+[2021-03-11 15:39:53],begin_indx 10,num_blks_to_reasm 1
+[2021-03-11 15:39:53],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:39:53],lixianggmm 1,1,0
+[2021-03-11 15:39:53],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:39:53],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:39:53],
