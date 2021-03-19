@@ -1,0 +1,1939 @@
+PHY COM: /dev/ttyUSB1
+PHY BAUD RATE: 9600
+total bits sended:12
+[2021-03-11 15:44:28],luxy: plmn srch req g_nas_eplmn_num is 0
+[2021-03-11 15:44:28],luxy:current plmn send for plmn search111 is 64
+[2021-03-11 15:44:28],luxy:current plmn send for plmn search is f0
+[2021-03-11 15:44:28],luxy:current plmn send for plmn search is 95
+[2021-03-11 15:44:28],luxy: MM current state is S197:MM_STATE_PLMN_SRCH
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],luxy: GMM receive prim is P_MM_GMM_PLMN_SEARCHING_REQ
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:28],luxy: gmm main prim_id is 1f19
+[2021-03-11 15:44:28],luxy: GMM after handled the message
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:28],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:44:28],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:44:28],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 1
+[2021-03-11 15:44:28],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:44:28],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:28],luxy: GMM after handled the message
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],luxy: GMM receive prim is P_SRRC_GMM_ONSEARCHING_IND
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:28],luxy: gmm main prim_id is 1213
+[2021-03-11 15:44:28],luxy: GMM after handled the message
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],luxy: GMM receive prim is P_SRRC_GMM_ONSEARCHING_IND
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:28],luxy: gmm main prim_id is 1213
+[2021-03-11 15:44:28],luxy: GMM after handled the message
+[2021-03-11 15:44:28],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],[fuai_send_phy_reg_ind]REG_STATE:0
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:28],OK
+[2021-03-11 15:44:28],
+[2021-03-11 15:44:29],
+[2021-03-11 15:44:29],
+[2021-03-11 15:44:29],
+[2021-03-11 15:44:29],
+[2021-03-11 15:44:31],
+[2021-03-11 15:44:31],
+[2021-03-11 15:44:31],
+[2021-03-11 15:44:31],
+[2021-03-11 15:44:34],
+[2021-03-11 15:44:34],
+[2021-03-11 15:44:34],
+[2021-03-11 15:44:35],
+[2021-03-11 15:44:36],
+[2021-03-11 15:44:36],
+[2021-03-11 15:44:36],
+[2021-03-11 15:44:37],
+[2021-03-11 15:44:38],
+[2021-03-11 15:44:38],
+[2021-03-11 15:44:38],
+[2021-03-11 15:44:38],
+[2021-03-11 15:44:40],CurrentCell is 562
+[2021-03-11 15:44:40],**********zhangkh SearchNum_u8=6*******
+[2021-03-11 15:44:40],SRRC[CSEL]:store arfcn:923
+[2021-03-11 15:44:40],SRRC LOG:srrc store  arfcn[923]:has already existed
+[2021-03-11 15:44:40],SRRC[CSEL]:store arfcn:20
+[2021-03-11 15:44:40],SRRC LOG:srrc store  arfcn[20]:has already existed
+[2021-03-11 15:44:40],SRRC[CSEL]:store arfcn:742
+[2021-03-11 15:44:40],SRRC LOG:srrc store  arfcn[742]:has already existed
+[2021-03-11 15:44:40],SRRC[CSEL]:store arfcn:381
+[2021-03-11 15:44:40],SRRC LOG:srrc store  arfcn[381]:has already existed
+[2021-03-11 15:44:40],SRRC[CSEL]:store arfcn:201
+[2021-03-11 15:44:40],SRRC LOG:srrc store  arfcn[201]:has already existed
+[2021-03-11 15:44:40],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=0
+[2021-03-11 15:44:40],New read,clear tmp. arfcn=0
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:40],
+[2021-03-11 15:44:41],
+[2021-03-11 15:44:41],
+[2021-03-11 15:44:41],
+[2021-03-11 15:44:41],
+[2021-03-11 15:44:41],[BCH_LOG][check_bcch]:compare bcch_list,bit_map=7ff,7ff,7ff, c2=1,255,2-0,c3=1,7,2-0,c4=1,7,2-0,LAI0=64,64,64-0,LAI1=f0,f0,f0-0,LAI2=95,95,95-0,beam_id=e,f,1a-0,beam_arfcn=17d,232,c9-232
+[2021-03-11 15:44:41],
+[2021-03-11 15:44:41],
+[2021-03-11 15:44:41],
+[2021-03-11 15:44:42],
+[2021-03-11 15:44:42],[BCH_LOG][check_bcch]:compare bcch_list,bit_map=7ff,7ff,7ff, c2=1,255,2-255,c3=1,7,2-7,c4=1,7,2-7,LAI0=64,64,64-0,LAI1=f0,f0,f0-0,LAI2=95,95,95-0,beam_id=e,f,1a-0,beam_arfcn=17d,232,c9-232
+[2021-03-11 15:44:42],
+[2021-03-11 15:44:42],
+[2021-03-11 15:44:42],[BCH_LOG][check_bcch]:Find bcch_list, i=1,j=1
+[2021-03-11 15:44:42],[BCH_LOG][check_bcch]:compare bcch_list,bit_map=7ff,7ff,7ff, c2=1,255,2-255,c3=1,7,2-7,c4=1,7,2-7,LAI0=64,64,64-64,LAI1=f0,f0,f0-f0,LAI2=95,95,95-95,beam_id=e,f,1a-f,beam_arfcn=17d,232,c9-232
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 0-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 1-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 2-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 3-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 4-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 5-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_IsClass3SegmentAllRead]:when 0x800,clear bitmap
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 6-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 7-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 8-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_IsClass4SegmentAllRead]:when 0x160,clear bitmap
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 9-success
+[2021-03-11 15:44:42],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]stored bcch decode 10-success
+[2021-03-11 15:44:42],
+[2021-03-11 15:44:42],
+[2021-03-11 15:44:42],
+[2021-03-11 15:44:43],
+[2021-03-11 15:44:43],[BCH_LOG][srrc_sib_ProcSphySrrcBcchDataInd]: Send phy_value=0-0
+[2021-03-11 15:44:43],**************zhangkh SysBcch no.= 0*************
+[2021-03-11 15:44:43],*********zhangkh:BCCH-NAS  LAI[0]= 64,64
+[2021-03-11 15:44:43],*********zhangkh:BCCH-NAS  LAI[1]= f0,f0
+[2021-03-11 15:44:43],*********zhangkh:BCCH-NAS  LAI[2]= 95,95
+[2021-03-11 15:44:43],*********zhangkh:NeiberCellInfo NB[0]= 14,0,2
+[2021-03-11 15:44:43],*********zhangkh:NeiberCellInfo NB[1]= c9,0,2
+[2021-03-11 15:44:43],*********zhangkh:NeiberCellInfo NB[2]= 44f,0,0
+[2021-03-11 15:44:43],*********zhangkh:NeiberCellInfo NB[3]= 17d,0,1
+[2021-03-11 15:44:43],*********zhangkh:NeiberCellInfo NB[4]= 39b,0,0
+[2021-03-11 15:44:43],*********zhangkh:NeiberCellInfo NB[5]= 2e6,0,7
+[2021-03-11 15:44:43], lx061825 *CELL_BAR_ACCESS=0,ACCESS_EXTENSION=1!!
+[2021-03-11 15:44:43],
+[2021-03-11 15:44:43],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=0
+[2021-03-11 15:44:44],******zhangkh******copy from above!
+[2021-03-11 15:44:44],
+[2021-03-11 15:44:44],
+[2021-03-11 15:44:45],
+[2021-03-11 15:44:45],
+[2021-03-11 15:44:45],
+[2021-03-11 15:44:45],
+[2021-03-11 15:44:45],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],******zhangkh  enter camp flow**********
+[2021-03-11 15:44:46],*******zhangkh: Save for spotbeam zhuliu:562
+[2021-03-11 15:44:46],[BCH_LOG][srrc_sib_StoreBch]: tmp bcch_bit_map=400
+[2021-03-11 15:44:46],[BCH_LOG][srrc_sib_ProcCselSibCampOnSuccInd]: StoreBch Fail!
+[2021-03-11 15:44:46],SA_CBCH_RF_CH:562, SA_CBCH_TS: 20, SA_CBCH_CONFIG: 15 
+[2021-03-11 15:44:46],*****zhangkh*****PLMN Search State paraments for NAS!
+[2021-03-11 15:44:46],Para_MM_ptr->PlmnId_st.act	=4
+[2021-03-11 15:44:46],Para_MM_ptr->PlmnId_st.plmn_value[0]  =64
+[2021-03-11 15:44:46],Para_MM_ptr->PlmnId_st.plmn_value[1]  =f0
+[2021-03-11 15:44:46],Para_MM_ptr->PlmnId_st.plmn_value[2]  =95
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cell_id				=f
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[0]	=f
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[1]	=a0
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[2]	=2c
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[3]	=38
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[4]	=30
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[5]	=31
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[6]	=34
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cn_comm_sys_info[7]	=30
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.field_ind  =3
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_identity	=0
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[0]  =5
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[1]  =1
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[2]  =31
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[3]  =30
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[4]  =33
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[5]  =30
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[6]  =31
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.cs_domain_sysinfo_st.cn_domain_sys_info[7]  =30
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_identity	=1
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[0]  =13
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[1]  =1
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[2]  =32
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[3]  =38
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[4]  =32
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[5]  =38
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[6]  =31
+[2021-03-11 15:44:46],Para_MM_ptr->SystemInfo_st.ps_domain_sysinfo_st.cn_domain_sys_info[7]  =38
+[2021-03-11 15:44:46],camp arfcn:562
+[2021-03-11 15:44:46],neighbour:20,201,1103,381,923,742
+[2021-03-11 15:44:46],luxy: MM receive prim is P_SRRC_MM_PLMN_SEL_CNF
+[2021-03-11 15:44:46],luxy: MM current state is S197:MM_STATE_PLMN_SRCH
+[2021-03-11 15:44:46],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:46],luxy: mm4 g_mm_nmo 222 is 1
+[2021-03-11 15:44:46],luxy: mm5srch t3212 value is 5
+[2021-03-11 15:44:46],luxy: T3212 mm5serch plmn srch cnf g_mm_t3212_timeout_value is 1800000
+[2021-03-11 15:44:46],lixiang1 IsBchReading=0,WorkingType_enu32=0,isUpdateBch=1
+[2021-03-11 15:44:46],******zhangkh******copy from above!
+[2021-03-11 15:44:46],luxy: MM current state is S13:MM_STATE_WAIT_RRC_CONN_LU
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:46],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:46],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:44:46],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:44:46],luxy: gmm mm service mm action g_gmm_info_st.mm_action is ff
+[2021-03-11 15:44:46],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:44:46],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:46],luxy: GMM after handled the message
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:46],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:46],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:44:46],luxy: GMM after handled the message
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:46],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:46],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:44:46],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:44:46],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 2
+[2021-03-11 15:44:46],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:44:46],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:46],luxy: GMM after handled the message
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],luxy: GMM receive prim is P_SRRC_GMM_SYS_INFO_IND
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_PLMNSEARCH
+[2021-03-11 15:44:46],luxy: gmm main g_gmm_info_st.current_gmm_state is 16
+[2021-03-11 15:44:46],luxy: gmm main prim_id is 1206
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.mm_status is 1
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.mm_action is 2
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.pmm_mode is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.gmm_state_before_plmnsearch is 22
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind ps_info_present is 1
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.camped_cell_ac_barred is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:44:46],luxy: fgmm_rrc_plmnsearch_ind temp_rai_st.lai_st.lac is a00f
+[2021-03-11 15:44:46],luxy: fgmm_rrc_plmnsearch_ind temp_rai_st.lai_st.lac is a00f
+[2021-03-11 15:44:46],luxy: gmm rrc service g_gmm_info_st.network_mode is 1
+[2021-03-11 15:44:46],luxy: gmm rrc service prev_nmo is 1
+[2021-03-11 15:44:46],luxy: gmm rrc service rau_is_not_need is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service same_ci is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service g_gmm_info_st.usim_state is 1
+[2021-03-11 15:44:46],luxy: gmm rrc service g_mm_sys_info_valid_flag is 1
+[2021-03-11 15:44:46],luxy: gmm rrc service same_rai is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:44:46],luxy: gmm rrc service g_gmm_info_st.normal_rau_needed is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service g_gmm_info_st.attach_needed is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service plmnsearch ind plmn_act_change_flag is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service is_valid_cell is 1
+[2021-03-11 15:44:46],luxy: gmm rrc service ac_granted_from_barred is 0
+[2021-03-11 15:44:46],luxy: gmm rrc service g_gmm_info_st.current_gmm_state is 22
+[2021-03-11 15:44:46],luxy: gmm rrc service gmm_main_state 111 is 16
+[2021-03-11 15:44:46],luxy: gmm rrc service gmm_main_state 111 is 16
+[2021-03-11 15:44:46],luxy: GMM after handled the message
+[2021-03-11 15:44:46],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],L1 XINQ:19208
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],check ac 4
+[2021-03-11 15:44:46],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:44:46],rand_imsi:29939140
+[2021-03-11 15:44:46],NEW
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:46],
+[2021-03-11 15:44:47],
+[2021-03-11 15:44:48],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:44:48],lixiang1013 wait setup
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+[2021-03-11 15:44:49],begin_indx 1,num_blks_to_reasm 1
+[2021-03-11 15:44:49],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:44:49],luxy: NMO is 1
+[2021-03-11 15:44:49],srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+[2021-03-11 15:44:49],BSN = 1 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],BSN = 0 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],BSN = 1 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],BSN = 0 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],BSN = 1 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],BSN = 0 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],BSN = 1 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:49],BSN = 0 is out of receiving window
+[2021-03-11 15:44:49], bow_bsn = 2
+[2021-03-11 15:44:49],
+[2021-03-11 15:44:50],BSN = 1 is out of receiving window
+[2021-03-11 15:44:50], bow_bsn = 2
+[2021-03-11 15:44:50],
+[2021-03-11 15:44:50],lx061825  rlps=1 pdulen=255
+[2021-03-11 15:44:50],lixiangstartsrc 3
+[2021-03-11 15:44:50],LP LOG:srrc_dt_ProcMmSendInitDT before:SigPresent:0x0, signum:0x0
+[2021-03-11 15:44:50],LP LOG:srrc_dt_ProcMmSendInitDT after:SigPresent:0x1, signum:0x1
+[2021-03-11 15:44:50],luxy: MM receive prim is P_SRRC_MM_EST_CNF
+[2021-03-11 15:44:50],luxy: MM current state is S13:MM_STATE_WAIT_RRC_CONN_LU
+[2021-03-11 15:44:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:50],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:50],
+[2021-03-11 15:44:50],
+[2021-03-11 15:44:51],
+[2021-03-11 15:44:52],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 9 ,num_blks_to_reassemble 5
+[2021-03-11 15:44:52],begin_indx 3,num_blks_to_reasm 5
+[2021-03-11 15:44:52],blk_second_byte 43
+[2021-03-11 15:44:52],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:44:52],lixianggmm 1,1,0
+[2021-03-11 15:44:52],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:44:52],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:52],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:52],luxy: mm11peer common peer msg type is 12
+[2021-03-11 15:44:52],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_len is 37
+[2021-03-11 15:44:52],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_ptr->autn_iei is 20
+[2021-03-11 15:44:52],luxy: mm15 fmm_peer_msg_auth_req_hdl auth_req_msg_ptr->autn_len is 16
+[2021-03-11 15:44:52],the current uai authen number is: 1
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],luxy: fuai authen req g_uai_switch_on_off_flag_st.card_type is 2
+[2021-03-11 15:44:52],luxy: fuai authen req field_ind is 1luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],lixiangkeytype 1
+[2021-03-11 15:44:52],luxy: MM receive prim is P_UAI_MM_AUTHEN_CNF
+[2021-03-11 15:44:52],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:52],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:52],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],
+[2021-03-11 15:44:52],BSN = 7 is out of receiving window
+[2021-03-11 15:44:52], bow_bsn = 8
+[2021-03-11 15:44:53],
+[2021-03-11 15:44:53],BSN = 7 is out of receiving window
+[2021-03-11 15:44:53], bow_bsn = 8
+[2021-03-11 15:44:53],BSN = 7 is out of receiving window
+[2021-03-11 15:44:53], bow_bsn = 8
+[2021-03-11 15:44:53],
+[2021-03-11 15:44:53],BSN = 7 is out of receiving window
+[2021-03-11 15:44:53], bow_bsn = 8
+[2021-03-11 15:44:53],
+[2021-03-11 15:44:53],
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 13 ,num_blks_to_reassemble 3
+[2021-03-11 15:44:54],begin_indx 9,num_blks_to_reasm 3
+[2021-03-11 15:44:54],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:44:54],lixianggmm 1,1,0
+[2021-03-11 15:44:54],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:44:54],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:54],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:54],luxy: mm11peer common peer msg type is 32
+[2021-03-11 15:44:54],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],NETWORK INFO: year:2021,month:3,day:11,hour:15,min:44,sec:54
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 16 ,num_blks_to_reassemble 2
+[2021-03-11 15:44:54],begin_indx 13,num_blks_to_reasm 2
+[2021-03-11 15:44:54],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:44:54],lixiang local msn=0,msn=3
+[2021-03-11 15:44:54],lixianghfn 0
+[2021-03-11 15:44:54],Ik_ptr-->
+[2021-03-11 15:44:54],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:44:54],counti 3, fresh 492aa899
+[2021-03-11 15:44:54],lixiang mac 1b7cd6e9, maci 1b7cd6e9
+[2021-03-11 15:44:54],cipher11 1 0
+[2021-03-11 15:44:54],cipher11 2 type 0
+[2021-03-11 15:44:54],lixiangulik 5 hfn 0,msn 1
+[2021-03-11 15:44:54],Uplink Ik_ptr:
+[2021-03-11 15:44:54],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:44:54],lixiangulik counti 1
+[2021-03-11 15:44:54],lixiangulik fresh 1227532441
+[2021-03-11 15:44:54],lixiangulik length 64
+[2021-03-11 15:44:54],luxy: MM receive prim is P_SRRC_MM_SECURITY_IND
+[2021-03-11 15:44:54],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:54],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:54],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],
+[2021-03-11 15:44:54],BSN = 14 is out of receiving window
+[2021-03-11 15:44:54], bow_bsn = 15
+[2021-03-11 15:44:55],
+[2021-03-11 15:44:55],BSN = 14 is out of receiving window
+[2021-03-11 15:44:55], bow_bsn = 15
+[2021-03-11 15:44:55],
+[2021-03-11 15:44:55],BSN = 14 is out of receiving window
+[2021-03-11 15:44:55], bow_bsn = 15
+[2021-03-11 15:44:55],
+[2021-03-11 15:44:55],BSN = 14 is out of receiving window
+[2021-03-11 15:44:55], bow_bsn = 15
+[2021-03-11 15:44:55],
+[2021-03-11 15:44:55],BSN = 14 is out of receiving window
+[2021-03-11 15:44:55], bow_bsn = 15
+[2021-03-11 15:44:55],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 19 ,num_blks_to_reassemble 2
+[2021-03-11 15:44:56],begin_indx 16,num_blks_to_reasm 2
+[2021-03-11 15:44:56],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:44:56],lixianggmm 1,1,0
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:44:56],luxy: MM current state is S3:MM_STATE_LU_INITIATED
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],lixiangulik 5 hfn 0,msn 2
+[2021-03-11 15:44:56],Uplink Ik_ptr:
+[2021-03-11 15:44:56],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:44:56],lixiangulik counti 2
+[2021-03-11 15:44:56],lixiangulik fresh 1227532441
+[2021-03-11 15:44:56],lixiangulik length 75
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],luxy: GMM receive prim is P_MM_GMM_UEID_CHANGED_REQ
+[2021-03-11 15:44:56],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:56],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:44:56],luxy: gmm main prim_id is 1f17
+[2021-03-11 15:44:56],luxy: GMM after handled the message
+[2021-03-11 15:44:56],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:44:56],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:44:56],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:44:56],[fatp_net_creg_ciev_rc] network is ready, try to send position!
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],BSN = 17 is out of receiving window
+[2021-03-11 15:44:56], bow_bsn = 18
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],BSN = 17 is out of receiving window
+[2021-03-11 15:44:56], bow_bsn = 18
+[2021-03-11 15:44:56],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],[self_register_entry2]:need_reg_flag is 1
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],BSN = 17 is out of receiving window
+[2021-03-11 15:44:56], bow_bsn = 18
+[2021-03-11 15:44:56],[fatp_uai_get_reg_imsi_cnf2]
+[2021-03-11 15:44:56],fatp_uai_get_reg_imsi_cnf5:need_reg_flag is 1
+[2021-03-11 15:44:56],[fatp_uai_get_reg_imsi_cnf7]:nvram_imsi is 460590104193992
+[2021-03-11 15:44:56],fatp_reg_readimei_cnf
+[2021-03-11 15:44:56],38 36 39 34 38 33 30 34 30 32 39 37 35 38 30 
+[2021-03-11 15:44:56],fatp_reg_readimei_cnf:need_reg_flag is 1
+[2021-03-11 15:44:56],fatp_reg_readimei_cnf0:nvram_imei is 869483040297580
+[2021-03-11 15:44:56],assem_register_sms:len is 82
+[2021-03-11 15:44:56],assem_register_sms:manu_len is 8,imei_len is 15,imsi_len is 15,version_len is 10
+[2021-03-11 15:44:56],[assem_register_sms4]:data length is 128
+[2021-03-11 15:44:56],assem_register_sms:protocol_version=2,protocol_version=3,msg_length=5d,filter=0
+[2021-03-11 15:44:56],crc32:9b855c4a
+[2021-03-11 15:44:56],crc32_ASCII:0x39,0x62,0x38,0x35,0x35,0x63,0x34,0x61
+[2021-03-11 15:44:56],sms_body is 0x3c,0x61,0x31,0x3e,0x3c,0x62,0x31,0x3e,0x5a,0x54,0x45
+[2021-03-11 15:44:56],[fat_register_sms_ext]
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:56],stack_index is : 4
+[2021-03-11 15:44:56], mm current state is :9 
+[2021-03-11 15:44:56], gsm peer msg allow is 1
+[2021-03-11 15:44:56], mm state stack is : 
+[2021-03-11 15:44:56],197,13,3,9,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+[2021-03-11 15:44:56],stack_index is : 4
+[2021-03-11 15:44:56], mm current state is :9 
+[2021-03-11 15:44:56], gsm peer msg allow is 1
+[2021-03-11 15:44:56], mm state stack is : 
+[2021-03-11 15:44:56],197,13,3,9,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,The plmn in usim is:46059
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],The avail plmn is:
+[2021-03-11 15:44:56],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],
+[2021-03-11 15:44:56],zx: register sms
+[2021-03-11 15:44:56],send_self_register_sms3:fat_register_sms_ext len is 125
+[2021-03-11 15:44:57],
+[2021-03-11 15:44:57],BSN = 17 is out of receiving window
+[2021-03-11 15:44:57], bow_bsn = 18
+[2021-03-11 15:44:57],
+[2021-03-11 15:44:57],
+[2021-03-11 15:44:57],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 21 ,num_blks_to_reassemble 1
+[2021-03-11 15:44:57],begin_indx 19,num_blks_to_reasm 1
+[2021-03-11 15:44:57],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:44:57],lx061825  in srrc_rcm_MsIdleSsIdle_HdlUuRrcConnRel
+[2021-03-11 15:44:57],
+[2021-03-11 15:44:57],lixiangti 1 0
+[2021-03-11 15:44:57],lixiangti 2 0
+[2021-03-11 15:44:57],lx061825  in send complete
+[2021-03-11 15:44:57],
+[2021-03-11 15:44:57],lixiangulik 5 hfn 0,msn 3
+[2021-03-11 15:44:57],Uplink Ik_ptr:
+[2021-03-11 15:44:57],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:44:57],lixiangulik counti 3
+[2021-03-11 15:44:57],lixiangulik fresh 1227532441
+[2021-03-11 15:44:57],lixiangulik length 48
+[2021-03-11 15:44:57],lx061825  in send complete end
+[2021-03-11 15:44:57],
+[2021-03-11 15:44:57],
+[2021-03-11 15:44:57],BSN = 19 is out of receiving window
+[2021-03-11 15:44:57], bow_bsn = 20
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],BSN = 19 is out of receiving window
+[2021-03-11 15:44:58], bow_bsn = 20
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],BSN = 19 is out of receiving window
+[2021-03-11 15:44:58], bow_bsn = 20
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],BSN = 19 is out of receiving window
+[2021-03-11 15:44:58], bow_bsn = 20
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],BSN = 19 is out of receiving window
+[2021-03-11 15:44:58], bow_bsn = 20
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],lx061825  local rel !!
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],lixiang1010 1,1,0
+[2021-03-11 15:44:58],SMAC LOG:normal release, reset cipher info
+[2021-03-11 15:44:58],SRRC LOG:No pdcp to release.
+[2021-03-11 15:44:58],Rcm_ptr->RelSource_en 0
+[2021-03-11 15:44:58],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:44:58],******zhangkh******copy from above!
+[2021-03-11 15:44:58],luxy: MM receive prim is P_SRRC_MM_REL_IND
+[2021-03-11 15:44:58],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:44:58],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:58],lixiang1 IsBchReading=1,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:44:58],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:44:58],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:44:58],luxy: GMM after handled the message
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:44:58],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:44:58],luxy: GMM after handled the message
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:44:58],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:44:58],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:44:58],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 3
+[2021-03-11 15:44:58],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:44:58],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:44:58],luxy: GMM after handled the message
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],luxy: MM receive prim is P_SRRC_MM_IDLE_MODE_CHANGE_IND
+[2021-03-11 15:44:58],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:44:58],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:44:58],luxy: mm receive P_RRC_MM_IDLE_MODE_CHANGE_IND in normal
+[2021-03-11 15:44:58],luxy: g_mm_is_spv_nreg_pend is 0
+[2021-03-11 15:44:58],luxy: g_mm_is_cm_req_pend is 0
+[2021-03-11 15:44:58],luxy: T3212 mm rcv rrc enter idle and g_mm_is_rcv_ps_end is 0
+[2021-03-11 15:44:58],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:44:58],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:44:58],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:44:58],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 7
+[2021-03-11 15:44:58],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:44:58],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:44:58],luxy: GMM after handled the message
+[2021-03-11 15:44:58],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:44:58],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:58],
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],check ac 4
+[2021-03-11 15:44:59],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:44:59],NEW
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],
+[2021-03-11 15:44:59],
+[2021-03-11 15:45:00],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:45:00],lixiang1013 wait setup
+[2021-03-11 15:45:00],
+[2021-03-11 15:45:00],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+[2021-03-11 15:45:00],begin_indx 1,num_blks_to_reasm 1
+[2021-03-11 15:45:00],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:45:00],luxy: NMO is 1
+[2021-03-11 15:45:00],srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+[2021-03-11 15:45:01],
+[2021-03-11 15:45:01],BSN = 1 is out of receiving window
+[2021-03-11 15:45:01], bow_bsn = 2
+[2021-03-11 15:45:01],
+[2021-03-11 15:45:01],BSN = 1 is out of receiving window
+[2021-03-11 15:45:01], bow_bsn = 2
+[2021-03-11 15:45:01],
+[2021-03-11 15:45:01],BSN = 1 is out of receiving window
+[2021-03-11 15:45:01], bow_bsn = 2
+[2021-03-11 15:45:01],BSN = 1 is out of receiving window
+[2021-03-11 15:45:01], bow_bsn = 2
+[2021-03-11 15:45:01],
+[2021-03-11 15:45:01],
+[2021-03-11 15:45:01],BSN = 1 is out of receiving window
+[2021-03-11 15:45:01], bow_bsn = 2
+[2021-03-11 15:45:02],
+[2021-03-11 15:45:02],lixiangstartsrc 3
+[2021-03-11 15:45:02],LP LOG:srrc_dt_ProcMmSendInitDT before:SigPresent:0x0, signum:0x0
+[2021-03-11 15:45:02],LP LOG:srrc_dt_ProcMmSendInitDT after:SigPresent:0x1, signum:0x1
+[2021-03-11 15:45:02],luxy: MM receive prim is P_SRRC_MM_EST_CNF
+[2021-03-11 15:45:02],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:45:02],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:02],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:45:02],
+[2021-03-11 15:45:02],
+[2021-03-11 15:45:03],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 7 ,num_blks_to_reassemble 3
+[2021-03-11 15:45:04],begin_indx 3,num_blks_to_reasm 3
+[2021-03-11 15:45:04],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:45:04],lixianggmm 1,1,0
+[2021-03-11 15:45:04],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:45:04],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:45:04],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:04],luxy: mm11peer s5 pd msg_info_st.pd is 5
+[2021-03-11 15:45:04],luxy: mm11peer s5 g_mm_test_optionis 0
+[2021-03-11 15:45:04],luxy: mm11peer s5 msg_info_st.msg_type 32
+[2021-03-11 15:45:04],luxy: mm11peer s5 default msg type
+[2021-03-11 15:45:04],luxy: mm11peer common peer msg type is 32
+[2021-03-11 15:45:04],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],NETWORK INFO: year:2021,month:3,day:11,hour:15,min:45,sec:3
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 10 ,num_blks_to_reassemble 2
+[2021-03-11 15:45:04],begin_indx 7,num_blks_to_reasm 2
+[2021-03-11 15:45:04],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:45:04],lixiangulhfn startValue = 0,hfn 0
+[2021-03-11 15:45:04],lixiang local msn=3,msn=3
+[2021-03-11 15:45:04],lixianghfn 0
+[2021-03-11 15:45:04],Ik_ptr-->
+[2021-03-11 15:45:04],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:45:04],counti 3, fresh 3f90736e
+[2021-03-11 15:45:04],lixiang mac 6856c401, maci 6856c401
+[2021-03-11 15:45:04],cipher11 1 0
+[2021-03-11 15:45:04],cipher11 2 type 0
+[2021-03-11 15:45:04],lixiangulik 5 hfn 0,msn 1
+[2021-03-11 15:45:04],Uplink Ik_ptr:
+[2021-03-11 15:45:04],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:45:04],lixiangulik counti 1
+[2021-03-11 15:45:04],lixiangulik fresh 1066431342
+[2021-03-11 15:45:04],lixiangulik length 64
+[2021-03-11 15:45:04],luxy: MM receive prim is P_SRRC_MM_SECURITY_IND
+[2021-03-11 15:45:04],luxy: MM current state is S5:MM_STATE_WAIT_OUTGOING_MM_CONN
+[2021-03-11 15:45:04],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:04],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],luxy: MM receive prim is P_SMS_MM_DATA_REQ
+[2021-03-11 15:45:04],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:04],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:04],lixiangulik 5 hfn 0,msn 2
+[2021-03-11 15:45:04],Uplink Ik_ptr:
+[2021-03-11 15:45:04],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:45:04],lixiangulik counti 2
+[2021-03-11 15:45:04],lixiangulik fresh 1066431342
+[2021-03-11 15:45:04],lixiangulik length 1115
+[2021-03-11 15:45:04],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],BSN = 8 is out of receiving window
+[2021-03-11 15:45:04], bow_bsn = 9
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],BSN = 8 is out of receiving window
+[2021-03-11 15:45:04], bow_bsn = 9
+[2021-03-11 15:45:04],
+[2021-03-11 15:45:04],BSN = 8 is out of receiving window
+[2021-03-11 15:45:04], bow_bsn = 9
+[2021-03-11 15:45:05],
+[2021-03-11 15:45:05],BSN = 8 is out of receiving window
+[2021-03-11 15:45:05], bow_bsn = 9
+[2021-03-11 15:45:05],
+[2021-03-11 15:45:05],BSN = 8 is out of receiving window
+[2021-03-11 15:45:05], bow_bsn = 9
+[2021-03-11 15:45:05],
+[2021-03-11 15:45:06],
+[2021-03-11 15:45:07],
+[2021-03-11 15:45:07],
+[2021-03-11 15:45:07],
+[2021-03-11 15:45:07],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 12 ,num_blks_to_reassemble 1
+[2021-03-11 15:45:07],begin_indx 10,num_blks_to_reasm 1
+[2021-03-11 15:45:07],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:45:07],lixianggmm 1,1,0
+[2021-03-11 15:45:07],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:45:07],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:07],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:07],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:07],
+[2021-03-11 15:45:07],
+[2021-03-11 15:45:08],BSN = 10 is out of receiving window
+[2021-03-11 15:45:08], bow_bsn = 11
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 16 ,num_blks_to_reassemble 3
+[2021-03-11 15:45:08],begin_indx 12,num_blks_to_reasm 3
+[2021-03-11 15:45:08],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:45:08],lixianggmm 1,1,0
+[2021-03-11 15:45:08],luxy: MM receive prim is P_SRRC_MM_DATA_IND
+[2021-03-11 15:45:08],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:08],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:08],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],luxy: MM receive prim is P_SMS_MM_DATA_REQ
+[2021-03-11 15:45:08],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:08],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:08],lixiangulik 5 hfn 0,msn 3
+[2021-03-11 15:45:08],Uplink Ik_ptr:
+[2021-03-11 15:45:08],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:45:08],lixiangulik counti 3
+[2021-03-11 15:45:08],lixiangulik fresh 1066431342
+[2021-03-11 15:45:08],lixiangulik length 75
+[2021-03-11 15:45:08],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],luxy: MM receive prim is P_SMS_MM_REL_REQ
+[2021-03-11 15:45:08],luxy: MM current state is S6:MM_STATE_MM_CONN_ACTIVE
+[2021-03-11 15:45:08],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:08],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],zx:[fatp_sms_sendregmsg_cnf]
+[2021-03-11 15:45:08],[fatp_sms_sendregmsg_cnf]flag is 1
+[2021-03-11 15:45:08],fatp_sms_sendregmsg_cnf successfully!
+[2021-03-11 15:45:08],fatp_sms_sendregmsg_cnf1:register_nvram_info.imei is 869483040297580,register_nvram_info is 460590104193992
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],
+[2021-03-11 15:45:08],BSN = 14 is out of receiving window
+[2021-03-11 15:45:08], bow_bsn = 15
+[2021-03-11 15:45:09],
+[2021-03-11 15:45:09],BSN = 14 is out of receiving window
+[2021-03-11 15:45:09], bow_bsn = 15
+[2021-03-11 15:45:09],
+[2021-03-11 15:45:09],BSN = 14 is out of receiving window
+[2021-03-11 15:45:09], bow_bsn = 15
+[2021-03-11 15:45:09],BSN = 14 is out of receiving window
+[2021-03-11 15:45:09], bow_bsn = 15
+[2021-03-11 15:45:09],
+[2021-03-11 15:45:09],
+[2021-03-11 15:45:09],BSN = 14 is out of receiving window
+[2021-03-11 15:45:09], bow_bsn = 15
+[2021-03-11 15:45:10],
+[2021-03-11 15:45:10],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 18 ,num_blks_to_reassemble 1
+[2021-03-11 15:45:10],begin_indx 16,num_blks_to_reasm 1
+[2021-03-11 15:45:10],blk_second_byte 43
+[2021-03-11 15:45:10],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:45:10],lx061825  in srrc_rcm_MsIdleSsIdle_HdlUuRrcConnRel
+[2021-03-11 15:45:10],
+[2021-03-11 15:45:10],lixiangti 1 0
+[2021-03-11 15:45:10],lixiangti 2 0
+[2021-03-11 15:45:10],lx061825  in send complete
+[2021-03-11 15:45:10],
+[2021-03-11 15:45:10],lixiangulik 5 hfn 0,msn 4
+[2021-03-11 15:45:10],Uplink Ik_ptr:
+[2021-03-11 15:45:10],c2 45 1e 1b 9c 36 85 31 6a e5 d0 5b cd 72 5d 2a 
+[2021-03-11 15:45:10],lixiangulik counti 4
+[2021-03-11 15:45:10],lixiangulik fresh 1066431342
+[2021-03-11 15:45:10],lixiangulik length 48
+[2021-03-11 15:45:10],lx061825  in send complete end
+[2021-03-11 15:45:10],
+[2021-03-11 15:45:10],
+[2021-03-11 15:45:10],BSN = 16 is out of receiving window
+[2021-03-11 15:45:10], bow_bsn = 17
+[2021-03-11 15:45:10],
+[2021-03-11 15:45:10],BSN = 16 is out of receiving window
+[2021-03-11 15:45:10], bow_bsn = 17
+[2021-03-11 15:45:10],
+[2021-03-11 15:45:10],BSN = 16 is out of receiving window
+[2021-03-11 15:45:10], bow_bsn = 17
+[2021-03-11 15:45:10],BSN = 16 is out of receiving window
+[2021-03-11 15:45:10], bow_bsn = 17
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],lx061825  local rel !!
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],lixiang1010 1,1,0
+[2021-03-11 15:45:11],SMAC LOG:normal release, reset cipher info
+[2021-03-11 15:45:11],SRRC LOG:No pdcp to release.
+[2021-03-11 15:45:11],Rcm_ptr->RelSource_en 0
+[2021-03-11 15:45:11],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:45:11],******zhangkh******copy from above!
+[2021-03-11 15:45:11],luxy: MM receive prim is P_SRRC_MM_REL_IND
+[2021-03-11 15:45:11],luxy: MM current state is S9:MM_STATE_WAIT_NET_COMM
+[2021-03-11 15:45:11],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:11],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:45:11],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:11],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:45:11],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:45:11],luxy: GMM after handled the message
+[2021-03-11 15:45:11],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:45:11],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:11],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:45:11],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:45:11],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:45:11],luxy: gmm mm service mm action g_gmm_info_st.mm_action is ff
+[2021-03-11 15:45:11],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:45:11],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:45:11],luxy: GMM after handled the message
+[2021-03-11 15:45:11],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],luxy: MM receive prim is P_SRRC_MM_IDLE_MODE_CHANGE_IND
+[2021-03-11 15:45:11],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:11],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:11],luxy: mm receive P_RRC_MM_IDLE_MODE_CHANGE_IND in normal
+[2021-03-11 15:45:11],luxy: g_mm_is_spv_nreg_pend is 0
+[2021-03-11 15:45:11],luxy: g_mm_is_cm_req_pend is 0
+[2021-03-11 15:45:11],luxy: T3212 mm rcv rrc enter idle and g_mm_is_rcv_ps_end is 0
+[2021-03-11 15:45:11],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:45:11],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:11],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:45:11],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:45:11],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:45:11],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 7
+[2021-03-11 15:45:11],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:45:11],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:45:11],luxy: GMM after handled the message
+[2021-03-11 15:45:11],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:45:11],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],RRC  state:[0] substate:[48]
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],CSEL state:[105] substate:[165]
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],SIB  state:[85] substate:[390]
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:11],
+[2021-03-11 15:45:24],
+[2021-03-11 15:45:24],
+[2021-03-11 15:45:25],
+[2021-03-11 15:45:28],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-11 15:45:28],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-11 15:45:28],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-11 15:45:28],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:45:28],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:28],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:28],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:45:28],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-11 15:45:28],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:28],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:28],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-11 15:45:28],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:28],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:45:28],luxy: gmm main prim_id is 8d63
+[2021-03-11 15:45:28],luxy: rrc enter alert and delete sm instance
+[2021-03-11 15:45:28],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:28],luxy: GMM after handled the message
+[2021-03-11 15:45:28],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:45:28],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],fatp_net_regstate_ind: reg_state : 6
+[2021-03-11 15:45:28],[fatp_net_hp_rc]: unknown rssi:-115
+[2021-03-11 15:45:28],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:28],
+[2021-03-11 15:45:38],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-11 15:45:38],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-11 15:45:38],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-11 15:45:38],Para_ptr->MES_Identity_type_u8 = 1
+[2021-03-11 15:45:38],Para_ptr->MES_Identity_u32= 4a11a911
+[2021-03-11 15:45:38],*****zhangkh*****MES_Identity_type_u8 is TMSI
+[2021-03-11 15:45:38],*****zhangkh*****Local  TMSI  = bf116209
+[2021-03-11 15:45:38],*****zhangkh*****Net    TMSI  = 4a11a911
+[2021-03-11 15:45:41],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:45:41],******zhangkh******copy from above!
+[2021-03-11 15:45:41],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-11 15:45:41],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:41],luxy: mm 199 receive message is 0
+[2021-03-11 15:45:41],******zhangkh***NAS leave Alert State!
+[2021-03-11 15:45:41],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=9,g_mm_pend_alert_request_flag=0
+[2021-03-11 15:45:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-11 15:45:41],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:41],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-11 15:45:41],luxy: gmm main prim_id is 8d64
+[2021-03-11 15:45:41],luxy: GMM hpa service
+[2021-03-11 15:45:41],luxy: GMM leave alert cause is 1
+[2021-03-11 15:45:41],luxy: GMM after handled the message
+[2021-03-11 15:45:41],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:45:41],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:45:41],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:45:41],SRRC LOG:srrc store  arfcn[562]:has already existed
+[2021-03-11 15:45:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:41],
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:42],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:42],
+[2021-03-11 15:45:44],
+[2021-03-11 15:45:44],
+[2021-03-11 15:45:44],
+[2021-03-11 15:45:45],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-11 15:45:45],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-11 15:45:45],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-11 15:45:45],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:45:45],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:45],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:45],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:45:45],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-11 15:45:45],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:45],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:45],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-11 15:45:45],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:45],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:45:45],luxy: gmm main prim_id is 8d63
+[2021-03-11 15:45:45],luxy: rrc enter alert and delete sm instance
+[2021-03-11 15:45:45],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:45],luxy: GMM after handled the message
+[2021-03-11 15:45:45],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:45:45],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],fatp_net_regstate_ind: reg_state : 6
+[2021-03-11 15:45:45],[fatp_net_hp_rc]: unknown rssi:-124
+[2021-03-11 15:45:45],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:45],
+[2021-03-11 15:45:47],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:45:47],******zhangkh******copy from above!
+[2021-03-11 15:45:47],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-11 15:45:47],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:47],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:47],luxy: mm 199 receive message is 0
+[2021-03-11 15:45:47],******zhangkh***NAS leave Alert State!
+[2021-03-11 15:45:47],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=9,g_mm_pend_alert_request_flag=0
+[2021-03-11 15:45:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-11 15:45:47],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:45:47],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-11 15:45:47],luxy: gmm main prim_id is 8d64
+[2021-03-11 15:45:47],luxy: GMM hpa service
+[2021-03-11 15:45:47],luxy: GMM leave alert cause is 1
+[2021-03-11 15:45:47],luxy: GMM after handled the message
+[2021-03-11 15:45:47],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:45:47],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:45:47],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:45:47],SRRC LOG:srrc store  arfcn[562]:has already existed
+[2021-03-11 15:45:47],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:47],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:47],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:45:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:47],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:45:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:47],
+[2021-03-11 15:45:48],RRC  state:[0] substate:[48]
+[2021-03-11 15:45:48],
+[2021-03-11 15:45:48],CSEL state:[105] substate:[165]
+[2021-03-11 15:45:48],
+[2021-03-11 15:45:48],SIB  state:[85] substate:[390]
+[2021-03-11 15:45:48],
+[2021-03-11 15:45:48],
+[2021-03-11 15:45:48],
+[2021-03-11 15:45:48],
+[2021-03-11 15:45:48],
+[2021-03-11 15:46:06],
+[2021-03-11 15:46:11],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-11 15:46:11],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-11 15:46:11],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-11 15:46:11],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:46:11],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:11],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:11],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:46:11],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-11 15:46:11],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:11],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:11],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-11 15:46:11],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:11],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:11],luxy: gmm main prim_id is 8d63
+[2021-03-11 15:46:11],luxy: rrc enter alert and delete sm instance
+[2021-03-11 15:46:11],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:11],luxy: GMM after handled the message
+[2021-03-11 15:46:11],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:46:11],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],fatp_net_regstate_ind: reg_state : 6
+[2021-03-11 15:46:11],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:11],
+[2021-03-11 15:46:12],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-11 15:46:12],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-11 15:46:12],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-11 15:46:12],Para_ptr->MES_Identity_type_u8 = 2
+[2021-03-11 15:46:12],Para_ptr->MES_Identity_u32= f468f1c
+[2021-03-11 15:46:12],*****zhangkh*****MES_Identity_type_u8 is P-TMSI
+[2021-03-11 15:46:13],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-11 15:46:13],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-11 15:46:13],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-11 15:46:13],Para_ptr->MES_Identity_type_u8 = 3
+[2021-03-11 15:46:13],Para_ptr->MES_Identity_u32= 468f1ac3
+[2021-03-11 15:46:19],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-11 15:46:19],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-11 15:46:19],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-11 15:46:19],Para_ptr->MES_Identity_type_u8 = 2
+[2021-03-11 15:46:19],Para_ptr->MES_Identity_u32= 64715b76
+[2021-03-11 15:46:20],*****zhangkh*****MES_Identity_type_u8 is P-TMSI
+[2021-03-11 15:46:24],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:46:24],******zhangkh******copy from above!
+[2021-03-11 15:46:24],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-11 15:46:24],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:24],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:24],luxy: mm 199 receive message is 0
+[2021-03-11 15:46:24],******zhangkh***NAS leave Alert State!
+[2021-03-11 15:46:24],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=9,g_mm_pend_alert_request_flag=0
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-11 15:46:24],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:24],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-11 15:46:24],luxy: gmm main prim_id is 8d64
+[2021-03-11 15:46:24],luxy: GMM hpa service
+[2021-03-11 15:46:24],luxy: GMM leave alert cause is 1
+[2021-03-11 15:46:24],luxy: GMM after handled the message
+[2021-03-11 15:46:24],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:46:24],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:46:24],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:46:24],SRRC LOG:srrc store  arfcn[562]:has already existed
+[2021-03-11 15:46:24],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:24],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:24],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:24],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:25],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:25],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:25],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:25],
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],RRC  state:[0] substate:[48]
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],CSEL state:[105] substate:[165]
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],SIB  state:[85] substate:[390]
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:26],
+[2021-03-11 15:46:31],[pcm_normal]:set fail!
+[2021-03-11 15:46:31],DestNum is not TT!-31,7
+[2021-03-11 15:46:31],luxy: MM receive prim is P_CC_MM_EST_REQ
+[2021-03-11 15:46:31],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:31],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:31],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:46:31],******zhangkh******copy from above!
+[2021-03-11 15:46:31],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:46:31],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:31],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:46:31],luxy: GMM after handled the message
+[2021-03-11 15:46:31],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:46:31],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:31],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:31],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:46:31],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:46:31],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 3
+[2021-03-11 15:46:31],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:46:31],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:31],luxy: GMM after handled the message
+[2021-03-11 15:46:31],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:31],
+[2021-03-11 15:46:32],
+[2021-03-11 15:46:34],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-11 15:46:34],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-11 15:46:34],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-11 15:46:34],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:46:34],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:46:34],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:34],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:46:34],luxy: mm in state S14 receive srrc mm rej message, and the final state is 191
+[2021-03-11 15:46:34],luxy: the srrc mm rej case g_mm_phy_fail_flag is 0
+[2021-03-11 15:46:34],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:46:34],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:34],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:34],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:46:34],luxy: GMM after handled the message
+[2021-03-11 15:46:34],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:46:34],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:34],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:34],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:46:34],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:46:34],luxy: gmm mm service mm action g_gmm_info_st.mm_action is ff
+[2021-03-11 15:46:34],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:46:34],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:34],luxy: GMM after handled the message
+[2021-03-11 15:46:34],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-11 15:46:34],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:34],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:34],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-11 15:46:34],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:34],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:34],luxy: gmm main prim_id is 8d63
+[2021-03-11 15:46:34],luxy: rrc enter alert and delete sm instance
+[2021-03-11 15:46:34],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:34],luxy: GMM after handled the message
+[2021-03-11 15:46:34],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:46:34],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],[close_cs_call]: call_context NOT nullptr!
+[2021-03-11 15:46:34],#CLD fspvcall_rej_ind_cc->P_CC_SPV_REJ_IND
+[2021-03-11 15:46:34],fatp_net_regstate_ind: reg_state : 6
+[2021-03-11 15:46:34],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:34],
+[2021-03-11 15:46:36],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-11 15:46:36],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-11 15:46:36],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-11 15:46:36],Para_ptr->MES_Identity_type_u8 = 2
+[2021-03-11 15:46:36],Para_ptr->MES_Identity_u32= 7207e9c5
+[2021-03-11 15:46:36],*****zhangkh*****MES_Identity_type_u8 is P-TMSI
+[2021-03-11 15:46:37],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:46:37],******zhangkh******copy from above!
+[2021-03-11 15:46:37],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-11 15:46:37],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:37],luxy: mm 199 receive message is 0
+[2021-03-11 15:46:37],******zhangkh***NAS leave Alert State!
+[2021-03-11 15:46:37],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=14,g_mm_pend_alert_request_flag=0
+[2021-03-11 15:46:37],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-11 15:46:37],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:37],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-11 15:46:37],luxy: gmm main prim_id is 8d64
+[2021-03-11 15:46:37],luxy: GMM hpa service
+[2021-03-11 15:46:37],luxy: GMM leave alert cause is 1
+[2021-03-11 15:46:37],luxy: GMM after handled the message
+[2021-03-11 15:46:37],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:46:37],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:46:37],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:46:37],SRRC LOG:srrc store  arfcn[562]:has already existed
+[2021-03-11 15:46:37],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:37],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:37],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:37],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:37],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:37],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:37],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:37],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],check ac 4
+[2021-03-11 15:46:37],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:46:37],NEW
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:37],
+[2021-03-11 15:46:38],
+[2021-03-11 15:46:44],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:46:44],******zhangkh******copy from above!
+[2021-03-11 15:46:45],
+[2021-03-11 15:46:45],
+[2021-03-11 15:46:47],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-11 15:46:47],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-11 15:46:47],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-11 15:46:47],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:46:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:47],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:47],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:46:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-11 15:46:47],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:47],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:47],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-11 15:46:47],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:47],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:47],luxy: gmm main prim_id is 8d63
+[2021-03-11 15:46:47],luxy: rrc enter alert and delete sm instance
+[2021-03-11 15:46:47],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:47],luxy: GMM after handled the message
+[2021-03-11 15:46:47],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:46:47],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],fatp_net_regstate_ind: reg_state : 6
+[2021-03-11 15:46:47],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:47],
+[2021-03-11 15:46:50],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:46:50],******zhangkh******copy from above!
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-11 15:46:50],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: mm 199 receive message is 0
+[2021-03-11 15:46:50],******zhangkh***NAS leave Alert State!
+[2021-03-11 15:46:50],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=14,g_mm_pend_alert_request_flag=0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-11 15:46:50],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:46:50],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-11 15:46:50],luxy: gmm main prim_id is 8d64
+[2021-03-11 15:46:50],luxy: GMM hpa service
+[2021-03-11 15:46:50],luxy: GMM leave alert cause is 1
+[2021-03-11 15:46:50],luxy: GMM after handled the message
+[2021-03-11 15:46:50],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:46:50],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:46:50],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:46:50],SRRC LOG:srrc store  arfcn[562]:has already existed
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:50],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:50],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:50],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],check ac 4
+[2021-03-11 15:46:51],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:46:51],NEW
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:51],
+[2021-03-11 15:46:52],rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+[2021-03-11 15:46:52],lixiang1013 wait setup
+[2021-03-11 15:46:57],reg_unsol_report_position_timeout, try to unsol report position and continue report position
+[2021-03-11 15:46:57],reg_unsol_report_position_timeout, tunsol report position switch is off
+[2021-03-11 15:46:57],Position service info: time = 0-0-0 0:0:0, cor_id = 0, re_times = 0, duration=0, remain=0,tech=0,qos_inc=0,qos_rank=0,req_id_len=0,req_id=
+[2021-03-11 15:46:57],net reg again, the remain_times is 0, not try to process previous req
+[2021-03-11 15:46:58],lipan:srrc_rcm_ReSendRrcConnectionRequest,begin
+[2021-03-11 15:46:58],lipan:srrc_rcm_ReSendRrcConnectionRequest: before send srb2 rrc connection request before
+[2021-03-11 15:46:58],lipan:srrc_rcm_ReSendRrcConnectionRequest: before send srb2 rrc connection request end
+[2021-03-11 15:46:59],MAC Err Hdlr: file 21004  line 165
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],[pcm_normal]:set fail!
+[2021-03-11 15:46:59],DestNum is not TT!-31,7
+[2021-03-11 15:46:59],luxy: MM receive prim is P_CC_MM_EST_REQ
+[2021-03-11 15:46:59],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:46:59],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:46:59],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:46:59],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:59],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:59],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:46:59],luxy: GMM after handled the message
+[2021-03-11 15:46:59],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:46:59],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:59],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:59],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:46:59],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 1
+[2021-03-11 15:46:59],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 3
+[2021-03-11 15:46:59],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:46:59],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:46:59],luxy: GMM after handled the message
+[2021-03-11 15:46:59],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:46:59],
+[2021-03-11 15:47:01],RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+[2021-03-11 15:47:01],begin_indx 1,num_blks_to_reasm 1
+[2021-03-11 15:47:01],blk_second_byte 43
+[2021-03-11 15:47:01],SRRC LOG:temp version, no check intergrity.
+[2021-03-11 15:47:01],srrc_rcm_MsRaSsWaitSrb2DataCnf_ProcRrcConnectionSetup==>
+[2021-03-11 15:47:01],luxy: NMO is 1
+[2021-03-11 15:47:01],srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+[2021-03-11 15:47:01],
+[2021-03-11 15:47:01],
+[2021-03-11 15:47:01],[get_peer_result]: MSG NOT FIND Send Fail! cnfind_u8=1,mui_u16=17,rlcmode_u8=0
+[2021-03-11 15:47:01],
+[2021-03-11 15:47:01],BSN = 0 is out of receiving window
+[2021-03-11 15:47:01], bow_bsn = 2
+[2021-03-11 15:47:01],
+[2021-03-11 15:47:01],BSN = 1 is out of receiving window
+[2021-03-11 15:47:01], bow_bsn = 2
+[2021-03-11 15:47:01],
+[2021-03-11 15:47:01],BSN = 0 is out of receiving window
+[2021-03-11 15:47:01], bow_bsn = 2
+[2021-03-11 15:47:01],
+[2021-03-11 15:47:01],BSN = 1 is out of receiving window
+[2021-03-11 15:47:01], bow_bsn = 2
+[2021-03-11 15:47:05],
+[2021-03-11 15:47:05],
+[2021-03-11 15:47:13],>>>>ESTABLISHMENT FAILURE CAUSE:106
+[2021-03-11 15:47:13],lx061825  local rel !!
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],lixiang1010 1,1,0
+[2021-03-11 15:47:13],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:47:13],luxy: MM current state is S14:MM_STATE_WAIT_RRC_CONN_MM_CONN
+[2021-03-11 15:47:13],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:13],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:47:13],luxy: mm in state S14 receive srrc mm rej message, and the final state is 191
+[2021-03-11 15:47:13],luxy: the srrc mm rej case g_mm_phy_fail_flag is 0
+[2021-03-11 15:47:13],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],luxy: GMM receive prim is P_MM_GMM_STATUS_REQ
+[2021-03-11 15:47:13],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:13],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:47:13],luxy: gmm main prim_id is 1f18
+[2021-03-11 15:47:13],luxy: GMM after handled the message
+[2021-03-11 15:47:13],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:47:13],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:13],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:47:13],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:47:13],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:47:13],luxy: gmm mm service mm action g_gmm_info_st.mm_action is ff
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],SMAC LOG:normal release, reset cipher info
+[2021-03-11 15:47:13],SRRC LOG:No pdcp to release.
+[2021-03-11 15:47:13],Rcm_ptr->RelSource_en 0
+[2021-03-11 15:47:13],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:47:13],******zhangkh******copy from above!
+[2021-03-11 15:47:13],lixiang1 IsBchReading=1,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:47:13],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:47:13],luxy: GMM after handled the message
+[2021-03-11 15:47:13],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],luxy: MM receive prim is P_SRRC_MM_IDLE_MODE_CHANGE_IND
+[2021-03-11 15:47:13],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:13],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:13],luxy: mm receive P_RRC_MM_IDLE_MODE_CHANGE_IND in normal
+[2021-03-11 15:47:13],luxy: g_mm_is_spv_nreg_pend is 0
+[2021-03-11 15:47:13],luxy: g_mm_is_cm_req_pend is 0
+[2021-03-11 15:47:13],luxy: T3212 mm rcv rrc enter idle and g_mm_is_rcv_ps_end is 0
+[2021-03-11 15:47:13],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-11 15:47:13],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:13],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:47:13],luxy: gmm main prim_id is 1f2c
+[2021-03-11 15:47:13],luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+[2021-03-11 15:47:13],luxy: gmm mm service mm action g_gmm_info_st.mm_action is 7
+[2021-03-11 15:47:13],luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+[2021-03-11 15:47:13],luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:47:13],luxy: GMM after handled the message
+[2021-03-11 15:47:13],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:47:13],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],[close_cs_call]: call_context NOT nullptr!
+[2021-03-11 15:47:13],#CLD fspvcall_rej_ind_cc->P_CC_SPV_REJ_IND
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:13],
+[2021-03-11 15:47:16],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-11 15:47:16],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-11 15:47:16],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-11 15:47:16],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:47:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:16],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:16],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:47:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-11 15:47:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:16],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:16],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-11 15:47:16],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:16],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:47:16],luxy: gmm main prim_id is 8d63
+[2021-03-11 15:47:16],luxy: rrc enter alert and delete sm instance
+[2021-03-11 15:47:16],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:16],luxy: GMM after handled the message
+[2021-03-11 15:47:16],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:47:16],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],fatp_net_regstate_ind: reg_state : 6
+[2021-03-11 15:47:16],[fatp_net_hp_rc]: unknown rssi:-122
+[2021-03-11 15:47:16],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:16],
+[2021-03-11 15:47:17],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-11 15:47:17],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-11 15:47:17],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-11 15:47:17],Para_ptr->MES_Identity_type_u8 = 0
+[2021-03-11 15:47:17],Para_ptr->MES_Identity_u32= 9a662558
+[2021-03-11 15:47:17],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:47:17],******zhangkh******copy from above!
+[2021-03-11 15:47:17],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-11 15:47:17],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:17],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:17],luxy: mm 199 receive message is 0
+[2021-03-11 15:47:17],******zhangkh***NAS leave Alert State!
+[2021-03-11 15:47:17],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=14,g_mm_pend_alert_request_flag=0
+[2021-03-11 15:47:17],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-11 15:47:17],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:17],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-11 15:47:17],luxy: gmm main prim_id is 8d64
+[2021-03-11 15:47:17],luxy: GMM hpa service
+[2021-03-11 15:47:17],luxy: GMM leave alert cause is 1
+[2021-03-11 15:47:17],luxy: GMM after handled the message
+[2021-03-11 15:47:17],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-11 15:47:17],SRRC[CSEL]:Camp on cell arfcn:562
+[2021-03-11 15:47:17],SRRC[CSEL]:store arfcn:562
+[2021-03-11 15:47:17],SRRC LOG:srrc store  arfcn[562]:has already existed
+[2021-03-11 15:47:17],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:47:17],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:17],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:17],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:47:17],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:17],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:17],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-11 15:47:17],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:17],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:17],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:17],
+[2021-03-11 15:47:19],
+[2021-03-11 15:47:19],
+[2021-03-11 15:47:19],
+[2021-03-11 15:47:19],
+[2021-03-11 15:47:20],check ac 4
+[2021-03-11 15:47:20],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:47:20],NEW
+[2021-03-11 15:47:20],
+[2021-03-11 15:47:20],
+[2021-03-11 15:47:20],
+[2021-03-11 15:47:20],
+[2021-03-11 15:47:25],
+[2021-03-11 15:47:26],
+[2021-03-11 15:47:27],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:47:27],******zhangkh******copy from above!
+[2021-03-11 15:47:29],check ac 4
+[2021-03-11 15:47:29],***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+[2021-03-11 15:47:29],NEW
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:29],
+[2021-03-11 15:47:36],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-11 15:47:36],******zhangkh******copy from above!
+[2021-03-11 15:47:40],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-11 15:47:40],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-11 15:47:40],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-11 15:47:40],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-11 15:47:40],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:40],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:40],luxy:received rrc connect reject cause is:1
+[2021-03-11 15:47:40],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-11 15:47:40],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-11 15:47:40],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-11 15:47:40],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-11 15:47:40],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-11 15:47:40],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-11 15:47:40],luxy: gmm main prim_id is 8d63
+[2021-03-11 15:47:40],luxy: rrc enter alert and delete sm instance
+[2021-03-11 15:47:40],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:40],luxy: GMM after handled the message
+[2021-03-11 15:47:40],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],ERROR MSG PRIM_ID IS 7132
+[2021-03-11 15:47:40],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],fatp_net_regstate_ind: reg_state : 6
+[2021-03-11 15:47:40],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],
+[2021-03-11 15:47:40],

@@ -1,0 +1,10 @@
+^NAVI
+^POSREQ
+^REJPOS
+^POSINFO   
+^POSCNUM  
+^CCPOS
+^POSITION
+
+
+leadcore 
