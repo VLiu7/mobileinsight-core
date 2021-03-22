@@ -1,0 +1,1158 @@
+
+
+
+
+
+
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
+
+
+
+
+
+luxy: cgdcont dial_up_connection_flag is 0
+luxy: cgeqreq dial_up_connection_flag is 0
+luxy: at plus cgeqreq traffic_class is 4
+luxy: at plus cgeqreq maximum_bitrate_ul is a
+luxy: at plus cgeqreq maximum_bitrate_dl is a
+luxy: at plus cgeqreq guaranteed_bitrate_ul is a
+luxy: at plus cgeqreq guaranteed_bitrate_dl is a
+luxy: at plus cgeqreq delivery_order is 2
+luxy: at plus cgeqreq maximum_sdu_size is 96
+luxy: at plus cgeqreq sdu_error_ratio is 0
+luxy: at plus cgeqreq residual_bit_error_ratio is 0
+luxy: at plus cgeqreq delivery_of_erroneous_sdus is 2
+luxy: at plus cgeqreq transfer_delay is 3e
+luxy: at plus cgeqreq traffic_handling_priority is 1
+luxy: atd cid is 1
+luxy: atd g_atp_cid_info[1].cid_activation_state is 0
+luxy: atd g_atp_cid_info[1].cid_context_flag is 1
+fatp_gprs_ip_open:from_flag:4,
+
+PPP: get ipcp data, stored it.
+fatp_gprs_act_sendpri:domain:8,cmux_state:1
+luxy: MM receive prim is 11382
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: T3211 mm receive P_MMI_MM_PS_PROCE_IND
+luxy: T3212 mm receive P_MMI_MM_PS_PROCE_IND
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: SM receive event is 2009
+luxy: SM the current state is 0
+luxy: sm2mma pdp active g_sm_ti_used_map is 0
+luxy: sm2mma pdp active g_sm_ti_counter is 3
+luxy: sm2mma pdp active ti is 3
+luxy: GMM receive prim is P_SM_GMM_ESTABLISH_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e14
+luxy: gmm reg normal state receive sm est req and g_gmm_cell_recellect_flag is 0
+luxy: GMM reg receive sm est req and mm_status is 2
+lixiangps 2
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_SR_INIT
+
+
+
+
+
+
+
+check ac 4
+***********zhangkh CommVarInfo_ptr->AcBarFlag_bool =3
+NEW
+
+
+rcm recv P_SRRCIN_AIRMSG_IMMEDIATE_ASSIGNMENT_TYPE_4
+lixiang1013 wait setup
+PPP: get ipcp data, stored it.
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 3 ,num_blks_to_reassemble 1
+begin_indx 1,num_blks_to_reasm 1
+SRRC LOG:temp version, no check intergrity.
+luxy: NMO is 1
+srrc_rcm_FillConnectionSetupComplete:Fill Mes Cap From Nvram
+
+BSN = 0 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 1 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 0 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 1 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 0 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 1 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 0 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 1 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 0 is out of receiving window
+                                   bow_bsn = 2
+
+BSN = 1 is out of receiving window
+                                   bow_bsn = 2
+
+LP LOG:srrc_dt_ProcGMmSendInitDT before:SigPresent:0x0, signum:0x0
+LP LOG:srrc_dt_ProcGMmSendInitDT after:SigPresent:0x1, signum:0x1
+lixianggmm 1,1,1,2147483647,2147483647,2147483647
+luxy: GMM receive prim is P_SRRC_GMM_ESTABLISH_CNF
+luxy: GMM current state is S_GMM_SR_INIT
+luxy: gmm main g_gmm_info_st.current_gmm_state is 60
+luxy: gmm main prim_id is 1208
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_SR_INIT
+
+
+PPP: get ipcp data, stored it.
+
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 9 ,num_blks_to_reassemble 5
+begin_indx 3,num_blks_to_reasm 5
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,1
+lixiangdt 3 0
+luxy: GMM receive prim is P_SRRC_GMM_DATA_IND
+luxy: GMM current state is S_GMM_SR_INIT
+luxy: gmm main g_gmm_info_st.current_gmm_state is 60
+luxy: gmm main prim_id is 120b
+
+luxy: fuai authen req g_uai_switch_on_off_flag_st.card_type is 2
+luxy: fuai authen req field_ind is 1luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_SR_INIT
+
+
+
+
+lixiangkeytype 2
+luxy: GMM receive prim is P_UAI_GMM_AUTHEN_CNF
+luxy: GMM current state is S_GMM_SR_INIT
+luxy: gmm main g_gmm_info_st.current_gmm_state is 60
+luxy: gmm main prim_id is 3398
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_SR_INIT
+
+
+
+
+
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+
+
+BSN = 7 is out of receiving window
+                                   bow_bsn = 8
+
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 12 ,num_blks_to_reassemble 2
+begin_indx 9,num_blks_to_reasm 2
+SRRC LOG:temp version, no check intergrity.
+lixiang local msn=3,msn=3
+lixianghfn 0
+Ik_ptr-->
+30 f4 f4 c0 3c 55 15 28 8e d2 92 46 9a 7e 6b 9c
+counti 3, fresh 61028c9f
+lixiang mac 3c75a168, maci 3c75a168
+cipher11 1 0
+cipher11 2 type 0
+lixiangulik 5 hfn 0,msn 1
+Uplink Ik_ptr:
+30 f4 f4 c0 3c 55 15 28 8e d2 92 46 9a 7e 6b 9c
+lixiangulik counti 1
+lixiangulik fresh 1627557023
+lixiangulik length 64
+luxy: GMM receive prim is P_SRRC_GMM_SECURITY_IND
+luxy: GMM current state is S_GMM_SR_INIT
+luxy: gmm main g_gmm_info_st.current_gmm_state is 60
+luxy: gmm main prim_id is 120e
+luxy: rau test g_gmm_info_st.current_gmm_state 222 is 41
+luxy: rau test g_gmm_info_st.periodic_rau_needed 222 is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.normal_rau_needed is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.periodic_rau_needed is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: SM receive event is 1e15
+luxy: SM the current state is 1
+luxy: GMM receive prim is P_SM_GMM_UNITDATA_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e18
+lixiangulik 5 hfn 0,msn 2
+Uplink Ik_ptr:
+30 f4 f4 c0 3c 55 15 28 8e d2 92 46 9a 7e 6b 9c
+lixiangulik counti 2
+lixiangulik fresh 1627557023
+lixiangulik length 459
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 0
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 20
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 20
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+****ERROR MSG PRIM_ID IS 8217
+mma report error,file[id=9103],task_id=8,proc_id=3,occurs err=21804,line=696
+
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+PPP: get ipcp data, stored it.
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+
+BSN = 10 is out of receiving window
+                                    bow_bsn = 11
+
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 14 ,num_blks_to_reassemble 1
+begin_indx 12,num_blks_to_reasm 1
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,1
+lixiangdt 3 1
+luxy: GMM receive prim is P_SRRC_GMM_DATA_IND
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 120b
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+
+
+BSN = 12 is out of receiving window
+                                    bow_bsn = 13
+
+
+PPP: get ipcp data, stored it.
+
+RLC_DACCH_DL_PTR->indx_last_reasm_invoked 22 ,num_blks_to_reassemble 7
+begin_indx 14,num_blks_to_reasm 7
+lixiangRadioBearerSetup 1 1,1,4
+SRRC LOG:temp version, no check intergrity.
+ps guding 1 255
+actTime_b 1
+****ERROR MSG PRIM_ID IS 4647
+mma report error,file[id=9103],task_id=8,proc_id=3,occurs err=21804,line=696
+
+SMAC LOG:Channel change, not reset cipher info
+rlc channel change, cipher no change!!
+lx061825  no sending srrc_rbc_SendInternalLayerCfgMsg
+lx061825  rbid 2 3 1
+lx061825  1  1
+lx061825  111
+lx061825  111 402a2050 0
+lx061825  0 phy_dacch_cfg_b
+pdcp cfg 1 0 2 1 1
+lx061825  rbid 5 3 0
+pdcp cfg 1 1 5 1 0
+srrc_rel 0 0
+lixiangpdchcfg recv phy cnf 1
+lixiangpdchcfg 3
+mac_recv ul pdch cfd
+MAC UL CFG 11111111, rbid = 2, cfgcnf = 1.
+
+rrc ps cfg in GPRS_RLC_DCH_IDLE
+lixiangrcv 39053 1
+lixiangrcv 39053 2
+SRRC_TRUE == ReCfg_ptr->ReEstRbExist_b
+rbstrart 1 1 0
+lixiangulik 5 hfn 0,msn 3
+Uplink Ik_ptr:
+30 f4 f4 c0 3c 55 15 28 8e d2 92 46 9a 7e 6b 9c
+lixiangulik counti 3
+lixiangulik fresh 1627557023
+lixiangulik length 76
+lixiangpdcp rcv data d curr 12,total 0
+SRLC: UD bsn: 0, total: 0 , nack 0 , 0
+RLCSEND: new bsn 0
+PPP: get ipcp data, stored it.
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 1
+lixiangackind ssn=1,va=0,vs=1,q_idx2=0,q_idx1=1
+wangchong bitmap length is: 0  no_of_blks: 1
+wangchong if bitmap is compressed: 1
+lixiangtxarq bsn = 0
+lixiangtxarq 3
+luxy: srrc send P_SRRC_MM_SYNC_IND msg success
+lixiangrb 6 37815
+lixiangrb 7 1
+luxy: MM receive prim is P_SRRC_MM_SYNC_IND
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: SM receive event is 206d
+luxy: SM the current state is 3
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 20
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 0, PDU length = 29
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 20
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 1, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 2, PDU length = 4
+
+Reasm begin
+reasm peer len = 62
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,1
+lixiangdt 3 1
+luxy: GMM receive prim is P_SRRC_GMM_DATA_IND
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 120b
+luxy: peer msg type is 42
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: SM receive event is 1e19
+luxy: SM the current state is 3
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 20
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 20
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 20
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+fatp_gprs_activate_cnf:from_flag:4
+---->PPP send out pending ipcp message
+
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+PPP: get ipcp data, stored it.
+
+
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 2, PDU length = 4
+
+BSN = 2 is out of receiving window
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 2, PDU length = 4
+
+BSN = 2 is out of receiving window
+
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+PPP: get ipcp data, stored it.
+PPP: get ipcp data, stored it.
+
+
+
+wangchong destination ip is 61,134,1,4, port is 53
+T_psRach->timer_state = 2 0
+lixiangpdcp rcv data c 68,total 68
+wangchong destination ip is 61,134,1,4, port is 53
+T_psRach->timer_state = 2 1
+lixiangpdcp rcv data c 63,total 131
+wangchong destination ip is 61,134,1,4, port is 53
+T_psRach->timer_state = 2 2
+lixiangpdcp rcv data c 66,total 197
+wangchong destination ip is 119,29,29,29, port is 80
+T_psRach->timer_state = 2 3
+lixiangpdcp rcv data c 62,total 259
+wangchong destination ip is 61,134,1,4, port is 53
+T_psRach->timer_state = 2 4
+lixiangpdcp rcv data c 66,total 325
+lixiangpdcp rcv data d curr 68,total 325
+SRLC: UD bsn: 0, total: 294 , nack 0 , 4
+RLCSEND: new bsn 0
+SRLC: UD bsn: 1, total: 263 , nack 0 , 4
+RLCSEND: new bsn 1
+SRLC: UD bsn: 2, total: 232 , nack 0 , 3
+RLCSEND: new bsn 2
+SRLC: UD bsn: 3, total: 201 , nack 0 , 3
+RLCSEND: new bsn 3
+SRLC: UD bsn: 4, total: 170 , nack 0 , 2
+RLCSEND: new bsn 4
+SRLC: UD bsn: 5, total: 139 , nack 0 , 2
+RLCSEND: new bsn 5
+SRLC: UD bsn: 6, total: 108 , nack 0 , 1
+RLCSEND: new bsn 6
+SRLC: UD bsn: 7, total: 77 , nack 0 , 1
+RLCSEND: new bsn 7
+SRLC: UD bsn: 8, total: 46 , nack 0 , 0
+RLCSEND: new bsn 8
+SRLC: UD bsn: 9, total: 15 , nack 0 , 0
+RLCSEND: new bsn 9
+SRLC: UD bsn: 10, total: 0 , nack 0 , 0
+RLCSEND: new bsn 10
+luxy: SM receive event is 200e
+luxy: SM the current state is 0
+luxy: GMM receive prim is P_SM_GMM_UNITDATA_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e18
+lixiangulik 5 hfn 0,msn 4
+Uplink Ik_ptr:
+30 f4 f4 c0 3c 55 15 28 8e d2 92 46 9a 7e 6b 9c
+lixiangulik counti 4
+lixiangulik fresh 1627557023
+lixiangulik length 83
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 20
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 20
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 20
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+###PPP: fppp_close_ifp
+###PPP: fppp_fsm_close->case fsmACK_Sent->fppp_fsm_sendtermreq
+
+
+lixiangpdcp rcv data d curr 13,total 0
+SRLC: UD bsn: 1, total: 0 , nack 0 , 0
+RLCSEND: new bsn 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 11
+lixiangackind ssn=3,va=0,vs=11,q_idx2=2,q_idx1=3
+wangchong bitmap length is: 0  no_of_blks: 11
+wangchong if bitmap is compressed: 1
+lixiangtxarq bsn = 0
+lixiangtxarq bsn = 1
+lixiangtxarq bsn = 2
+lixiangtxarq 3
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 0, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 1, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 2, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 3, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 4, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 5, PDU length = 29
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 37
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 6, PDU length = 22
+
+Reasm begin
+reasm peer len = 196
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 8
+lixiangackind ssn=11,va=3,vs=11,q_idx2=7,q_idx1=8
+wangchong bitmap length is: 0  no_of_blks: 8
+wangchong if bitmap is compressed: 1
+lixiangtxarq bsn = 3
+lixiangtxarq bsn = 4
+lixiangtxarq bsn = 5
+lixiangtxarq bsn = 6
+lixiangtxarq bsn = 7
+lixiangtxarq bsn = 8
+lixiangtxarq bsn = 9
+lixiangtxarq bsn = 10
+lixiangtxarq 3
+lixiangpdcp rcv data e relpdulen 63
+lixiangtxarq 3
+lixiangpdcp rcv data e relpdulen 66
+lixiangtxarq 3
+lixiangpdcp rcv data e relpdulen 62
+lixiangtxarq 3
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 6, PDU length = 22
+
+BSN = 6 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 7, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 8, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 8, PDU length = 29
+
+BSN = 8 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 9, PDU length = 21
+
+Reasm begin
+reasm peer len = 79
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 10, PDU length = 29
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 11, PDU length = 29
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 1
+lixiangackind ssn=2,va=1,vs=2,q_idx2=0,q_idx1=1
+wangchong bitmap length is: 0  no_of_blks: 1
+wangchong if bitmap is compressed: 1
+lixiangtxarq bsn = 1
+lixiangtxarq 3
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 3, PDU length = 12
+
+Reasm begin
+SRRC LOG:temp version, no check intergrity.
+lixianggmm 1,1,1
+lixiangdt 3 1
+luxy: GMM receive prim is P_SRRC_GMM_DATA_IND
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 120b
+luxy: peer msg type is 47
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: SM receive event is 1e19
+luxy: SM the current state is 0
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 20
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 0
+
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 11, PDU length = 29
+
+BSN = 11 is out of receiving window
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: MM receive prim is 11383
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: T3212 mm receive P_MMI_MM_PS_END_IND
+luxy: T3211 mm g_mm_is_t3211_expiry is 0
+luxy: T3212 mm g_mm_is_t3212_expiry is 0
+luxy: T3212 mm g_mm_is_rcv_rrc_idle is 1
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 12, PDU length = 24
+
+Reasm begin
+reasm peer len = 82
+
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 12, PDU length = 24
+
+BSN = 12 is out of receiving window
+
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 13, PDU length = 29
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 14, PDU length = 29
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 3, PDU length = 12
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 15, PDU length = 9
+
+BSN = 3 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 16, PDU length = 29
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 17, PDU length = 18
+
+Reasm begin
+reasm peer len = 114
+
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 17, PDU length = 18
+
+BSN = 17 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 18, PDU length = 29
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 19, PDU length = 22
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 3, PDU length = 12
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 20, PDU length = 9
+
+BSN = 3 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 21, PDU length = 2
+
+Reasm begin
+reasm peer len = 62
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 3, PDU length = 12
+
+BSN = 3 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 14, PDU length = 29
+
+BSN = 14 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 21, PDU length = 2
+
+BSN = 21 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 3, PDU length = 12
+
+BSN = 3 is out of receiving window
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC: Downlink RLCMAC block tfi is 1
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 3, PDU length = 12
+
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 5,  TFI = 1, BSN = 21, PDU length = 2
+
+BSN = 3 is out of receiving window
+                                   bow_bsn = 4
+BSN = 21 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 3, PDU length = 12
+
+BSN = 3 is out of receiving window
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+Reasm begin
+SRRC LOG:temp version, no check intergrity.
+lx061825  in srrc_rcm_MsIdleSsIdle_HdlUuRrcConnRel
+
+lixiangti 1 0
+lixiangti 2 0
+lx061825  in send complete
+
+lixiangulik 5 hfn 0,msn 5
+Uplink Ik_ptr:
+30 f4 f4 c0 3c 55 15 28 8e d2 92 46 9a 7e 6b 9c
+lixiangulik counti 5
+lixiangulik fresh 1627557023
+lixiangulik length 48
+lx061825  in send complete end
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+lixiangpdcp rcv data d curr 8,total 0
+SRLC: UD bsn: 2, total: 0 , nack 0 , 0
+RLCSEND: new bsn 2
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 37
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 37
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 1
+lixiangackind ssn=2,va=2,vs=3,q_idx2=-1,q_idx1=0
+wangchong bitmap length is: 0  no_of_blks: 1
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+
+SMAC: Downlink RLCMAC block tfi is 2
+
+SMAC WARNING: DL PNB contains unknown block types!
+SMAC WARNING: uug response queue is full
+SMAC: DL RLCMAC BLOCK INFO:
+                             RBID = 2,  TFI = 2, BSN = 4, PDU length = 10
+
+BSN = 4 is out of receiving window
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+request_ack_nack_length 260 260
+compress 1 length:237 0
+
+SMAC: temp save ack wait for data !
+SMAC: recv RLC data num 3 0
+
+SMAC WARNING: DL PNB contains unknown block types!
+lixiang txq num 1
+lixiangackind ssn=3,va=2,vs=3,q_idx2=0,q_idx1=1
+wangchong bitmap length is: 0  no_of_blks: 1
+wangchong if bitmap is compressed: 1
+lixiangtxarq bsn = 2
+lixiangtxarq 3
+lx061825  local rel !!
+
+lixiang1010 2,2,0
+srrc_rcm_SendShareRelCfgReq
+SRRC LOG:Send pdcp rel:rb num:1 one rb id:5
+Rcm_ptr->RelSource_en 0
+lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+******zhangkh******copy from above!
+luxy: GMM receive prim is P_SRRC_GMM_RELEASE_IND
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 120a
+luxy: xian gmm rr release rel_ind_ptr->release_cause is 0
+luxy: GMM gmm rrc service (g_gmm_info_st.current_gmm_state&0xf0) is 40
+luxy: rrc release ind g_gmm_info_st.last_lr_type is 0
+luxy: rrc release ind g_gmm_info_st.combined_successful is 1
+luxy: rrc release ind g_gmm_info_st.network_mode is 1
+luxy: rau test g_gmm_info_st.current_gmm_state 222 is 41
+luxy: rau test g_gmm_info_st.periodic_rau_needed 222 is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.normal_rau_needed is 0
+luxy: GMM enter reg normal state, g_gmm_info_st.periodic_rau_needed is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: MM receive prim is P_SRRC_MM_IDLE_MODE_CHANGE_IND
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+luxy: g_mm_t3212_expiry_count is 0
+luxy: mm receive P_RRC_MM_IDLE_MODE_CHANGE_IND in normal
+luxy: g_mm_is_spv_nreg_pend is 0
+luxy: g_mm_is_cm_req_pend is 0
+luxy: T3212 mm rcv rrc enter idle and g_mm_is_rcv_ps_end is 1
+luxy: T3211 mm rcv rrc enter idle and g_mm_is_t3212_expiry is 0
+luxy: T3212 mm rcv rrc enter idle and g_mm_is_t3212_expiry is 0
+luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+
+
+luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1f2c
+luxy: gmm mm service mm action g_gmm_info_st.mm_status is 2
+luxy: gmm mm service mm action g_gmm_info_st.mm_action is 7
+luxy: gmm mm service mm action local_ptr->mm_current_rat is 2
+luxy: gmm mm service mm action g_gmm_info_st.current_gmm_state is 41
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+luxy: SM receive event is 1e1c
+luxy: SM the current state is 0
+luxy: sm receive P_GMM_SM_ERROR_IND 1
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 0
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 1
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 2
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 3
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 4
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 5
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 6
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 7
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 8
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 9
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle loop is 10
+luxy: sm P_GMM_SM_ERROR_IND handle g_sm_instance_a[loop].is_valid is 0
+luxy: sm P_GMM_SM_ERROR_IND handle rel_mma_cnf_st.nsapi_num is 0
+luxy: sm P_GMM_SM_ERROR_IND handle rel_rabm_nsapi_st.nsapi_num is 0
+luxy: sm P_GMM_SM_ERROR_IND handle rel_mma_ind_st.nsapi_num is 0
+luxy: GMM receive prim is P_SM_GMM_PDP_CONTX_STATUS_REQ
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+luxy: gmm main g_gmm_info_st.current_gmm_state is 41
+luxy: gmm main prim_id is 1e1b
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[0] is 0
+luxy: gmm cm service temp_pdp_contx_status.pdp_contx_info[1] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[0] is 0
+luxy: gmm cm service g_gmm_info_st.pdp_contx_status_st.pdp_context[1] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[0] is 0
+luxy: gmm cm service sm_pdp_contx_status_ptr->pdp_contx_info[1] is 0
+luxy: GMM after handled the message
+luxy: GMM current state is S_GMM_REG_S_NORMAL_SERV
+
+
+****ERROR MSG PRIM_ID IS 4647
+mma report error,file[id=9103],task_id=8,proc_id=3,occurs err=21804,line=696
+
+
+
+
+
+
+
+
+
+RRC  state:[0] substate:[48]
+
+CSEL state:[105] substate:[165]
+
+SIB  state:[85] substate:[390]
+
