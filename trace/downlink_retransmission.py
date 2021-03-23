@@ -6,6 +6,7 @@ if __name__ == '__main__':
         bsns = []
         pdu_lengths = []
         out_of_window = []
+        crc_error = []
         for line in lines:
             ret = line.find("RBID")
             if ret != -1:
@@ -13,6 +14,7 @@ if __name__ == '__main__':
                 end = line.find(",", begin)
                 bsns.append(int(line[begin + 6:end]))
                 out_of_window.append(0)
+                crc_error.append(0)
                 begin = line.find("PDU length")
                 pdu_lengths.append(int(line[begin + 13:]))
             ret = line.find('out of receiving window')
@@ -21,6 +23,9 @@ if __name__ == '__main__':
                     out_of_window[-1] = 1
                 except:
                     print('out of receiving window error without preceding dl rlcmac info!')
+            ret = line.find('CRC')
+            if ret != -1:
+                crc_error[-1] = 1
         print("{0:10.2f}% of downlink packets need retransmission".format(100 * sum(out_of_window) / len(out_of_window)))
         # colors = [[1,0,0] if x == 1 else [0,1,0] for x in out_of_window]    # red for rejeceted, green for accepted
         # for i in range(0, len(bsns), 100):
@@ -33,7 +38,8 @@ if __name__ == '__main__':
                 
         NOT_RECEIVED = 0
         WAITING_FOR_RETRANSMISSION = 1
-        RECEIVED = 2
+        RECEIVED_NO_ERROR = 2   # block is accepted(in receiving window) and passes CRC check
+        RECEIVED_CRC_ERROR = 3  # block is accepted(in receiving window) but fails CRC check
 
         key1 = 'STATUS'
         key2 = 'RECEIVED_TIMES'
@@ -41,6 +47,7 @@ if __name__ == '__main__':
         cycles = [dict()]
         current_cycle = 0       # 1023 block per cycle
         duplicate_cnt = 0       # how many blocks are transmitted meaninglessly
+        crc_error_retransmissoin = 0    # how many block are retransmitted due to crc error
         retransmit_cnt = 0      # how many blocks are transmitted because of loss
         retransmit_failed_cnt = 0   
         retranmits_success_cnt = 0
@@ -56,18 +63,26 @@ if __name__ == '__main__':
                 print('first packet: {}'.format(bsn))
                 status[bsn] = {key1: NOT_RECEIVED, key2: 0}
             status[bsn][key2] += 1
-            if out_of_window[i] == 0:
-                if status[bsn][key1] == RECEIVED:
-                    print('error! Receive a packet which has been received:{}'.format(bsn)) # actually, received packets will never be received again
+            if out_of_window[i] == 0:   # accepted by receiving window
+                if status[bsn][key1] == RECEIVED_NO_ERROR:
+                    print('error! Receive a packet which has been received without error:{}'.format(bsn)) # actually, received packets will never be received again
+                elif status[bsn][key1] == RECEIVED_CRC_ERROR:
+                    print('Receive a packet which has been received but fails CRC check: {}'.format(bsn)) # this will never happen too
                 else:
                     if status[bsn][key1] == WAITING_FOR_RETRANSMISSION:
                         retransmit_cnt += 1
                         retranmits_success_cnt += 1
-                    status[bsn][key1] = RECEIVED
-            else:
-                if status[bsn][key1] == RECEIVED:
+                    if crc_error[i] == 0:
+                        status[bsn][key1] = RECEIVED_NO_ERROR
+                    else:
+                        status[bsn][key1] = RECEIVED_CRC_ERROR
+            else:                       # rejected by receiving window
+                if status[bsn][key1] == RECEIVED_NO_ERROR:
                     print('error! Duplicate packet:{}'.format(bsn))
                     duplicate_cnt += 1
+                elif status[bsn][key1] == RECEIVED_CRC_ERROR:
+                    print('Sometime ago, this block is accepted but failed CRC check:{}'.format(bsn))
+                    crc_error_retransmissoin += 1
                 else:
                     if status[bsn][key1] == WAITING_FOR_RETRANSMISSION:
                         retransmit_cnt += 1
@@ -85,7 +100,8 @@ if __name__ == '__main__':
                     waiting_for_transmission += 1
             total_cnt += len(status)
         print('Out of receiving window rate: {0:10.2f}'.format(100 * sum(out_of_window) / len(out_of_window)))
-        print('Duplicate rate: {0:10.2f}'.format(100 * duplicate_cnt / len(bsns)))
+        print('Duplicate due to crc check error: {0:10.2f}'.format(100 * crc_error_retransmissoin / len(bsns)))
+        print('Duplicate due to other reasons: {0:10.2f}'.format(100 * duplicate_cnt / len(bsns)))
         print('Retransmission rate: {0:10.2f}'.format(100 * retransmit_cnt / len(bsns)))
         print('success retransmission:{}'.format(retranmits_success_cnt))
         print('waiting for transmission:{}'.format(waiting_for_transmission))
