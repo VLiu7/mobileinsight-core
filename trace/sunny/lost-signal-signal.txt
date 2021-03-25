@@ -1,0 +1,463 @@
+PHY COM: /dev/ttyUSB1
+PHY BAUD RATE: 9600
+total bits sended:12
+[2021-03-23 20:53:13],OK
+[2021-03-23 20:53:18],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-23 20:53:19],******zhangkh******copy from above!
+[2021-03-23 20:53:19],RRC  state:[0] substate:[48]
+[2021-03-23 20:53:19],CSEL state:[105] substate:[165]
+[2021-03-23 20:53:19],SIB  state:[85] substate:[390]
+[2021-03-23 20:53:41],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-23 20:53:41],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-23 20:53:41],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy:received rrc connect reject cause is:1
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-23 20:53:41],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:53:41],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-23 20:53:41],luxy: gmm main prim_id is 8d63
+[2021-03-23 20:53:41],luxy: rrc enter alert and delete sm instance
+[2021-03-23 20:53:41],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:53:41],luxy: GMM after handled the message
+[2021-03-23 20:53:41],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],ERROR MSG PRIM_ID IS 7132
+[2021-03-23 20:53:41],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-23 20:53:41],fatp_net_regstate_ind: reg_state : 6
+[2021-03-23 20:53:41],[fatp_net_hp_rc]: unknown rssi:-124
+[2021-03-23 20:53:41],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-23 20:53:41],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-23 20:53:41],******zhangkh******copy from above!
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-23 20:53:41],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: mm 199 receive message is 0
+[2021-03-23 20:53:41],******zhangkh***NAS leave Alert State!
+[2021-03-23 20:53:41],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=9,g_mm_pend_alert_request_flag=0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-23 20:53:41],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:53:41],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-23 20:53:41],luxy: gmm main prim_id is 8d64
+[2021-03-23 20:53:41],luxy: GMM hpa service
+[2021-03-23 20:53:41],luxy: GMM leave alert cause is 1
+[2021-03-23 20:53:41],luxy: GMM after handled the message
+[2021-03-23 20:53:41],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-23 20:53:41],SRRC[CSEL]:Camp on cell arfcn:381
+[2021-03-23 20:53:41],SRRC[CSEL]:store arfcn:381
+[2021-03-23 20:53:41],SRRC LOG:srrc store  arfcn[381]:has already existed
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:41],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:53:41],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:53:41],
+[2021-03-23 20:53:42],RRC  state:[0] substate:[48]
+[2021-03-23 20:53:42],CSEL state:[105] substate:[165]
+[2021-03-23 20:53:42],SIB  state:[85] substate:[390]
+[2021-03-23 20:54:12],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-23 20:54:12],******zhangkh******copy from above!
+[2021-03-23 20:54:13],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-23 20:54:13],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-23 20:54:13],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-23 20:54:13],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-23 20:54:13],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:13],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:13],luxy:received rrc connect reject cause is:1
+[2021-03-23 20:54:13],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:13],
+[2021-03-23 20:54:13],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-23 20:54:13],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:13],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:13],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:13],
+[2021-03-23 20:54:13],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-23 20:54:13],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:54:13],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-23 20:54:13],luxy: gmm main prim_id is 8d63
+[2021-03-23 20:54:13],luxy: rrc enter alert and delete sm instance
+[2021-03-23 20:54:13],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:13],luxy: GMM after handled the message
+[2021-03-23 20:54:13],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:13],
+[2021-03-23 20:54:13],ERROR MSG PRIM_ID IS 7132
+[2021-03-23 20:54:13],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-23 20:54:13],fatp_net_regstate_ind: reg_state : 6
+[2021-03-23 20:54:13],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-23 20:54:15],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:54:15],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:54:15],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:54:15],Para_ptr->MES_Identity_type_u8 = 0
+[2021-03-23 20:54:15],Para_ptr->MES_Identity_u32= 202b2e6
+[2021-03-23 20:54:16],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-23 20:54:16],******zhangkh******copy from above!
+[2021-03-23 20:54:16],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-23 20:54:16],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:16],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:16],luxy: mm 199 receive message is 0
+[2021-03-23 20:54:16],******zhangkh***NAS leave Alert State!
+[2021-03-23 20:54:16],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=9,g_mm_pend_alert_request_flag=0
+[2021-03-23 20:54:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:16],
+[2021-03-23 20:54:16],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-23 20:54:16],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:16],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-23 20:54:16],luxy: gmm main prim_id is 8d64
+[2021-03-23 20:54:16],luxy: GMM hpa service
+[2021-03-23 20:54:16],luxy: GMM leave alert cause is 1
+[2021-03-23 20:54:16],luxy: GMM after handled the message
+[2021-03-23 20:54:16],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:54:16],
+[2021-03-23 20:54:16],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-23 20:54:16],SRRC[CSEL]:Camp on cell arfcn:381
+[2021-03-23 20:54:16],SRRC[CSEL]:store arfcn:381
+[2021-03-23 20:54:16],SRRC LOG:srrc store  arfcn[381]:has already existed
+[2021-03-23 20:54:16],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:16],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:16],
+[2021-03-23 20:54:16],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:16],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:16],
+[2021-03-23 20:54:16],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:16],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:16],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:16],
+[2021-03-23 20:54:18],RRC  state:[0] substate:[48]
+[2021-03-23 20:54:18],CSEL state:[105] substate:[165]
+[2021-03-23 20:54:18],SIB  state:[85] substate:[390]
+[2021-03-23 20:54:23],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-23 20:54:23],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-23 20:54:23],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-23 20:54:23],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-23 20:54:23],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:23],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:23],luxy:received rrc connect reject cause is:1
+[2021-03-23 20:54:23],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:23],
+[2021-03-23 20:54:23],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-23 20:54:23],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:23],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:23],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:23],
+[2021-03-23 20:54:23],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-23 20:54:23],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:54:23],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-23 20:54:23],luxy: gmm main prim_id is 8d63
+[2021-03-23 20:54:23],luxy: rrc enter alert and delete sm instance
+[2021-03-23 20:54:23],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:23],luxy: GMM after handled the message
+[2021-03-23 20:54:23],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:23],
+[2021-03-23 20:54:23],ERROR MSG PRIM_ID IS 7132
+[2021-03-23 20:54:23],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-23 20:54:23],fatp_net_regstate_ind: reg_state : 6
+[2021-03-23 20:54:23],[fatp_net_hp_rc]: unknown rssi:-124
+[2021-03-23 20:54:23],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-23 20:54:26],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:54:26],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:54:26],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:54:26],Para_ptr->MES_Identity_type_u8 = 3
+[2021-03-23 20:54:26],Para_ptr->MES_Identity_u32= 1dbccfd2
+[2021-03-23 20:54:26],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-23 20:54:26],******zhangkh******copy from above!
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-23 20:54:26],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: mm 199 receive message is 0
+[2021-03-23 20:54:26],******zhangkh***NAS leave Alert State!
+[2021-03-23 20:54:26],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=9,g_mm_pend_alert_request_flag=0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-23 20:54:26],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:26],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-23 20:54:26],luxy: gmm main prim_id is 8d64
+[2021-03-23 20:54:26],luxy: GMM hpa service
+[2021-03-23 20:54:26],luxy: GMM leave alert cause is 1
+[2021-03-23 20:54:26],luxy: GMM after handled the message
+[2021-03-23 20:54:26],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-23 20:54:26],SRRC[CSEL]:Camp on cell arfcn:381
+[2021-03-23 20:54:26],SRRC[CSEL]:store arfcn:381
+[2021-03-23 20:54:26],SRRC LOG:srrc store  arfcn[381]:has already existed
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:26],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:26],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:26],
+[2021-03-23 20:54:29],RRC  state:[0] substate:[48]
+[2021-03-23 20:54:29],CSEL state:[105] substate:[165]
+[2021-03-23 20:54:29],SIB  state:[85] substate:[390]
+[2021-03-23 20:54:31],reg_unsol_report_position_timeout, try to unsol report position and continue report position
+[2021-03-23 20:54:31],reg_unsol_report_position_timeout, tunsol report position switch is off
+[2021-03-23 20:54:31],Position service info: time = 0-0-0 0:0:0, cor_id = 0, re_times = 0, duration=0, remain=0,tech=0,qos_inc=0,qos_rank=0,req_id_len=0,req_id=
+[2021-03-23 20:54:43],net reg again, the remain_times is 0, not try to process previous req
+[2021-03-23 20:54:46],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-23 20:54:46],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-23 20:54:46],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-23 20:54:46],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-23 20:54:46],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:46],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:46],luxy:received rrc connect reject cause is:1
+[2021-03-23 20:54:46],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:46],
+[2021-03-23 20:54:46],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-23 20:54:46],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:46],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:46],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:46],
+[2021-03-23 20:54:46],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-23 20:54:46],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:54:46],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-23 20:54:46],luxy: gmm main prim_id is 8d63
+[2021-03-23 20:54:46],luxy: rrc enter alert and delete sm instance
+[2021-03-23 20:54:46],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:46],luxy: GMM after handled the message
+[2021-03-23 20:54:46],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:46],
+[2021-03-23 20:54:46],ERROR MSG PRIM_ID IS 7132
+[2021-03-23 20:54:46],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-23 20:54:46],fatp_net_regstate_ind: reg_state : 6
+[2021-03-23 20:54:46],[fatp_net_hp_rc]: unknown rssi:-124
+[2021-03-23 20:54:46],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-23 20:54:47],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:54:47],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:54:47],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-23 20:54:47],Para_ptr->MES_Identity_type_u8 = 0
+[2021-03-23 20:54:47],Para_ptr->MES_Identity_u32= c8fad8e4
+[2021-03-23 20:54:49],lixiang1 IsBchReading=0,WorkingType_enu32=1,isUpdateBch=1
+[2021-03-23 20:54:49],******zhangkh******copy from above!
+[2021-03-23 20:54:49],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-23 20:54:49],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:49],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:49],luxy: mm 199 receive message is 0
+[2021-03-23 20:54:49],******zhangkh***NAS leave Alert State!
+[2021-03-23 20:54:49],*******zhangkh:NAS state:g_mm_current_state=191,g_mm_prev_state=9,g_mm_pend_alert_request_flag=0
+[2021-03-23 20:54:49],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:49],
+[2021-03-23 20:54:49],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-23 20:54:49],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:54:49],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-23 20:54:49],luxy: gmm main prim_id is 8d64
+[2021-03-23 20:54:49],luxy: GMM hpa service
+[2021-03-23 20:54:49],luxy: GMM leave alert cause is 1
+[2021-03-23 20:54:49],luxy: GMM after handled the message
+[2021-03-23 20:54:49],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:54:49],
+[2021-03-23 20:54:49],[fuai_send_phy_reg_ind]REG_STATE:1
+[2021-03-23 20:54:49],SRRC[CSEL]:Camp on cell arfcn:381
+[2021-03-23 20:54:49],SRRC[CSEL]:store arfcn:381
+[2021-03-23 20:54:49],SRRC LOG:srrc store  arfcn[381]:has already existed
+[2021-03-23 20:54:49],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:49],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:49],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:49],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:49],
+[2021-03-23 20:54:49],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:49],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:49],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:49],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:49],
+[2021-03-23 20:54:49],luxy: MM receive prim is P_SPV_MM_CURRENT_PLMN_REQ
+[2021-03-23 20:54:49],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:49],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:54:49],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:54:49],
+[2021-03-23 20:54:51],RRC  state:[0] substate:[48]
+[2021-03-23 20:54:51],CSEL state:[105] substate:[165]
+[2021-03-23 20:54:51],SIB  state:[85] substate:[390]
+[2021-03-23 20:55:01],***************zhangkh***************P_SPHY_SRRC_BCCHSYN_FAILED_IND
+[2021-03-23 20:55:01],***********zhangkh***inform SIB to stop reading BCCH and Stop Timers
+[2021-03-23 20:55:01],CSEL LOG:SEND MM REJ BEFORE SEND ENTER ALERT IND
+[2021-03-23 20:55:01],luxy: MM receive prim is P_SRRC_MM_EST_REJ
+[2021-03-23 20:55:01],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:55:01],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:55:01],luxy:received rrc connect reject cause is:1
+[2021-03-23 20:55:01],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:55:01],
+[2021-03-23 20:55:01],luxy: MM receive prim is P_SRRC_MM_ENTERALERT_IND
+[2021-03-23 20:55:01],luxy: MM current state is S191:MM_STATE_NORMAL_SERVICE
+[2021-03-23 20:55:01],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:55:01],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:55:01],
+[2021-03-23 20:55:01],luxy: GMM receive prim is P_SRRC_GMM_ENTERALERT_IND
+[2021-03-23 20:55:01],luxy: GMM current state is S_GMM_DEREG_S_NORMAL_SERV
+[2021-03-23 20:55:01],luxy: gmm main g_gmm_info_st.current_gmm_state is 11
+[2021-03-23 20:55:01],luxy: gmm main prim_id is 8d63
+[2021-03-23 20:55:01],luxy: rrc enter alert and delete sm instance
+[2021-03-23 20:55:01],luxy: GMM state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:55:01],luxy: GMM after handled the message
+[2021-03-23 20:55:01],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:55:01],
+[2021-03-23 20:55:01],ERROR MSG PRIM_ID IS 7132
+[2021-03-23 20:55:01],mma report error,file[id=9109],task_id=8,proc_id=255,occurs err=21804,line=2185
+[2021-03-23 20:55:01],fatp_net_regstate_ind: reg_state : 6
+[2021-03-23 20:55:01],[fatp_net_regstate_ind]: Enter HP state!
+[2021-03-23 20:55:04],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:04],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:55:04],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:55:04],Para_ptr->MES_Identity_type_u8 = 0
+[2021-03-23 20:55:04],Para_ptr->MES_Identity_u32= ef395818
+[2021-03-23 20:55:06],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:06],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:55:06],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:55:06],Para_ptr->MES_Identity_type_u8 = 1
+[2021-03-23 20:55:06],Para_ptr->MES_Identity_u32= e67d2491
+[2021-03-23 20:55:06],*****zhangkh*****MES_Identity_type_u8 is TMSI
+[2021-03-23 20:55:06],*****zhangkh*****Local  TMSI  = ffc630e
+[2021-03-23 20:55:06],*****zhangkh*****Net    TMSI  = e67d2491
+[2021-03-23 20:55:06],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:06],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-23 20:55:06],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-23 20:55:06],Para_ptr->MES_Identity_type_u8 = 3
+[2021-03-23 20:55:07],Para_ptr->MES_Identity_u32= 22959a80
+[2021-03-23 20:55:10],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:10],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:55:10],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:55:10],Para_ptr->MES_Identity_type_u8 = 0
+[2021-03-23 20:55:10],Para_ptr->MES_Identity_u32= 830eb490
+[2021-03-23 20:55:10],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:10],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-23 20:55:10],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-23 20:55:10],Para_ptr->MES_Identity_type_u8 = 1
+[2021-03-23 20:55:10],Para_ptr->MES_Identity_u32= 8eb4931c
+[2021-03-23 20:55:10],*****zhangkh*****MES_Identity_type_u8 is TMSI
+[2021-03-23 20:55:10],*****zhangkh*****Local  TMSI  = ffc630e
+[2021-03-23 20:55:10],*****zhangkh*****Net    TMSI  = 8eb4931c
+[2021-03-23 20:55:15],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:15],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-23 20:55:15],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:55:15],Para_ptr->MES_Identity_type_u8 = 3
+[2021-03-23 20:55:15],Para_ptr->MES_Identity_u32= c2272d73
+[2021-03-23 20:55:16],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:16],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:55:16],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:55:16],Para_ptr->MES_Identity_type_u8 = 0
+[2021-03-23 20:55:16],Para_ptr->MES_Identity_u32= be56d62c
+[2021-03-23 20:55:17],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:17],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-23 20:55:17],Para_ptr->CN_Domain_Identity_u8 = 1
+[2021-03-23 20:55:17],Para_ptr->MES_Identity_type_u8 = 1
+[2021-03-23 20:55:17],Para_ptr->MES_Identity_u32= 62ece284
+[2021-03-23 20:55:17],*****zhangkh*****MES_Identity_type_u8 is TMSI
+[2021-03-23 20:55:17],*****zhangkh*****Local  TMSI  = ffc630e
+[2021-03-23 20:55:17],*****zhangkh*****Net    TMSI  = 62ece284
+[2021-03-23 20:55:18],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:18],Para_ptr->SI_Update_Identifier_u8 = 0
+[2021-03-23 20:55:18],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-23 20:55:18],Para_ptr->MES_Identity_type_u8 = 2
+[2021-03-23 20:55:18],Para_ptr->MES_Identity_u32= 49cd650e
+[2021-03-23 20:55:18],*****zhangkh*****MES_Identity_type_u8 is P-TMSI
+[2021-03-23 20:55:19],**********zhangkh**********recved Aleat message!!!!!!
+[2021-03-23 20:55:19],Para_ptr->SI_Update_Identifier_u8 = 1
+[2021-03-23 20:55:19],Para_ptr->CN_Domain_Identity_u8 = 0
+[2021-03-23 20:55:19],Para_ptr->MES_Identity_type_u8 = 1
+[2021-03-23 20:55:19],Para_ptr->MES_Identity_u32= 650d616f
+[2021-03-23 20:55:19],*****zhangkh*****MES_Identity_type_u8 is TMSI
+[2021-03-23 20:55:19],*****zhangkh*****Local  TMSI  = ffc630e
+[2021-03-23 20:55:19],*****zhangkh*****Net    TMSI  = 650d616f
+[2021-03-23 20:55:20],luxy: MM receive prim is P_SRRC_MM_LEAVEALERT_IND
+[2021-03-23 20:55:20],luxy: MM current state is S199:MM_STATE_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:55:20],luxy: g_mm_t3212_expiry_count is 0
+[2021-03-23 20:55:20],luxy: mm 199 receive message is 0
+[2021-03-23 20:55:20],******zhangkh***NAS leave Alert State!
+[2021-03-23 20:55:20],luxy: MM current state is S195:MM_STATE_NO_CELL_AVAIL
+[2021-03-23 20:55:20],
+[2021-03-23 20:55:20],luxy: GMM receive prim is P_MM_GMM_ACTION_REQ
+[2021-03-23 20:55:20],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:55:20],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-23 20:55:20],luxy: gmm main prim_id is 1f2c
+[2021-03-23 20:55:20],luxy: GMM hpa service
+[2021-03-23 20:55:20],luxy: GMM after handled the message
+[2021-03-23 20:55:20],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:55:20],
+[2021-03-23 20:55:20],luxy: GMM receive prim is P_SRRC_GMM_LEAVEALERT_IND
+[2021-03-23 20:55:20],luxy: GMM current state is S_GMM_REG_S_HIGH_PENETRATION_ALERTING_SERVICE
+[2021-03-23 20:55:20],luxy: gmm main g_gmm_info_st.current_gmm_state is 48
+[2021-03-23 20:55:20],luxy: gmm main prim_id is 8d64
+[2021-03-23 20:55:20],luxy: GMM hpa service
+[2021-03-23 20:55:20],luxy: GMM leave alert cause is 3
+[2021-03-23 20:55:20],luxy: GMM loss plmn in hpa
+[2021-03-23 20:55:20],luxy: GMM after handled the message
+[2021-03-23 20:55:20],luxy: GMM current state is S_GMM_DEREG_S_NO_CELL
+[2021-03-23 20:55:20],
+[2021-03-23 20:55:20],fatp_net_regstate_ind: reg_state : 1
+[2021-03-23 20:55:20],[fuai_send_phy_reg_ind]REG_STATE:0
+[2021-03-23 20:55:41],
