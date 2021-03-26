@@ -13,6 +13,7 @@ import os
 import timeit
 import time
 import socket
+import struct
 from datetime import datetime
 
 class PCSatelliteMonitor(Monitor):
@@ -127,19 +128,22 @@ class PCSatelliteMonitor(Monitor):
             except Exception as e:
                 print(e)
             try:
-                s=socket.socket()
-                s.bind(("127.0.0.1",8002))
+                so =socket.socket()
+                so.connect(("127.0.0.1",8002))
                 print("connect success!")
             except Exception as e:
                 print(e)
             while True:
                 s = phy_ser.readline()
                 if len(s) > 0:
-                    s.send("Tell me the GPS location!")
-                    location=s.recv(1024)
+                    message = "Tell me the GPS location!\n"
+                    size = len(message)
+                    so.send(struct.pack("!H", size))
+                    so.send(message.encode("utf-8"))
+                    location=so.recv(1024)
 
                     print('['+str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'))+"],",end='')
-                    print(location+',',end='')
+                    print(location.decode('utf-8') +',',end='')
                     print(s.decode('utf-8'),end='')
                     # send event to analyzers
                     # TODO: type_id is currently None, and packet is a copy of line read from serial-port
