@@ -119,7 +119,7 @@ class PCSatelliteMonitor(Monitor):
                                     baudrate=self.phy_baudrate,
                                     timeout=None, rtscts=True, dsrdtr=True)
 
-            presult=phy_ser.write('at^POSREQ=?\r\n'.encode("utf-8"))
+            presult=phy_ser.write('at^TTLOG=1\r\n'.encode("utf-8"))
             print('total bits sended:'+str(presult))
 
             # Read log packets from serial port and decode their contents
@@ -143,7 +143,7 @@ class PCSatelliteMonitor(Monitor):
                     location=so.recv(1024)
 
                     print('['+str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'))+"],",end='')
-                    print(location.decode('utf-8') +',',end='')
+                    print('['+location.decode('utf-8').split(',')[0].split(':')[1] + ',' + location.decode('utf-8').split(',')[1].split(':')[1]+'],',end='')
                     print(s.decode('utf-8'),end='')
                     # send event to analyzers
                     # TODO: type_id is currently None, and packet is a copy of line read from serial-port
