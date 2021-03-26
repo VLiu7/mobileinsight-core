@@ -12,6 +12,7 @@ import sys
 import os
 import timeit
 import time
+import socket
 from datetime import datetime
 
 class PCSatelliteMonitor(Monitor):
@@ -121,10 +122,24 @@ class PCSatelliteMonitor(Monitor):
             print('total bits sended:'+str(presult))
 
             # Read log packets from serial port and decode their contents
+            try:
+                os.system("adb forward tcp:8002 tcp:9000")
+            except Exception as e:
+                print(e)
+            try:
+                s=socket.socket()
+                s.bind(("127.0.0.1",8002))
+                print("connect success!")
+            except Exception as e:
+                print(e)
             while True:
                 s = phy_ser.readline()
                 if len(s) > 0:
+                    s.send("Tell me the GPS location!")
+                    location=s.recv(1024)
+
                     print('['+str(datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'))+"],",end='')
+                    print(location+',',end='')
                     print(s.decode('utf-8'),end='')
                     # send event to analyzers
                     # TODO: type_id is currently None, and packet is a copy of line read from serial-port
