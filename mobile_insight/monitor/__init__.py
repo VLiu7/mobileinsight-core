@@ -6,9 +6,11 @@ __all__ = [
     "DMCollector",  # P4A: THIS LINE WILL BE DELETED ###
     "OfflineReplayer",
     "OnlineMonitor",
+    "OfflineMonitor",
     "AndroidMtkMonitor",
     "MtkOfflineReplayer",
-    "PCSatelliteMonitor"
+    "PCSatelliteMonitor",
+    "SatOfflineReplayer"
 ]
 
 is_android = False
@@ -27,5 +29,7 @@ from .monitor import Monitor
 from .dm_collector import *  # P4A: THIS LINE WILL BE DELETED ###
 from .offline_replayer import OfflineReplayer
 from .online_monitor import OnlineMonitor
+from .offline_monitor import OfflineMonitor
 from .mtk_offline_replayer import MtkOfflineReplayer
 from .pc_satellite_montior import PCSatelliteMonitor
+from .sat_offline_replayer import SatOfflineReplayer
