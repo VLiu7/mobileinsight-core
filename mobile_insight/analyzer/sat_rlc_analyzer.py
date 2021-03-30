@@ -11,6 +11,7 @@ class SatRlcAnalyzer(Analyzer):
     def __init__(self):
         Analyzer.__init__(self)
         self.add_source_callback(self.__msg_callback)
+        self.log_count = 0
 
     def set_source(self, source):
         #TODO:
@@ -21,10 +22,16 @@ class SatRlcAnalyzer(Analyzer):
         """
         Analyzer.set_source(self, source)
 
+
+    def set_signal(self, signal):
+        self.signal = signal
+
     def __msg_callback(self, msg):
         #TODO:
         # print('sat_rlc_analyzer.callback!')
         # print('msg=', msg)
+        self.log_count += 1
         packet = msg.data
         # print('packet=', packet)
         print("type_id=", msg.type_id, ",gps=", packet.get_gps(), ",content=", packet.get_content())
+        self.signal.emit(msg) 

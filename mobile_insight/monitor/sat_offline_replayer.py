@@ -24,7 +24,7 @@ class SatPcLogPacket():
         return self.__gps
 
     def get_content(self):
-        return self.__string
+        return self.__string[56:]
 
     @classmethod
     def _preparse_internal_list(cls, string):
