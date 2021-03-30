@@ -11,6 +11,7 @@ class Worker(QObject):
     out_of_receving_window = pyqtSignal(object)
     mcs = pyqtSignal(int)
     signal_strength = pyqtSignal(int)
+    dl_rlc = pyqtSignal()
     def set_monitor(self, monitor):
         self.monitor = monitor
     def set_analyzers(self, analyzers):
@@ -19,6 +20,8 @@ class Worker(QObject):
         rlc.set_signal("new_log", self.new_log)
         rlc.set_signal("crc_error", self.crc_error)
         rlc.set_signal("rejection", self.out_of_receving_window)
+        rlc.set_signal("dl", self.dl_rlc)
+
         l1 = self.analyzers["l1"]
         l1.set_signal("mcs", self.mcs)
         l1.set_signal("signal_strength", self.signal_strength)
@@ -50,11 +53,29 @@ class Window(QWidget):
         self.thread.finished.connect(self.thread.deleteLater)
         self.worker.new_log.connect(self.display_new_log)
         self.worker.crc_error.connect(self.display_new_event)
+        self.worker.crc_error.connect(self.display_crc_error)
         self.worker.out_of_receving_window.connect(self.display_new_event)
         self.worker.mcs.connect(self.display_mcs)
         self.worker.signal_strength.connect(self.display_signal_strength)
+        self.worker.dl_rlc.connect(self.dl_rlc_arrives)
 
         self.thread.start()
+
+    def dl_rlc_arrives(self):
+        # downlink rlcmac block arrives
+        # update SMAC error
+        self.display_crc_error()
+
+    def display_crc_error(self):
+        #TODO:
+        error = self.analyzers["rlc"].error_block_cnt
+        total = self.analyzers["rlc"].block_cnt
+        self.mac_error_rate.setText("{}({} out ouf {})".format(
+            error / total, 
+            error, 
+            total
+        ))
+
 
     def display_signal_strength(self, signal_value):
         self.signal_value_label.setText(str(signal_value))
@@ -122,19 +143,31 @@ class Window(QWidget):
 
         vbox_2 = QVBoxLayout()
         vbox_2.addWidget(QPushButton("RLC"))
-        vbox_2.addWidget(QPushButton("MAC"))
+
+        mac_layout = QVBoxLayout()
+        mac_layout.addWidget(QLabel("MAC Layer"))
+        mac_params = QHBoxLayout()
+        # crc error
+        self.mac_label = QLabel("CRC error rate: ")
+        self.mac_error_rate = QLabel("--(-- out of --)")
+        mac_params.addWidget(self.mac_label)
+        mac_params.addWidget(self.mac_error_rate)
+        mac_layout.addLayout(mac_params)
+        vbox_2.addLayout(mac_layout)
 
         l1_layout = QVBoxLayout()
         l1_layout.addWidget(QLabel("Physical Layer"))
         l1_params = QHBoxLayout()
+        # mcs
         self.mcs_label = QLabel("MCS value: ")
         self.mcs_value_label = QLabel("--")
         l1_params.addWidget(self.mcs_label)
         l1_params.addWidget(self.mcs_value_label)
+        # signal strength
         self.signal_strength_label = QLabel("Signal Strength: ")
         self.signal_value_label = QLabel("--")
         l1_params.addWidget(self.signal_strength_label)
-        l1_params.addWidget(self.signal_value_label)
+        l1_params.addWidget(self.signal_value_label)    
         l1_layout.addLayout(l1_params)
         vbox_2.addLayout(l1_layout)
 

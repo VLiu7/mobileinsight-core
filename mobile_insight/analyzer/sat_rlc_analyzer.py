@@ -12,6 +12,8 @@ class SatRlcAnalyzer(Analyzer):
         Analyzer.__init__(self)
         self.add_source_callback(self.__msg_callback)
         self.signals = {}
+        self.error_block_cnt = 0
+        self.block_cnt = 0
 
     def set_source(self, source):
         #TODO:
@@ -34,9 +36,25 @@ class SatRlcAnalyzer(Analyzer):
         # print("type_id=", msg.type_id, ",gps=", packet.get_gps(), ",content=", packet.get_content())
         self.signals["new_log"].emit(msg) 
         content = packet.get_content()
-        if content.find("CRC") != -1:   # CRC error event
+
+        # CRC error occurs
+        if content.find("CRC") != -1:   
             self.signals["crc_error"].emit(msg)
+            self.error_block_cnt += 1
             print("CRC error")
-        elif content.find("out of receiving window") != -1:
+
+        # packet is rejected because of invalid SN
+        if content.find("out of receiving window") != -1:
             self.signals["rejection"].emit(msg)
             print("out of receiving window!")
+
+        ret = content.find("RBID = ")
+        # this line contains downlink mac information
+        if ret != -1:
+            self.block_cnt += 1
+            begin = content.find("BSN")
+            end = content.find(",", begin)
+            dl_bsn = int(content[begin + 6:end])
+            begin = content.find("PDU length")
+            pdu_length = int(content[begin + 13:])
+            # dl_bytes.append(dl_bytes[-1] + pdu_length if len(dl_bytes) > 0 else pdu_length)
