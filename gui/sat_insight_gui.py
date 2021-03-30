@@ -1,9 +1,12 @@
 # from PyQt5.QtWidgets import QApplication, QLabel, QWidget, QHBoxLayout, QVBoxLayout, QPushButton
 from PyQt5.QtWidgets import *
-from PyQt5.QtCore import QObject, QThread, pyqtSignal
+from PyQt5.QtCore import QObject, QThread, pyqtSignal, Qt
 from mobile_insight.monitor import OfflineMonitor 
 from mobile_insight.analyzer import SatRlcAnalyzer, SatL1Analyzer
 import datetime
+import pyqtgraph as pg
+from pyqtgraph import plot, PlotWidget
+from PyQt5.QtGui import *
 
 class Worker(QObject):
     new_log  = pyqtSignal(object)
@@ -27,9 +30,9 @@ class Worker(QObject):
         rlc.set_signal("update_dl_rate", self.update_dl_rate)
         rlc.set_signal("update_ul_rate", self.update_ul_rate)
 
-        l1 = self.analyzers["l1"]
-        l1.set_signal("mcs", self.mcs)
-        l1.set_signal("signal_strength", self.signal_strength)
+        # l1 = self.analyzers["l1"]
+        # l1.set_signal("mcs", self.mcs)
+        # l1.set_signal("signal_strength", self.signal_strength)
     def run(self):
         for analyzer in self.analyzers.values():
             analyzer.set_source(self.monitor)
@@ -44,6 +47,7 @@ class Window(QWidget):
         rlc = SatRlcAnalyzer()
         l1 = SatL1Analyzer()
         self.analyzers = {"rlc": rlc, "l1": l1}
+        self.analyzers = {"rlc": rlc}
         self.init_task()
     
     def init_task(self):
@@ -60,6 +64,7 @@ class Window(QWidget):
         self.worker.crc_error.connect(self.display_new_event)
         self.worker.crc_error.connect(self.display_crc_error)
         self.worker.out_of_receving_window.connect(self.display_new_event)
+        self.worker.out_of_receving_window.connect(self.display_rejection_rate)
         self.worker.mcs.connect(self.display_mcs)
         self.worker.signal_strength.connect(self.display_signal_strength)
         self.worker.dl_rlc.connect(self.dl_rlc_arrives)
@@ -67,6 +72,30 @@ class Window(QWidget):
         self.worker.update_ul_rate.connect(self.display_ul_rate)
 
         self.thread.start()
+    
+    def display_graph(self):
+        self.line_dl.setData(self.analyzers["rlc"].timestamps,
+                             self.analyzers["rlc"].dl_rates)
+        self.line_ul.setData(self.analyzers["rlc"].ul_timestamps,
+                             self.analyzers["rlc"].ul_rates)
+
+    def display_duplicate_rate(self):
+        self.duplicate_rate_value_label.setText("{} % ({} out of {})".format(
+            (self.rejection_rate_value - self.error_rate_value) * 100,
+            int(self.analyzers["rlc"].block_cnt * (self.rejection_rate_value - self.error_rate_value)),
+            self.analyzers["rlc"].block_cnt
+        ))
+
+    def display_rejection_rate(self, obj):
+        error_cnt = self.analyzers["rlc"].rejection_block_cnt
+        total = self.analyzers["rlc"].block_cnt
+        self.rejection_rate_value = error_cnt / total
+        self.rejection_rate_value_label.setText("{} %({} out of {})".format(
+            error_cnt / total * 100,
+            error_cnt,
+            total
+        ))
+        self.display_duplicate_rate()
 
     def display_ul_rate(self, obj):
         secs = obj["secs"]
@@ -77,6 +106,7 @@ class Window(QWidget):
             ul_bytes,
             secs,
         ))
+        self.display_graph()
 
     def display_dl_rate(self, obj):
         secs = obj["secs"]
@@ -87,6 +117,7 @@ class Window(QWidget):
             dl_bytes,
             secs,
         ))
+        self.display_graph()
 
     def dl_rlc_arrives(self):
         # downlink rlcmac block arrives
@@ -94,13 +125,22 @@ class Window(QWidget):
         self.display_crc_error()
 
     def display_crc_error(self):
-        #TODO:
+        # MAC Layer
         error = self.analyzers["rlc"].error_block_cnt
         total = self.analyzers["rlc"].block_cnt
-        self.mac_error_rate.setText("{}({} out ouf {})".format(
-            error / total, 
+        self.error_rate_value = error / total
+        self.mac_error_rate.setText("{} %({} out ouf {})".format(
+            error / total * 100, 
             error, 
             total
+        ))
+        self.display_duplicate_rate()
+
+        # RLC layer
+        self.error_rate_value_label.setText("{} % ({} out of {})".format(
+            error / total * 100,
+            error,
+            total 
         ))
 
     def display_signal_strength(self, signal_value):
@@ -187,8 +227,42 @@ class Window(QWidget):
         ul_rate.addWidget(self.ul_rate_label)
         ul_rate.addWidget(self.ul_rate_value_label)
         rlc_rate.addLayout(ul_rate)
+        # plot
+        self.graph = pg.PlotWidget()
+        rlc_rate.addWidget(self.graph)
+        self.graph.addLegend()
+        self.line_ul = pg.PlotCurveItem(clear=True, pen="r", name = "Uplink")
+        self.line_dl = pg.PlotCurveItem(clear=True, pen="y", name = "Downlink")
+        self.graph.addItem(self.line_ul)
+        self.graph.addItem(self.line_dl)
 
         rlc_params.addLayout(rlc_rate)
+
+        abnormal_rates = QVBoxLayout()
+        # rejection rate
+        rejection_rate = QHBoxLayout()
+        self.rejection_rate_label = QLabel("Rejection rate: ")
+        self.rejection_rate_value_label = QLabel("-- % (-- out of --)")
+        rejection_rate.addWidget(self.rejection_rate_label)
+        rejection_rate.addWidget(self.rejection_rate_value_label)
+        abnormal_rates.addLayout(rejection_rate)
+        # error rate
+        error_rate = QHBoxLayout()
+        self.error_rate_label = QLabel("CRC error rate: ")
+        self.error_rate_value_label = QLabel("-- % (-- out of --)")
+        error_rate.addWidget(self.error_rate_label)
+        error_rate.addWidget(self.error_rate_value_label)
+        abnormal_rates.addLayout(error_rate)
+        # duplicate rate
+        duplicate_rate = QHBoxLayout()
+        self.duplicate_rate_label = QLabel("Duplicate rate: ")
+        self.duplicate_rate_value_label = QLabel("-- % (-- out of --)")
+        duplicate_rate.addWidget(self.duplicate_rate_label)
+        duplicate_rate.addWidget(self.duplicate_rate_value_label)
+        abnormal_rates.addLayout(duplicate_rate)
+        
+        
+        rlc_params.addLayout(abnormal_rates)
 
         rlc_layout.addLayout(rlc_params)
         vbox_2.addLayout(rlc_layout)

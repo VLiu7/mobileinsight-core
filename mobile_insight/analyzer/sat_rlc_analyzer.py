@@ -13,6 +13,7 @@ class SatRlcAnalyzer(Analyzer):
         self.add_source_callback(self.__msg_callback)
         self.signals = {}
         self.error_block_cnt = 0
+        self.rejection_block_cnt = 0    # out of receiving window
         self.block_cnt = 0
         self.link_rate_calculation_window = 1.0   # update link rate every 5s
         self.secs_elapsed_since_window_begin = 0.0
@@ -21,9 +22,13 @@ class SatRlcAnalyzer(Analyzer):
         self.ul_bytes = 0
         self.dl_latest_timestamp = None
         self.ul_latest_timestamp = None
+        self.start_timestamp = None
+        self.timestamps = []
+        self.ul_timestamps = []
+        self.dl_rates = []
+        self.ul_rates = []
 
     def set_source(self, source):
-        #TODO:
         """
         Set the trace source. Enable the cellular signaling messages
 
@@ -43,15 +48,18 @@ class SatRlcAnalyzer(Analyzer):
         # print("type_id=", msg.type_id, ",gps=", packet.get_gps(), ",content=", packet.get_content())
         self.signals["new_log"].emit(msg) 
         content = packet.get_content()
+        if self.start_timestamp is None:
+            self.start_timestamp = packet.get_timestamp() 
 
         # CRC error occurs
         if content.find("CRC") != -1:   
-            self.signals["crc_error"].emit(msg)
             self.error_block_cnt += 1
+            self.signals["crc_error"].emit(msg)
             # print("CRC error")
 
         # packet is rejected because of invalid SN
-        if content.find("out of receiving window") != -1:
+        if content.find("out of receiving window") != -1 and self.block_cnt > 0:
+            self.rejection_block_cnt += 1
             self.signals["rejection"].emit(msg)
             # print("out of receiving window!")
 
@@ -60,6 +68,7 @@ class SatRlcAnalyzer(Analyzer):
         if ret != -1:
             # print("dl arrives: ", content)
             self.block_cnt += 1
+            self.signals["dl"].emit()
             begin = content.find("BSN")
             end = content.find(",", begin)
             dl_bsn = int(content[begin + 6:end])
@@ -79,6 +88,8 @@ class SatRlcAnalyzer(Analyzer):
                 # print("total_secs:", self.secs_elapsed_since_window_begin)
                 if self.secs_elapsed_since_window_begin > self.link_rate_calculation_window:
                     # recalculate dl rate
+                    self.timestamps.append((current_block_timestamp - self.start_timestamp).total_seconds())
+                    self.dl_rates.append(self.dl_bytes / self.secs_elapsed_since_window_begin)
                     self.signals["update_dl_rate"].emit({
                         "secs": self.secs_elapsed_since_window_begin,
                         'bytes': self.dl_bytes
@@ -109,6 +120,8 @@ class SatRlcAnalyzer(Analyzer):
                     print("total_secs:", self.ul_secs_elapsed_since_window_begin)
                     if self.ul_secs_elapsed_since_window_begin > self.link_rate_calculation_window:
                         # recalculate dl rate
+                        self.ul_timestamps.append((current_block_timestamp - self.start_timestamp).total_seconds())
+                        self.ul_rates.append(self.ul_bytes / self.ul_secs_elapsed_since_window_begin)
                         self.signals["update_ul_rate"].emit({
                             "secs": self.ul_secs_elapsed_since_window_begin,
                             'bytes': self.ul_bytes
