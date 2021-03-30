@@ -14,6 +14,13 @@ class SatRlcAnalyzer(Analyzer):
         self.signals = {}
         self.error_block_cnt = 0
         self.block_cnt = 0
+        self.link_rate_calculation_window = 1.0   # update link rate every 5s
+        self.secs_elapsed_since_window_begin = 0.0
+        self.ul_secs_elapsed_since_window_begin = 0.0
+        self.dl_bytes = 0
+        self.ul_bytes = 0
+        self.dl_latest_timestamp = None
+        self.ul_latest_timestamp = None
 
     def set_source(self, source):
         #TODO:
@@ -41,20 +48,72 @@ class SatRlcAnalyzer(Analyzer):
         if content.find("CRC") != -1:   
             self.signals["crc_error"].emit(msg)
             self.error_block_cnt += 1
-            print("CRC error")
+            # print("CRC error")
 
         # packet is rejected because of invalid SN
         if content.find("out of receiving window") != -1:
             self.signals["rejection"].emit(msg)
-            print("out of receiving window!")
+            # print("out of receiving window!")
 
         ret = content.find("RBID = ")
         # this line contains downlink mac information
         if ret != -1:
+            # print("dl arrives: ", content)
             self.block_cnt += 1
             begin = content.find("BSN")
             end = content.find(",", begin)
             dl_bsn = int(content[begin + 6:end])
             begin = content.find("PDU length")
             pdu_length = int(content[begin + 13:])
-            # dl_bytes.append(dl_bytes[-1] + pdu_length if len(dl_bytes) > 0 else pdu_length)
+            self.dl_bytes += pdu_length
+            # print("pdu_length: ", pdu_length)
+            # print("dl_bytes: ", self.dl_bytes)
+            current_block_timestamp = packet.get_timestamp()
+            # print("ts:", current_block_timestamp)
+            if self.dl_latest_timestamp is None:
+                self.dl_latest_timestamp = current_block_timestamp
+            else:
+                secs_elapsed = (current_block_timestamp - self.dl_latest_timestamp).total_seconds()
+                # print("secs_elapsed:", secs_elapsed)
+                self.secs_elapsed_since_window_begin += secs_elapsed
+                # print("total_secs:", self.secs_elapsed_since_window_begin)
+                if self.secs_elapsed_since_window_begin > self.link_rate_calculation_window:
+                    # recalculate dl rate
+                    self.signals["update_dl_rate"].emit({
+                        "secs": self.secs_elapsed_since_window_begin,
+                        'bytes': self.dl_bytes
+                    })
+                    # reset
+                    self.dl_bytes = 0
+                    self.secs_elapsed_since_window_begin = 0
+                    self.dl_latest_timestamp = None
+            
+        ret = content.find('rlc_blk_ptr')
+        # this line contains uplink rlc/mac information
+        if ret != -1:
+            begin = content.find("bsn:")
+            new_rlc_bsn = int(content[begin + 4: content.find(' ', begin + 4)])
+            begin = content.find("blk_size")
+            if begin != -1:
+                print("content=", content)
+                pdu_length = int(content[begin + 9: content.find(" ", begin + 9)])
+                print("pdu_length: ", pdu_length)
+                self.ul_bytes += pdu_length 
+                current_block_timestamp = packet.get_timestamp()
+                if self.ul_latest_timestamp is None:
+                    self.ul_latest_timestamp = current_block_timestamp
+                else:
+                    secs_elapsed = (current_block_timestamp - self.ul_latest_timestamp).total_seconds()
+                    # print("secs_elapsed:", secs_elapsed)
+                    self.ul_secs_elapsed_since_window_begin += secs_elapsed
+                    print("total_secs:", self.ul_secs_elapsed_since_window_begin)
+                    if self.ul_secs_elapsed_since_window_begin > self.link_rate_calculation_window:
+                        # recalculate dl rate
+                        self.signals["update_ul_rate"].emit({
+                            "secs": self.ul_secs_elapsed_since_window_begin,
+                            'bytes': self.ul_bytes
+                        })
+                        # reset
+                        self.ul_bytes = 0
+                        self.ul_secs_elapsed_since_window_begin = 0
+                        self.ul_latest_timestamp = None

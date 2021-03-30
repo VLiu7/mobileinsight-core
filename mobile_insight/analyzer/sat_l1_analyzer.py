@@ -35,8 +35,11 @@ class SatL1Analyzer(Analyzer):
         # Find MCS 
         ret = content.find("MCS")
         if ret != -1:
-            mcs_value = int(content[ret + 4])
-            self.signals["mcs"].emit(mcs_value)
+            try:
+                mcs_value = int(content[ret + 4])
+                self.signals["mcs"].emit(mcs_value)
+            except:
+                pass
 
         # Find Signal Strength
         ret = re.findall('-1[0-9]{2} ', content)

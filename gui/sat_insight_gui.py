@@ -12,6 +12,9 @@ class Worker(QObject):
     mcs = pyqtSignal(int)
     signal_strength = pyqtSignal(int)
     dl_rlc = pyqtSignal()
+    update_dl_rate = pyqtSignal(object)
+    update_ul_rate = pyqtSignal(object)
+
     def set_monitor(self, monitor):
         self.monitor = monitor
     def set_analyzers(self, analyzers):
@@ -21,6 +24,8 @@ class Worker(QObject):
         rlc.set_signal("crc_error", self.crc_error)
         rlc.set_signal("rejection", self.out_of_receving_window)
         rlc.set_signal("dl", self.dl_rlc)
+        rlc.set_signal("update_dl_rate", self.update_dl_rate)
+        rlc.set_signal("update_ul_rate", self.update_ul_rate)
 
         l1 = self.analyzers["l1"]
         l1.set_signal("mcs", self.mcs)
@@ -58,8 +63,30 @@ class Window(QWidget):
         self.worker.mcs.connect(self.display_mcs)
         self.worker.signal_strength.connect(self.display_signal_strength)
         self.worker.dl_rlc.connect(self.dl_rlc_arrives)
+        self.worker.update_dl_rate.connect(self.display_dl_rate)
+        self.worker.update_ul_rate.connect(self.display_ul_rate)
 
         self.thread.start()
+
+    def display_ul_rate(self, obj):
+        secs = obj["secs"]
+        ul_bytes = obj["bytes"]
+        instant_rate = ul_bytes / secs 
+        self.ul_rate_value_label.setText("{} bytes / s ({} bytes in latest {}s)".format(
+            ul_bytes / secs,
+            ul_bytes,
+            secs,
+        ))
+
+    def display_dl_rate(self, obj):
+        secs = obj["secs"]
+        dl_bytes = obj["bytes"]
+        instant_rate = dl_bytes / secs 
+        self.dl_rate_value_label.setText("{} bytes / s ({} bytes in latest {}s)".format(
+            dl_bytes / secs,
+            dl_bytes,
+            secs,
+        ))
 
     def dl_rlc_arrives(self):
         # downlink rlcmac block arrives
@@ -76,16 +103,15 @@ class Window(QWidget):
             total
         ))
 
-
     def display_signal_strength(self, signal_value):
         self.signal_value_label.setText(str(signal_value))
 
     def display_mcs(self, mcs_value):
-        print("display mcs!")
+        # print("display mcs!")
         self.mcs_value_label.setText(str(mcs_value))
 
     def display_new_event(self, event):
-        print("display new event")
+        # print("display new event")
         self.event_cnt += 1
         row_index = self.event_cnt
         ts = event.data.get_timestamp().strftime('%Y-%m-%d %H:%M:%S.%f') 
@@ -142,7 +168,30 @@ class Window(QWidget):
         hbox.addLayout(vbox_1)
 
         vbox_2 = QVBoxLayout()
-        vbox_2.addWidget(QPushButton("RLC"))
+        rlc_layout = QVBoxLayout()
+        rlc_layout.addWidget(QLabel("RLC Layer"))
+        rlc_params = QHBoxLayout()
+
+        rlc_rate = QVBoxLayout()
+        # dl rate
+        dl_rate = QHBoxLayout()
+        self.dl_rate_label = QLabel("Downlink rate: ")
+        self.dl_rate_value_label = QLabel("-- bytes / s (-- bytes in latest --s)")
+        dl_rate.addWidget(self.dl_rate_label)
+        dl_rate.addWidget(self.dl_rate_value_label)
+        rlc_rate.addLayout(dl_rate)
+        # ul rate
+        ul_rate = QHBoxLayout()
+        self.ul_rate_label = QLabel("Uplink rate: ")
+        self.ul_rate_value_label = QLabel("-- bytes / s (-- bytes in latest --s)")
+        ul_rate.addWidget(self.ul_rate_label)
+        ul_rate.addWidget(self.ul_rate_value_label)
+        rlc_rate.addLayout(ul_rate)
+
+        rlc_params.addLayout(rlc_rate)
+
+        rlc_layout.addLayout(rlc_params)
+        vbox_2.addLayout(rlc_layout)
 
         mac_layout = QVBoxLayout()
         mac_layout.addWidget(QLabel("MAC Layer"))
