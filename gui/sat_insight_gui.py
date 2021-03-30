@@ -10,6 +10,7 @@ class Worker(QObject):
     crc_error = pyqtSignal(object)
     out_of_receving_window = pyqtSignal(object)
     mcs = pyqtSignal(int)
+    signal_strength = pyqtSignal(int)
     def set_monitor(self, monitor):
         self.monitor = monitor
     def set_analyzers(self, analyzers):
@@ -20,6 +21,7 @@ class Worker(QObject):
         rlc.set_signal("rejection", self.out_of_receving_window)
         l1 = self.analyzers["l1"]
         l1.set_signal("mcs", self.mcs)
+        l1.set_signal("signal_strength", self.signal_strength)
     def run(self):
         for analyzer in self.analyzers.values():
             analyzer.set_source(self.monitor)
@@ -50,8 +52,12 @@ class Window(QWidget):
         self.worker.crc_error.connect(self.display_new_event)
         self.worker.out_of_receving_window.connect(self.display_new_event)
         self.worker.mcs.connect(self.display_mcs)
+        self.worker.signal_strength.connect(self.display_signal_strength)
 
         self.thread.start()
+
+    def display_signal_strength(self, signal_value):
+        self.signal_value_label.setText(str(signal_value))
 
     def display_mcs(self, mcs_value):
         print("display mcs!")
@@ -125,6 +131,10 @@ class Window(QWidget):
         self.mcs_value_label = QLabel("--")
         l1_params.addWidget(self.mcs_label)
         l1_params.addWidget(self.mcs_value_label)
+        self.signal_strength_label = QLabel("Signal Strength: ")
+        self.signal_value_label = QLabel("--")
+        l1_params.addWidget(self.signal_strength_label)
+        l1_params.addWidget(self.signal_value_label)
         l1_layout.addLayout(l1_params)
         vbox_2.addLayout(l1_layout)
 

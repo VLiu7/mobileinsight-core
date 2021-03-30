@@ -3,6 +3,7 @@
 A Satellite RLC analyzer to get link layer information
 """
 
+import re
 from mobile_insight.analyzer.analyzer import *
 
 __all__ = ["SatL1Analyzer"]
@@ -31,7 +32,15 @@ class SatL1Analyzer(Analyzer):
         packet = msg.data
         content = packet.get_content()
 
+        # Find MCS 
         ret = content.find("MCS")
         if ret != -1:
             mcs_value = int(content[ret + 4])
             self.signals["mcs"].emit(mcs_value)
+
+        # Find Signal Strength
+        ret = re.findall('-1[0-9]{2} ', content)
+        if len(ret) != 0 and content.find('TIM') == -1:
+            value = int(ret[0])
+            if value > -130 and value < -110:
+                self.signals["signal_strength"].emit(int(ret[0]))
