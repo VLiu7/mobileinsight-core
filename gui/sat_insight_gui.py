@@ -30,9 +30,9 @@ class Worker(QObject):
         rlc.set_signal("update_dl_rate", self.update_dl_rate)
         rlc.set_signal("update_ul_rate", self.update_ul_rate)
 
-        # l1 = self.analyzers["l1"]
-        # l1.set_signal("mcs", self.mcs)
-        # l1.set_signal("signal_strength", self.signal_strength)
+        l1 = self.analyzers["l1"]
+        l1.set_signal("mcs", self.mcs)
+        l1.set_signal("signal_strength", self.signal_strength)
     def run(self):
         for analyzer in self.analyzers.values():
             analyzer.set_source(self.monitor)
@@ -47,7 +47,6 @@ class Window(QWidget):
         rlc = SatRlcAnalyzer()
         l1 = SatL1Analyzer()
         self.analyzers = {"rlc": rlc, "l1": l1}
-        self.analyzers = {"rlc": rlc}
         self.init_task()
     
     def init_task(self):
@@ -145,10 +144,20 @@ class Window(QWidget):
 
     def display_signal_strength(self, signal_value):
         self.signal_value_label.setText(str(signal_value))
+        self.display_sig_graph()
+
+    def display_sig_graph(self):
+        self.line_sig.setData(self.analyzers["l1"].signal_timestamps,
+                              self.analyzers["l1"].signal_values)
 
     def display_mcs(self, mcs_value):
         # print("display mcs!")
         self.mcs_value_label.setText(str(mcs_value))
+        self.display_mcs_graph()
+
+    def display_mcs_graph(self):
+        self.line_mcs.setData(self.analyzers["l1"].mcs_timestamps,
+                              self.analyzers["l1"].mcs_values)
 
     def display_new_event(self, event):
         # print("display new event")
@@ -184,7 +193,8 @@ class Window(QWidget):
         vbox_1 = QVBoxLayout()
 
         self.table_widget = QTableWidget()
-        self.table_widget.setMaximumWidth(900)
+        self.table_widget.setMaximumWidth(700)
+        self.table_widget.setMinimumWidth(700)
         header = self.table_widget.horizontalHeader()
         self.table_widget.setRowCount(70000)
         self.table_widget.setColumnCount(4)
@@ -282,15 +292,35 @@ class Window(QWidget):
         l1_layout.addWidget(QLabel("Physical Layer"))
         l1_params = QHBoxLayout()
         # mcs
+        mcs_layout = QVBoxLayout()
+        mcs_text = QHBoxLayout()
+        mcs_layout.addLayout(mcs_text)
         self.mcs_label = QLabel("MCS value: ")
         self.mcs_value_label = QLabel("--")
-        l1_params.addWidget(self.mcs_label)
-        l1_params.addWidget(self.mcs_value_label)
+        mcs_text.addWidget(self.mcs_label)
+        mcs_text.addWidget(self.mcs_value_label)
+        l1_params.addLayout(mcs_layout)
+        self.mcs_graph = pg.PlotWidget()
+        mcs_layout.addWidget(self.mcs_graph)
+        self.mcs_graph.addLegend()
+        self.line_mcs = pg.PlotCurveItem(clear=True, pen="y")
+        self.mcs_graph.addItem(self.line_mcs)
+        l1_params.addLayout(mcs_layout)
         # signal strength
+        sig_layout = QVBoxLayout()
+        sig_text = QHBoxLayout()
         self.signal_strength_label = QLabel("Signal Strength: ")
         self.signal_value_label = QLabel("--")
-        l1_params.addWidget(self.signal_strength_label)
-        l1_params.addWidget(self.signal_value_label)    
+        sig_text.addWidget(self.signal_strength_label)
+        sig_text.addWidget(self.signal_value_label)
+        sig_layout.addLayout(sig_text)
+        self.sig_graph = pg.PlotWidget()
+        sig_layout.addWidget(self.sig_graph)
+        self.sig_graph.addLegend()
+        self.line_sig = pg.PlotCurveItem(clear=True, pen="y")
+        self.sig_graph.addItem(self.line_sig)
+
+        l1_params.addLayout(sig_layout)
         l1_layout.addLayout(l1_params)
         vbox_2.addLayout(l1_layout)
 
