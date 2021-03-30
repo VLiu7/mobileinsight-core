@@ -18,3 +18,4 @@ class SatRlcAnalyzer(Analyzer):
 
     def __msg_callback(self, msg):
         #TODO:
+        pass
