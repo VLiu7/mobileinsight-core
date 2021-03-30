@@ -4,6 +4,7 @@ An offline log replayer
 
 from .monitor import Monitor, Event
 import datetime
+import time
 
 __all__ = ["SatOfflineReplayer"]
 
@@ -42,9 +43,9 @@ class SatPcLogPacket():
         except:
             return None, None, None
         else:
-            gps_str = string[len(timestamp_str)+2:string.find("]", len(timestamp_str)+2)]
+            gps_str = string[len(timestamp_str)+4:string.find("]", len(timestamp_str)+4)]
             print(gps_str)
-            return type_id, timestamp_str, gps_str
+            return type_id, timestamp, gps_str
 
 class SatOfflineReplayer(Monitor):
     """
@@ -59,6 +60,8 @@ class SatOfflineReplayer(Monitor):
 
     def run(self):
         self.__input_file = open(self._input_path, "r")
+        start_timestamp = None
+        last_timestamp = None
         while True:
             s = self.__input_file.readline()
             if len(s) <= 0:
@@ -68,5 +71,13 @@ class SatOfflineReplayer(Monitor):
             gps = packet.get_gps()
             timestamp = packet.get_timestamp()
             print("type_id:", type_id, ",timestamp:", timestamp, ",gps:", gps)
-            # TODO: send to analyzer
+            if timestamp is not None:
+                if last_timestamp is not None:
+                    gap = (timestamp - last_timestamp).total_seconds()
+                else:
+                    gap = 0
+                print('gap=', gap)
+                last_timestamp = timestamp
+                time.sleep(gap)
+                # TODO: send to analyzer
     
