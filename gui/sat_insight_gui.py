@@ -7,11 +7,15 @@ import datetime
 
 class Worker(QObject):
     new_log  = pyqtSignal(object)
+    crc_error = pyqtSignal(object)
+    out_of_receving_window = pyqtSignal(object)
     def set_monitor(self, monitor):
         self.monitor = monitor
     def set_analyzer(self, analyzer):
         self.analyzer = analyzer
-        self.analyzer.set_signal(self.new_log)
+        self.analyzer.set_signal("new_log", self.new_log)
+        self.analyzer.set_signal("crc_error", self.crc_error)
+        self.analyzer.set_signal("rejection", self.out_of_receving_window)
     def run(self):
         self.analyzer.set_source(self.monitor)
         self.monitor.run()
@@ -26,6 +30,7 @@ class Window(QWidget):
         self.init_task()
     
     def init_task(self):
+        self.event_cnt = 0
         self.thread = QThread()
         self.worker = Worker()
         self.worker.set_monitor(self.monitor)
@@ -35,11 +40,23 @@ class Window(QWidget):
         self.thread.started.connect(self.worker.run)
         self.thread.finished.connect(self.thread.deleteLater)
         self.worker.new_log.connect(self.display_new_log)
+        self.worker.crc_error.connect(self.display_new_event)
+        self.worker.out_of_receving_window.connect(self.display_new_event)
 
         self.thread.start()
 
+    def display_new_event(self, event):
+        print("display new event")
+        self.event_cnt += 1
+        row_index = self.event_cnt
+        ts = event.data.get_timestamp().strftime('%Y-%m-%d %H:%M:%S.%f') 
+        payload = event.data.get_content()
+        self.events.setItem(row_index, 0, QTableWidgetItem(ts))
+        self.events.setItem(row_index, 1, QTableWidgetItem(payload))
+        
+
     def display_new_log(self, msg):
-        row_index = self.analyzer.log_count - 1
+        row_index = self.analyzer.log_count
         ts = msg.data.get_timestamp().strftime('%Y-%m-%d %H:%M:%S.%f') 
         gps_str = msg.data.get_gps()
         type_id = msg.type_id

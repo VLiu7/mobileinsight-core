@@ -79,7 +79,6 @@ class SatOfflineReplayer(Monitor):
                     gap = (timestamp - last_timestamp).total_seconds()
                 else:
                     gap = 0
-                print('gap=', gap)
                 last_timestamp = timestamp
                 # TODO: send to analyzer
                 event = Event(timestamp, type_id, packet)
