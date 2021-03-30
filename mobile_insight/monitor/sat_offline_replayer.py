@@ -23,6 +23,9 @@ class SatPcLogPacket():
     def get_gps(self):
         return self.__gps
 
+    def get_content(self):
+        return self.__string
+
     @classmethod
     def _preparse_internal_list(cls, string):
         if string.find("RLCSEND") != -1 or string.find("SRLC") != -1:
@@ -44,7 +47,7 @@ class SatPcLogPacket():
             return None, None, None
         else:
             gps_str = string[len(timestamp_str)+4:string.find("]", len(timestamp_str)+4)]
-            print(gps_str)
+            # print(gps_str)
             return type_id, timestamp, gps_str
 
 class SatOfflineReplayer(Monitor):
@@ -70,7 +73,7 @@ class SatOfflineReplayer(Monitor):
             type_id = packet.get_type_id()
             gps = packet.get_gps()
             timestamp = packet.get_timestamp()
-            print("type_id:", type_id, ",timestamp:", timestamp, ",gps:", gps)
+            # print("type_id:", type_id, ",timestamp:", timestamp, ",gps:", gps)
             if timestamp is not None:
                 if last_timestamp is not None:
                     gap = (timestamp - last_timestamp).total_seconds()
@@ -78,6 +81,8 @@ class SatOfflineReplayer(Monitor):
                     gap = 0
                 print('gap=', gap)
                 last_timestamp = timestamp
-                time.sleep(gap)
                 # TODO: send to analyzer
+                event = Event(timestamp, type_id, packet)
+                self.send(event)
+                time.sleep(gap)
     

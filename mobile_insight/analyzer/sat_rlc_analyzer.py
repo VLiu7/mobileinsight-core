@@ -12,10 +12,19 @@ class SatRlcAnalyzer(Analyzer):
         Analyzer.__init__(self)
         self.add_source_callback(self.__msg_callback)
 
-    def set_source(self):
+    def set_source(self, source):
         #TODO:
-        pass
+        """
+        Set the trace source. Enable the cellular signaling messages
+
+        :param source: the trace source (collector).
+        """
+        Analyzer.set_source(self, source)
 
     def __msg_callback(self, msg):
         #TODO:
-        pass
+        # print('sat_rlc_analyzer.callback!')
+        # print('msg=', msg)
+        packet = msg.data
+        # print('packet=', packet)
+        print("type_id=", msg.type_id, ",gps=", packet.get_gps(), ",content=", packet.get_content())

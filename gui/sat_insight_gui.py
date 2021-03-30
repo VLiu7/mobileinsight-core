@@ -1,10 +1,12 @@
 # from PyQt5.QtWidgets import QApplication, QLabel, QWidget, QHBoxLayout, QVBoxLayout, QPushButton
 from PyQt5.QtWidgets import *
+from mobile_insight.monitor import SatOfflineReplayer
 
 class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.init_ui()
+        self.monitor = SatOfflineReplayer()
 
     def init_ui(self):
         self.setFixedHeight(600)
