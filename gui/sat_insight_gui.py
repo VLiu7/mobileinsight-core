@@ -2,22 +2,27 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QObject, QThread, pyqtSignal
 from mobile_insight.monitor import OfflineMonitor 
-from mobile_insight.analyzer import SatRlcAnalyzer
+from mobile_insight.analyzer import SatRlcAnalyzer, SatL1Analyzer
 import datetime
 
 class Worker(QObject):
     new_log  = pyqtSignal(object)
     crc_error = pyqtSignal(object)
     out_of_receving_window = pyqtSignal(object)
+    mcs = pyqtSignal(int)
     def set_monitor(self, monitor):
         self.monitor = monitor
-    def set_analyzer(self, analyzer):
-        self.analyzer = analyzer
-        self.analyzer.set_signal("new_log", self.new_log)
-        self.analyzer.set_signal("crc_error", self.crc_error)
-        self.analyzer.set_signal("rejection", self.out_of_receving_window)
+    def set_analyzers(self, analyzers):
+        self.analyzers = analyzers
+        rlc = self.analyzers["rlc"]
+        rlc.set_signal("new_log", self.new_log)
+        rlc.set_signal("crc_error", self.crc_error)
+        rlc.set_signal("rejection", self.out_of_receving_window)
+        l1 = self.analyzers["l1"]
+        l1.set_signal("mcs", self.mcs)
     def run(self):
-        self.analyzer.set_source(self.monitor)
+        for analyzer in self.analyzers.values():
+            analyzer.set_source(self.monitor)
         self.monitor.run()
 
 class Window(QWidget):
@@ -26,7 +31,9 @@ class Window(QWidget):
         self.init_ui()
         self.monitor = OfflineMonitor()
         self.monitor.set_input_path('Southeast_gate_ping.txt')
-        self.analyzer = SatRlcAnalyzer()
+        rlc = SatRlcAnalyzer()
+        l1 = SatL1Analyzer()
+        self.analyzers = {"rlc": rlc, "l1": l1}
         self.init_task()
     
     def init_task(self):
@@ -34,7 +41,7 @@ class Window(QWidget):
         self.thread = QThread()
         self.worker = Worker()
         self.worker.set_monitor(self.monitor)
-        self.worker.set_analyzer(self.analyzer)
+        self.worker.set_analyzers(self.analyzers)
         self.worker.moveToThread(self.thread)
 
         self.thread.started.connect(self.worker.run)
@@ -42,8 +49,13 @@ class Window(QWidget):
         self.worker.new_log.connect(self.display_new_log)
         self.worker.crc_error.connect(self.display_new_event)
         self.worker.out_of_receving_window.connect(self.display_new_event)
+        self.worker.mcs.connect(self.display_mcs)
 
         self.thread.start()
+
+    def display_mcs(self, mcs_value):
+        print("display mcs!")
+        self.mcs_value_label.setText(str(mcs_value))
 
     def display_new_event(self, event):
         print("display new event")
@@ -56,7 +68,7 @@ class Window(QWidget):
         
 
     def display_new_log(self, msg):
-        row_index = self.analyzer.log_count
+        row_index = self.monitor.log_count
         ts = msg.data.get_timestamp().strftime('%Y-%m-%d %H:%M:%S.%f') 
         gps_str = msg.data.get_gps()
         type_id = msg.type_id
@@ -68,8 +80,8 @@ class Window(QWidget):
 
 
     def init_ui(self):
-        self.setFixedHeight(600)
-        self.setFixedWidth(800)
+        self.setFixedHeight(1000)
+        self.setFixedWidth(1500)
 
         vbox = QVBoxLayout() 
         vbox.addWidget(QPushButton("button top"))
@@ -79,10 +91,11 @@ class Window(QWidget):
         vbox_1 = QVBoxLayout()
 
         self.table_widget = QTableWidget()
+        self.table_widget.setMaximumWidth(900)
         header = self.table_widget.horizontalHeader()
         self.table_widget.setRowCount(70000)
         self.table_widget.setColumnCount(4)
-        header.setSectionResizeMode(3, QHeaderView.ResizeToContents)
+        # header.setSectionResizeMode(3, QHeaderView.ResizeToContents)
         self.table_widget.setItem(0,0,QTableWidgetItem("Timestamp"))
         self.table_widget.setItem(0,1,QTableWidgetItem("Type ID"))
         self.table_widget.setItem(0,2,QTableWidgetItem("GPS"))
@@ -91,6 +104,7 @@ class Window(QWidget):
         vbox_1.addWidget(self.table_widget)
         
         self.events = QTableWidget()
+        self.events.setMaximumWidth(900)
         self.events.setRowCount(10000)
         self.events.setColumnCount(2)
         self.events.setItem(0,0,QTableWidgetItem("Timestamp"))
@@ -99,7 +113,22 @@ class Window(QWidget):
         vbox_1.addWidget(self.events)
 
         hbox.addLayout(vbox_1)
-        hbox.addWidget(QPushButton("button bottom right"))
+
+        vbox_2 = QVBoxLayout()
+        vbox_2.addWidget(QPushButton("RLC"))
+        vbox_2.addWidget(QPushButton("MAC"))
+
+        l1_layout = QVBoxLayout()
+        l1_layout.addWidget(QLabel("Physical Layer"))
+        l1_params = QHBoxLayout()
+        self.mcs_label = QLabel("MCS value: ")
+        self.mcs_value_label = QLabel("--")
+        l1_params.addWidget(self.mcs_label)
+        l1_params.addWidget(self.mcs_value_label)
+        l1_layout.addLayout(l1_params)
+        vbox_2.addLayout(l1_layout)
+
+        hbox.addLayout(vbox_2)
         vbox.addLayout(hbox)
 
         self.setLayout(vbox)

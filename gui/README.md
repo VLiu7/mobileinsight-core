@@ -1,6 +1,6 @@
 * Events
-    - SMAC CRC error
-    - out of receiving window
+    - SMAC CRC error(done)
+    - out of receiving window(done)
     - duplicate packet
     - BACH
     - PDCP data arrives

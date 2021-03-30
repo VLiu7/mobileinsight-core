@@ -14,7 +14,8 @@ __all__ = ["Analyzer",
            "UplinkLatencyAnalyzer",
            "KPIManager",
            "LteDlRetxAnalyzer",
-           "SatRlcAnalyzer"
+           "SatRlcAnalyzer",
+            "SatL1Analyzer"
            ]
 
 from .analyzer import Analyzer
@@ -41,6 +42,7 @@ from .lte_measurement_analyzer import LteMeasurementAnalyzer
 from .lte_phy_analyzer import LtePhyAnalyzer
 from .lte_rlc_analyzer import LteRlcAnalyzer
 from .sat_rlc_analyzer import SatRlcAnalyzer
+from .sat_l1_analyzer import SatL1Analyzer
 from .lte_mac_analyzer import LteMacAnalyzer
 from .lte_pdcp_analyzer import LtePdcpAnalyzer
 

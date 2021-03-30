@@ -57,6 +57,7 @@ class SatOfflineReplayer(Monitor):
     
     def __init__(self):
         Monitor.__init__(self)
+        self.log_count = 0
 
     def set_input_path(self, path):
         self._input_path = path
@@ -81,6 +82,7 @@ class SatOfflineReplayer(Monitor):
                     gap = 0
                 last_timestamp = timestamp
                 # TODO: send to analyzer
+                self.log_count += 1
                 event = Event(timestamp, type_id, packet)
                 self.send(event)
                 time.sleep(gap)
