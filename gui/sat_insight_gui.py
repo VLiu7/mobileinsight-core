@@ -100,7 +100,7 @@ class Window(QWidget):
         secs = obj["secs"]
         ul_bytes = obj["bytes"]
         instant_rate = ul_bytes / secs 
-        self.ul_rate_value_label.setText("{} bytes / s ({} bytes in latest {}s)".format(
+        self.ul_rate_value_label.setText("{0:10.2f} bytes / s ({} bytes in latest {}s)".format(
             ul_bytes / secs,
             ul_bytes,
             secs,
@@ -142,6 +142,7 @@ class Window(QWidget):
             total 
         ))
 
+
     def display_signal_strength(self, signal_value):
         self.signal_value_label.setText(str(signal_value))
         self.display_sig_graph()
@@ -165,8 +166,17 @@ class Window(QWidget):
         row_index = self.event_cnt
         ts = event.data.get_timestamp().strftime('%Y-%m-%d %H:%M:%S.%f') 
         payload = event.data.get_content()
+        description = None 
+        if payload.find("out of") != -1:
+            description = "Downlink block is rejected!"
+        elif payload.find("CRC") != -1:
+            description = "Downlink block failed CRC check!" 
         self.events.setItem(row_index, 0, QTableWidgetItem(ts))
-        self.events.setItem(row_index, 1, QTableWidgetItem(payload))
+        self.events.setItem(row_index, 1, QTableWidgetItem(description))
+        self.events.setItem(row_index, 2, QTableWidgetItem(payload))
+
+        last_item = self.events.item(row_index, 0)
+        self.events.scrollToItem(last_item, QAbstractItemView.PositionAtBottom)
         
 
     def display_new_log(self, msg):
@@ -179,6 +189,8 @@ class Window(QWidget):
         self.table_widget.setItem(row_index, 1, QTableWidgetItem(type_id))
         self.table_widget.setItem(row_index, 2, QTableWidgetItem(gps_str))
         self.table_widget.setItem(row_index, 3, QTableWidgetItem(payload))
+        last_item = self.table_widget.item(row_index, 0)
+        self.table_widget.scrollToItem(last_item, QAbstractItemView.PositionAtBottom)
 
 
     def init_ui(self):
@@ -199,6 +211,10 @@ class Window(QWidget):
         self.table_widget.setRowCount(70000)
         self.table_widget.setColumnCount(4)
         # header.setSectionResizeMode(3, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(0, QHeaderView.Stretch)
+        header.setSectionResizeMode(1, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(2, QHeaderView.Stretch)
+        header.setSectionResizeMode(3, QHeaderView.Stretch)
         self.table_widget.setItem(0,0,QTableWidgetItem("Timestamp"))
         self.table_widget.setItem(0,1,QTableWidgetItem("Type ID"))
         self.table_widget.setItem(0,2,QTableWidgetItem("GPS"))
@@ -209,9 +225,14 @@ class Window(QWidget):
         self.events = QTableWidget()
         self.events.setMaximumWidth(900)
         self.events.setRowCount(10000)
-        self.events.setColumnCount(2)
+        self.events.setColumnCount(3)
+        header = self.events.horizontalHeader()
+        header.setSectionResizeMode(0, QHeaderView.Stretch)
+        header.setSectionResizeMode(1, QHeaderView.Stretch)
+        header.setSectionResizeMode(2, QHeaderView.Stretch)
         self.events.setItem(0,0,QTableWidgetItem("Timestamp"))
-        self.events.setItem(0,1,QTableWidgetItem("Event"))
+        self.events.setItem(0,1,QTableWidgetItem("Description"))
+        self.events.setItem(0,2,QTableWidgetItem("Message"))
 
         vbox_1.addWidget(self.events)
 
