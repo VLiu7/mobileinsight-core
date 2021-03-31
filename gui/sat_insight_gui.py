@@ -175,7 +175,7 @@ class Window(QWidget):
     def display_new_event(self, event):
         # print("display new event")
         self.event_cnt += 1
-        row_index = self.event_cnt
+        row_index = self.event_cnt - 1
         ts = event.data.get_timestamp().strftime('%Y-%m-%d %H:%M:%S.%f') 
         payload = event.data.get_content()
         description = None 
@@ -226,6 +226,10 @@ class Window(QWidget):
 
         vbox_1 = QVBoxLayout()
 
+        title = QLabel("Messages")
+        title.setFont(self.title_style)
+        vbox_1.addWidget(title)
+
         self.table_widget = QTableWidget()
         self.table_widget.setMaximumWidth(700)
         self.table_widget.setMinimumWidth(700)
@@ -237,13 +241,13 @@ class Window(QWidget):
         header.setSectionResizeMode(1, QHeaderView.ResizeToContents)
         header.setSectionResizeMode(2, QHeaderView.Stretch)
         header.setSectionResizeMode(3, QHeaderView.Stretch)
-        self.table_widget.setItem(0,0,QTableWidgetItem("Timestamp"))
-        self.table_widget.setItem(0,1,QTableWidgetItem("Type ID"))
-        self.table_widget.setItem(0,2,QTableWidgetItem("GPS"))
-        self.table_widget.setItem(0,3,QTableWidgetItem("Content"))
-
+        self.table_widget.setHorizontalHeaderLabels(["Timestamp", "Type ID", "GPS", "Content"])
         vbox_1.addWidget(self.table_widget)
         
+        title = QLabel("Events")
+        title.setFont(self.title_style)
+        vbox_1.addWidget(title)
+
         self.events = QTableWidget()
         self.events.setMaximumWidth(900)
         self.events.setRowCount(10000)
@@ -252,9 +256,7 @@ class Window(QWidget):
         header.setSectionResizeMode(0, QHeaderView.Stretch)
         header.setSectionResizeMode(1, QHeaderView.Stretch)
         header.setSectionResizeMode(2, QHeaderView.Stretch)
-        self.events.setItem(0,0,QTableWidgetItem("Timestamp"))
-        self.events.setItem(0,1,QTableWidgetItem("Description"))
-        self.events.setItem(0,2,QTableWidgetItem("Message"))
+        self.events.setHorizontalHeaderLabels(["Timestamp", "Description", "Message"])
 
         vbox_1.addWidget(self.events)
 

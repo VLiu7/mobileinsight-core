@@ -111,12 +111,12 @@ class SatRlcAnalyzer(Analyzer):
         ret = content.find('rlc_blk_ptr')
         # this line contains uplink rlc/mac information
         if ret != -1:
-            print("ul arrives: ", content)
+            # print("ul arrives: ", content)
             begin = content.find("bsn:")
             new_rlc_bsn = int(content[begin + 4: content.find(' ', begin + 4)])
             begin = content.find("blk_size")
             if begin != -1:
-                print("content=", content)
+                # print("content=", content)
                 pdu_length = int(content[begin + 9: content.find(" ", begin + 9)])
                 self.signals["ul_blk_size"].emit(pdu_length)
                 print("pdu_length: ", pdu_length)
