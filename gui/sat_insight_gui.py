@@ -17,6 +17,8 @@ class Worker(QObject):
     dl_rlc = pyqtSignal()
     update_dl_rate = pyqtSignal(object)
     update_ul_rate = pyqtSignal(object)
+    dl_blk_size = pyqtSignal(int)
+    ul_blk_size = pyqtSignal(int)
 
     def set_monitor(self, monitor):
         self.monitor = monitor
@@ -29,6 +31,8 @@ class Worker(QObject):
         rlc.set_signal("dl", self.dl_rlc)
         rlc.set_signal("update_dl_rate", self.update_dl_rate)
         rlc.set_signal("update_ul_rate", self.update_ul_rate)
+        rlc.set_signal("dl_blk_size", self.dl_blk_size)
+        rlc.set_signal("ul_blk_size", self.ul_blk_size)
 
         l1 = self.analyzers["l1"]
         l1.set_signal("mcs", self.mcs)
@@ -69,9 +73,17 @@ class Window(QWidget):
         self.worker.dl_rlc.connect(self.dl_rlc_arrives)
         self.worker.update_dl_rate.connect(self.display_dl_rate)
         self.worker.update_ul_rate.connect(self.display_ul_rate)
+        self.worker.dl_blk_size.connect(self.display_dl_blk_size)
+        self.worker.ul_blk_size.connect(self.display_ul_blk_size)
 
         self.thread.start()
     
+    def display_dl_blk_size(self, size):
+        self.dl_blk_size_value_label.setText("{0} bytes".format(size))
+
+    def display_ul_blk_size(self, size):
+        self.ul_blk_size_value_label.setText("{0} bytes".format(size))
+
     def display_graph(self):
         self.line_dl.setData(self.analyzers["rlc"].timestamps,
                              self.analyzers["rlc"].dl_rates)
@@ -79,7 +91,7 @@ class Window(QWidget):
                              self.analyzers["rlc"].ul_rates)
 
     def display_duplicate_rate(self):
-        self.duplicate_rate_value_label.setText("{} % ({} out of {})".format(
+        self.duplicate_rate_value_label.setText("{0:10.2f} % ({1} out of {2})".format(
             (self.rejection_rate_value - self.error_rate_value) * 100,
             int(self.analyzers["rlc"].block_cnt * (self.rejection_rate_value - self.error_rate_value)),
             self.analyzers["rlc"].block_cnt
@@ -89,7 +101,7 @@ class Window(QWidget):
         error_cnt = self.analyzers["rlc"].rejection_block_cnt
         total = self.analyzers["rlc"].block_cnt
         self.rejection_rate_value = error_cnt / total
-        self.rejection_rate_value_label.setText("{} %({} out of {})".format(
+        self.rejection_rate_value_label.setText("{0:10.2f} %({1} out of {2})".format(
             error_cnt / total * 100,
             error_cnt,
             total
@@ -100,7 +112,7 @@ class Window(QWidget):
         secs = obj["secs"]
         ul_bytes = obj["bytes"]
         instant_rate = ul_bytes / secs 
-        self.ul_rate_value_label.setText("{0:10.2f} bytes / s ({} bytes in latest {}s)".format(
+        self.ul_rate_value_label.setText("{0:10.2f} bytes / s ({1} bytes in latest {2:10.4f}s)".format(
             ul_bytes / secs,
             ul_bytes,
             secs,
@@ -111,7 +123,7 @@ class Window(QWidget):
         secs = obj["secs"]
         dl_bytes = obj["bytes"]
         instant_rate = dl_bytes / secs 
-        self.dl_rate_value_label.setText("{} bytes / s ({} bytes in latest {}s)".format(
+        self.dl_rate_value_label.setText("{0:10.2f} bytes / s ({1} bytes in latest {2:10.4f}s)".format(
             dl_bytes / secs,
             dl_bytes,
             secs,
@@ -128,7 +140,7 @@ class Window(QWidget):
         error = self.analyzers["rlc"].error_block_cnt
         total = self.analyzers["rlc"].block_cnt
         self.error_rate_value = error / total
-        self.mac_error_rate.setText("{} %({} out ouf {})".format(
+        self.mac_error_rate.setText("{0:10.2f} %({1} out ouf {2})".format(
             error / total * 100, 
             error, 
             total
@@ -136,7 +148,7 @@ class Window(QWidget):
         self.display_duplicate_rate()
 
         # RLC layer
-        self.error_rate_value_label.setText("{} % ({} out of {})".format(
+        self.error_rate_value_label.setText("{0:10.2f} % ({1} out of {2})".format(
             error / total * 100,
             error,
             total 
@@ -197,8 +209,18 @@ class Window(QWidget):
         self.setFixedHeight(1000)
         self.setFixedWidth(1500)
 
+        self.title_style = QFont()
+        self.title_style.setBold(True)
+
         vbox = QVBoxLayout() 
-        vbox.addWidget(QPushButton("button top"))
+        menu_bar = QMenuBar()
+        vbox.addWidget(menu_bar)
+        menu_bar.addAction("Main")
+        menu_bar.addAction("RLC")
+        menu_bar.addAction("MAC")
+        menu_bar.addAction("L1")
+        menu_bar.addAction("MM")
+
 
         hbox = QHBoxLayout()
 
@@ -240,7 +262,9 @@ class Window(QWidget):
 
         vbox_2 = QVBoxLayout()
         rlc_layout = QVBoxLayout()
-        rlc_layout.addWidget(QLabel("RLC Layer"))
+        title = QLabel("RLC Layer")
+        title.setFont(self.title_style)
+        rlc_layout.addWidget(title)
         rlc_params = QHBoxLayout()
 
         rlc_rate = QVBoxLayout()
@@ -270,8 +294,11 @@ class Window(QWidget):
         rlc_params.addLayout(rlc_rate)
 
         abnormal_rates = QVBoxLayout()
+        abnormal_rates.setAlignment(Qt.AlignTop)
         # rejection rate
         rejection_rate = QHBoxLayout()
+        rejection_rate.setAlignment(Qt.AlignLeft)
+        # rejection_rate.setAlignment(Qt.AlignTop)
         self.rejection_rate_label = QLabel("Rejection rate: ")
         self.rejection_rate_value_label = QLabel("-- % (-- out of --)")
         rejection_rate.addWidget(self.rejection_rate_label)
@@ -291,7 +318,21 @@ class Window(QWidget):
         duplicate_rate.addWidget(self.duplicate_rate_label)
         duplicate_rate.addWidget(self.duplicate_rate_value_label)
         abnormal_rates.addLayout(duplicate_rate)
-        
+        # dl block size
+        dl_blk_size = QHBoxLayout()
+        self.dl_blk_size_label = QLabel("Downlink block size: ")
+        self.dl_blk_size_value_label = QLabel("-- bytes")
+        dl_blk_size.addWidget(self.dl_blk_size_label)
+        dl_blk_size.addWidget(self.dl_blk_size_value_label)
+        abnormal_rates.addLayout(dl_blk_size)
+        # ul block size
+        ul_blk_size = QHBoxLayout()
+        self.ul_blk_size_label = QLabel("Uplink block size: ")
+        self.ul_blk_size_value_label = QLabel("-- bytes")
+        ul_blk_size.addWidget(self.ul_blk_size_label)
+        ul_blk_size.addWidget(self.ul_blk_size_value_label)
+
+        abnormal_rates.addLayout(ul_blk_size)
         
         rlc_params.addLayout(abnormal_rates)
 
@@ -299,7 +340,9 @@ class Window(QWidget):
         vbox_2.addLayout(rlc_layout)
 
         mac_layout = QVBoxLayout()
-        mac_layout.addWidget(QLabel("MAC Layer"))
+        title = QLabel("MAC Layer")
+        title.setFont(self.title_style)
+        mac_layout.addWidget(title)
         mac_params = QHBoxLayout()
         # crc error
         self.mac_label = QLabel("CRC error rate: ")
@@ -310,14 +353,18 @@ class Window(QWidget):
         vbox_2.addLayout(mac_layout)
 
         l1_layout = QVBoxLayout()
-        l1_layout.addWidget(QLabel("Physical Layer"))
+        title = QLabel("Physical Layer")
+        title.setFont(self.title_style)
+        l1_layout.addWidget(title)
         l1_params = QHBoxLayout()
         # mcs
         mcs_layout = QVBoxLayout()
         mcs_text = QHBoxLayout()
         mcs_layout.addLayout(mcs_text)
         self.mcs_label = QLabel("MCS value: ")
+        self.mcs_label.setMargin(0)
         self.mcs_value_label = QLabel("--")
+        self.mcs_value_label.setAlignment(Qt.AlignLeft)
         mcs_text.addWidget(self.mcs_label)
         mcs_text.addWidget(self.mcs_value_label)
         l1_params.addLayout(mcs_layout)
