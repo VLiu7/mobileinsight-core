@@ -303,12 +303,12 @@ class Window(QWidget):
         title = QLabel("RLC Layer")
         title.setFont(self.title_style)
         rlc_layout.addWidget(title)
-        rlc_params = QHBoxLayout()
+        rlc_params = QVBoxLayout()
 
-        column_1 = QVBoxLayout()
-
-        rlc_rate = QVBoxLayout()
-        column_1.addLayout(rlc_rate)
+        row_1 = QHBoxLayout()           # up
+        rlc_params.addLayout(row_1)
+        rlc_rate = QVBoxLayout()        # up-left
+        row_1.addLayout(rlc_rate)
 
         # dl rate
         dl_rate = QHBoxLayout()
@@ -333,10 +333,8 @@ class Window(QWidget):
         self.graph.addItem(self.line_ul)
         self.graph.addItem(self.line_dl)
 
-        rlc_params.addLayout(column_1)
-
         latency_breakdowns = QVBoxLayout()
-        column_1.addLayout(latency_breakdowns)
+        row_1.addLayout(latency_breakdowns)
         # numbers
         # 1. downlink queue delay
         dl_latency_layout = QHBoxLayout()
@@ -347,13 +345,13 @@ class Window(QWidget):
         # 2. propagation delay
         propa_latency_layout =  QHBoxLayout()
         latency_breakdowns.addLayout(propa_latency_layout)
-        propa_latency_layout.addWidget(QLabel("Propagation delay:"))
+        propa_latency_layout.addWidget(QLabel("Uplink queue delay:"))
         self.propa_delay_label = QLabel("-- s")
         propa_latency_layout.addWidget(self.propa_delay_label)
         # 3. uplink queue delay
         ul_latency_layout = QHBoxLayout()
         latency_breakdowns.addLayout(ul_latency_layout)
-        ul_latency_layout.addWidget(QLabel("Uplink queue delay:"))
+        ul_latency_layout.addWidget(QLabel("Propagation delay:"))
         self.ul_queue_delay_label = QLabel("-- s")
         ul_latency_layout.addWidget(self.ul_queue_delay_label)
         # 4. latency breakdown
@@ -361,15 +359,17 @@ class Window(QWidget):
         latency_breakdowns.addWidget(self.latency_graph)
         self.latency_graph.addLegend()
 
-        self.ul_delay_line = pg.PlotCurveItem(clear=True, pen="r", name = "Uplink queue delay")
-        self.propa_delay_line = pg.PlotCurveItem(clear=True, pen="y", name = "Propagation delay")
+        self.ul_delay_line = pg.PlotCurveItem(clear=True, pen="r", name = "Propagation delay")
+        self.propa_delay_line = pg.PlotCurveItem(clear=True, pen="y", name = "Uplink queue delay")
         self.dl_delay_line = pg.PlotCurveItem(clear=True, pen="g", name = "Downlink queue delay")
 
         self.latency_graph.addItem(self.ul_delay_line)
         self.latency_graph.addItem(self.propa_delay_line)
         self.latency_graph.addItem(self.dl_delay_line)
 
+        # down
         abnormal_rates = QVBoxLayout()
+        rlc_params.addLayout(abnormal_rates)
         abnormal_rates.setAlignment(Qt.AlignTop)
         # rejection rate
         rejection_rate = QHBoxLayout()
@@ -410,8 +410,6 @@ class Window(QWidget):
 
         abnormal_rates.addLayout(ul_blk_size)
         
-        rlc_params.addLayout(abnormal_rates)
-
         rlc_layout.addLayout(rlc_params)
         vbox_2.addLayout(rlc_layout)
 
