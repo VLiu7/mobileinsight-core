@@ -1,6 +1,7 @@
 *.pyc
 *.pyo
 *.pcap
+*.mkv
 *.pcapng
 /*.txt
 log/

@@ -122,6 +122,11 @@ class SatRlcAnalyzer(Analyzer):
                 self.dl_packet_info.append(self.dl_temp_block)
                 self.dl_rlc_curr += (self.dl_temp_block['end'] - self.dl_temp_block['start'] + 1)
                 print('add valid block: {}'.format(self.dl_packet_info[-1]))
+                self.dl_queue_info.append({
+                    'timestamp': (packet.get_timestamp() - self.start_timestamp).total_seconds(),
+                    'queue_size': self.dl_rlc_curr - self.dl_pdcp_curr
+                })
+                self.signals['dl_queue_info'].emit()
             self.dl_temp_block = None
 
         # detect reasembly
@@ -155,6 +160,11 @@ class SatRlcAnalyzer(Analyzer):
                 else:
                     break
             self.dl_pdcp_curr += reasm_size
+            self.dl_queue_info.append({
+                'timestamp': (packet.get_timestamp() - self.start_timestamp).total_seconds(),
+                'queue_size': self.dl_rlc_curr - self.dl_pdcp_curr
+            })
+            self.signals['dl_queue_info'].emit()
             
         
         # Ack

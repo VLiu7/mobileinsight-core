@@ -24,7 +24,8 @@ class SatPcLogPacket():
         return self.__gps
 
     def get_content(self):
-        return self.__string[56:]
+        index = self.__string.find(']', self.__string.find(']') + 1)
+        return self.__string[index + 2:]
 
     @classmethod
     def _preparse_internal_list(cls, string):
@@ -84,5 +85,5 @@ class SatOfflineReplayer(Monitor):
                 self.log_count += 1
                 event = Event(timestamp, type_id, packet)
                 self.send(event)
-                # time.sleep(0.01)
+                time.sleep(0.01)
     
