@@ -50,6 +50,13 @@ class SatRlcAnalyzer(Analyzer):
         self.packet_acked_info = {} # key: bsn; value: {state: <ACK_STATE>, timestamp: <timestamp>}
         self.propa_delays = []
 
+        self.dl_rlc_curr = 0
+        self.dl_pdcp_curr = 0
+        self.dl_waiting_for_check = False
+        self.dl_temp_block = None
+        self.dl_packet_info = deque()
+        self.dl_buffer_delay_list = []
+
     def set_source(self, source):
         """
         Set the trace source. Enable the cellular signaling messages
@@ -84,6 +91,69 @@ class SatRlcAnalyzer(Analyzer):
             self.rejection_block_cnt += 1
             self.signals["rejection"].emit(msg)
             # print("out of receiving window!")
+
+        # downlink rlc/mac block
+        if content.find('RBID') != -1:
+            ts = packet.get_timestamp()
+            new_dl_bsn = int(re.findall(r'\d+', content[content.find('BSN'):])[0])
+            tfi = int(re.findall(r'\d+', content[content.find('TFI'):])[0])
+            data_bytes = int(re.findall(r'\d+', content[content.find('PDU length'):])[0])
+            self.dl_temp_block = {
+                'tfi': tfi,
+                'bsn': new_dl_bsn,
+                'start': self.dl_rlc_curr,
+                'end': self.dl_rlc_curr + data_bytes - 1,
+                'entry_timestamp': ts,
+                'error': False
+            }
+            self.dl_waiting_for_check = True
+
+        # out of receiving window
+        elif content.find('out of receiving') != -1:
+            self.dl_temp_block = None
+        elif self.dl_waiting_for_check:
+            self.dl_waiting_for_check = False
+            if self.dl_temp_block is not None:
+                if len(self.dl_packet_info) > 0 and \
+                    self.dl_temp_block['bsn'] != (self.dl_packet_info[-1]['bsn'] + 1) % 1024:
+                    print('jump')
+                self.dl_packet_info.append(self.dl_temp_block)
+                self.dl_rlc_curr += (self.dl_temp_block['end'] - self.dl_temp_block['start'] + 1)
+                print('add valid block: {}'.format(self.dl_packet_info[-1]))
+            self.dl_temp_block = None
+
+        # detect reasembly
+        if content.find('reasm peer len') != -1:
+            ts = packet.get_timestamp()
+            reasm_size = int(re.findall(r'\d+', content[content.find('peer'):])[0])
+            first_block = True
+            start_ts = None
+            bytes_delivered = 0
+            total_bytes_delivered = 0
+            while len(self.dl_packet_info) > 0:
+                oldest_packet = self.dl_packet_info[0]
+                if first_block:
+                    start_ts = oldest_packet['entry_timestamp']
+                    first_block = False
+                    bytes_delivered = (oldest_packet['end'] - self.dl_pdcp_curr + 1)
+                    packet_delay = (ts - start_ts).total_seconds()
+                    print('packet_delay=', packet_delay)
+                    self.dl_buffer_delay_list.append({
+                        'timestamp': (ts - self.start_timestamp).total_seconds(),
+                        'delay': packet_delay
+                    })
+                    self.signals['dl_buffer_delay'].emit()
+                    print('dl_buffer_list:', self.dl_buffer_delay_list[-1])
+                else:
+                    bytes_delivered = (oldest_packet['end'] - oldest_packet['start'] + 1)
+                if total_bytes_delivered + bytes_delivered <= reasm_size:
+                    total_bytes_delivered += bytes_delivered
+                    self.dl_packet_info.popleft()
+                    print('delivered block: {}'.format(oldest_packet))
+                else:
+                    break
+            self.dl_pdcp_curr += reasm_size
+            
         
         # Ack
         if content.find('ssn=') != -1:
