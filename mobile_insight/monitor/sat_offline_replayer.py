@@ -84,5 +84,5 @@ class SatOfflineReplayer(Monitor):
                 self.log_count += 1
                 event = Event(timestamp, type_id, packet)
                 self.send(event)
-                time.sleep(0.01)
+                # time.sleep(0.01)
     

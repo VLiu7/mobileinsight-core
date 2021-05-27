@@ -20,6 +20,7 @@ class Worker(QObject):
     update_ul_rate = pyqtSignal(object)
     dl_blk_size = pyqtSignal(int)
     ul_blk_size = pyqtSignal(int)
+    update_ul_buffer_delay = pyqtSignal()
 
     def set_monitor(self, monitor):
         self.monitor = monitor
@@ -34,6 +35,7 @@ class Worker(QObject):
         rlc.set_signal("update_ul_rate", self.update_ul_rate)
         rlc.set_signal("dl_blk_size", self.dl_blk_size)
         rlc.set_signal("ul_blk_size", self.ul_blk_size)
+        rlc.set_signal('ul_buffer_delay', self.update_ul_buffer_delay)
 
         l1 = self.analyzers["l1"]
         l1.set_signal("mcs", self.mcs)
@@ -48,7 +50,7 @@ class Window(QWidget):
         super().__init__()
         self.init_ui()
         self.monitor = OfflineMonitor()
-        self.input_filename = 'delay_10_interval_2_no_l1.txt'
+        self.input_filename = 'delay_10_interval_2.txt'
         self.monitor.set_input_path(self.input_filename)
         print('filename=', self.input_filename)
         rlc = SatRlcAnalyzer()
@@ -78,6 +80,7 @@ class Window(QWidget):
         self.worker.update_ul_rate.connect(self.display_ul_rate)
         self.worker.dl_blk_size.connect(self.display_dl_blk_size)
         self.worker.ul_blk_size.connect(self.display_ul_blk_size)
+        self.worker.update_ul_buffer_delay.connect(self.display_ul_buffer_delay)
 
         self.thread.start()
     
@@ -193,6 +196,15 @@ class Window(QWidget):
         last_item = self.events.item(row_index, 0)
         self.events.scrollToItem(last_item, QAbstractItemView.PositionAtBottom)
         
+
+    def display_ul_buffer_delay(self):
+        print('display ul buffer delay')
+        ts_list = [item['timestamp'] for item in self.analyzers['rlc'].ul_buffer_delay_secs]
+        delay_list = [item['delay'] for item in self.analyzers['rlc'].ul_buffer_delay_secs]
+        self.ul_queue_delay_label.setText("{0:10.2f} s".format(delay_list[-1]))
+        if delay_list[-1] > 10:
+            print('abnormal delay')
+        self.ul_delay_line.setData(ts_list, delay_list)
 
     def display_new_log(self, msg):
         row_index = self.monitor.log_count
@@ -324,6 +336,11 @@ class Window(QWidget):
         self.ul_queue_delay_label = QLabel("-- s")
         ul_latency_layout.addWidget(self.ul_queue_delay_label)
         # 4. latency breakdown
+        self.latency_graph = pg.PlotWidget()
+        latency_breakdowns.addWidget(self.latency_graph)
+        self.latency_graph.addLegend()
+        self.ul_delay_line = pg.PlotCurveItem(clear=True, pen="r", name = "Uplink queue delay")
+        self.latency_graph.addItem(self.ul_delay_line)
         
         abnormal_rates = QVBoxLayout()
         abnormal_rates.setAlignment(Qt.AlignTop)

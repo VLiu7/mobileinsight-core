@@ -37,7 +37,7 @@ class SatRlcAnalyzer(Analyzer):
         self.packet_info = deque()
         self.pdcp_curr = 0
         self.rlc_curr = 0
-        self.buffer_delay_secs = []
+        self.ul_buffer_delay_secs = []
         self.total_bytes = 0
         self.jump_times = 0
         self.packet_size = 86
@@ -103,6 +103,10 @@ class SatRlcAnalyzer(Analyzer):
             ts = packet.get_timestamp()
             new_ul_bsn = int(re.findall(r'\d+', content[content.find('UD bsn'):])[0])
             jump_detected = False
+            new_total_bytes = int(re.findall(r'\d+', content[content.find('total'):])[0])
+            data_bytes = self.total_bytes - new_total_bytes
+            print('new_bytes=', new_total_bytes, 'total_bytes=', self.total_bytes, 'last_ul_bsn=', self.last_ul_bsn)
+
             if self.last_ul_bsn is not None and new_ul_bsn != (self.last_ul_bsn + 1) % 1024:
                 print('sequence jump occurs')
                 jump_detected = True
@@ -112,9 +116,6 @@ class SatRlcAnalyzer(Analyzer):
                 self.total_bytes = 0
                 self.last_ul_bsn = None
             elif jump_detected == False or self.jump_times < 2:
-                new_total_bytes = int(re.findall(r'\d+', content[content.find('total'):])[0])
-                data_bytes = self.total_bytes - new_total_bytes
-                print('new_bytes=', new_total_bytes, 'total_bytes=', self.total_bytes, 'last_ul_bsn=', self.last_ul_bsn)
                 assert self.last_ul_bsn is None or \
                     (self.total_bytes - new_total_bytes) in [31,30,29] or \
                         self.total_bytes < 31 and new_total_bytes == 0
@@ -137,13 +138,40 @@ class SatRlcAnalyzer(Analyzer):
                             queue_size_when_entry,
                             new_ul_bsn
                         ))
-                        self.buffer_delay_secs.append(delay)
+                        self.ul_buffer_delay_secs.append({
+                            'timestamp': (packet.get_timestamp() - self.start_timestamp).total_seconds(),
+                            'delay': delay
+                        })
+                        self.signals['ul_buffer_delay'].emit()
                     else:
                         break
                 if self.total_bytes == 0 and self.jumped and self.started == False:
                     print('start from:', self.last_ul_bsn)
                     self.started = True
                 print(content.strip(), 'BSN:', self.last_ul_bsn, 'total_bytes', self.total_bytes, 'rlc_curr:', self.rlc_curr)
+        
+            self.signals["ul_blk_size"].emit(data_bytes)
+            self.ul_bytes += data_bytes 
+            current_block_timestamp = packet.get_timestamp()
+            if self.ul_latest_timestamp is None:
+                self.ul_latest_timestamp = current_block_timestamp
+            else:
+                secs_elapsed = (current_block_timestamp - self.ul_latest_timestamp).total_seconds()
+                # print("secs_elapsed:", secs_elapsed)
+                self.ul_secs_elapsed_since_window_begin += secs_elapsed
+                print("total_secs:", self.ul_secs_elapsed_since_window_begin)
+                if self.ul_secs_elapsed_since_window_begin > self.link_rate_calculation_window:
+                    # recalculate dl rate
+                    self.ul_timestamps.append((current_block_timestamp - self.start_timestamp).total_seconds())
+                    self.ul_rates.append(self.ul_bytes / self.ul_secs_elapsed_since_window_begin)
+                    self.signals["update_ul_rate"].emit({
+                        "secs": self.ul_secs_elapsed_since_window_begin,
+                        'bytes': self.ul_bytes
+                    })
+                    # reset
+                    self.ul_bytes = 0
+                    self.ul_secs_elapsed_since_window_begin = 0
+                    self.ul_latest_timestamp = None
 
         ret = content.find("RBID = ")
         # this line contains downlink mac information
@@ -190,36 +218,3 @@ class SatRlcAnalyzer(Analyzer):
                             self.secs_elapsed_since_window_begin = 0
                             self.dl_latest_timestamp = None
             
-        ret = content.find('rlc_blk_ptr')
-        # this line contains uplink rlc/mac information
-        if ret != -1:
-            # print("ul arrives: ", content)
-            begin = content.find("bsn:")
-            new_rlc_bsn = int(content[begin + 4: content.find(' ', begin + 4)])
-            begin = content.find("blk_size")
-            if begin != -1:
-                # print("content=", content)
-                pdu_length = int(content[begin + 9: content.find(" ", begin + 9)])
-                self.signals["ul_blk_size"].emit(pdu_length)
-                print("pdu_length: ", pdu_length)
-                self.ul_bytes += pdu_length 
-                current_block_timestamp = packet.get_timestamp()
-                if self.ul_latest_timestamp is None:
-                    self.ul_latest_timestamp = current_block_timestamp
-                else:
-                    secs_elapsed = (current_block_timestamp - self.ul_latest_timestamp).total_seconds()
-                    # print("secs_elapsed:", secs_elapsed)
-                    self.ul_secs_elapsed_since_window_begin += secs_elapsed
-                    print("total_secs:", self.ul_secs_elapsed_since_window_begin)
-                    if self.ul_secs_elapsed_since_window_begin > self.link_rate_calculation_window:
-                        # recalculate dl rate
-                        self.ul_timestamps.append((current_block_timestamp - self.start_timestamp).total_seconds())
-                        self.ul_rates.append(self.ul_bytes / self.ul_secs_elapsed_since_window_begin)
-                        self.signals["update_ul_rate"].emit({
-                            "secs": self.ul_secs_elapsed_since_window_begin,
-                            'bytes': self.ul_bytes
-                        })
-                        # reset
-                        self.ul_bytes = 0
-                        self.ul_secs_elapsed_since_window_begin = 0
-                        self.ul_latest_timestamp = None
