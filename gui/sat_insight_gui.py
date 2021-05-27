@@ -8,7 +8,6 @@ from pyqtgraph import plot, PlotWidget
 from PyQt5.QtGui import *
 
 
-
 class Worker(QObject):
     new_log  = pyqtSignal(object)
     crc_error = pyqtSignal(object)
@@ -21,6 +20,7 @@ class Worker(QObject):
     dl_blk_size = pyqtSignal(int)
     ul_blk_size = pyqtSignal(int)
     update_ul_buffer_delay = pyqtSignal()
+    update_propa_delay = pyqtSignal()
 
     def set_monitor(self, monitor):
         self.monitor = monitor
@@ -36,6 +36,7 @@ class Worker(QObject):
         rlc.set_signal("dl_blk_size", self.dl_blk_size)
         rlc.set_signal("ul_blk_size", self.ul_blk_size)
         rlc.set_signal('ul_buffer_delay', self.update_ul_buffer_delay)
+        rlc.set_signal('propa_delay', self.update_propa_delay)
 
         l1 = self.analyzers["l1"]
         l1.set_signal("mcs", self.mcs)
@@ -81,6 +82,7 @@ class Window(QWidget):
         self.worker.dl_blk_size.connect(self.display_dl_blk_size)
         self.worker.ul_blk_size.connect(self.display_ul_blk_size)
         self.worker.update_ul_buffer_delay.connect(self.display_ul_buffer_delay)
+        self.worker.update_propa_delay.connect(self.display_propa_delay)
 
         self.thread.start()
     
@@ -205,6 +207,14 @@ class Window(QWidget):
         if delay_list[-1] > 10:
             print('abnormal delay')
         self.ul_delay_line.setData(ts_list, delay_list)
+
+    def display_propa_delay(self):
+        print('display propa delay')
+        print('propa_delay:', self.analyzers['rlc'].propa_delays)
+        ts_list = [item['timestamp'] for item in self.analyzers['rlc'].propa_delays] 
+        delay_list = [item['delay'] for item in self.analyzers['rlc'].propa_delays] 
+        self.propa_delay_label.setText("{0:10.2f} s".format(delay_list[-1]))
+        self.propa_delay_line.setData(ts_list, delay_list)
 
     def display_new_log(self, msg):
         row_index = self.monitor.log_count
@@ -340,8 +350,10 @@ class Window(QWidget):
         latency_breakdowns.addWidget(self.latency_graph)
         self.latency_graph.addLegend()
         self.ul_delay_line = pg.PlotCurveItem(clear=True, pen="r", name = "Uplink queue delay")
+        self.propa_delay_line = pg.PlotCurveItem(clear=True, pen="y", name = "Propagation delay")
         self.latency_graph.addItem(self.ul_delay_line)
-        
+        self.latency_graph.addItem(self.propa_delay_line)
+
         abnormal_rates = QVBoxLayout()
         abnormal_rates.setAlignment(Qt.AlignTop)
         # rejection rate

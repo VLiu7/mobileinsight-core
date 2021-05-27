@@ -7,10 +7,16 @@ from mobile_insight.analyzer.analyzer import *
 import datetime
 import re
 from collections import deque
+from enum import Enum
 
 __all__ = ["SatRlcAnalyzer"]
 
+class Ack_state(Enum):
+    INIT = 1        # not sent
+    SENT = 2        # sent, not acked
+    ACKED = 3       # acked
 class SatRlcAnalyzer(Analyzer):
+
     def __init__(self):
         Analyzer.__init__(self)
         self.add_source_callback(self.__msg_callback)
@@ -41,6 +47,8 @@ class SatRlcAnalyzer(Analyzer):
         self.total_bytes = 0
         self.jump_times = 0
         self.packet_size = 86
+        self.packet_acked_info = {} # key: bsn; value: {state: <ACK_STATE>, timestamp: <timestamp>}
+        self.propa_delays = []
 
     def set_source(self, source):
         """
@@ -77,6 +85,31 @@ class SatRlcAnalyzer(Analyzer):
             self.signals["rejection"].emit(msg)
             # print("out of receiving window!")
         
+        # Ack
+        if content.find('ssn=') != -1:
+            ts = packet.get_timestamp()  
+            ssn = int(re.findall(r'\d+', content[content.find('ssn='):])[0])
+            va = int(re.findall(r'\d+', content[content.find('va='):])[0])
+            acked_list = []
+            if ssn >= va:
+                acked_list = range(va, ssn)
+            else:
+                acked_list = list(range(va, 1024)) + list(range(0, ssn))
+            for bsn in acked_list:
+                if self.packet_acked_info.get(bsn) is not None and \
+                    self.packet_acked_info[bsn]['state'] == Ack_state.SENT:
+                    self.propa_delays.append({
+                        'timestamp': (ts - self.start_timestamp).total_seconds(),
+                        'delay': (ts - self.packet_acked_info[bsn]['timestamp']).total_seconds()
+                    })
+                    self.packet_acked_info[bsn] = {
+                        'state': Ack_state.ACKED,
+                        'timestamp': ts
+                    }
+                    self.signals['propa_delay'].emit()
+                else:
+                    print('error! ack not sent')
+                    
         # pdcp arrives
         if content.find('pdcp rcv data c') != -1:
             ts = packet.get_timestamp()
@@ -107,6 +140,25 @@ class SatRlcAnalyzer(Analyzer):
             data_bytes = self.total_bytes - new_total_bytes
             print('new_bytes=', new_total_bytes, 'total_bytes=', self.total_bytes, 'last_ul_bsn=', self.last_ul_bsn)
 
+            if self.packet_acked_info.get(new_ul_bsn) is None:
+                self.packet_acked_info[new_ul_bsn] = {
+                    'state': Ack_state.INIT,
+                    'timestamp': ts
+                }
+
+            if self.packet_acked_info[new_ul_bsn]['state'] == Ack_state.INIT:
+                self.packet_acked_info[new_ul_bsn] = {
+                    'state': Ack_state.SENT,
+                    'timestamp': ts
+                }
+
+            elif self.packet_acked_info[new_ul_bsn]['state'] == Ack_state.SENT or Ack_state.ACKED:
+                self.packet_acked_info[new_ul_bsn] = {
+                    'state': Ack_state.SENT,
+                    'timestamp': ts
+                }
+
+            # ul queue delay
             if self.last_ul_bsn is not None and new_ul_bsn != (self.last_ul_bsn + 1) % 1024:
                 print('sequence jump occurs')
                 jump_detected = True
