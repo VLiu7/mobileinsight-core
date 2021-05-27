@@ -1,4 +1,3 @@
-# from PyQt5.QtWidgets import QApplication, QLabel, QWidget, QHBoxLayout, QVBoxLayout, QPushButton
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QObject, QThread, pyqtSignal, Qt
 from mobile_insight.monitor import OfflineMonitor 
@@ -7,6 +6,8 @@ import datetime
 import pyqtgraph as pg
 from pyqtgraph import plot, PlotWidget
 from PyQt5.QtGui import *
+
+
 
 class Worker(QObject):
     new_log  = pyqtSignal(object)
@@ -47,7 +48,9 @@ class Window(QWidget):
         super().__init__()
         self.init_ui()
         self.monitor = OfflineMonitor()
-        self.monitor.set_input_path('Southeast_gate_ping.txt')
+        self.input_filename = 'delay_10_interval_2_no_l1.txt'
+        self.monitor.set_input_path(self.input_filename)
+        print('filename=', self.input_filename)
         rlc = SatRlcAnalyzer()
         l1 = SatL1Analyzer()
         self.analyzers = {"rlc": rlc, "l1": l1}
@@ -269,7 +272,11 @@ class Window(QWidget):
         rlc_layout.addWidget(title)
         rlc_params = QHBoxLayout()
 
+        column_1 = QVBoxLayout()
+
         rlc_rate = QVBoxLayout()
+        column_1.addLayout(rlc_rate)
+
         # dl rate
         dl_rate = QHBoxLayout()
         self.dl_rate_label = QLabel("Downlink rate: ")
@@ -293,8 +300,31 @@ class Window(QWidget):
         self.graph.addItem(self.line_ul)
         self.graph.addItem(self.line_dl)
 
-        rlc_params.addLayout(rlc_rate)
+        rlc_params.addLayout(column_1)
 
+        latency_breakdowns = QVBoxLayout()
+        column_1.addLayout(latency_breakdowns)
+        # numbers
+        # 1. downlink queue delay
+        dl_latency_layout = QHBoxLayout()
+        latency_breakdowns.addLayout(dl_latency_layout)
+        dl_latency_layout.addWidget(QLabel("Downlink queue delay:"))
+        self.dl_queue_delay_label = QLabel("-- s")
+        dl_latency_layout.addWidget(self.dl_queue_delay_label)
+        # 2. propagation delay
+        propa_latency_layout =  QHBoxLayout()
+        latency_breakdowns.addLayout(propa_latency_layout)
+        propa_latency_layout.addWidget(QLabel("Propagation delay:"))
+        self.propa_delay_label = QLabel("-- s")
+        propa_latency_layout.addWidget(self.propa_delay_label)
+        # 3. uplink queue delay
+        ul_latency_layout = QHBoxLayout()
+        latency_breakdowns.addLayout(ul_latency_layout)
+        ul_latency_layout.addWidget(QLabel("Uplink queue delay:"))
+        self.ul_queue_delay_label = QLabel("-- s")
+        ul_latency_layout.addWidget(self.ul_queue_delay_label)
+        # 4. latency breakdown
+        
         abnormal_rates = QVBoxLayout()
         abnormal_rates.setAlignment(Qt.AlignTop)
         # rejection rate
