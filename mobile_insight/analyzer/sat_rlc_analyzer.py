@@ -56,6 +56,8 @@ class SatRlcAnalyzer(Analyzer):
         self.dl_temp_block = None
         self.dl_packet_info = deque()
         self.dl_buffer_delay_list = []
+        self.ul_queue_info = [] # {queue_size, produce_rate, consume_rate}
+        self.dl_queue_info = []
 
     def set_source(self, source):
         """
@@ -197,6 +199,11 @@ class SatRlcAnalyzer(Analyzer):
                         'sn': self.pdcp_sn,
                         'queue_size': new_total_bytes
                     })
+                    self.ul_queue_info.append({
+                        'timestamp': (ts - self.start_timestamp).total_seconds(),
+                        'queue_size': new_total_bytes
+                    })
+                    self.signals['ul_queue_info'].emit()
                     self.pdcp_curr += data_bytes
                 self.total_bytes = new_total_bytes
                 print(content.strip(), 'sn:', self.pdcp_sn,

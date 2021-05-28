@@ -6,6 +6,8 @@ import datetime
 import pyqtgraph as pg
 from pyqtgraph import plot, PlotWidget
 from PyQt5.QtGui import *
+import random
+import string
 
 
 class Worker(QObject):
@@ -22,6 +24,7 @@ class Worker(QObject):
     update_ul_buffer_delay = pyqtSignal()
     update_propa_delay = pyqtSignal()
     update_dl_buffer_delay = pyqtSignal()
+    update_ul_queue_info = pyqtSignal()
 
     def set_monitor(self, monitor):
         self.monitor = monitor
@@ -39,6 +42,7 @@ class Worker(QObject):
         rlc.set_signal('ul_buffer_delay', self.update_ul_buffer_delay)
         rlc.set_signal('propa_delay', self.update_propa_delay)
         rlc.set_signal("dl_buffer_delay", self.update_dl_buffer_delay)
+        rlc.set_signal('ul_queue_info', self.update_ul_queue_info)
 
         l1 = self.analyzers["l1"]
         l1.set_signal("mcs", self.mcs)
@@ -60,6 +64,18 @@ class Window(QWidget):
         l1 = SatL1Analyzer()
         self.analyzers = {"rlc": rlc, "l1": l1}
         self.init_task()
+
+
+    def add_border(self, layout):
+        widget = QWidget()    
+        widget.setLayout(layout)
+        # generate a random string
+        letters = string.ascii_letters
+        obj_name = ''.join(random.choice(letters) for i in range(10)) 
+        widget.setObjectName(obj_name)
+        widget.setStyleSheet("#" + obj_name + " {border: 3px solid grey}")
+        return widget
+
     
     def init_task(self):
         self.event_cnt = 0
@@ -86,6 +102,7 @@ class Window(QWidget):
         self.worker.update_ul_buffer_delay.connect(self.display_ul_buffer_delay)
         self.worker.update_propa_delay.connect(self.display_propa_delay)
         self.worker.update_dl_buffer_delay.connect(self.display_dl_buffer_delay)
+        self.worker.update_ul_queue_info.connect(self.display_ul_queue_info)
 
         self.thread.start()
     
@@ -123,7 +140,8 @@ class Window(QWidget):
         secs = obj["secs"]
         ul_bytes = obj["bytes"]
         instant_rate = ul_bytes / secs 
-        self.ul_rate_value_label.setText("{0:10.2f} bytes / s ({1} bytes in latest {2:10.4f}s)".format(
+        self.ul_rate_value_label.setText("%.2f bytes / s (%d bytes in latest %.4fs)" %
+        (
             ul_bytes / secs,
             ul_bytes,
             secs,
@@ -134,7 +152,8 @@ class Window(QWidget):
         secs = obj["secs"]
         dl_bytes = obj["bytes"]
         instant_rate = dl_bytes / secs 
-        self.dl_rate_value_label.setText("{0:10.2f} bytes / s ({1} bytes in latest {2:10.4f}s)".format(
+        self.dl_rate_value_label.setText("%.2f bytes / s (%d bytes in latest %.4fs)" %
+        (
             dl_bytes / secs,
             dl_bytes,
             secs,
@@ -227,6 +246,12 @@ class Window(QWidget):
         self.dl_delay_line.setData(ts_list, delay_list)
 
 
+    def display_ul_queue_info(self):
+        print('display ul queue info')
+        ts_list = [item['timestamp'] for item in self.analyzers['rlc'].ul_queue_info]
+        ul_queue_size_list = [item['queue_size'] for item in self.analyzers['rlc'].ul_queue_info]
+        self.line_ul_queue_size.setData(ts_list, ul_queue_size_list)
+
     def display_new_log(self, msg):
         row_index = self.monitor.log_count
         ts = msg.data.get_timestamp().strftime('%Y-%m-%d %H:%M:%S.%f') 
@@ -308,6 +333,7 @@ class Window(QWidget):
         row_1 = QHBoxLayout()           # up
         rlc_params.addLayout(row_1)
         rlc_rate = QVBoxLayout()        # up-left
+        # row_1.addWidget(self.add_border(rlc_rate))
         row_1.addLayout(rlc_rate)
 
         # dl rate
@@ -324,8 +350,17 @@ class Window(QWidget):
         ul_rate.addWidget(self.ul_rate_label)
         ul_rate.addWidget(self.ul_rate_value_label)
         rlc_rate.addLayout(ul_rate)
+        # spacer
+        spacer = QHBoxLayout()
+        self.spacer_label = QLabel("")
+        self.spacer_value_label = QLabel("")
+        spacer.addWidget(self.spacer_label)
+        spacer.addWidget(self.spacer_value_label)
+        rlc_rate.addLayout(spacer)
         # plot
         self.graph = pg.PlotWidget()
+        self.graph_max_width = 400
+        self.graph.setMaximumWidth(self.graph_max_width)
         rlc_rate.addWidget(self.graph)
         self.graph.addLegend()
         self.line_ul = pg.PlotCurveItem(clear=True, pen="r", name = "Uplink")
@@ -334,6 +369,7 @@ class Window(QWidget):
         self.graph.addItem(self.line_dl)
 
         latency_breakdowns = QVBoxLayout()
+        # row_1.addWidget(self.add_border(latency_breakdowns))
         row_1.addLayout(latency_breakdowns)
         # numbers
         # 1. downlink queue delay
@@ -356,6 +392,7 @@ class Window(QWidget):
         ul_latency_layout.addWidget(self.ul_queue_delay_label)
         # 4. latency breakdown
         self.latency_graph = pg.PlotWidget()
+        self.latency_graph.setMaximumWidth(self.graph_max_width)
         latency_breakdowns.addWidget(self.latency_graph)
         self.latency_graph.addLegend()
 
@@ -368,8 +405,11 @@ class Window(QWidget):
         self.latency_graph.addItem(self.dl_delay_line)
 
         # down
-        abnormal_rates = QVBoxLayout()
-        rlc_params.addLayout(abnormal_rates)
+        down_layout = QHBoxLayout()
+        rlc_params.addLayout(down_layout)
+
+        abnormal_rates = QVBoxLayout()  # down-left
+        down_layout.addLayout(abnormal_rates)
         abnormal_rates.setAlignment(Qt.AlignTop)
         # rejection rate
         rejection_rate = QHBoxLayout()
@@ -382,6 +422,7 @@ class Window(QWidget):
         abnormal_rates.addLayout(rejection_rate)
         # error rate
         error_rate = QHBoxLayout()
+        error_rate.setAlignment(Qt.AlignLeft)
         self.error_rate_label = QLabel("CRC error rate: ")
         self.error_rate_value_label = QLabel("-- % (-- out of --)")
         error_rate.addWidget(self.error_rate_label)
@@ -389,6 +430,7 @@ class Window(QWidget):
         abnormal_rates.addLayout(error_rate)
         # duplicate rate
         duplicate_rate = QHBoxLayout()
+        duplicate_rate.setAlignment(Qt.AlignLeft)
         self.duplicate_rate_label = QLabel("Duplicate rate: ")
         self.duplicate_rate_value_label = QLabel("-- % (-- out of --)")
         duplicate_rate.addWidget(self.duplicate_rate_label)
@@ -396,6 +438,7 @@ class Window(QWidget):
         abnormal_rates.addLayout(duplicate_rate)
         # dl block size
         dl_blk_size = QHBoxLayout()
+        dl_blk_size.setAlignment(Qt.AlignLeft)
         self.dl_blk_size_label = QLabel("Downlink block size: ")
         self.dl_blk_size_value_label = QLabel("-- bytes")
         dl_blk_size.addWidget(self.dl_blk_size_label)
@@ -403,12 +446,25 @@ class Window(QWidget):
         abnormal_rates.addLayout(dl_blk_size)
         # ul block size
         ul_blk_size = QHBoxLayout()
+        ul_blk_size.setAlignment(Qt.AlignLeft)
         self.ul_blk_size_label = QLabel("Uplink block size: ")
         self.ul_blk_size_value_label = QLabel("-- bytes")
         ul_blk_size.addWidget(self.ul_blk_size_label)
         ul_blk_size.addWidget(self.ul_blk_size_value_label)
 
         abnormal_rates.addLayout(ul_blk_size)
+
+        # down-right: queue info
+        self.queue_graph = pg.PlotWidget()
+        self.queue_graph.setMaximumWidth(self.graph_max_width)
+        down_layout.addWidget(self.queue_graph)
+        self.queue_graph.addLegend()
+        self.line_ul_queue_size = pg.PlotCurveItem(clear=True, pen="r", name = "Uplink queue size")
+        self.queue_graph.addItem(self.line_ul_queue_size)
+        # self.line_dl = pg.PlotCurveItem(clear=True, pen="y", name = "Downlink")
+        # self.graph.addItem(self.line_ul)
+        # self.graph.addItem(self.line_dl)
+
         
         rlc_layout.addLayout(rlc_params)
         vbox_2.addLayout(rlc_layout)
@@ -418,11 +474,13 @@ class Window(QWidget):
         title.setFont(self.title_style)
         mac_layout.addWidget(title)
         mac_params = QHBoxLayout()
+        mac_params.setAlignment(Qt.AlignLeft)
         # crc error
         self.mac_label = QLabel("CRC error rate: ")
         self.mac_error_rate = QLabel("--(-- out of --)")
         mac_params.addWidget(self.mac_label)
         mac_params.addWidget(self.mac_error_rate)
+        # mac_layout.addWidget(self.add_border(mac_params))
         mac_layout.addLayout(mac_params)
         vbox_2.addLayout(mac_layout)
 
@@ -447,6 +505,7 @@ class Window(QWidget):
         self.mcs_graph.addLegend()
         self.line_mcs = pg.PlotCurveItem(clear=True, pen="y")
         self.mcs_graph.addItem(self.line_mcs)
+        # l1_params.addWidget(self.add_border(mcs_layout))
         l1_params.addLayout(mcs_layout)
         # signal strength
         sig_layout = QVBoxLayout()
@@ -462,6 +521,7 @@ class Window(QWidget):
         self.line_sig = pg.PlotCurveItem(clear=True, pen="y")
         self.sig_graph.addItem(self.line_sig)
 
+        # l1_params.addWidget(self.add_border(sig_layout))
         l1_params.addLayout(sig_layout)
         l1_layout.addLayout(l1_params)
         vbox_2.addLayout(l1_layout)
